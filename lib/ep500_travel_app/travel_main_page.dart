@@ -37,6 +37,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   child: Column(
                     children: [
                       Expanded(
+                        flex: 2,
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
@@ -49,19 +50,23 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           ],
                         ),
                       ),
+
                       Expanded(
+                        flex: 2,
+                        child: Placeholder(),
+                      ),
+                      Expanded(
+                        flex: 2,
                         child: Text(
                           "Where would you like to go?",
                           style: TextStyle(
-                            fontSize: 32,
-                            color: Colors.white
+                              fontSize: 32,
+                              color: Colors.white
                           ),
                         ),
                       ),
                       Expanded(
-                        child: Placeholder(),
-                      ),
-                      Expanded(
+                        flex: 2,
                         child: Placeholder(),
                       ),
 
