@@ -23,7 +23,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
         children: [
           Expanded(
             flex: 6,
-            child: Placeholder(),
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.orange
+              ),
+            ),
           ),
           Expanded(
             flex: 8,
