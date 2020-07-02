@@ -37,7 +37,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   child: Column(
                     children: [
                       Expanded(
-                        child: Placeholder(),
+                        child: Row(
+                          children: [
+                            IconButton(
+                              icon: Icon(Icons.menu,),
+                              color: Colors.white,
+                            )
+                          ],
+                        ),
                       ),
                       Expanded(
                         child: Placeholder(),
