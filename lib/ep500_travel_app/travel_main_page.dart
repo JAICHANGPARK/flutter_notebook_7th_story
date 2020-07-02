@@ -35,6 +35,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(
                         flex: 2,
@@ -58,7 +59,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       Expanded(
                         flex: 3,
                         child: Text(
-                          "Where would you like to go?",
+                          "Where would you\nlike to go?",
                           style: TextStyle(
                               fontSize: 32,
                               color: Colors.white,
