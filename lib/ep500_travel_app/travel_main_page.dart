@@ -22,9 +22,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
       body: Column(
         children: [
           Expanded(
+            flex: 6,
             child: Placeholder(),
           ),
           Expanded(
+            flex: 8,
             child: Placeholder(),
           )
         ],
