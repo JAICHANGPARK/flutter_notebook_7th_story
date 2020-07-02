@@ -32,22 +32,25 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 )
               ),
               child: SafeArea(
-                child: Column(
-                  children: [
-                    Expanded(
-                      child: Placeholder(),
-                    ),
-                    Expanded(
-                      child: Placeholder(),
-                    ),
-                    Expanded(
-                      child: Placeholder(),
-                    ),
-                    Expanded(
-                      child: Placeholder(),
-                    ),
+                child: Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    children: [
+                      Expanded(
+                        child: Placeholder(),
+                      ),
+                      Expanded(
+                        child: Placeholder(),
+                      ),
+                      Expanded(
+                        child: Placeholder(),
+                      ),
+                      Expanded(
+                        child: Placeholder(),
+                      ),
 
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ),
