@@ -38,11 +38,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
                     children: [
                       Expanded(
                         child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             IconButton(
                               icon: Icon(Icons.menu,),
                               color: Colors.white,
-                            )
+                              onPressed: (){},
+                            ),
+                            CircleAvatar(),
                           ],
                         ),
                       ),
