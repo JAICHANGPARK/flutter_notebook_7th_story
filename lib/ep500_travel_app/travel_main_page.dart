@@ -31,13 +31,24 @@ class _TravelHomePageState extends State<TravelHomePage> {
                   bottomRight: Radius.circular(24)
                 )
               ),
-              child: Column(
-                children: [
-                  Expanded(
-                    child: Placeholder(),
-                  ),
-                  
-                ],
+              child: SafeArea(
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+                    Expanded(
+                      child: Placeholder(),
+                    ),
+
+                  ],
+                ),
               ),
             ),
           ),
