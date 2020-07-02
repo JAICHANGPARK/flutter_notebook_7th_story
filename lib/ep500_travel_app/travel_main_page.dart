@@ -54,7 +54,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
 
                       Expanded(
                         flex: 2,
-                        child: Placeholder(),
+                        child: Container(),
                       ),
                       Expanded(
                         flex: 3,
@@ -69,7 +69,9 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       ),
                       Expanded(
                         flex: 2,
-                        child: Placeholder(),
+                        child: Card(
+                          child: TextField(),
+                        ),
                       ),
 
                     ],
