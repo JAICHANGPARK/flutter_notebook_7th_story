@@ -25,7 +25,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
             flex: 6,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.orange
+                color: Colors.orange,
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(24),
+                  bottomRight: Radius.circular(24)
+                )
               ),
             ),
           ),
