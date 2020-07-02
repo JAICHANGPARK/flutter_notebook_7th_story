@@ -56,12 +56,13 @@ class _TravelHomePageState extends State<TravelHomePage> {
                         child: Placeholder(),
                       ),
                       Expanded(
-                        flex: 2,
+                        flex: 3,
                         child: Text(
                           "Where would you like to go?",
                           style: TextStyle(
                               fontSize: 32,
-                              color: Colors.white
+                              color: Colors.white,
+                            fontWeight: FontWeight.bold
                           ),
                         ),
                       ),
