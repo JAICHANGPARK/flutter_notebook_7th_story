@@ -21,7 +21,7 @@ SingleTickerProviderStateMixin{
   void initState() {
     // TODO: implement initState
     super.initState();
-    _tabController = TabController(vsync: this);
+    _tabController = TabController(vsync: this, length: 3);
   }
   @override
   Widget build(BuildContext context) {
