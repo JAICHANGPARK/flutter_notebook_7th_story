@@ -125,15 +125,18 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                   child: TabBarView(
                     controller: _tabController,
                     children: [
-                      ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          return Container(
-                            color: Colors.red,
-                            width: 200,
-                            margin: EdgeInsets.only(left: 12),
-                          );
-                        },
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              color: Colors.red,
+                              width: 260,
+                              margin: EdgeInsets.only(right: 12),
+                            );
+                          },
+                        ),
                       ),
                       ListView.builder(
                         scrollDirection: Axis.horizontal,
