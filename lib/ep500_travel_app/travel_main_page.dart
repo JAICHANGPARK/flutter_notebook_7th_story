@@ -126,7 +126,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                     controller: _tabController,
                     children: [
                       Padding(
-                        padding: const EdgeInsets.all(8.0),
+                        padding: const EdgeInsets.only(left: 16, top: 8, bottom: 8),
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
