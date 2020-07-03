@@ -107,8 +107,11 @@ SingleTickerProviderStateMixin{
                 Expanded(
                   flex: 2,
                   child: TabBar(tabs: [
-
+                      Tab(text: "Polular",),
+                    Tab(text: "Recommennded",),
+                    Tab(text: "Cost-efficiency",),
                   ],
+                    controller: _tabController,
 
                   ),
                 ),
