@@ -94,7 +94,16 @@ class _TravelHomePageState extends State<TravelHomePage> {
           ),
           Expanded(
             flex: 8,
-            child: Placeholder(),
+            child: Column(
+              children: [
+                Expanded(
+                  child: Placeholder(),
+                ),
+                Expanded(
+                  child: Placeholder(),
+                )
+              ],
+            ),
           )
         ],
       ),
