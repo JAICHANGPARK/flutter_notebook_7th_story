@@ -134,6 +134,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                         },
                       ),
                       ListView.builder(
+                        scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
                           return Container(
                             color: Colors.red,
@@ -142,6 +143,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                         },
                       ),
                       ListView.builder(
+                        scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
                           return Container(
                             color: Colors.red,
