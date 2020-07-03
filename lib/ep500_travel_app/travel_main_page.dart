@@ -75,7 +75,11 @@ class _TravelHomePageState extends State<TravelHomePage> {
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: TextField(
-                          
+                              decoration: InputDecoration(
+                                border: InputBorder.none,
+                                icon: Icon(Icons.search),
+                                hintText: "Search"
+                              ),
                             ),
                           ),
                         ),
