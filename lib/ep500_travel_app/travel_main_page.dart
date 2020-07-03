@@ -105,6 +105,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                     isScrollable: true,
                     indicatorColor: Colors.deepOrangeAccent,
                     indicatorSize: TabBarIndicatorSize.label,
+                    indicatorWeight: 3,
                     tabs: [
 
                       Tab(
@@ -121,7 +122,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                   ),
                 ),
                 Expanded(
-                  flex: 10,
+                  flex: 12,
                   child: Placeholder(),
                 )
               ],
