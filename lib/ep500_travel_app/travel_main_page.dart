@@ -72,6 +72,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                       Expanded(
                         flex: 2,
                         child: Card(
+                          elevation: 4,
                           child: Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: TextField(
