@@ -123,7 +123,20 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                 ),
                 Expanded(
                   flex: 12,
-                  child: Placeholder(),
+                  child: TabBarView(
+                    controller: _tabController,
+                    children: [
+                      ListView.builder(
+                      itemBuilder: (context, index){
+                        return Container(
+                          color: Colors.red,
+                          width: 200,
+                        );
+                      },
+                  )
+
+                    ],
+                  ),
                 )
               ],
             ),
@@ -133,3 +146,12 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
     );
   }
 }
+
+
+
+
+
+
+
+
+
