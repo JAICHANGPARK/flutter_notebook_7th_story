@@ -103,6 +103,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                     ),
                     unselectedLabelColor: Colors.grey,
                     isScrollable: true,
+                    indicatorColor: Colors.deepOrangeAccent,
                     tabs: [
 
                       Tab(
