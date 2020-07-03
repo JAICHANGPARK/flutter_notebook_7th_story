@@ -4,7 +4,7 @@ class TravelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-       home: TravelHomePage(),
+      home: TravelHomePage(),
     );
   }
 }
@@ -14,15 +14,16 @@ class TravelHomePage extends StatefulWidget {
   _TravelHomePageState createState() => _TravelHomePageState();
 }
 
-class _TravelHomePageState extends State<TravelHomePage> with
-SingleTickerProviderStateMixin{
+class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProviderStateMixin {
   TabController _tabController;
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     _tabController = TabController(vsync: this, length: 3);
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -35,12 +36,8 @@ SingleTickerProviderStateMixin{
             flex: 6,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.orange,
-                borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(24),
-                  bottomRight: Radius.circular(24)
-                )
-              ),
+                  color: Colors.orange,
+                  borderRadius: BorderRadius.only(bottomLeft: Radius.circular(24), bottomRight: Radius.circular(24))),
               child: SafeArea(
                 child: Padding(
                   padding: const EdgeInsets.all(16.0),
@@ -53,15 +50,16 @@ SingleTickerProviderStateMixin{
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             IconButton(
-                              icon: Icon(Icons.menu,),
+                              icon: Icon(
+                                Icons.menu,
+                              ),
                               color: Colors.white,
-                              onPressed: (){},
+                              onPressed: () {},
                             ),
                             CircleAvatar(),
                           ],
                         ),
                       ),
-
                       Expanded(
                         flex: 2,
                         child: Container(),
@@ -70,11 +68,7 @@ SingleTickerProviderStateMixin{
                         flex: 3,
                         child: Text(
                           "Where would you\nlike to go?",
-                          style: TextStyle(
-                              fontSize: 32,
-                              color: Colors.white,
-                            fontWeight: FontWeight.bold
-                          ),
+                          style: TextStyle(fontSize: 32, color: Colors.white, fontWeight: FontWeight.bold),
                         ),
                       ),
                       Expanded(
@@ -85,15 +79,11 @@ SingleTickerProviderStateMixin{
                             padding: const EdgeInsets.all(8.0),
                             child: TextField(
                               decoration: InputDecoration(
-                                border: InputBorder.none,
-                                icon: Icon(Icons.search),
-                                hintText: "Search"
-                              ),
+                                  border: InputBorder.none, icon: Icon(Icons.search), hintText: "Search"),
                             ),
                           ),
                         ),
                       ),
-
                     ],
                   ),
                 ),
@@ -106,13 +96,19 @@ SingleTickerProviderStateMixin{
               children: [
                 Expanded(
                   flex: 2,
-                  child: TabBar(tabs: [
-                      Tab(text: "Polular",),
-                    Tab(text: "Recommennded",),
-                    Tab(text: "Cost-efficiency",),
-                  ],
+                  child: TabBar(
+                    tabs: [
+                      Tab(
+                        text: "Polular",
+                      ),
+                      Tab(
+                        text: "Recommennded",
+                      ),
+                      Tab(
+                        text: "Cost-efficiency",
+                      ),
+                    ],
                     controller: _tabController,
-
                   ),
                 ),
                 Expanded(
@@ -127,27 +123,3 @@ SingleTickerProviderStateMixin{
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
