@@ -14,7 +14,15 @@ class TravelHomePage extends StatefulWidget {
   _TravelHomePageState createState() => _TravelHomePageState();
 }
 
-class _TravelHomePageState extends State<TravelHomePage> {
+class _TravelHomePageState extends State<TravelHomePage> with
+SingleTickerProviderStateMixin{
+  TabController _tabController;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _tabController = TabController(vsync: this);
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -99,7 +107,7 @@ class _TravelHomePageState extends State<TravelHomePage> {
                 Expanded(
                   flex: 2,
                   child: TabBar(tabs: [
-                    
+
                   ],
 
                   ),
