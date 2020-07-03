@@ -98,10 +98,14 @@ class _TravelHomePageState extends State<TravelHomePage> {
               children: [
                 Expanded(
                   flex: 2,
-                  child: Placeholder(),
+                  child: TabBar(tabs: [
+                    
+                  ],
+
+                  ),
                 ),
                 Expanded(
-                  flex: 8,
+                  flex: 10,
                   child: Placeholder(),
                 )
               ],
