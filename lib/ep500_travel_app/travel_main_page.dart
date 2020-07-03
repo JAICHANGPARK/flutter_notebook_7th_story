@@ -97,7 +97,14 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                 Expanded(
                   flex: 2,
                   child: TabBar(
+                    labelColor: Colors.black,
+                    labelStyle: TextStyle(
+                      fontSize: 18,
+                    ),
+                    unselectedLabelColor: Colors.grey,
+                    isScrollable: true,
                     tabs: [
+
                       Tab(
                         text: "Polular",
                       ),
