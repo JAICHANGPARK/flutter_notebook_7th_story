@@ -107,7 +107,6 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                     indicatorSize: TabBarIndicatorSize.label,
                     indicatorWeight: 3,
                     tabs: [
-
                       Tab(
                         text: "Polular",
                       ),
@@ -127,14 +126,29 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                     controller: _tabController,
                     children: [
                       ListView.builder(
-                      itemBuilder: (context, index){
-                        return Container(
-                          color: Colors.red,
-                          width: 200,
-                        );
-                      },
-                  )
-
+                        itemBuilder: (context, index) {
+                          return Container(
+                            color: Colors.red,
+                            width: 200,
+                          );
+                        },
+                      ),
+                      ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container(
+                            color: Colors.red,
+                            width: 200,
+                          );
+                        },
+                      ),
+                      ListView.builder(
+                        itemBuilder: (context, index) {
+                          return Container(
+                            color: Colors.red,
+                            width: 200,
+                          );
+                        },
+                      )
                     ],
                   ),
                 )
@@ -146,12 +160,3 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
     );
   }
 }
-
-
-
-
-
-
-
-
-
