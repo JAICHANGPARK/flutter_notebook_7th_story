@@ -171,9 +171,13 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                                 color: Colors.orange,
                                                 size: 18,
                                               )).toList(),
-                                      Text("(32)", s)
+                                      Text("(32)", style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 13
+                                      ),),
                                     ],
-                                  )
+                                  ),
+                                  
                                 ],
                               ),
                             );
