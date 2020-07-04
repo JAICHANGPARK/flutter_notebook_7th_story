@@ -128,10 +128,14 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                       Padding(
                         padding: const EdgeInsets.only(left: 16, top: 8, bottom: 8),
                         child: ListView.builder(
+                          itemCount: 10,
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              color: Colors.red,
+                              
+                              decoration: BoxDecoration(
+
+                              ),
                               width: 260,
                               margin: EdgeInsets.only(right: 12),
                             );
