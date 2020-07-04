@@ -188,7 +188,11 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                         children: [
                                           Expanded(
                                             flex: 2,
-                                            child: Placeholder(),
+                                            child: Stack(
+                                              children: [
+                                                
+                                              ],
+                                            ),
                                           ),
                                           Expanded(
                                             child: Placeholder(),
@@ -197,7 +201,8 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                             flex: 2,
                                             child: Text("US \$149.89",
                                             style: TextStyle(
-                                              color: Colors.orange
+                                              color: Colors.orange,
+                                              fontSize: 16
                                             ),),
                                           ),
                                         ],
