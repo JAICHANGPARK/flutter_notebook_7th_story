@@ -150,25 +150,32 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       Spacer(),
                                       CircleAvatar(
                                         backgroundColor: Colors.orange,
-                                        child: Icon(Icons.favorite, color: Colors.white,),
+                                        child: Icon(
+                                          Icons.favorite,
+                                          color: Colors.white,
+                                        ),
                                       )
                                     ],
                                   ),
                                   Spacer(),
-                                  Text("Golden Gate\nBridge", style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 28
-                                  ),),
+                                  Text(
+                                    "Golden Gate\nBridge",
+                                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 28),
+                                  ),
                                   Row(
                                     children: [
-                                      ...List<Widget>.generate(5, (index) => Icon(Icons.star, color:
-                                        Colors.orange,)).toList()
+                                      ...List<Widget>.generate(
+                                          5,
+                                          (index) => Icon(
+                                                Icons.star,
+                                                color: Colors.orange,
+                                                size: 18,
+                                              )).toList(),
+                                      Text("(32)", s)
                                     ],
                                   )
                                 ],
                               ),
-
                             );
                           },
                         ),
