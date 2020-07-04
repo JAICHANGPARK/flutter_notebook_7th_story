@@ -190,7 +190,12 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                             flex: 2,
                                             child: Stack(
                                               children: [
-                                                
+                                                Positioned(
+                                                  left: 0,
+                                                  top: 0,
+                                                  bottom: 0,
+                                                  child: CircleAvatar(),
+                                                )
                                               ],
                                             ),
                                           ),
