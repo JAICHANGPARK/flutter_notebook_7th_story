@@ -194,14 +194,27 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                                   left: 0,
                                                   top: 0,
                                                   bottom: 0,
-                                                  child: CircleAvatar(),
+                                                  child: CircleAvatar(
+                                                    radius: 16,
+                                                    backgroundColor: Colors.blueAccent,
+                                                  ),
                                                 ),
                                                 Positioned(
                                                   left: 16,
                                                   top: 0,
                                                   bottom: 0,
                                                   child: CircleAvatar(
+                                                    radius: 16,
                                                     backgroundColor: Colors.red,
+                                                  ),
+                                                ),
+                                                Positioned(
+                                                  left: 32,
+                                                  top: 0,
+                                                  bottom: 0,
+                                                  child: CircleAvatar(
+                                                    radius: 16,
+                                                    backgroundColor: Colors.green,
                                                   ),
                                                 )
                                               ],
