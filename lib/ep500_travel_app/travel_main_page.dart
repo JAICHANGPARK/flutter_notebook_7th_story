@@ -179,7 +179,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                   ),
 
                                   Padding(
-                                    padding: const EdgeInsets.symmetric(8.0),
+                                    padding: const EdgeInsets.symmetric(vertical: 7),
                                     child: Container(
                                       height: 38,
                                       child: Row(
