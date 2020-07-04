@@ -143,7 +143,14 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       fit: BoxFit.cover)),
                               child: Column(
                                 children: [
-                                  
+                                  Row(
+                                    children: [
+                                      Spacer(),
+                                      CircleAvatar(
+                                        backgroundColor: Colors.deepOrange,
+                                      )
+                                    ],
+                                  )
                                 ],
                               ),
 
