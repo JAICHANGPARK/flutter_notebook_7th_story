@@ -152,7 +152,8 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                         child: Icon(Icons.favorite, color: Colors.white,),
                                       )
                                     ],
-                                  )
+                                  ),
+                                  Text("Golden Gate\nBridge", )
                                 ],
                               ),
 
