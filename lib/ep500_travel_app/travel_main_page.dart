@@ -225,11 +225,10 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                           ),
                                           Expanded(
                                             flex: 2,
-                                            child: Text("US \$149.89",
-                                            style: TextStyle(
-                                              color: Colors.orange,
-                                              fontSize: 16
-                                            ),),
+                                            child: Text(
+                                              "US \$149.89",
+                                              style: TextStyle(color: Colors.orange, fontSize: 16),
+                                            ),
                                           ),
                                         ],
                                       ),
