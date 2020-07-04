@@ -153,7 +153,10 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       )
                                     ],
                                   ),
-                                  Text("Golden Gate\nBridge", )
+                                  Text("Golden Gate\nBridge", style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold
+                                  ),)
                                 ],
                               ),
 
