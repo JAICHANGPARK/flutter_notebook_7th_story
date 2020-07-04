@@ -132,9 +132,8 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
                             return Container(
-                              
                               decoration: BoxDecoration(
-
+                                color: Colors.red,
                               ),
                               width: 260,
                               margin: EdgeInsets.only(right: 12),
