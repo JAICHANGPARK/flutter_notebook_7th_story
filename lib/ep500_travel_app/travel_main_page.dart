@@ -149,6 +149,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       Spacer(),
                                       CircleAvatar(
                                         backgroundColor: Colors.orange,
+                                        child: Icon(Icons.favorite, color: Colors.white,),
                                       )
                                     ],
                                   )
