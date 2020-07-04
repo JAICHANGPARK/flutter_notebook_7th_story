@@ -134,6 +134,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                             return Container(
                               decoration: BoxDecoration(
                                 color: Colors.red,
+                                borderRadius: BorderRadius.circular(24)
                               ),
                               width: 260,
                               margin: EdgeInsets.only(right: 12),
