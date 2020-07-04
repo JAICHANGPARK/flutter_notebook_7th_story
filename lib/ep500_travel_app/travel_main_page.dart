@@ -135,7 +135,11 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                               width: 260,
                               decoration: BoxDecoration(
                                 color: Colors.red,
-                                borderRadius: BorderRadius.circular(24)
+                                borderRadius: BorderRadius.circular(24),
+                                image: DecorationImage(
+                                  image: NetworkImage("https://cdn.pixabay.com/photo/2015/12/08/00/30/golden-gate-bridge-1081782_960_720.jpg"),
+                                  fit: BoxFit.cover
+                                )
                               ),
 
                               margin: EdgeInsets.only(right: 12),
