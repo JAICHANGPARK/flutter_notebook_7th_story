@@ -141,6 +141,12 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       image: NetworkImage(
                                           "https://cdn.pixabay.com/photo/2015/12/08/00/30/golden-gate-bridge-1081782_960_720.jpg"),
                                       fit: BoxFit.cover)),
+                              child: Column(
+                                children: [
+                                  
+                                ],
+                              ),
+
                             );
                           },
                         ),
