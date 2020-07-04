@@ -143,6 +143,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                       fit: BoxFit.cover)),
                               padding: EdgeInsets.all(16),
                               child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
                                     children: [
