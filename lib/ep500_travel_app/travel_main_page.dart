@@ -221,7 +221,7 @@ class _TravelHomePageState extends State<TravelHomePage> with SingleTickerProvid
                                             ),
                                           ),
                                           Expanded(
-                                            child: Placeholder(),
+                                            child: Container(),
                                           ),
                                           Expanded(
                                             flex: 2,
