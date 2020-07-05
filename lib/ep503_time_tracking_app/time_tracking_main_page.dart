@@ -13,7 +13,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       body: SingleChildScrollView(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-      
+          showModalBottomSheet(context: context, builder: (context){
+            return Container(
+              height: MediaQuery.of(context).size.height - 120,
+            );
+          },
+          isScrollControlled: true
+          );
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.deepOrangeAccent,
