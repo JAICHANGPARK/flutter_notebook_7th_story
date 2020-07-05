@@ -21,7 +21,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
           showUnselectedLabels: false,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
-            BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
+            BottomNavigationBarItem(icon: Icon(Icons.timer), title: Text("")),
             BottomNavigationBarItem(icon: Icon(Icons.list), title: Text("")),
             BottomNavigationBarItem(icon: Icon(Icons.tune), title: Text(""))
           ]),
