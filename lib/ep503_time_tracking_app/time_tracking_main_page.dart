@@ -14,7 +14,49 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         onPressed: () {  },
         child: Icon(Icons.add),
       ),
-      bottomNavigationBar: BottomNavigationBar(items: []),
+      bottomNavigationBar: BottomNavigationBar(
+          showSelectedLabels: false,
+          showUnselectedLabels: false,
+          items: [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.apps),
+          title: Text("")
+
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.apps),
+            title: Text("")
+        )
+
+
+      ]),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
