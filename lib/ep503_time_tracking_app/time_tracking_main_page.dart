@@ -50,6 +50,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     _pageIndex = 2;
                   });
                 },
+                color: _pageIndex == 2 ? Colors.black : Colors.grey,
               ),
               IconButton(
                 icon: Icon(Icons.tune),
@@ -58,6 +59,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     _pageIndex = 3;
                   });
                 },
+                color: _pageIndex == 3 ? Colors.black : Colors.grey,
               )
 
             ],
