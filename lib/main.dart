@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'ep500_travel_app/travel_main_page.dart';
+import 'package:flutter_notebook_7th_story/ep503_time_tracking_app/tta_app.dart';
 
 void main() {
-  runApp(TravelApp());
+  runApp(TimeTrackingApp());
 }
