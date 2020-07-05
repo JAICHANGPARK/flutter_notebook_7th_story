@@ -8,6 +8,13 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: SingleChildScrollView(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Icon(Icons.add),
+      ),
+      bottomNavigationBar: BottomNavigationBar(items: []),
+    );
   }
 }
