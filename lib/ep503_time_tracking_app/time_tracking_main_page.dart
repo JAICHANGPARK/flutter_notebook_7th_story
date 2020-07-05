@@ -11,50 +11,23 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     return Scaffold(
       body: SingleChildScrollView(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {  },
+        onPressed: () {},
         child: Icon(Icons.add),
       ),
       bottomNavigationBar: BottomNavigationBar(
+          onTap: (idx) {},
+          type: BottomNavigationBarType.fixed,
           showSelectedLabels: false,
           showUnselectedLabels: false,
           items: [
-        BottomNavigationBarItem(
-          icon: Icon(Icons.apps),
-          title: Text("")
-
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.apps),
-            title: Text("")
-        ),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.list),
-                title: Text("")
-            ),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.tune),
-                title: Text("")
-            )
-
-
-      ]),
+            BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
+            BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
+            BottomNavigationBarItem(icon: Icon(Icons.list), title: Text("")),
+            BottomNavigationBarItem(icon: Icon(Icons.tune), title: Text(""))
+          ]),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
