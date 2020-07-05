@@ -15,30 +15,33 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         child: Icon(Icons.add),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      bottomNavigationBar: BottomNavigationBar(
-          onTap: (idx) {},
-          type: BottomNavigationBarType.fixed,
-          showSelectedLabels: false,
-          showUnselectedLabels: false,
-          items: [
-            BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
-            BottomNavigationBarItem(icon: Icon(Icons.timer), title: Text("")),
-            BottomNavigationBarItem(icon: Icon(Icons.list), title: Text("")),
-            BottomNavigationBarItem(icon: Icon(Icons.tune), title: Text(""))
-          ]),
+      bottomNavigationBar: BottomAppBar(
+        shape: CircularNotchedRectangle(),
+        child: Container(
+          height: 64,
+          child: Row(
+            children: [
+              IconButton(
+                icon: Icon(Icons.apps),
+                onPressed: (){},
+              )
+
+            ],
+          ),
+        ),
+      ),
+//      bottomNavigationBar: BottomNavigationBar(
+//
+//          onTap: (idx) {},
+//          type: BottomNavigationBarType.fixed,
+//          showSelectedLabels: false,
+//          showUnselectedLabels: false,
+//          items: [
+//            BottomNavigationBarItem(icon: Icon(Icons.apps), title: Text("")),
+//            BottomNavigationBarItem(icon: Icon(Icons.timer), title: Text("")),
+//            BottomNavigationBarItem(icon: Icon(Icons.list), title: Text("")),
+//            BottomNavigationBarItem(icon: Icon(Icons.tune), title: Text(""))
+//          ]),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
