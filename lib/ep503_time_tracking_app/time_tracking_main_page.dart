@@ -13,6 +13,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(Icons.add),
+        backgroundColor: Colors.deepOrangeAccent,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomAppBar(
@@ -20,6 +21,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         child: Container(
           height: 64,
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
               IconButton(
                 icon: Icon(Icons.apps),
