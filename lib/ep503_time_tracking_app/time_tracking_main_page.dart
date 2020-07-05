@@ -6,6 +6,7 @@ class TimeTrackingMainPage extends StatefulWidget {
 }
 
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
+  int _pageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,7 +26,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
             children: [
               IconButton(
                 icon: Icon(Icons.apps),
-                onPressed: (){},
+                onPressed: (){
+                  setState(() {
+                    _pageIndex = 0;
+                  });
+                },
+                color: _pageIndex == 0 ? Colors.black : Colors.grey,
               ),
               IconButton(
                 icon: Icon(Icons.timer),
