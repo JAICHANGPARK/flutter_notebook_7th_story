@@ -14,6 +14,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         onPressed: () {},
         child: Icon(Icons.add),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomNavigationBar(
           onTap: (idx) {},
           type: BottomNavigationBarType.fixed,
