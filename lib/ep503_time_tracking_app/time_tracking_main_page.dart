@@ -35,7 +35,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               ),
               IconButton(
                 icon: Icon(Icons.timer),
-                onPressed: () {},
+                onPressed: () {
+                  setState(() {
+                    _pageIndex = 1;
+                  });
+                },
+                color: _pageIndex == 1 ? Colors.black : Colors.grey,
               ),
               SizedBox(width: 32,),
               IconButton(
