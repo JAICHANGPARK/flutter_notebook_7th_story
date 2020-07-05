@@ -29,7 +29,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               ),
               IconButton(
                 icon: Icon(Icons.timer),
-                onPressed: (){},
+                onPressed: () {},
               ),
               SizedBox(width: 32,),
               IconButton(
