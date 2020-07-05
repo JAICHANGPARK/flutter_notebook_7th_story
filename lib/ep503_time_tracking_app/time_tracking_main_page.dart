@@ -12,7 +12,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     return Scaffold(
       body: SingleChildScrollView(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+      
+        },
         child: Icon(Icons.add),
         backgroundColor: Colors.deepOrangeAccent,
       ),
