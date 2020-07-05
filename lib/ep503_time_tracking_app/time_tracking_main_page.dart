@@ -26,7 +26,15 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         BottomNavigationBarItem(
           icon: Icon(Icons.apps),
             title: Text("")
-        )
+        ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.list),
+                title: Text("")
+            ),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.tune),
+                title: Text("")
+            )
 
 
       ]),
