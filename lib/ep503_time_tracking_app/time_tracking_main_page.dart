@@ -24,6 +24,18 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               IconButton(
                 icon: Icon(Icons.apps),
                 onPressed: (){},
+              ),
+              IconButton(
+                icon: Icon(Icons.timer),
+                onPressed: (){},
+              ),
+              IconButton(
+                icon: Icon(Icons.apps),
+                onPressed: (){},
+              ),
+              IconButton(
+                icon: Icon(Icons.apps),
+                onPressed: (){},
               )
 
             ],
