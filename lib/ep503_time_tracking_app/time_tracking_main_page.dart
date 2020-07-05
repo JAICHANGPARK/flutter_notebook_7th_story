@@ -45,11 +45,19 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               SizedBox(width: 32,),
               IconButton(
                 icon: Icon(Icons.list),
-                onPressed: (){},
+                onPressed: (){
+                  setState(() {
+                    _pageIndex = 2;
+                  });
+                },
               ),
               IconButton(
                 icon: Icon(Icons.tune),
-                onPressed: (){},
+                onPressed: (){
+                  setState(() {
+                    _pageIndex = 3;
+                  });
+                },
               )
 
             ],
