@@ -12,15 +12,21 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
-          children: [
-            Container(
-              height: MediaQuery.of(context).size.height / 2.1,
-              child: Placeholder(),
-            )
+        child: SafeArea(
+          child: Column(
+            children: [
+              Container(
+                height: MediaQuery.of(context).size.height / 2.1,
+                child: Placeholder(),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height / 2.1,
+                child: Placeholder(),
+              )
 
 
-          ],
+            ],
+          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
