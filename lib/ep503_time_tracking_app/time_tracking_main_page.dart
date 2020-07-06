@@ -7,6 +7,13 @@ class TimeTrackingMainPage extends StatefulWidget {
 
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
+  PageController _pageController;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _pageController = PageController(initialPage: 0, viewportFraction: 0.9);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,7 +47,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     Expanded(
                       flex: 9,
                       child: PageView(
-                        
+
                         scrollDirection: Axis.horizontal,
                         children: [
                           Padding(
