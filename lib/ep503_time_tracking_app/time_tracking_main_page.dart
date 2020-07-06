@@ -7,19 +7,21 @@ class TimeTrackingMainPage extends StatefulWidget {
 
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          showModalBottomSheet(context: context, builder: (context){
-            return Container(
-              height: MediaQuery.of(context).size.height - 120,
-            );
-          },
-          isScrollControlled: true
-          );
+          showModalBottomSheet(
+              context: context,
+              builder: (context) {
+                return Container(
+                  height: MediaQuery.of(context).size.height - 120,
+                );
+              },
+              isScrollControlled: true);
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.deepOrangeAccent,
@@ -34,7 +36,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
             children: [
               IconButton(
                 icon: Icon(Icons.apps),
-                onPressed: (){
+                onPressed: () {
                   setState(() {
                     _pageIndex = 0;
                   });
@@ -50,10 +52,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                 },
                 color: _pageIndex == 1 ? Colors.black : Colors.grey,
               ),
-              SizedBox(width: 32,),
+              SizedBox(
+                width: 32,
+              ),
               IconButton(
                 icon: Icon(Icons.list),
-                onPressed: (){
+                onPressed: () {
                   setState(() {
                     _pageIndex = 2;
                   });
@@ -62,14 +66,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               ),
               IconButton(
                 icon: Icon(Icons.tune),
-                onPressed: (){
+                onPressed: () {
                   setState(() {
                     _pageIndex = 3;
                   });
                 },
                 color: _pageIndex == 3 ? Colors.black : Colors.grey,
               )
-
             ],
           ),
         ),
