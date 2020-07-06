@@ -41,7 +41,10 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                       flex: 9,
                       child: PageView(
                         children: [
-                          
+                          Card(
+                            child: Column(),
+                          )
+
                         ],
                       ),
                     )
