@@ -80,6 +80,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                   ],
                 ),
               ),
+              SizedBox(height: 16,),
               Container(
                 height: MediaQuery.of(context).size.height / 2.1,
                 child: Column(
