@@ -39,7 +39,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     ),
                     Expanded(
                       flex: 9,
-                      child: Placeholder(),
+                      child: PageView(
+                        children: [
+                          
+                        ],
+                      ),
                     )
                   ],
                 ),
