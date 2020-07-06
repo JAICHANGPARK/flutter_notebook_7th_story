@@ -34,7 +34,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("My projects"),
+                            Text("My projects", style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),),
                             Icon(
                               Icons.tune,
                               color: Colors.grey,
@@ -47,11 +49,25 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     Expanded(
                       flex: 9,
                       child: PageView(
-
+                        controller: _pageController,
                         scrollDirection: Axis.horizontal,
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.all(4.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
                             child: Card(
                               elevation: 10,
                               child: Column(),
