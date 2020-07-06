@@ -23,9 +23,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     Expanded(
                       flex: 1,
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("My projects"),
-                          Icon(Icons.tune, color: Colors.grey,)
+                          Icon(Icons.tune, color: Colors.grey,
+                          size: 18,)
 
                         ],
                       ),
