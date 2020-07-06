@@ -14,12 +14,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       body: SingleChildScrollView(
         child: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Container(
                 height: MediaQuery.of(context).size.height / 2.1,
                 child: Column(
                   children: [
-                    
+
                   ],
                 ),
               ),
