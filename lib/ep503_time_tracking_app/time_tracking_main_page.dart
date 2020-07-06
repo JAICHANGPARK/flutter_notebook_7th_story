@@ -22,21 +22,25 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                   children: [
                     Expanded(
                       flex: 1,
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text("My projects"),
-                          Icon(Icons.tune, color: Colors.grey,
-                          size: 18,)
-
-                        ],
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("My projects"),
+                            Icon(
+                              Icons.tune,
+                              color: Colors.grey,
+                              size: 18,
+                            )
+                          ],
+                        ),
                       ),
                     ),
                     Expanded(
                       flex: 9,
                       child: Placeholder(),
                     )
-
                   ],
                 ),
               ),
@@ -44,8 +48,6 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                 height: MediaQuery.of(context).size.height / 2.1,
                 child: Placeholder(),
               )
-
-
             ],
           ),
         ),
