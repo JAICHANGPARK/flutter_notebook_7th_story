@@ -24,7 +24,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                       flex: 1,
                       child: Row(
                         children: [
-                          Text("My projects")
+                          Text("My projects"),
+                          Icon(Icons.tune, color: Colors.grey,)
 
                         ],
                       ),
