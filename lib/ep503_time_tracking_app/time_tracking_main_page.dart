@@ -14,7 +14,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            
+            Container(
+              height: MediaQuery.of(context).size.height / 2.1,
+              child: Placeholder(),
+            )
+
 
           ],
         ),
