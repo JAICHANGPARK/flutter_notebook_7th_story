@@ -91,7 +91,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("My projects", style: TextStyle(
+                            Text("Earnings", style: TextStyle(
                               fontWeight: FontWeight.bold,
                             ),),
                             Icon(
@@ -105,33 +105,18 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     ),
                     Expanded(
                       flex: 9,
-                      child: PageView(
-                        controller: _pageController,
-                        scrollDirection: Axis.horizontal,
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(4.0),
-                            child: Card(
-                              elevation: 10,
-                              child: Column(),
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(4.0),
-                            child: Card(
-                              elevation: 10,
-                              child: Column(),
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.all(4.0),
-                            child: Card(
-                              elevation: 10,
-                              child: Column(),
-                            ),
-                          )
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Card(
+                          color: Colors.white,
+                          elevation: 10,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
 
-                        ],
+                            ],
+                          ),
+                        ),
                       ),
                     )
                   ],
