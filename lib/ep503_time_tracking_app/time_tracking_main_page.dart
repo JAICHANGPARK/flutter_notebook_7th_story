@@ -17,7 +17,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
             children: [
               Container(
                 height: MediaQuery.of(context).size.height / 2.1,
-                child: Placeholder(),
+                child: Column(
+                  children: [
+                    
+                  ],
+                ),
               ),
               Container(
                 height: MediaQuery.of(context).size.height / 2.1,
