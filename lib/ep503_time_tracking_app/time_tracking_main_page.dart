@@ -40,9 +40,15 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     Expanded(
                       flex: 9,
                       child: PageView(
+                        
+                        scrollDirection: Axis.horizontal,
                         children: [
-                          Card(
-                            child: Column(),
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
                           )
 
                         ],
