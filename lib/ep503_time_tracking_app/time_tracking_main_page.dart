@@ -82,8 +82,61 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               ),
               Container(
                 height: MediaQuery.of(context).size.height / 2.1,
-                child: Placeholder(),
-              )
+                child: Column(
+                  children: [
+                    Expanded(
+                      flex: 1,
+                      child: Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 16),
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("My projects", style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                            ),),
+                            Icon(
+                              Icons.tune,
+                              color: Colors.grey,
+                              size: 18,
+                            )
+                          ],
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      flex: 9,
+                      child: PageView(
+                        controller: _pageController,
+                        scrollDirection: Axis.horizontal,
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Card(
+                              elevation: 10,
+                              child: Column(),
+                            ),
+                          )
+
+                        ],
+                      ),
+                    )
+                  ],
+                ),
+              ),
             ],
           ),
         ),
