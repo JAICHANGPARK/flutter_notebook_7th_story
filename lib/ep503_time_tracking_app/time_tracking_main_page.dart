@@ -16,12 +16,17 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
-  List<charts.Series> seriesList = [];
+  List<charts.Series> seriesList;
 
 
 
   final data = [
     Payment("05", 16),
+    Payment("06", 38),
+    Payment("07", 36),
+    Payment("08", 41),
+    Payment("09", 24),
+
   ];
 
   @override
@@ -29,7 +34,14 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     // TODO: implement initState
     super.initState();
     _pageController = PageController(initialPage: 0, viewportFraction: 0.9);
-
+    seriesList = [
+      charts.Series<Payment, String>(
+        id: "cost",
+        domainFn: (v, _) => v.month,
+        measureFn: (v, _) => v.cost,
+        data: data
+      ),
+    ];
 
   }
 
