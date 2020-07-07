@@ -185,9 +185,14 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                       children: [
                                         Container(
                                           height: 32,
-                                          width: 160,
+                                          width: 120,
                                           decoration: BoxDecoration(
-                                            
+                                            color: Colors.red[100]
+                                          ),
+                                          child: Row(
+                                            children: [
+                                              
+                                            ],
                                           ),
                                         )
                                       ],
