@@ -60,7 +60,22 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                             padding: const EdgeInsets.all(4.0),
                             child: Card(
                               elevation: 10,
-                              child: Column(),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Placeholder(),
+                                  ),
+                                  Expanded(
+                                    child: Placeholder(),
+                                  ),
+                                  Expanded(
+                                    child: Placeholder(),
+                                  ),
+                                  Expanded(
+                                    child: Placeholder(),
+                                  )
+                                ],
+                              ),
                             ),
                           ),
                           Padding(
