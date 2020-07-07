@@ -190,7 +190,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                             color: Colors.red[100]
                                           ),
                                           child: Row(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                             crossAxisAlignment: CrossAxisAlignment.center,
                                             children: [
                                               Icon(Icons.calendar_today, size: 16,),
