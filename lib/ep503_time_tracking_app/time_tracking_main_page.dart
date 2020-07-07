@@ -209,7 +209,10 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                           ),
                                           Spacer(),
                                           CircleAvatar(),
-                                          Text("+1")
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Text("+1"),
+                                          )
                                         ],
                                       ),
                                     ),
