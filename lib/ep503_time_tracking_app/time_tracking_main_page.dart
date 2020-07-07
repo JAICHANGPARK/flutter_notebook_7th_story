@@ -74,6 +74,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                               color: Colors.orange,
                                               borderRadius: BorderRadius.circular(8)
                                             ),
+                                            child: Center(
+                                              child: Text("EA",style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold
+                                              ),),
+                                            ),
                                           )
 
                                         ],
