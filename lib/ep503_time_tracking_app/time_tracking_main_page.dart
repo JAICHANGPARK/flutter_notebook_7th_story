@@ -3,7 +3,7 @@ import 'package:charts_flutter/flutter.dart' as charts;
 
 class Payment{
   final String month;
-  final String cost;
+  final int cost;
 
   Payment(this.month, this.cost);
 }
@@ -20,6 +20,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
 
 
 
+  final data = [
+    Payment("05", 16),
+  ];
 
   @override
   void initState() {
