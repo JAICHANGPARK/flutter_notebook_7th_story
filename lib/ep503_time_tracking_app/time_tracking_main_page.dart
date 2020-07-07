@@ -103,7 +103,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                             ),
                                           ),
                                           Spacer(),
-                                          IconButton(icon: Icon(Icons.timer),)
+                                          IconButton(icon: Icon(Icons.timer),
+                                          onPressed: (){},)
 
 
 
