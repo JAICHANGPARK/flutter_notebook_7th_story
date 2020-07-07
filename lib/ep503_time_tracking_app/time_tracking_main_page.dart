@@ -82,7 +82,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
               ),
               SizedBox(height: 16,),
               Container(
-                height: MediaQuery.of(context).size.height / 2.1,
+                height: MediaQuery.of(context).size.height / 1.8,
                 child: Column(
                   children: [
                     Expanded(
@@ -106,17 +106,26 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     ),
                     Expanded(
                       flex: 9,
-                      child: Container(
-                        child: Padding(
-                          padding: const EdgeInsets.all(4.0),
-                          child: Card(
-                            color: Colors.white,
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              children: [
+                      child: Padding(
+                        padding: const EdgeInsets.all(4.0),
+                        child: Card(
+                          elevation: 12,
+                          color: Colors.white,
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Expanded(
+                                child: Placeholder(),
+                              ),
+                              Expanded(
+                                child: Placeholder(),
+                              ),
+                              Expanded(
+                                child: Placeholder(),
+                              )
 
-                              ],
-                            ),
+
+                            ],
                           ),
                         ),
                       ),
