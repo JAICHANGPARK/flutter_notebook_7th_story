@@ -60,63 +60,74 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                             padding: const EdgeInsets.all(4.0),
                             child: Card(
                               elevation: 10,
-                              child: Column(
-                                children: [
-                                  Expanded(
-                                    child: Row(
-                                      children: [
-                                        
-                                      ],
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [
+                                    Expanded(
+                                      child: Row(
+                                        children: [
+                                          Container(
+                                            height: 34,
+                                            width: 34,
+                                            decoration: BoxDecoration(
+                                              color: Colors.orange,
+                                              borderRadius: BorderRadius.circular(8)
+                                            ),
+                                          )
+
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                  Expanded(
-                                    flex: 2,
-                                    child: Placeholder(),
-                                  ),
-                                  Expanded(
-                                    child: Row(
-                                      children: [
-                                        Expanded(
-                                          child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Text("Total hours".toUpperCase(), style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 12
-                                              ),),
-                                              Text("41.75", style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black,
-                                                fontSize: 16
-                                              ),)
-                                            ]
-                                          ),
-                                        ),
-                                        Expanded(
-                                          child: Column(
+                                    Expanded(
+                                      flex: 2,
+                                      child: Placeholder(),
+                                    ),
+                                    Expanded(
+                                      child: Row(
+                                        children: [
+                                          Expanded(
+                                            child: Column(
                                               mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
-                                                Text("GROSS PAY".toUpperCase(), style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: 12
+                                                Text("Total hours".toUpperCase(), style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 12
                                                 ),),
-                                                Text("\$43.785", style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.black,
-                                                    fontSize: 16
+                                                Text("41.75", style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  color: Colors.black,
+                                                  fontSize: 16
                                                 ),)
                                               ]
+                                            ),
                                           ),
-                                        ),
+                                          Expanded(
+                                            child: Column(
+                                                mainAxisAlignment: MainAxisAlignment.center,
+                                                children: [
+                                                  Text("GROSS PAY".toUpperCase(), style: TextStyle(
+                                                      fontWeight: FontWeight.bold,
+                                                      fontSize: 12
+                                                  ),),
+                                                  Text("\$43.785", style: TextStyle(
+                                                      fontWeight: FontWeight.bold,
+                                                      color: Colors.black,
+                                                      fontSize: 16
+                                                  ),)
+                                                ]
+                                            ),
+                                          ),
 
-                                      ],
+                                        ],
+                                      ),
                                     ),
-                                  ),
-                                  Divider(),
-                                  Expanded(
-                                    child: Placeholder(),
-                                  )
-                                ],
+                                    Divider(),
+                                    Expanded(
+                                      child: Placeholder(),
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ),
