@@ -181,34 +181,37 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   ),
                                   Divider(),
                                   Expanded(
-                                    child: Row(
-                                      children: [
-                                        Container(
-                                          height: 32,
-                                          width: 100,
-                                          decoration: BoxDecoration(
-                                            color: Colors.red[100],
-                                            borderRadius: BorderRadius.circular(8)
-                                          ),
-                                          child: Row(
-                                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                            crossAxisAlignment: CrossAxisAlignment.center,
-                                            children: [
-                                              Icon(Icons.calendar_today, size: 16,
-                                                color: Colors.red,),
-                                              Text("6 DAY LEFT", style: TextStyle(
-                                                color: Colors.red,
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 12
-                                              ),)
+                                    child: Padding(
+                                      padding: const EdgeInsets.all(8.0),
+                                      child: Row(
+                                        children: [
+                                          Container(
+                                            height: 32,
+                                            width: 100,
+                                            decoration: BoxDecoration(
+                                              color: Colors.red[100],
+                                              borderRadius: BorderRadius.circular(8)
+                                            ),
+                                            child: Row(
+                                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                              crossAxisAlignment: CrossAxisAlignment.center,
+                                              children: [
+                                                Icon(Icons.calendar_today, size: 16,
+                                                  color: Colors.red,),
+                                                Text("6 DAY LEFT", style: TextStyle(
+                                                  color: Colors.red,
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 12
+                                                ),)
 
-                                            ],
+                                              ],
+                                            ),
                                           ),
-                                        ),
-                                        Spacer(),
-                                        CircleAvatar(),
-                                        Text("+1")
-                                      ],
+                                          Spacer(),
+                                          CircleAvatar(),
+                                          Text("+1")
+                                        ],
+                                      ),
                                     ),
                                   )
                                 ],
