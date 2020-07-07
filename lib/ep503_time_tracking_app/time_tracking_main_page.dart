@@ -82,6 +82,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                             ),
                                           ),
                                           Column(
+                                            crossAxisAlignment: CrossAxisAlignment.start,
+                                            mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
                                               Text("ELECTRIC AVENUE", style: TextStyle(
                                                 fontWeight: FontWeight.bold,
