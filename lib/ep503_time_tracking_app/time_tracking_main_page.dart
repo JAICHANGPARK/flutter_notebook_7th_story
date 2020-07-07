@@ -64,7 +64,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 children: [
                                   Expanded(
                                     child: Padding(
-                                      padding: const EdgeInsets.symmetric(),
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 16
+                                      ),
                                       child: Row(
                                         children: [
                                           Container(
@@ -96,10 +98,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                                     fontWeight: FontWeight.bold,
                                                     color: Colors.black,
                                                     fontSize: 12
-                                                ),)
+                                                ),),
                                               ],
                                             ),
-                                          )
+                                          ),
+                                          Spacer(),
+                                          IconButton(icon: Icon(Icons.timer),)
+
 
 
                                         ],
