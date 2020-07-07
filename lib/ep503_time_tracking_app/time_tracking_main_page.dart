@@ -80,7 +80,16 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                                 fontWeight: FontWeight.bold
                                               ),),
                                             ),
+                                          ),
+                                          Column(
+                                            children: [
+                                              Text("ELECTRIC AVENUE", style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.grey
+                                              ),)
+                                            ],
                                           )
+
 
                                         ],
                                       ),
