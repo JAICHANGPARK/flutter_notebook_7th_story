@@ -42,6 +42,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
         data: data
       ),
     ];
+    setState(() {
+
+    });
 
   }
 
