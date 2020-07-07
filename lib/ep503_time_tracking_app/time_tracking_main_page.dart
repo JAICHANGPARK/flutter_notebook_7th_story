@@ -64,23 +64,19 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 children: [
                                   Expanded(
                                     child: Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                        horizontal: 16
-                                      ),
+                                      padding: const EdgeInsets.symmetric(horizontal: 16),
                                       child: Row(
                                         children: [
                                           Container(
                                             height: 34,
                                             width: 34,
                                             decoration: BoxDecoration(
-                                              color: Colors.orange,
-                                              borderRadius: BorderRadius.circular(8)
-                                            ),
+                                                color: Colors.orange, borderRadius: BorderRadius.circular(8)),
                                             child: Center(
-                                              child: Text("EA",style: TextStyle(
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold
-                                              ),),
+                                              child: Text(
+                                                "EA",
+                                                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+                                              ),
                                             ),
                                           ),
                                           Padding(
@@ -89,25 +85,24 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
-                                                Text("ELECTRIC AVENUE", style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  color: Colors.grey,
-                                                  fontSize: 12
-                                                ),),
-                                                Text("001 - Responsive web app", style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.black,
-                                                    fontSize: 12
-                                                ),),
+                                                Text(
+                                                  "ELECTRIC AVENUE",
+                                                  style: TextStyle(
+                                                      fontWeight: FontWeight.bold, color: Colors.grey, fontSize: 12),
+                                                ),
+                                                Text(
+                                                  "001 - Responsive web app",
+                                                  style: TextStyle(
+                                                      fontWeight: FontWeight.bold, color: Colors.black, fontSize: 12),
+                                                ),
                                               ],
                                             ),
                                           ),
                                           Spacer(),
-                                          IconButton(icon: Icon(Icons.timer),
-                                          onPressed: (){},)
-
-
-
+                                          IconButton(
+                                            icon: Icon(Icons.timer),
+                                            onPressed: () {},
+                                          )
                                         ],
                                       ),
                                     ),
@@ -120,38 +115,31 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     child: Row(
                                       children: [
                                         Expanded(
-                                          child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Text("Total hours".toUpperCase(), style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 12
-                                              ),),
-                                              Text("41.75", style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.black,
-                                                fontSize: 16
-                                              ),)
-                                            ]
-                                          ),
+                                          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                                            Text(
+                                              "Total hours".toUpperCase(),
+                                              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+                                            ),
+                                            Text(
+                                              "41.75",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold, color: Colors.black, fontSize: 16),
+                                            )
+                                          ]),
                                         ),
                                         Expanded(
-                                          child: Column(
-                                              mainAxisAlignment: MainAxisAlignment.center,
-                                              children: [
-                                                Text("GROSS PAY".toUpperCase(), style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontSize: 12
-                                                ),),
-                                                Text("\$43.785", style: TextStyle(
-                                                    fontWeight: FontWeight.bold,
-                                                    color: Colors.black,
-                                                    fontSize: 16
-                                                ),)
-                                              ]
-                                          ),
+                                          child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+                                            Text(
+                                              "GROSS PAY".toUpperCase(),
+                                              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 12),
+                                            ),
+                                            Text(
+                                              "\$43.785",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.bold, color: Colors.black, fontSize: 16),
+                                            )
+                                          ]),
                                         ),
-
                                       ],
                                     ),
                                   ),
