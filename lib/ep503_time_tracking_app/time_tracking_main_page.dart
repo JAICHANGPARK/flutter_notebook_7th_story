@@ -185,13 +185,18 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                       children: [
                                         Container(
                                           height: 32,
-                                          width: 120,
+                                          width: 100,
                                           decoration: BoxDecoration(
                                             color: Colors.red[100]
                                           ),
                                           child: Row(
                                             children: [
-                                              
+                                              Icon(Icons.calendar_today),
+                                              Text("6 DAY LEFT", style: TextStyle(
+                                                color: Colors.red,
+                                                fontWeight: FontWeight.bold
+                                              ),)
+
                                             ],
                                           ),
                                         )
