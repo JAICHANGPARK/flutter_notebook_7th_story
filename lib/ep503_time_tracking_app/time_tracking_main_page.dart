@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
+class Payment{
+  final String month;
+  final String cost;
+
+  Payment(this.month, this.cost);
+}
+
 class TimeTrackingMainPage extends StatefulWidget {
   @override
   _TimeTrackingMainPageState createState() => _TimeTrackingMainPageState();
@@ -13,11 +20,14 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
 
 
 
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     _pageController = PageController(initialPage: 0, viewportFraction: 0.9);
+
+
   }
 
   @override
