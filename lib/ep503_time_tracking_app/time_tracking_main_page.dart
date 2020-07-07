@@ -9,8 +9,9 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
+  List<charts.Series> seriesList = [];
 
-  List<>
+
 
   @override
   void initState() {
