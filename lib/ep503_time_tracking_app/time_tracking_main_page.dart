@@ -75,8 +75,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                         Expanded(
                                           child: Column(
                                             children: [
-                                              Text("Total hours".toUpperCase())
-                                            ],
+                                              Text("Total hours".toUpperCase()),
+                                              Text("41.75")
+                                            ]
                                           ),
                                         ),
                                         Expanded(
