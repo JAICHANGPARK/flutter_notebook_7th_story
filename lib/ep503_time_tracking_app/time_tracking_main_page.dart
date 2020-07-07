@@ -74,6 +74,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                       children: [
                                         Expanded(
                                           child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
                                             children: [
                                               Text("Total hours".toUpperCase()),
                                               Text("41.75")
