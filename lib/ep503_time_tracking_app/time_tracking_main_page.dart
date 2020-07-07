@@ -74,6 +74,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                       children: [
                                         Expanded(
                                           child: Placeholder(),
+                                        ),
+                                        Expanded(
+                                          child: Placeholder(),
                                         )
 
                                       ],
