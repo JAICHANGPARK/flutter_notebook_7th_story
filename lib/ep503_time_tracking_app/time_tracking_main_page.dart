@@ -82,7 +82,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                               ),),
                                               Text("41.75", style: TextStyle(
                                                 fontWeight: FontWeight.bold,
-                                                color: Colors.black
+                                                color: Colors.black,
+                                                fontSize: 16
                                               ),)
                                             ]
                                           ),
