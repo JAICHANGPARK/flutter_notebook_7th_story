@@ -181,7 +181,17 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   ),
                                   Divider(),
                                   Expanded(
-                                    child: Placeholder(),
+                                    child: Row(
+                                      children: [
+                                        Container(
+                                          height: 32,
+                                          width: 160,
+                                          decoration: BoxDecoration(
+                                            
+                                          ),
+                                        )
+                                      ],
+                                    ),
                                   )
                                 ],
                               ),
