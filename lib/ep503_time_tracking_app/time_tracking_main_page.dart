@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:charts_flutter/flutter.dart' as charts;
 
 class TimeTrackingMainPage extends StatefulWidget {
   @override
@@ -8,6 +9,8 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
+
+  List<>
 
   @override
   void initState() {
@@ -114,6 +117,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   Expanded(
                                     child: Row(
                                       children: [
+
                                         Expanded(
                                           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                                             Text(
