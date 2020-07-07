@@ -187,7 +187,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                           height: 32,
                                           width: 100,
                                           decoration: BoxDecoration(
-                                            color: Colors.red[100]
+                                            color: Colors.red[100],
+                                            borderRadius: BorderRadius.circular(8)
                                           ),
                                           child: Row(
                                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
