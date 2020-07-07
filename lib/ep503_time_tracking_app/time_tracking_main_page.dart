@@ -138,7 +138,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   ),
                                   Expanded(
                                     flex: 2,
-                                    child: Placeholder(),
+                                    child: seriesList != null ?charts.BarChart(
+                                      seriesList,
+                                    ): Center(child: CircularProgressIndicator()),
                                   ),
                                   Expanded(
                                     child: Row(
