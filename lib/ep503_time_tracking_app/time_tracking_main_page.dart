@@ -190,11 +190,14 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                             color: Colors.red[100]
                                           ),
                                           child: Row(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            crossAxisAlignment: CrossAxisAlignment.center,
                                             children: [
-                                              Icon(Icons.calendar_today),
+                                              Icon(Icons.calendar_today, size: 16,),
                                               Text("6 DAY LEFT", style: TextStyle(
                                                 color: Colors.red,
-                                                fontWeight: FontWeight.bold
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 12
                                               ),)
 
                                             ],
