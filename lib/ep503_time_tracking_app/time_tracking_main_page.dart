@@ -8,6 +8,7 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
+
   @override
   void initState() {
     // TODO: implement initState
@@ -34,9 +35,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("My projects", style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                            ),),
+                            Text(
+                              "My projects",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Icon(
                               Icons.tune,
                               color: Colors.grey,
@@ -73,14 +77,15 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                               child: Column(),
                             ),
                           )
-
                         ],
                       ),
                     )
                   ],
                 ),
               ),
-              SizedBox(height: 16,),
+              SizedBox(
+                height: 16,
+              ),
               Container(
                 height: MediaQuery.of(context).size.height / 1.8,
                 child: Column(
@@ -92,9 +97,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
-                            Text("Earnings", style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                            ),),
+                            Text(
+                              "Earnings",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                             Icon(
                               Icons.tune,
                               color: Colors.grey,
@@ -123,8 +131,6 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                               Expanded(
                                 child: Placeholder(),
                               )
-
-
                             ],
                           ),
                         ),
