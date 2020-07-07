@@ -92,11 +92,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                           child: Column(
                                               mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
-                                                Text("Total hours".toUpperCase(), style: TextStyle(
+                                                Text("GROSS PAY".toUpperCase(), style: TextStyle(
                                                     fontWeight: FontWeight.bold,
                                                     fontSize: 12
                                                 ),),
-                                                Text("41.75", style: TextStyle(
+                                                Text("\$43.785", style: TextStyle(
                                                     fontWeight: FontWeight.bold,
                                                     color: Colors.black,
                                                     fontSize: 16
