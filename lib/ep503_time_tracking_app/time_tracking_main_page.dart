@@ -60,11 +60,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                             padding: const EdgeInsets.all(4.0),
                             child: Card(
                               elevation: 10,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  children: [
-                                    Expanded(
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Padding(
+                                      padding: const EdgeInsets.symmetric(),
                                       child: Row(
                                         children: [
                                           Container(
@@ -81,76 +81,79 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                               ),),
                                             ),
                                           ),
-                                          Column(
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            mainAxisAlignment: MainAxisAlignment.center,
-                                            children: [
-                                              Text("ELECTRIC AVENUE", style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                color: Colors.grey,
-                                                fontSize: 12
-                                              ),),
-                                              Text("001 - Responsive web app", style: TextStyle(
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              mainAxisAlignment: MainAxisAlignment.center,
+                                              children: [
+                                                Text("ELECTRIC AVENUE", style: TextStyle(
                                                   fontWeight: FontWeight.bold,
-                                                  color: Colors.black,
+                                                  color: Colors.grey,
                                                   fontSize: 12
-                                              ),)
-                                            ],
+                                                ),),
+                                                Text("001 - Responsive web app", style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.black,
+                                                    fontSize: 12
+                                                ),)
+                                              ],
+                                            ),
                                           )
 
 
                                         ],
                                       ),
                                     ),
-                                    Expanded(
-                                      flex: 2,
-                                      child: Placeholder(),
-                                    ),
-                                    Expanded(
-                                      child: Row(
-                                        children: [
-                                          Expanded(
-                                            child: Column(
+                                  ),
+                                  Expanded(
+                                    flex: 2,
+                                    child: Placeholder(),
+                                  ),
+                                  Expanded(
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Column(
+                                            mainAxisAlignment: MainAxisAlignment.center,
+                                            children: [
+                                              Text("Total hours".toUpperCase(), style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 12
+                                              ),),
+                                              Text("41.75", style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.black,
+                                                fontSize: 16
+                                              ),)
+                                            ]
+                                          ),
+                                        ),
+                                        Expanded(
+                                          child: Column(
                                               mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
-                                                Text("Total hours".toUpperCase(), style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 12
+                                                Text("GROSS PAY".toUpperCase(), style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontSize: 12
                                                 ),),
-                                                Text("41.75", style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  color: Colors.black,
-                                                  fontSize: 16
+                                                Text("\$43.785", style: TextStyle(
+                                                    fontWeight: FontWeight.bold,
+                                                    color: Colors.black,
+                                                    fontSize: 16
                                                 ),)
                                               ]
-                                            ),
                                           ),
-                                          Expanded(
-                                            child: Column(
-                                                mainAxisAlignment: MainAxisAlignment.center,
-                                                children: [
-                                                  Text("GROSS PAY".toUpperCase(), style: TextStyle(
-                                                      fontWeight: FontWeight.bold,
-                                                      fontSize: 12
-                                                  ),),
-                                                  Text("\$43.785", style: TextStyle(
-                                                      fontWeight: FontWeight.bold,
-                                                      color: Colors.black,
-                                                      fontSize: 16
-                                                  ),)
-                                                ]
-                                            ),
-                                          ),
+                                        ),
 
-                                        ],
-                                      ),
+                                      ],
                                     ),
-                                    Divider(),
-                                    Expanded(
-                                      child: Placeholder(),
-                                    )
-                                  ],
-                                ),
+                                  ),
+                                  Divider(),
+                                  Expanded(
+                                    child: Placeholder(),
+                                  )
+                                ],
                               ),
                             ),
                           ),
