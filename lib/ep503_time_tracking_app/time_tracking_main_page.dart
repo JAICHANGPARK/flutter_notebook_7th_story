@@ -16,7 +16,7 @@ class TimeTrackingMainPage extends StatefulWidget {
 class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
-  List<charts.Series> seriesList;
+  List<charts.Series<Payment, String>> seriesList;
 
 
 
@@ -143,6 +143,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     flex: 2,
                                     child: seriesList != null ?charts.BarChart(
                                       seriesList,
+                                      animate: false,
                                     ): Center(child: CircularProgressIndicator()),
                                   ),
                                   Expanded(
