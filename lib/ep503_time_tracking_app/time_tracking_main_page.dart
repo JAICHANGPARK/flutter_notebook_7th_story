@@ -204,7 +204,10 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
 
                                             ],
                                           ),
-                                        )
+                                        ),
+                                        Spacer(),
+                                        CircleAvatar(),
+                                        Text("+1")
                                       ],
                                     ),
                                   )
