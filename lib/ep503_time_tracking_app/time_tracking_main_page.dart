@@ -351,6 +351,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     itemBuilder: (context, index) {
                                   return Container(
                                     height: 32,
+                                    padding: EdgeInsets.symmetric(horizontal: 16),
                                     child: Row(
                                       children: [
                                         CircleAvatar(
