@@ -24,7 +24,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
   List<charts.Series<Payment, String>> seriesList;
-  List<charts.Series<Sales, String>> lineData;
+  List<charts.Series<Sales, int>> lineData;
   List<charts.Series<Payment, String>> lineData2;
 
 
@@ -52,7 +52,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       charts.Series<Payment, String>(id: "cost", domainFn: (v, _) => v.month, measureFn: (v, _) => v.cost, data: data),
     ];
     lineData = [
-      charts.Series<Payment, String>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: data)
+      charts.Series<Sales, int>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData)
     ];
     setState(() {});
   }
