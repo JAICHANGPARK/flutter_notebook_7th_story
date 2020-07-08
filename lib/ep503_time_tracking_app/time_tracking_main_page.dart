@@ -8,6 +8,13 @@ class Payment {
   Payment(this.month, this.cost);
 }
 
+class Sales {
+  final int month;
+  final int cost;
+
+  Sales(this.month, this.cost);
+}
+
 class TimeTrackingMainPage extends StatefulWidget {
   @override
   _TimeTrackingMainPageState createState() => _TimeTrackingMainPageState();
@@ -17,7 +24,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
   List<charts.Series<Payment, String>> seriesList;
-  List<charts.Series<Payment, String>> lineData;
+  List<charts.Series<Sales, String>> lineData;
   List<charts.Series<Payment, String>> lineData2;
 
 
@@ -27,6 +34,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     Payment("07", 36),
     Payment("08", 41),
     Payment("09", 24),
+  ];
+  final salesData = [
+    Sales(2017, 16),
+    Sales(2018, 38),
+    Sales(2019, 36),
+    Sales(2020, 41),
+    Sales(2021, 24),
   ];
 
   @override
