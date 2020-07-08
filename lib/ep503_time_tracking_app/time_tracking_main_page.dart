@@ -271,6 +271,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Expanded(
+                                flex: 1,
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                   children: [
