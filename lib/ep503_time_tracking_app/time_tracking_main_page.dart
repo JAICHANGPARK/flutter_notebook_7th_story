@@ -27,7 +27,6 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   List<charts.Series<Sales, int>> lineData;
   List<charts.Series<Payment, String>> lineData2;
 
-
   final data = [
     Payment("05", 16),
     Payment("06", 38),
@@ -51,7 +50,6 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     Sales(4, 48),
   ];
 
-
   @override
   void initState() {
     // TODO: implement initState
@@ -61,8 +59,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       charts.Series<Payment, String>(id: "cost", domainFn: (v, _) => v.month, measureFn: (v, _) => v.cost, data: data),
     ];
     lineData = [
-      charts.Series<Sales, int>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData),
-      charts.Series<Sales, int>(id: "2", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData2)
+      charts.Series<Sales, int>(id: "1", domainFn: (p, _) => p.month, measureFn: (p, _) => p.cost, data: salesData),
+      charts.Series<Sales, int>(id: "2", domainFn: (p, _) => p.month, measureFn: (p, _) => p.cost, data: salesData2)
     ];
     setState(() {});
   }
@@ -308,58 +306,49 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     Container(
                                       width: 100,
                                       height: 34,
-                                      decoration: BoxDecoration(
-
-                                      ),
+                                      decoration: BoxDecoration(),
                                       child: Center(
                                         child: Text("WEEKLY"),
-
                                       ),
                                     ),
                                     Container(
                                       width: 100,
                                       height: 34,
-                                      decoration: BoxDecoration(
-                                          color: Colors.orange,
-                                        borderRadius: BorderRadius.circular(4)
-                                      ),
+                                      decoration:
+                                          BoxDecoration(color: Colors.orange, borderRadius: BorderRadius.circular(4)),
                                       child: Center(
-                                        child: Text("MONTHLY", style: TextStyle(
-                                          color: Colors.white
-                                        ),),
-
+                                        child: Text(
+                                          "MONTHLY",
+                                          style: TextStyle(color: Colors.white),
+                                        ),
                                       ),
                                     ),
                                     Container(
                                       width: 100,
                                       height: 34,
-                                      decoration: BoxDecoration(
-                                          
-                                      ),
+                                      decoration: BoxDecoration(),
                                       child: Center(
                                         child: Text("YEARLY"),
-
                                       ),
                                     )
-
                                   ],
                                 ),
                               ),
-                              Expanded(flex: 2,
-
-                                child: lineData != null ? charts.LineChart(
-                                  lineData,
-                                  defaultRenderer: charts.LineRendererConfig(
-                                    includeArea: true,
-                                    stacked: true
-                                  ),
-                                  animate: true,
-                                ) : Center(child: CircularProgressIndicator()),
+                              Expanded(
+                                flex: 2,
+                                child: lineData != null
+                                    ? charts.LineChart(
+                                        lineData,
+                                        defaultRenderer: charts.LineRendererConfig(includeArea: true, stacked: true),
+                                        animate: true,
+                                      )
+                                    : Center(child: CircularProgressIndicator()),
                               ),
                               Expanded(
-                                child: ListView.builder(itemBuilder: (context, index){
-                                  return Container(height: 32,);
-
+                                child: ListView.separated(itemBuilder: (context, index) {
+                                  return Container(
+                                    height: 32,
+                                  );
                                 }),
                               )
                             ],
