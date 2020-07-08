@@ -358,7 +358,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                           radius: 8,
                                           child: CircleAvatar(radius: 4,
                                           backgroundColor: Colors.white,),
-                                        )
+                                        ),
+                                        Padding(
+                                          padding: const EdgeInsets.all(8.0),
+                                          child: Text("Electric Avenue"),
+                                        ),
+                                        Spacer(),
+                                        Text("\$ ${salesData[index].cost}")
 
                                       ],
                                     )
