@@ -300,7 +300,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   ],
                                 ),
                               ),
-                              Expanded(
+                              Expanded(flex: 2,
                                 child: Placeholder(),
                               ),
                               Expanded(
