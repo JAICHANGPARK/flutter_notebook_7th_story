@@ -358,7 +358,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                               ),
                               Expanded(
                                 child: ListView.builder(itemBuilder: (context, index){
-                                  
+                                  return Container(height: 32,);
+
                                 }),
                               )
                             ],
