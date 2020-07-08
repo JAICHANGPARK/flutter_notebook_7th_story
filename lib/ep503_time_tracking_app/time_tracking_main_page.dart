@@ -345,11 +345,18 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     : Center(child: CircularProgressIndicator()),
                               ),
                               Expanded(
-                                child: ListView.separated(itemBuilder: (context, index) {
+                                child: ListView.separated(
+                                  itemCount: salesData.length,
+                                    itemBuilder: (context, index) {
                                   return Container(
                                     height: 32,
+
                                   );
-                                }),
+                                },
+                                separatorBuilder: (context, index){
+                                      return Divider(height: 2, color: Colors.grey, thickness: 2,);
+                                },
+                                ),
                               )
                             ],
                           ),
