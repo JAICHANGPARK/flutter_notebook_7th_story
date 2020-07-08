@@ -324,7 +324,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                         borderRadius: BorderRadius.circular(4)
                                       ),
                                       child: Center(
-                                        child: Text("MONTHLY"),
+                                        child: Text("MONTHLY", style: TextStyle(
+                                          color: Colors.white
+                                        ),),
 
                                       ),
                                     ),
