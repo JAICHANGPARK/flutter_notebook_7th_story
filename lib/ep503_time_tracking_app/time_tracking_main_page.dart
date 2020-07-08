@@ -350,6 +350,13 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     itemBuilder: (context, index) {
                                   return Container(
                                     height: 32,
+                                    child: Row(
+                                      children: [
+                                        
+                                      ],
+                                    )
+
+
 
                                   );
                                 },
