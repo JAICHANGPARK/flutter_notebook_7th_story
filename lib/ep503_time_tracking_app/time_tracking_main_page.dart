@@ -353,6 +353,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     height: 32,
                                     child: Row(
                                       children: [
+                                        CircleAvatar(
+                                          radius: 8,
+                                          child: CircleAvatar(radius: 4,
+                                          backgroundColor: Colors.white,),
+                                        )
 
                                       ],
                                     )
