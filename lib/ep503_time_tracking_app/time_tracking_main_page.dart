@@ -309,7 +309,10 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                               Expanded(flex: 2,
                                 child: charts.LineChart(
                                   lineData,
-                                  defaultRenderer: ,
+                                  defaultRenderer: charts.LineRendererConfig(
+                                    includeArea: true,
+                                    stacked: true
+                                  ),
                                 ),
                               ),
                               Expanded(
