@@ -43,6 +43,15 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     Sales(2021, 24),
   ];
 
+  final salesData2 = [
+    Sales(2017, 24),
+    Sales(2018, 34),
+    Sales(2019, 38),
+    Sales(2020, 23),
+    Sales(2021, 48),
+  ];
+
+
   @override
   void initState() {
     // TODO: implement initState
@@ -52,7 +61,8 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       charts.Series<Payment, String>(id: "cost", domainFn: (v, _) => v.month, measureFn: (v, _) => v.cost, data: data),
     ];
     lineData = [
-      charts.Series<Sales, int>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData)
+      charts.Series<Sales, int>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData),
+      charts.Series<Sales, int>(id: "2", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: salesData)
     ];
     setState(() {});
   }
