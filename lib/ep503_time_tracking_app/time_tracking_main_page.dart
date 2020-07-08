@@ -322,12 +322,20 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                       decoration: BoxDecoration(
                                           color: Colors.orange
                                       ),
+                                      child: Center(
+                                        child: Text("WEEKLY"),
+
+                                      ),
                                     ),
                                     Container(
                                       width: 100,
                                       height: 34,
                                       decoration: BoxDecoration(
                                           color: Colors.orange
+                                      ),
+                                      child: Center(
+                                        child: Text("WEEKLY"),
+
                                       ),
                                     )
 
