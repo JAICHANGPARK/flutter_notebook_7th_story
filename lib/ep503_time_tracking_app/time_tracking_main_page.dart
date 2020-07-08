@@ -263,7 +263,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                 height: 16,
               ),
               Container(
-                height: MediaQuery.of(context).size.height / 1.8,
+                height: MediaQuery.of(context).size.height / 1.5,
                 child: Column(
                   children: [
                     Expanded(
@@ -335,7 +335,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 ),
                               ),
                               Expanded(
-                                flex: 2,
+                                flex: 3,
                                 child: lineData != null
                                     ? charts.LineChart(
                                         lineData,
@@ -345,6 +345,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     : Center(child: CircularProgressIndicator()),
                               ),
                               Expanded(
+                                flex: 2,
                                 child: ListView.separated(
                                   itemCount: salesData.length,
                                     itemBuilder: (context, index) {
@@ -352,7 +353,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     height: 32,
                                     child: Row(
                                       children: [
-                                        
+
                                       ],
                                     )
 
