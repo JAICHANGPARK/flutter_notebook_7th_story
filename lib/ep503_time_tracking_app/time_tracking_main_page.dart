@@ -36,19 +36,19 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     Payment("09", 24),
   ];
   final salesData = [
-    Sales(2017, 16),
-    Sales(2018, 38),
-    Sales(2019, 36),
-    Sales(2020, 41),
-    Sales(2021, 24),
+    Sales(0, 16),
+    Sales(1, 38),
+    Sales(2, 36),
+    Sales(3, 41),
+    Sales(4, 24),
   ];
 
   final salesData2 = [
-    Sales(2017, 24),
-    Sales(2018, 34),
-    Sales(2019, 38),
-    Sales(2020, 23),
-    Sales(2021, 48),
+    Sales(0, 24),
+    Sales(1, 34),
+    Sales(2, 38),
+    Sales(3, 23),
+    Sales(4, 48),
   ];
 
 
@@ -331,6 +331,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 ),
                               ),
                               Expanded(flex: 2,
+
                                 child: lineData != null ? charts.LineChart(
                                   lineData,
                                   defaultRenderer: charts.LineRendererConfig(
