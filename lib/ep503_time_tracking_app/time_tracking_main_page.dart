@@ -293,7 +293,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                     Expanded(
                       flex: 9,
                       child: Padding(
-                        padding: const EdgeInsets.all(4.0),
+                        padding: const EdgeInsets.all(16.0),
                         child: Card(
                           elevation: 12,
                           color: Colors.white,
