@@ -38,7 +38,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
       charts.Series<Payment, String>(id: "cost", domainFn: (v, _) => v.month, measureFn: (v, _) => v.cost, data: data),
     ];
     lineData = [
-      charts.Series<Payment, String>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost)
+      charts.Series<Payment, String>(id: "1", domainFn: (p, _)=> p.month, measureFn: (p,_)=> p.cost, data: data)
     ];
     setState(() {});
   }
