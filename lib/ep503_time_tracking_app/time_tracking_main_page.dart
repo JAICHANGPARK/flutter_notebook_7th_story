@@ -348,34 +348,35 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 flex: 2,
                                 child: ListView.separated(
                                   itemCount: salesData.length,
-                                    itemBuilder: (context, index) {
-                                  return Container(
-                                    height: 38,
-                                    padding: EdgeInsets.symmetric(horizontal: 16),
-                                    child: Row(
-                                      children: [
-                                        CircleAvatar(
-                                          radius: 8,
-                                          child: CircleAvatar(radius: 4,
-                                          backgroundColor: Colors.white,),
-                                        ),
-                                        Padding(
-                                          padding: const EdgeInsets.all(8.0),
-                                          child: Text("Electric Avenue"),
-                                        ),
-                                        Spacer(),
-                                        Text("\$ ${salesData[index].cost}")
-
-                                      ],
-                                    )
-
-
-
-                                  );
-                                },
-                                separatorBuilder: (context, index){
-                                      return Divider(height: 2, color: Colors.grey, thickness: 2,);
-                                },
+                                  itemBuilder: (context, index) {
+                                    return Container(
+                                        height: 38,
+                                        padding: EdgeInsets.symmetric(horizontal: 16),
+                                        child: Row(
+                                          children: [
+                                            CircleAvatar(
+                                              radius: 8,
+                                              child: CircleAvatar(
+                                                radius: 4,
+                                                backgroundColor: Colors.white,
+                                              ),
+                                            ),
+                                            Padding(
+                                              padding: const EdgeInsets.all(8.0),
+                                              child: Text("Electric Avenue"),
+                                            ),
+                                            Spacer(),
+                                            Text("\$ ${salesData[index].cost}")
+                                          ],
+                                        ));
+                                  },
+                                  separatorBuilder: (context, index) {
+                                    return Divider(
+                                      height: 2,
+                                      color: Colors.grey,
+                                      thickness: 2,
+                                    );
+                                  },
                                 ),
                               )
                             ],
