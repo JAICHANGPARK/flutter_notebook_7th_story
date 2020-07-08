@@ -314,7 +314,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                     stacked: true
                                   ),
                                   animate: true,
-                                ) ,
+                                ) : Center(child: CircularProgressIndicator()),
                               ),
                               Expanded(
                                 child: Placeholder(),
