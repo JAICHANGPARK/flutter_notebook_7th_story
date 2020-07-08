@@ -17,6 +17,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   int _pageIndex = 0;
   PageController _pageController;
   List<charts.Series<Payment, String>> seriesList;
+  List<charts.Series<Payment, String>> lineData;
+  List<charts.Series<Payment, String>> lineData2;
+
 
   final data = [
     Payment("05", 16),
