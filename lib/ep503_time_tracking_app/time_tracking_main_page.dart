@@ -350,7 +350,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   itemCount: salesData.length,
                                     itemBuilder: (context, index) {
                                   return Container(
-                                    height: 32,
+                                    height: 38,
                                     padding: EdgeInsets.symmetric(horizontal: 16),
                                     child: Row(
                                       children: [
