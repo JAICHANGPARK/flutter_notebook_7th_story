@@ -357,7 +357,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                 ) : Center(child: CircularProgressIndicator()),
                               ),
                               Expanded(
-                                child: Placeholder(),
+                                child: ListView.builder(itemBuilder: (context, index){
+                                  
+                                }),
                               )
                             ],
                           ),
