@@ -273,7 +273,14 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                               Expanded(
                                 child: Row(
                                   children: [
-                                    
+                                    Container(
+                                      width: 100,
+                                      height: 34,
+                                      decoration: BoxDecoration(
+                                        color: Colors.orange
+                                      ),
+                                    )
+
                                   ],
                                 ),
                               ),
