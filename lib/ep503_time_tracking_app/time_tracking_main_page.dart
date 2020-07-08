@@ -271,7 +271,11 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                             mainAxisSize: MainAxisSize.max,
                             children: [
                               Expanded(
-                                child: Placeholder(),
+                                child: Row(
+                                  children: [
+                                    
+                                  ],
+                                ),
                               ),
                               Expanded(
                                 child: Placeholder(),
