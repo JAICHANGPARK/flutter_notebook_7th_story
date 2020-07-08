@@ -334,7 +334,7 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                           color: Colors.orange
                                       ),
                                       child: Center(
-                                        child: Text("WEEKLY"),
+                                        child: Text("YEARLY"),
 
                                       ),
                                     )
