@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 
-class Payment{
+class Payment {
   final String month;
   final int cost;
 
@@ -18,15 +18,12 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
   PageController _pageController;
   List<charts.Series<Payment, String>> seriesList;
 
-
-
   final data = [
     Payment("05", 16),
     Payment("06", 38),
     Payment("07", 36),
     Payment("08", 41),
     Payment("09", 24),
-
   ];
 
   @override
@@ -35,17 +32,9 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
     super.initState();
     _pageController = PageController(initialPage: 0, viewportFraction: 0.9);
     seriesList = [
-      charts.Series<Payment, String>(
-        id: "cost",
-        domainFn: (v, _) => v.month,
-        measureFn: (v, _) => v.cost,
-        data: data
-      ),
+      charts.Series<Payment, String>(id: "cost", domainFn: (v, _) => v.month, measureFn: (v, _) => v.cost, data: data),
     ];
-    setState(() {
-
-    });
-
+    setState(() {});
   }
 
   @override
@@ -141,15 +130,16 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                   ),
                                   Expanded(
                                     flex: 2,
-                                    child: seriesList != null ?charts.BarChart(
-                                      seriesList,
-                                      animate: false,
-                                    ): Center(child: CircularProgressIndicator()),
+                                    child: seriesList != null
+                                        ? charts.BarChart(
+                                            seriesList,
+                                            animate: false,
+                                          )
+                                        : Center(child: CircularProgressIndicator()),
                                   ),
                                   Expanded(
                                     child: Row(
                                       children: [
-
                                         Expanded(
                                           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
                                             Text(
@@ -189,21 +179,21 @@ class _TimeTrackingMainPageState extends State<TimeTrackingMainPage> {
                                             height: 32,
                                             width: 100,
                                             decoration: BoxDecoration(
-                                              color: Colors.red[100],
-                                              borderRadius: BorderRadius.circular(8)
-                                            ),
+                                                color: Colors.red[100], borderRadius: BorderRadius.circular(8)),
                                             child: Row(
                                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               children: [
-                                                Icon(Icons.calendar_today, size: 16,
-                                                  color: Colors.red,),
-                                                Text("6 DAY LEFT", style: TextStyle(
+                                                Icon(
+                                                  Icons.calendar_today,
+                                                  size: 16,
                                                   color: Colors.red,
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 12
-                                                ),)
-
+                                                ),
+                                                Text(
+                                                  "6 DAY LEFT",
+                                                  style: TextStyle(
+                                                      color: Colors.red, fontWeight: FontWeight.bold, fontSize: 12),
+                                                )
                                               ],
                                             ),
                                           ),
