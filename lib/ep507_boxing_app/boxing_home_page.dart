@@ -9,6 +9,11 @@ class BoxingHomePage extends StatefulWidget {
 class _BoxingHomePageState extends State<BoxingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Column(),
+        
+      ),
+    );
   }
 }
