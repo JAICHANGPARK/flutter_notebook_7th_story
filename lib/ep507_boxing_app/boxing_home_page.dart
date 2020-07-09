@@ -13,6 +13,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
+            Container(
+              height: MediaQuery.of(context).size.height / 3,
+              child: Placeholder(),
+            ),
+            Container(
+              height: MediaQuery.of(context).size.height / 8,
+              
+            )
 
           ],
         ),
