@@ -22,8 +22,30 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
       name: "Marta Keller",
       time: "Today, 4:00 PM",
       attendees: "34"
+    ),
+    Boxing(
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34"
+    ),
+    Boxing(
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34"
+    ),
+    Boxing(
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34"
     )
   ];
+
+  List<Widget> _buildCourseWidget(List<Boxing> data){
+    return
+  }
 
 
   @override
