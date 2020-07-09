@@ -13,7 +13,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            
+
           ],
         ),
 
@@ -21,3 +21,23 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
