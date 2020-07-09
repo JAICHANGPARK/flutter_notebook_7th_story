@@ -46,6 +46,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Widget> _buildCourseWidget(List<Boxing> data){
     return data.map((e) => Container(
       height:  MediaQuery.of(context).size.height / 3,
+      child: Placeholder(),
     )).toList();
   }
 
@@ -67,7 +68,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
             Container(
               height:  MediaQuery.of(context).size.height / 3,
               child: Placeholder(),
-            )
+            ),
+            ..._buildCourseWidget(_items),
 
 
           ],
