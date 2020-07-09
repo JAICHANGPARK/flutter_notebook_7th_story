@@ -5,7 +5,8 @@ class Boxing{
   final String name;
   final String time;
   final String attendees;
-  
+
+  Boxing(this.title, this.name, this.time, this.attendees);
 }
 
 class BoxingHomePage extends StatefulWidget {
