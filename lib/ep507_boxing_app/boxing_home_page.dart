@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 
 class Boxing{
-  String title;
-  String name;
-  String time;
-  String attendees;
+  final String title;
+  final String name;
+  final String time;
+  final String attendees;
+  
 }
 
 class BoxingHomePage extends StatefulWidget {
