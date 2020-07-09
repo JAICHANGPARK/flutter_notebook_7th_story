@@ -19,8 +19,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
             ),
             Container(
               height: MediaQuery.of(context).size.height / 8,
+              child: Placeholder(),
+            ),
+            Container(
+              height:  MediaQuery.of(context).size.height / 4,
               
             )
+
 
           ],
         ),
