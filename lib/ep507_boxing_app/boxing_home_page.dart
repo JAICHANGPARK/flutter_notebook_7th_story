@@ -16,6 +16,15 @@ class BoxingHomePage extends StatefulWidget {
 
 class _BoxingHomePageState extends State<BoxingHomePage> {
 
+  List<Boxing> _items = [
+    Boxing(
+      title: "ROUND GRID",
+      name: "Marta Keller",
+      time: "Today, 4:00 PM",
+      attendees: "34"
+    )
+  ];
+
 
   @override
   Widget build(BuildContext context) {
