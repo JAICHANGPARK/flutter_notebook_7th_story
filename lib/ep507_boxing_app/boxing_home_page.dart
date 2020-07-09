@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+class Boxing{
+  String title;
+  String name;
+  String time;
+  String attendees;
+}
 
 class BoxingHomePage extends StatefulWidget {
   @override
@@ -7,6 +13,8 @@ class BoxingHomePage extends StatefulWidget {
 }
 
 class _BoxingHomePageState extends State<BoxingHomePage> {
+
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,8 +30,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               child: Placeholder(),
             ),
             Container(
-              height:  MediaQuery.of(context).size.height / 4,
-              
+              height:  MediaQuery.of(context).size.height / 3,
+              child: Placeholder(),
             )
 
 
