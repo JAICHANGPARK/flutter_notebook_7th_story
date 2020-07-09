@@ -11,8 +11,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(),
-        
+        child: Column(
+          children: [
+            
+          ],
+        ),
+
       ),
     );
   }
