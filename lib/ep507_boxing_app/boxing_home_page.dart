@@ -9,6 +9,6 @@ class BoxingHomePage extends StatefulWidget {
 class _BoxingHomePageState extends State<BoxingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
