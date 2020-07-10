@@ -69,7 +69,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                 height: 64,
                                 width: 64,
                                 decoration: BoxDecoration(
-                                  color: Colors.white.withOpacity(0.2)
+                                  color: Colors.white.withOpacity(0.4),
+                                  borderRadius: BorderRadius.circular(8)
                                 ),
                                 
                               )
