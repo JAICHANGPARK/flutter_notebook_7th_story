@@ -108,9 +108,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                 offset: Offset(0, 2))
                           ]),
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text("Follow channel"),
-                          Icon(Icons.add_circle)
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Icon(Icons.add_circle),
+                          )
                         ],
                       ),
 
