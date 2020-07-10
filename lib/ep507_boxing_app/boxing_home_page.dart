@@ -47,6 +47,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Placeholder(),
+                  ),
+                  Positioned(
+                    left: 16,
+                    right: 16,
+                    bottom: 8,
+                    child: Container(
+                      height: 64,
+                    ),
                   )
                 ],
               ),
