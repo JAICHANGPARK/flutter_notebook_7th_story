@@ -66,8 +66,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                               ),
                               Spacer(),
                               Container(
-                                height: 64,
-                                width: 64,
+                                height: 48,
+                                width: 48,
                                 decoration: BoxDecoration(
                                   color: Colors.white.withOpacity(0.4),
                                   borderRadius: BorderRadius.circular(8)
