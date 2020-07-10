@@ -57,7 +57,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
 
                       decoration: BoxDecoration(
                         color: Colors.white,
-                        borderRadius: BorderRadius.circular(16)
+                        borderRadius: BorderRadius.circular(16),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black
+                          )
+                        ]
                       ),
 
                     ),
