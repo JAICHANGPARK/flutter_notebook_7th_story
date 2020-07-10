@@ -51,9 +51,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                   Positioned(
                     left: 16,
                     right: 16,
-                    bottom: 8,
+                    bottom: 24,
                     child: Container(
-                      height: 64,
+                      height: 72,
                       color: Colors.white,
                     ),
                   )
