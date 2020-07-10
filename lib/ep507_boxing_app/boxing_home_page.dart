@@ -110,7 +110,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("Follow channel"),
+                          Text("Follow channel", style: TextStyle(
+                            color: Colors.brown,
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18
+                          ),),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Icon(Icons.add_circle),
