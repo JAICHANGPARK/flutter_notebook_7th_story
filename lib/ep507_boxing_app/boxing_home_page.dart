@@ -53,7 +53,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           Row(
                             children: [
                               Column(
-                                children: [Text("DREAMWALKER"), Text("BOXING CLUB")],
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [Text("DREAMWALKER",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),), Text("BOXING CLUB")],
                               )
                             ],
                           )
