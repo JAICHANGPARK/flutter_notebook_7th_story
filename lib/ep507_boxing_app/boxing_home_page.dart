@@ -63,6 +63,15 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                   Text("BOXING CLUB",
                                     style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),)
                                 ],
+                              ),
+                              Spacer(),
+                              Container(
+                                height: 64,
+                                width: 64,
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withOpacity(0.2)
+                                ),
+                                
                               )
                             ],
                           )
