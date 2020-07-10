@@ -50,7 +50,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                       decoration: BoxDecoration(
                         color: Colors.black.withOpacity(.1)
                       ),
-                      padding: EdgeInsets.only(top: 32, left: 16, right: 16),
+                      padding: EdgeInsets.only(top: 48, left: 16, right: 16),
                       child: Column(
                         children: [
                           Row(
