@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Boxing{
+class Boxing {
   final String title;
   final String name;
   final String time;
@@ -15,41 +15,21 @@ class BoxingHomePage extends StatefulWidget {
 }
 
 class _BoxingHomePageState extends State<BoxingHomePage> {
-
   List<Boxing> _items = [
-    Boxing(
-      title: "ROUND GRID",
-      name: "Marta Keller",
-      time: "Today, 4:00 PM",
-      attendees: "34"
-    ),
-    Boxing(
-        title: "ROUND GRID",
-        name: "Marta Keller",
-        time: "Today, 4:00 PM",
-        attendees: "34"
-    ),
-    Boxing(
-        title: "ROUND GRID",
-        name: "Marta Keller",
-        time: "Today, 4:00 PM",
-        attendees: "34"
-    ),
-    Boxing(
-        title: "ROUND GRID",
-        name: "Marta Keller",
-        time: "Today, 4:00 PM",
-        attendees: "34"
-    )
+    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
+    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
+    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
+    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34")
   ];
 
-  List<Widget> _buildCourseWidget(List<Boxing> data){
-    return data.map((e) => Container(
-      height:  MediaQuery.of(context).size.height / 3,
-      child: Placeholder(),
-    )).toList();
+  List<Widget> _buildCourseWidget(List<Boxing> data) {
+    return data
+        .map((e) => Container(
+              height: MediaQuery.of(context).size.height / 3,
+              child: Placeholder(),
+            ))
+        .toList();
   }
-
 
   @override
   Widget build(BuildContext context) {
@@ -66,36 +46,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               child: Placeholder(),
             ),
             Container(
-              height:  MediaQuery.of(context).size.height / 3,
+              height: MediaQuery.of(context).size.height / 3,
               child: Placeholder(),
             ),
             ..._buildCourseWidget(_items),
-
-
           ],
         ),
-
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
