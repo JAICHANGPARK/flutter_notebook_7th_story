@@ -96,7 +96,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     right: 16,
                     bottom: 24,
                     child: Container(
-                      height: 72,
+                      height: 64,
                       decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(16),
@@ -107,6 +107,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                 spreadRadius: 2,
                                 offset: Offset(0, 2))
                           ]),
+                      child: Row(
+                        children: [
+                          Text("Follow channel"),
+                          Icon(Icons.add_circle)
+                        ],
+                      ),
+
                     ),
                   )
                 ],
