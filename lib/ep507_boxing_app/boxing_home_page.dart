@@ -47,9 +47,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.black.withOpacity(.1)
-                      ),
+                      decoration: BoxDecoration(color: Colors.black.withOpacity(.1)),
                       padding: EdgeInsets.only(top: 48, left: 16, right: 16),
                       child: Column(
                         children: [
@@ -57,12 +55,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                             children: [
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [Text("DREAMWALKER",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  
-                                ),), Text("BOXING CLUB")],
+                                children: [
+                                  Text(
+                                    "DREAMWALKER",
+                                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+                                  ),
+                                  Text("BOXING CLUB")
+                                ],
                               )
                             ],
                           )
