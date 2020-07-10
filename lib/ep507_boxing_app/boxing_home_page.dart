@@ -54,7 +54,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     bottom: 24,
                     child: Container(
                       height: 72,
-                      color: Colors.white,
+
+                      decoration: BoxDecoration(
+
+                        color: Colors.white,
+                      ),
+
                     ),
                   )
                 ],
