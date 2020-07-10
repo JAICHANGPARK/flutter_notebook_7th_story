@@ -117,7 +117,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           ),),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Icon(Icons.add_circle),
+                            child: Icon(Icons.add_circle,
+                              color: Colors.brown,),
                           )
                         ],
                       ),
