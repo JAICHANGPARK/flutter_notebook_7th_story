@@ -47,6 +47,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.black.withOpacity(.1)
+                      ),
                       padding: EdgeInsets.only(top: 32, left: 16, right: 16),
                       child: Column(
                         children: [
@@ -58,6 +61,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontWeight: FontWeight.bold,
+                                  
                                 ),), Text("BOXING CLUB")],
                               )
                             ],
