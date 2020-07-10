@@ -39,7 +39,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
           children: [
             Container(
               height: MediaQuery.of(context).size.height / 3,
-              child: Placeholder(),
+              child: Stack(
+                children: [
+                  
+                ],
+              ),
             ),
             Container(
               height: MediaQuery.of(context).size.height / 8,
