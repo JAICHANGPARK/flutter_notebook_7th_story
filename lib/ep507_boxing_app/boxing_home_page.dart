@@ -47,6 +47,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
+                      padding: EdgeInsets.all(24),
                       child: Column(
                         children: [
                           Row(
