@@ -47,7 +47,22 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
-                      child: Column(),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+
+                              Column(
+                                children: [
+                                  Text("DREAMWALKER"),
+                                  Text("BOXING CLUB")
+                                ],
+                              )
+
+                            ],
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Positioned(
