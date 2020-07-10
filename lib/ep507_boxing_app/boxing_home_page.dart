@@ -60,7 +60,10 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         borderRadius: BorderRadius.circular(16),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black
+                            color: Colors.black.withOpacity(.2),
+                            blurRadius: 3,
+                            spreadRadius: 2,
+                            offset: Offset(0, 2)
                           )
                         ]
                       ),
