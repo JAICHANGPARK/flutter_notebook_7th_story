@@ -47,20 +47,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
-                      padding: EdgeInsets.only(top: 32,
-                      left: 16, right: 16),
+                      padding: EdgeInsets.only(top: 32, left: 16, right: 16),
                       child: Column(
                         children: [
                           Row(
                             children: [
-
                               Column(
-                                children: [
-                                  Text("DREAMWALKER"),
-                                  Text("BOXING CLUB")
-                                ],
+                                children: [Text("DREAMWALKER"), Text("BOXING CLUB")],
                               )
-
                             ],
                           )
                         ],
@@ -74,18 +68,15 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     child: Container(
                       height: 72,
                       decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(16),
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(.2),
-                            blurRadius: 3,
-                            spreadRadius: 2,
-                            offset: Offset(0, 2)
-                          )
-                        ]
-                      ),
-
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(16),
+                          boxShadow: [
+                            BoxShadow(
+                                color: Colors.black.withOpacity(.2),
+                                blurRadius: 3,
+                                spreadRadius: 2,
+                                offset: Offset(0, 2))
+                          ]),
                     ),
                   )
                 ],
