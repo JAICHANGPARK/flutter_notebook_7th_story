@@ -60,7 +60,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                     "DREAMWALKER",
                                     style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
                                   ),
-                                  Text("BOXING CLUB")
+                                  Text("BOXING CLUB",
+                                    style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),)
                                 ],
                               )
                             ],
