@@ -46,7 +46,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     bottom: 64,
                     left: 0,
                     right: 0,
-                    child: Placeholder(),
+                    child: Container(
+                      child: Column(),
+                    ),
                   ),
                   Positioned(
                     left: 16,
@@ -54,7 +56,6 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     bottom: 24,
                     child: Container(
                       height: 72,
-
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(16),
