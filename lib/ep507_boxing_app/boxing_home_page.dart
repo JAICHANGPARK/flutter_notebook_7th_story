@@ -47,7 +47,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
-                      decoration: BoxDecoration(color: Colors.black.withOpacity(.1)),
+                      decoration: BoxDecoration(color: Colors.black.withOpacity(.1),
+                      image: DecorationImage(
+                        image: NetworkImage("https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391369_960_720.jpg"),
+                        fit: BoxFit.cover
+                      )),
+
                       padding: EdgeInsets.only(top: 48, left: 16, right: 16),
                       child: Column(
                         children: [
