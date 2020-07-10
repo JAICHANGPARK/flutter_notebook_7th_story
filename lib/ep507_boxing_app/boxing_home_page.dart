@@ -77,7 +77,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                 height: 48,
                                 width: 48,
                                 decoration: BoxDecoration(
-                                    color: Colors.white.withOpacity(0.4), borderRadius: BorderRadius.circular(8)),
+                                    color: Colors.white.withOpacity(0.6), borderRadius: BorderRadius.circular(8)),
                                 child: Center(
                                   child: Icon(
                                     Icons.close,
