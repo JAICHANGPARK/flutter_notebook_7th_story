@@ -25,7 +25,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Widget> _buildCourseWidget(List<Boxing> data) {
     return data
         .map((e) => Container(
-        height: MediaQuery.of(context).size.height / 3,
+        height: MediaQuery.of(context).size.height / 2.8,
             margin: EdgeInsets.all(16),
             decoration: BoxDecoration(color: Colors.grey, borderRadius: BorderRadius.circular(16)),
             padding: EdgeInsets.all(16),
