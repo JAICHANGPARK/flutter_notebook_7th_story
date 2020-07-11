@@ -17,16 +17,31 @@ class BoxingHomePage extends StatefulWidget {
 
 class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Boxing> _items = [
-    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
-    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
-    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34"),
+    Boxing(
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34",
+        img: "https://cdn.pixabay.com/photo/2017/04/25/20/18/sport-2260736__340.jpg"),
+    Boxing(
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34",
+        img: "https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726__340.jpg"),
+    Boxing(
+        img: "https://cdn.pixabay.com/photo/2019/11/11/12/12/woman-4618189__340.jpg",
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34"),
     Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34")
   ];
 
   List<Widget> _buildCourseWidget(List<Boxing> data) {
     return data
         .map((e) => Container(
-        height: MediaQuery.of(context).size.height / 2.8,
+            height: MediaQuery.of(context).size.height / 2.8,
             margin: EdgeInsets.all(16),
             decoration: BoxDecoration(color: Colors.grey, borderRadius: BorderRadius.circular(16)),
             padding: EdgeInsets.all(16),
