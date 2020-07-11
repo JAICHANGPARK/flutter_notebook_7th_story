@@ -130,6 +130,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
             ),
             Container(
               height: MediaQuery.of(context).size.height / 10,
+              padding: EdgeInsets.symmetric(horizontal: 16),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
