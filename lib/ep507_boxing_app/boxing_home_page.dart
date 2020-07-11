@@ -153,6 +153,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(24)
                         ),
+                        child: Center(
+                          child: Text("Live Class"),
+                        ),
                       ),
                     ),
                     Expanded(
