@@ -47,13 +47,13 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     left: 0,
                     right: 0,
                     child: Container(
-                      decoration: BoxDecoration(color: Colors.black.withOpacity(.1),
-                      image: DecorationImage(
-                        image: NetworkImage("https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391369_960_720.jpg"),
-                        fit: BoxFit.cover,
-                        colorFilter: ColorFilter.mode(Colors.black.withOpacity(.4), BlendMode.darken)
-                      )),
-
+                      decoration: BoxDecoration(
+                          color: Colors.black.withOpacity(.1),
+                          image: DecorationImage(
+                              image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2016/05/14/03/24/girl-in-the-gym-1391369_960_720.jpg"),
+                              fit: BoxFit.cover,
+                              colorFilter: ColorFilter.mode(Colors.black.withOpacity(.4), BlendMode.darken))),
                       padding: EdgeInsets.only(top: 48, left: 16, right: 16),
                       child: Column(
                         children: [
@@ -110,19 +110,19 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
-                          Text("Follow channel", style: TextStyle(
-                            color: Colors.brown,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 18
-                          ),),
+                          Text(
+                            "Follow channel",
+                            style: TextStyle(color: Colors.brown, fontWeight: FontWeight.bold, fontSize: 18),
+                          ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
-                            child: Icon(Icons.add_circle,
-                              color: Colors.brown,),
+                            child: Icon(
+                              Icons.add_circle,
+                              color: Colors.brown,
+                            ),
                           )
                         ],
                       ),
-
                     ),
                   )
                 ],
@@ -132,15 +132,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               height: MediaQuery.of(context).size.height / 10,
               padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.grey[200],
-                  borderRadius: BorderRadius.circular(36)
-
-                ),
+                decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(36)),
                 child: Row(
-                  children: [
-
-                  ],
+                  children: [],
                 ),
               ),
             ),
