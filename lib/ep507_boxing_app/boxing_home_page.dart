@@ -132,7 +132,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               height: MediaQuery.of(context).size.height / 10,
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.grey
+                  color: Colors.grey[200],
+
                 ),
                 child: Row(
                   children: [
