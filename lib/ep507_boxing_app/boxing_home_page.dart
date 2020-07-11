@@ -16,6 +16,7 @@ class BoxingHomePage extends StatefulWidget {
 }
 
 class _BoxingHomePageState extends State<BoxingHomePage> {
+  int _tabIndex = 0;
   List<Boxing> _items = [
     Boxing(
         img: "https://cdn.pixabay.com/photo/2017/04/26/09/44/sport-2262083__340.jpg",
