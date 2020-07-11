@@ -31,9 +31,18 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                 borderRadius: BorderRadius.circular(16)
               ),
               height: MediaQuery.of(context).size.height / 3,
-              child: Placeholder(
-
-              ),
+              child: Column(
+                children: [
+                  Expanded(
+                    flex: 1,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    flex: 1,
+                    child: Placeholder(),
+                  )
+                ],
+              )
             ))
         .toList();
   }
