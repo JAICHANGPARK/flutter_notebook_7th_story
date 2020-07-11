@@ -48,7 +48,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
         .map((e) => Container(
             height: MediaQuery.of(context).size.height / 2.8,
             margin: EdgeInsets.all(16),
-            decoration: BoxDecoration(color: Colors.grey, borderRadius: BorderRadius.circular(16)),
+            decoration: BoxDecoration(color: Colors.grey, borderRadius: BorderRadius.circular(16),
+            image: DecorationImage(
+              image: NetworkImage(e.img),
+              fit: BoxFit.cover
+            )),
             padding: EdgeInsets.all(16),
             child: Column(
               children: [
