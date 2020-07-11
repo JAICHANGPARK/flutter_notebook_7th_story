@@ -165,7 +165,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         decoration: BoxDecoration(
                           color: Colors.transparent
                         ),
-                        
+                        child: Center(
+                          child: Text("Leaderboard", style: TextStyle(
+                            fontWeight: FontWeight.bold
+                          ),),
+                        ),
                       ),
                     )
                   ],
