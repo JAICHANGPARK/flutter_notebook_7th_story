@@ -184,7 +184,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               ),
             ),
             SizedBox(
-              height: 24,
+              height: 8,
             ),
             ..._buildCourseWidget(_items),
           ],
