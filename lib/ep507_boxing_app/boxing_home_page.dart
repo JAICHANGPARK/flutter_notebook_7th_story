@@ -25,11 +25,15 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Widget> _buildCourseWidget(List<Boxing> data) {
     return data
         .map((e) => Container(
+      margin: EdgeInsets.all(16),
               decoration: BoxDecoration(
                 color: Colors.grey,
+                borderRadius: BorderRadius.circular(16)
               ),
               height: MediaQuery.of(context).size.height / 3,
-              child: Column(),
+              child: Placeholder(
+                
+              ),
             ))
         .toList();
   }
