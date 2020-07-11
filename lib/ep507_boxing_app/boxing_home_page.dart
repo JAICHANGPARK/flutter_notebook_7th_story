@@ -138,41 +138,37 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                   children: [
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.transparent
-                       ),
+                        decoration: BoxDecoration(color: Colors.transparent),
                         child: Center(
-                          child: Text("Workouts",style: TextStyle(
-                            fontWeight: FontWeight.bold,
+                          child: Text(
+                            "Workouts",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
                               color: Colors.blueGrey[300],
-                          ),),
-                        ),
-                      ),
-
-                    ),
-                    Expanded(
-                      child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(24)
-                        ),
-                        child: Center(
-                          child: Text("Live Class",style: TextStyle(
-                            fontWeight: FontWeight.bold
-                          ),),
+                            ),
+                          ),
                         ),
                       ),
                     ),
                     Expanded(
                       child: Container(
-                        decoration: BoxDecoration(
-                          color: Colors.transparent
-                        ),
+                        decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(24)),
                         child: Center(
-                          child: Text("Leaderboard", style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            color: Colors.blueGrey[300]
-                          ),),
+                          child: Text(
+                            "Live Class",
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(
+                        decoration: BoxDecoration(color: Colors.transparent),
+                        child: Center(
+                          child: Text(
+                            "Leaderboard",
+                            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blueGrey[300]),
+                          ),
                         ),
                       ),
                     )
