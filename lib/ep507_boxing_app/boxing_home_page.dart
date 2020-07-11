@@ -134,7 +134,17 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               child: Container(
                 decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(36)),
                 child: Row(
-                  children: [],
+                  children: [
+                    Expanded(
+                      child: Container(
+
+                      ),
+                    ),
+                    Expanded(
+                      child: Container(),
+                    )
+
+                  ],
                 ),
               ),
             ),
