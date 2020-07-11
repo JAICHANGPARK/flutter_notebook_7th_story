@@ -130,11 +130,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
             ),
             Container(
               height: MediaQuery.of(context).size.height / 10,
-              padding: EdgeInsets.symmetric(horizontal: 16),
+              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
-                  borderRadius: BorderRadius.circular(16)
+                  borderRadius: BorderRadius.circular(36)
 
                 ),
                 child: Row(
