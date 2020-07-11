@@ -142,7 +142,10 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           color: Colors.transparent
                        ),
                         child: Center(
-                          child: Text("Workouts"),
+                          child: Text("Workouts",style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                              color: Colors.blueGrey[300],
+                          ),),
                         ),
                       ),
 
@@ -167,7 +170,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         ),
                         child: Center(
                           child: Text("Leaderboard", style: TextStyle(
-                            fontWeight: FontWeight.bold
+                            fontWeight: FontWeight.bold,
+                            color: Colors.blueGrey[300]
                           ),),
                         ),
                       ),
