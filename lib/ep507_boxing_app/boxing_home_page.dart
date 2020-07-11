@@ -136,14 +136,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                 child: Row(
                   children: [
                     Expanded(
-                      child: Container(
-
-                      ),
+                      child: Container(),
+                    ),
+                    Expanded(
+                      child: Container(),
                     ),
                     Expanded(
                       child: Container(),
                     )
-
                   ],
                 ),
               ),
