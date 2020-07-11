@@ -136,7 +136,15 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                 child: Row(
                   children: [
                     Expanded(
-                      child: Container(),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.transparent
+                       ),
+                        child: Center(
+                          child: Text("Workouts"),
+                        ),
+                      ),
+
                     ),
                     Expanded(
                       child: Container(),
