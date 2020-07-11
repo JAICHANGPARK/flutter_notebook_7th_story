@@ -132,6 +132,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               height: MediaQuery.of(context).size.height / 10,
               padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
+                padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(36)),
                 child: Row(
                   children: [
@@ -147,7 +148,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
 
                     ),
                     Expanded(
-                      child: Container(),
+                      child: Container(
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(24)
+                        ),
+                      ),
                     ),
                     Expanded(
                       child: Container(),
