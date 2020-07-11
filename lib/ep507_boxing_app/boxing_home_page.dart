@@ -18,6 +18,12 @@ class BoxingHomePage extends StatefulWidget {
 class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Boxing> _items = [
     Boxing(
+        img: "https://cdn.pixabay.com/photo/2017/04/26/09/44/sport-2262083__340.jpg",
+        title: "ROUND GRID",
+        name: "Marta Keller",
+        time: "Today, 4:00 PM",
+        attendees: "34"),
+    Boxing(
         title: "ROUND GRID",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
@@ -35,7 +41,6 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
         name: "Marta Keller",
         time: "Today, 4:00 PM",
         attendees: "34"),
-    Boxing(title: "ROUND GRID", name: "Marta Keller", time: "Today, 4:00 PM", attendees: "34")
   ];
 
   List<Widget> _buildCourseWidget(List<Boxing> data) {
