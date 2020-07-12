@@ -58,7 +58,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
               children: [
                 Expanded(
                   flex: 2,
-                  child: Placeholder(),
+                  child: Container(),
                 ),
                 Expanded(
                   flex: 3,
