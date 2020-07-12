@@ -63,6 +63,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                 Expanded(
                   flex: 1,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
