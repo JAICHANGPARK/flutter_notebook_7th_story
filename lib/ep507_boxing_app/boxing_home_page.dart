@@ -101,12 +101,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                               ),
                               Row(
                                 children: [
-                                  IconButton(
-                                    icon: Icon(Icons.timer),
-                                    color: Colors.white,
-                                    onPressed: (){},
-                                  ),
-                                  Text(e.time, style: TextStyle(
+                                  Icon(Icons.account_circle, color: Colors.white,),
+
+                                  Text(e.attendees, style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                   ),),
