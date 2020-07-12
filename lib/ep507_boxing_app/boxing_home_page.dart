@@ -88,15 +88,15 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                             children: [
                               Row(
                                 children: [
-                                  Row(
-                                    children: [
-                                      IconButton(
-                                        icon: Icon(Icons.timer),
-                                        color: Colors.white,
-                                        onPressed: (){},
-                                      )
-                                    ],
-                                  )
+                                  IconButton(
+                                    icon: Icon(Icons.timer),
+                                    color: Colors.white,
+                                    onPressed: (){},
+                                  ),
+                                  Text(e.time, style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),),
                                 ],
                               )
 
