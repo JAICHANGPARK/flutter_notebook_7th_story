@@ -68,53 +68,60 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text(e.title,style: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold,
-                            fontSize: 28
-                          ),),
+                          Text(
+                            e.title,
+                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 28),
+                          ),
                           CircleAvatar()
                         ],
                       ),
-                      Text(e.name, style: TextStyle(
-                        color: Colors.white.withOpacity(.5),
-                        fontWeight: FontWeight.bold,
-                        fontSize: 20
-                      ),),
+                      Text(
+                        e.name,
+                        style:
+                            TextStyle(color: Colors.white.withOpacity(.5), fontWeight: FontWeight.bold, fontSize: 20),
+                      ),
                       Spacer(),
                       Row(
                         children: [
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(
                                 children: [
-                                  IconButton(
-                                    icon: Icon(Icons.timer),
+                                  Icon(
+                                    Icons.timer,
                                     color: Colors.white,
-                                    onPressed: (){},
                                   ),
-                                  Text(e.time, style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                  ),),
+                                  Text(
+                                    e.time,
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                 ],
                               ),
                               Row(
                                 children: [
-                                  Icon(Icons.account_circle, color: Colors.white,),
-
-                                  Text(e.attendees, style: TextStyle(
+                                  Icon(
+                                    Icons.account_circle,
                                     color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                  ),),
+                                  ),
+                                  Text(
+                                    "${e.attendees} attendees",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
                                 ],
                               )
-
                             ],
                           ),
                           Spacer(),
                           Container(
-                            height: 52,width: 96,
+                            height: 52,
+                            width: 96,
                             decoration: BoxDecoration(
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8),
@@ -122,7 +129,6 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           )
                         ],
                       )
-
                     ],
                   ),
                 )
