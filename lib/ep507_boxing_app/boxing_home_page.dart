@@ -2,12 +2,13 @@ import 'package:flutter/material.dart';
 
 class Boxing {
   final String img;
+  final String avatarImg;
   final String title;
   final String name;
   final String time;
   final String attendees;
 
-  Boxing({this.img, this.title, this.name, this.time, this.attendees});
+  Boxing({this.img, this.avatarImg, this.title, this.name, this.time, this.attendees});
 }
 
 class BoxingHomePage extends StatefulWidget {
@@ -20,6 +21,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Boxing> _items = [
     Boxing(
         img: "https://cdn.pixabay.com/photo/2017/04/26/09/44/sport-2262083__340.jpg",
+        
         title: "ROUND GRID",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
