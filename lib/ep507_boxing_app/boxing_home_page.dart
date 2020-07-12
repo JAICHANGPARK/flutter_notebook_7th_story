@@ -65,6 +65,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                   child: Column(
                     children: [
                       Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text(e.title,style: TextStyle(
                             color: Colors.white,
