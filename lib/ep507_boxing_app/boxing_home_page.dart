@@ -98,6 +98,19 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                     fontWeight: FontWeight.bold,
                                   ),),
                                 ],
+                              ),
+                              Row(
+                                children: [
+                                  IconButton(
+                                    icon: Icon(Icons.timer),
+                                    color: Colors.white,
+                                    onPressed: (){},
+                                  ),
+                                  Text(e.time, style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),),
+                                ],
                               )
 
                             ],
