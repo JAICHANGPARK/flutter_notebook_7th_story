@@ -86,6 +86,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         children: [
                           Column(
                             children: [
+                              Row(
+                                children: [
+                                  
+                                ],
+                              )
 
                             ],
                           ),
