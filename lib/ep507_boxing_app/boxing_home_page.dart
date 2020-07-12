@@ -92,11 +92,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                     Icons.timer,
                                     color: Colors.white,
                                   ),
-                                  Text(
-                                    e.time,
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text(
+                                      e.time,
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
                                 ],
@@ -107,11 +110,14 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                                     Icons.account_circle,
                                     color: Colors.white,
                                   ),
-                                  Text(
-                                    "${e.attendees} attendees",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
+                                  Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Text(
+                                      "${e.attendees} attendees",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                   ),
                                 ],
