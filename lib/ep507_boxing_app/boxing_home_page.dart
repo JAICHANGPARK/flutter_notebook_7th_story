@@ -66,7 +66,10 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                     children: [
                       Row(
                         children: [
-                          Text(e.title),
+                          Text(e.title,style: TextStyle(
+                            color: Colors.white,
+                            
+                          ),),
                         ],
                       )
 
