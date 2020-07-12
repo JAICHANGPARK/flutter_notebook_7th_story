@@ -132,6 +132,12 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(8),
                             ),
+                            child: Center(
+                              child: Text("Join", style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black,
+                              ),),
+                            ),
                           )
                         ],
                       )
