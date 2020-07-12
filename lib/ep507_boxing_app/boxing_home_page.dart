@@ -21,25 +21,28 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
   List<Boxing> _items = [
     Boxing(
         img: "https://cdn.pixabay.com/photo/2017/04/26/09/44/sport-2262083__340.jpg",
-        
+        avatarImg: "https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4",
         title: "ROUND GRID",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
         attendees: "34"),
     Boxing(
         title: "ROUND GRID",
+        avatarImg: "https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
         attendees: "34",
         img: "https://cdn.pixabay.com/photo/2017/04/25/20/18/sport-2260736__340.jpg"),
     Boxing(
         title: "ROUND GRID",
+        avatarImg: "https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
         attendees: "34",
         img: "https://cdn.pixabay.com/photo/2015/07/02/10/22/training-828726__340.jpg"),
     Boxing(
         img: "https://cdn.pixabay.com/photo/2019/11/11/12/12/woman-4618189__340.jpg",
+        avatarImg: "https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4",
         title: "ROUND GRID",
         name: "Marta Keller",
         time: "Today, 4:00 PM",
