@@ -74,7 +74,8 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                           ),),
                           CircleAvatar()
                         ],
-                      )
+                      ),
+                      Text(e.name),
 
 
                     ],
