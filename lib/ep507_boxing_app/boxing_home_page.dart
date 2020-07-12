@@ -77,7 +77,9 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                             e.title,
                             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 28),
                           ),
-                          CircleAvatar()
+                          CircleAvatar(
+                            backgroundImage: NetworkImage(e.avatarImg),
+                          )
                         ],
                       ),
                       Text(
