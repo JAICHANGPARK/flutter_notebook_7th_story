@@ -68,8 +68,10 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         children: [
                           Text(e.title,style: TextStyle(
                             color: Colors.white,
-
+                            fontWeight: FontWeight.bold,
+                            fontSize: 28
                           ),),
+                          CircleAvatar()
                         ],
                       )
 
