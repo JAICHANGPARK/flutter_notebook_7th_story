@@ -57,11 +57,11 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
             child: Column(
               children: [
                 Expanded(
-                  flex: 1,
+                  flex: 2,
                   child: Placeholder(),
                 ),
                 Expanded(
-                  flex: 1,
+                  flex: 3,
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
