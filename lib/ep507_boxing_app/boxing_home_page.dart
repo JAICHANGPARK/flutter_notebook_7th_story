@@ -79,9 +79,23 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                       Text(e.name, style: TextStyle(
                         color: Colors.white.withOpacity(.5),
                         fontWeight: FontWeight.bold,
-                        fontSize: 24
+                        fontSize: 20
                       ),),
+                      Row(
+                        children: [
+                          Column(
+                            children: [
 
+                            ],
+                          ),
+                          Container(
+                            height: 64,width: 84,
+                            decoration: BoxDecoration(
+                              color: Colors.white
+                            ),
+                          )
+                        ],
+                      )
 
                     ],
                   ),
