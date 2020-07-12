@@ -136,6 +136,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                               child: Text("Join", style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: Colors.black,
+                                fontSize: 20
                               ),),
                             ),
                           )
