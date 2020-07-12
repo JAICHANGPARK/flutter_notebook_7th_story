@@ -81,6 +81,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                         fontWeight: FontWeight.bold,
                         fontSize: 20
                       ),),
+                      Spacer(),
                       Row(
                         children: [
                           Column(
@@ -89,9 +90,10 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
                             ],
                           ),
                           Container(
-                            height: 64,width: 84,
+                            height: 52,width: 96,
                             decoration: BoxDecoration(
-                              color: Colors.white
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(8),
                             ),
                           )
                         ],
