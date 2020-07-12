@@ -102,6 +102,7 @@ class _BoxingHomePageState extends State<BoxingHomePage> {
 
                             ],
                           ),
+                          Spacer(),
                           Container(
                             height: 52,width: 96,
                             decoration: BoxDecoration(
