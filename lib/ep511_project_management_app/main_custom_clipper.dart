@@ -22,6 +22,7 @@ class MainCustomClipper extends CustomClipper<Path> {
         0,
         0.5 * pi,
         false);
+    path.lineTo(0, size.height - radius);
     path.close();
 
     return path;
