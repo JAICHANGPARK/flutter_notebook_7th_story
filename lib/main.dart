@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'ep507_boxing_app/boxing_app.dart';
+import 'ep511_project_management_app/project_management_app.dart';
 
 void main() {
-  runApp(BoxingApp());
+  runApp(ProjectManagementApp());
 }
