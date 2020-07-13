@@ -9,8 +9,8 @@ class PMMainPage extends StatelessWidget {
       body: Stack(
         children: [
           Positioned(
-            left: 16,
-            bottom: 16,
+            left: 24,
+            bottom: 24,
             child: Row(
               children: [
                 Container(
