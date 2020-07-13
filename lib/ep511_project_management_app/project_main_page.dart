@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'main_custom_clipper.dart';
+
 
 class PMMainPage extends StatelessWidget {
   @override
@@ -47,6 +49,7 @@ class PMMainPage extends StatelessWidget {
             bottom: 24,
             top: 24,
             child: ClipPath(
+              clipper: MainCustomClipper(),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.green
