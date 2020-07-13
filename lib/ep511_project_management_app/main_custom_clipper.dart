@@ -8,6 +8,9 @@ class MainCustomClipper extends CustomClipper<Path>{
     // TODO: implement getClip
     Path path = Path();
     path.lineTo(size.width - radius, 0);
+    path.arcTo(Rect.fromPoints(Offset(size.width - radius, 0),
+    Offset(size.width , radius)),
+        startAngle, sweepAngle, forceMoveTo)
     path.lineTo(size.width, size.height);
     path.close();
 
