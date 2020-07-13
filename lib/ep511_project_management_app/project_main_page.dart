@@ -46,7 +46,13 @@ class PMMainPage extends StatelessWidget {
             right: 16,
             bottom: 24,
             top: 24,
-            child: ,
+            child: ClipPath(
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.green
+                ),
+              ),
+            ),
           )
         ],
       ),
