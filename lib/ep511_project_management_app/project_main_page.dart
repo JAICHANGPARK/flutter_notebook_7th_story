@@ -46,7 +46,7 @@ class PMMainPage extends StatelessWidget {
           Positioned(
             left: 16,
             right: 16,
-            bottom: 24,
+            bottom: 48,
             top: 24,
             child: ClipPath(
               clipper: MainCustomClipper(),
