@@ -19,10 +19,18 @@ class PMMainPage extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: Colors.transparent,
                     shape: BoxShape.circle,
-
                     border: Border.all(color: Colors.white, width: 2)
                   ),
-                )
+                ),
+                Container(
+                  height: 42,
+                  width: 42,
+                  decoration: BoxDecoration(
+                      color: Colors.transparent,
+                      shape: BoxShape.circle,
+                      border: Border.all(color: Colors.white, width: 2)
+                  ),
+                ),
               ],
             ),
           )
