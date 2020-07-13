@@ -27,9 +27,12 @@ class PMMainPage extends StatelessWidget {
                   height: 52,
                   width: 52,
                   decoration: BoxDecoration(
-                      color: Colors.transparent,
+                      color: Colors.white,
                       shape: BoxShape.circle,
                       border: Border.all(color: Colors.white, width: 2)
+                  ),
+                  child: Center(
+                    child: Icon(Icons.keyboard_arrow_right, color: Colors.green,),
                   ),
                 ),
               ],
