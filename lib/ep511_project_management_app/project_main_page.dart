@@ -49,7 +49,7 @@ class PMMainPage extends StatelessWidget {
             bottom: 24,
             top: 24,
             child: ClipPath(
-              clipper: MainCustomClipper,
+              clipper: MainCustomClipper(),
               child: Container(
                 decoration: BoxDecoration(
                   color: Colors.green
