@@ -23,8 +23,8 @@ class PMMainPage extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  height: 42,
-                  width: 42,
+                  height: 52,
+                  width: 52,
                   decoration: BoxDecoration(
                       color: Colors.transparent,
                       shape: BoxShape.circle,
