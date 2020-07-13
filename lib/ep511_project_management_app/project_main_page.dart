@@ -14,7 +14,12 @@ class PMMainPage extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  
+                  height: 32,
+                  width: 32,
+                  decoration: BoxDecoration(
+                    color: Colors.transparent,
+                    border: Border.all(color: Colors.white)
+                  ),
                 )
               ],
             ),
