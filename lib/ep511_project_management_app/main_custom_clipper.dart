@@ -6,6 +6,10 @@ class MainCustomClipper extends CustomClipper<Path>{
   Path getClip(Size size) {
     // TODO: implement getClip
     Path path = Path();
+    path.lineTo(0, size.height);
+    path.lineTo(size.width, size.height);
+    path.close();
+
     return path;
   }
 
