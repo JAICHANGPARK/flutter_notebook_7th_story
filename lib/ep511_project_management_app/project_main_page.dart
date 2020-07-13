@@ -18,6 +18,7 @@ class PMMainPage extends StatelessWidget {
                   width: 42,
                   decoration: BoxDecoration(
                     color: Colors.transparent,
+                    shape: BoxShape.circle,
                     border: Border.all(color: Colors.white)
                   ),
                 )
