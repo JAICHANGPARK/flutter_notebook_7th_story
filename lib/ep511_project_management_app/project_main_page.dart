@@ -22,6 +22,7 @@ class PMMainPage extends StatelessWidget {
                     border: Border.all(color: Colors.white, width: 2)
                   ),
                 ),
+                SizedBox(width: 16,),
                 Container(
                   height: 52,
                   width: 52,
