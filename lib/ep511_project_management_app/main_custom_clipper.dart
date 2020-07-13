@@ -10,13 +10,18 @@ class MainCustomClipper extends CustomClipper<Path> {
     // TODO: implement getClip
     Path path = Path();
     path.lineTo(size.width - radius, 0);
-    path.arcTo(Rect.fromPoints(Offset(size.width - radius, 0),
-        Offset(size.width, radius)), 1.5 * pi, 0.5 * pi, true);
+    path.arcTo(Rect.fromPoints(Offset(size.width - radius, 0), Offset(size.width, radius)), 1.5 * pi, 0.5 * pi, true);
     path.lineTo(size.width, size.height - radius);
-    path.arcTo(Rect.fromCircle(center: Offset(
-      size.width - radius,
-      size.height - radius,
-    ), radius: radius), startAngle, sweepAngle, forceMoveTo)
+    path.arcTo(
+        Rect.fromCircle(
+            center: Offset(
+              size.width - radius,
+              size.height - radius,
+            ),
+            radius: radius),
+        0,
+        0.5 * pi,
+        false);
     path.close();
 
     return path;
