@@ -59,9 +59,13 @@ class PMMainPage extends StatelessWidget {
                 child: Column(
                   children: [
                     SizedBox(height: 24,),
-                    Text("Workly"),
+                    Text("Workly", style: GoogleFonts.montserrat(
+                        color: Colors.white
+                    ),),
                     SizedBox(height: 64,),
-                    Text("PROJECTS"),
+                    Text("PROJECTS", style: GoogleFonts.montserrat(
+                      color: Colors.white
+                    ),),
                     Text("manage your projects",
                       textAlign: TextAlign.center,
                       style: GoogleFonts.montserrat(
@@ -72,7 +76,9 @@ class PMMainPage extends StatelessWidget {
                     SizedBox(height: 64,),
                     SizedBox(height: 84,
                     width: 160,
-                    child: Placeholder(),)
+                    child: ClipPath(
+
+                    ),)
                   ],
                 ),
               ),
