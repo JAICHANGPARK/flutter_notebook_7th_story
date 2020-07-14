@@ -7,7 +7,7 @@ class PMMainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.yellow,
+      backgroundColor: Colors.yellow, // 255 211 75
       body: Stack(
         children: [
           Positioned(
@@ -52,7 +52,7 @@ class PMMainPage extends StatelessWidget {
               clipper: MainCustomClipper(),
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.green
+                  color: Color(0xff00A15D ) // 0 161 93
                 ),
               ),
             ),
