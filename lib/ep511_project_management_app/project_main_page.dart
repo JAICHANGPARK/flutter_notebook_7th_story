@@ -60,10 +60,14 @@ class PMMainPage extends StatelessWidget {
                   children: [
                     SizedBox(height: 24,),
                     Text("Workly"),
-                    SizedBox(height: 120,),
+                    SizedBox(height: 64,),
                     Text("PROJECTS"),
-                    Text("manage your projects", style: GoogleFonts.montserrat(
-                      fontSize: 42
+                    Text("manage your projects",
+                      textAlign: TextAlign.center,
+                      style: GoogleFonts.montserrat(
+                      fontSize: 42,
+                      color: Colors.white,
+
                     ),),
                     SizedBox(height: 64,),
                     SizedBox(height: 84,
