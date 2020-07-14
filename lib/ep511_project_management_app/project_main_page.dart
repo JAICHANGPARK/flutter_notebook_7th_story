@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'button_clipper.dart';
 import 'main_custom_clipper.dart';
 
 
@@ -77,6 +78,7 @@ class PMMainPage extends StatelessWidget {
                     SizedBox(height: 84,
                     width: 160,
                     child: ClipPath(
+                      clipper: ButtonClipper(),
 
                     ),)
                   ],
