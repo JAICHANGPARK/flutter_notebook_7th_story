@@ -23,7 +23,7 @@ class MainCustomClipper extends CustomClipper<Path> {
         0.5 * pi,
         false);
     path.lineTo(radius / 2, size.height - radius);
-    path.arcTo(Rect.fromLTRB(radius / 2, (size.height - (3 * radius)), radius, size.height - radius),
+    path.arcTo(Rect.fromLTRB(radius / 1.2, (size.height - (3 * radius)), radius, size.height - radius),
         0.5 * pi, 0.5 * pi, false);
     path.lineTo(0, radius);
     path.close();
