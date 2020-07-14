@@ -55,11 +55,16 @@ class PMMainPage extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Color(0xff00A15D ) // 0 161 93
                 ),
+                padding: EdgeInsets.all(24),
                 child: Column(
                   children: [
+                    SizedBox(height: 24,),
                     Text("Workly"),
+                    SizedBox(height: 120,),
                     Text("PROJECTS"),
-                    Text("manage your projects", style: GoogleFonts.montserrat(),),
+                    Text("manage your projects", style: GoogleFonts.montserrat(
+                      fontSize: 42
+                    ),),
                     SizedBox(height: 64,),
                     SizedBox(height: 84,
                     width: 160,
