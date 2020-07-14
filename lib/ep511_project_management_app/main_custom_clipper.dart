@@ -26,6 +26,7 @@ class MainCustomClipper extends CustomClipper<Path> {
     path.arcTo(Rect.fromLTRB(radius / 5, (size.height - (3 * radius)), radius, size.height - radius), 0.5 * pi,
         0.5 * pi, false);
     path.lineTo(0, radius);
+    path.arcTo(Rect.fromLTWH(0, 0, 70, 100), 1* pi, 0.5 * pi, false);
     path.close();
 
     return path;
@@ -37,3 +38,15 @@ class MainCustomClipper extends CustomClipper<Path> {
     return false;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
