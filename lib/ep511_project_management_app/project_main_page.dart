@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'main_custom_clipper.dart';
 
@@ -53,6 +54,17 @@ class PMMainPage extends StatelessWidget {
               child: Container(
                 decoration: BoxDecoration(
                   color: Color(0xff00A15D ) // 0 161 93
+                ),
+                child: Column(
+                  children: [
+                    Text("Workly"),
+                    Text("PROJECTS"),
+                    Text("manage your projects", style: GoogleFonts.montserrat(),),
+                    SizedBox(height: 64,),
+                    SizedBox(height: 84,
+                    width: 160,
+                    child: Placeholder(),)
+                  ],
                 ),
               ),
             ),
