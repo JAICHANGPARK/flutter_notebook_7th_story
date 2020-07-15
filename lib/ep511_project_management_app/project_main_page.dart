@@ -89,14 +89,38 @@ class PMMainPage extends StatelessWidget {
                     SizedBox(
                       height: 84,
                       width: 200,
-                      child: ClipPath(
-                        clipper: ButtonClipper(),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Color(0xffffd34b),
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            left: 0,
+                            top: 8,
+                            bottom: 0,
+                            right: 8,
+                            child: ClipPath(
+                              clipper: ButtonClipper(),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.deepOrangeAccent,
+                                ),
+
+                              ),
+
+                            ),
+                          ),
+                          Posi(
+                            child: ClipPath(
+                              clipper: ButtonClipper(),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Color(0xffffd34b),
+                                ),
+
+                              ),
+
+                            ),
                           ),
 
-                        ),
+                        ],
 
                       ),
                     )
