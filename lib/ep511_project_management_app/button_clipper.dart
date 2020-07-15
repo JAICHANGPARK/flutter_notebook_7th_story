@@ -22,10 +22,12 @@ class ButtonClipper extends CustomClipper<Path> {
           0.5 * pi,
           false)
     ..lineTo(radius, size.height)
-    ..arcTo(Rect.fromLTRB(0, (size.height - radius), radius, size.height),
+    ..arcTo(Rect.fromLTRB(radius / 2, (size.height - radius), radius, size.height),
         0.5 * pi,
         0.5 * pi, false)
-    ..lineTo(radius / 2, 0);
+    ..lineTo( 0, radius)
+      ..arcTo(Rect.fromLTWH(0, 0, 70, 100), 1 * pi, 0.5 * pi, false);
+    ;
 
 
     path.close();
