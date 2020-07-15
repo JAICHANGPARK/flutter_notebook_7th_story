@@ -20,7 +20,10 @@ class ButtonClipper extends CustomClipper<Path> {
               radius: radius),
           0,
           0.5 * pi,
-          false);
+          false)
+    ..lineTo(radius, size.height)
+    ;
+
 
     path.close();
     return path;
