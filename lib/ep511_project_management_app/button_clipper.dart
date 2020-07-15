@@ -14,7 +14,7 @@ class ButtonClipper extends CustomClipper<Path> {
       .. arcTo(
           Rect.fromCircle(
               center: Offset(
-                size.width - (radius /2 ),
+                size.width - (radius * 2),
                 size.height - radius,
               ),
               radius: radius),
