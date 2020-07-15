@@ -118,6 +118,12 @@ class PMMainPage extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   color: Color(0xffffd34b),
                                 ),
+                                child: Center(
+                                  child: Text("Create Project",style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18
+                                  ),),
+                                ),
 
                               ),
 
