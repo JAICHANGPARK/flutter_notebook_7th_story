@@ -93,7 +93,7 @@ class PMMainPage extends StatelessWidget {
                         clipper: ButtonClipper(),
                         child: Container(
                           decoration: BoxDecoration(
-                            
+                            color: Color(0xffffd34b),
                           ),
 
                         ),
