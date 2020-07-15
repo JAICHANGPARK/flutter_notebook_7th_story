@@ -8,7 +8,7 @@ class ButtonClipper extends CustomClipper<Path> {
     // TODO: implement getClip
     Path path = Path()
     ..lineTo(size.width - radius, radius)
-    ..arcTo(Rect.fromLTWH(size.width- radius, 0, radius, radius), 1 * pi, 0.5 * pi, false);
+    ..arcTo(Rect.fromPoints(Offset(size.width - radius, 0), Offset(size.width, radius)), 1.5 * pi, 0.5 * pi, true);
 
     
     path.close();
