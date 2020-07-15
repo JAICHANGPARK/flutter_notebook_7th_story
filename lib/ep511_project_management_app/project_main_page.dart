@@ -107,7 +107,11 @@ class PMMainPage extends StatelessWidget {
 
                             ),
                           ),
-                          Posi(
+                          Positioned(
+                            left: 4,
+                            top: 0,
+                            bottom: 4,
+                            right: 0,
                             child: ClipPath(
                               clipper: ButtonClipper(),
                               child: Container(
