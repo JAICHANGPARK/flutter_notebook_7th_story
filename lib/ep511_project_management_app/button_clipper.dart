@@ -6,7 +6,9 @@ class ButtonClipper extends CustomClipper<Path> {
   Path getClip(Size size) {
     // TODO: implement getClip
     Path path = Path()
-    ..lineTo(size.width - radius, radius);
+    ..lineTo(size.width - radius, radius)
+    ;
+
     
     path.close();
     return path;
