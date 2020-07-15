@@ -1,9 +1,6 @@
-
-
-
 import 'package:flutter/material.dart';
 
-class ButtonClipper extends CustomClipper<Path>{
+class ButtonClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     // TODO: implement getClip
@@ -15,7 +12,6 @@ class ButtonClipper extends CustomClipper<Path>{
   @override
   bool shouldReclip(CustomClipper<Path> oldClipper) {
     // TODO: implement shouldReclip
-   return false;
+    return false;
   }
-  
 }
