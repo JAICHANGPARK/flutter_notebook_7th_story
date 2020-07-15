@@ -22,7 +22,7 @@ class ButtonClipper extends CustomClipper<Path> {
           0.5 * pi,
           false)
     ..lineTo(radius, size.height)
-    ;
+    ..lineTo(0, 0);
 
 
     path.close();
