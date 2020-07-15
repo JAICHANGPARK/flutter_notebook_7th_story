@@ -88,7 +88,7 @@ class PMMainPage extends StatelessWidget {
                     ),
                     SizedBox(
                       height: 84,
-                      width: 160,
+                      width: 200,
                       child: ClipPath(
                         clipper: ButtonClipper(),
                         child: Container(
