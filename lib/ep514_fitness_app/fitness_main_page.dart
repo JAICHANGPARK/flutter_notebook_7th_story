@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class FitnessMainPage extends StatefulWidget {
@@ -40,7 +41,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   ),
                   Expanded(
                     child: Container(
-                      decoration: BoxDecoration(),
+                      margin: EdgeInsets.symmetric(horizontal: 24),
+                      decoration: BoxDecoration(
+                        color: Colors.white.withOpacity(0.3)
+                      ),
                       child: TextField(),
                     ),
                   )
