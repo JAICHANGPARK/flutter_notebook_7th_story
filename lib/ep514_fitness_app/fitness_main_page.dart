@@ -10,10 +10,28 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      body: Column(
+        children: [
+          Expanded(
+            child: Placeholder(),
+          )
+        ],
+      ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
