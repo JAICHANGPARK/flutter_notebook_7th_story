@@ -22,6 +22,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       children: [
                         Text("Live Workouts",style: TextStyle(
                           fontSize: 20,
+                          color: Colors.white
                         ),)
                       ],
                     ),
