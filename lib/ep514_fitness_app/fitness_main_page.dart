@@ -18,7 +18,13 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               child: Column(
                 children: [
                   Expanded(
-                    child: Placeholder(),
+                    child: Row(
+                      children: [
+                        Text("Live Workouts",style: TextStyle(
+                          fontSize: 20,
+                        ),)
+                      ],
+                    ),
                   ),
                   Expanded(
                     child: Placeholder(),
@@ -39,11 +45,14 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   children: [
                     Expanded(
                       flex:1,
-                      child: Text("Feature trainers",style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.white
-                      ),),
+                      child: Align(
+                        alignment: Alignment.centerLeft,
+                        child: Text("Feature trainers",style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white
+                        ),),
+                      ),
                     ),
                     Expanded(
                       flex: 3,
