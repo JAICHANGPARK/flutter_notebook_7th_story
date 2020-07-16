@@ -46,12 +46,13 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
             Expanded(
               flex: 2,
               child: Container(
+                margin: EdgeInsets.all(24),
+                decoration: BoxDecoration(color: Colors.teal[500]),
                 child: Center(
                   child: Text(
-                    ""
                     "Create live workout",
                     style: TextStyle(
-                      fontSize: 24,
+                      fontSize: 20,
                       color: Colors.white,
                     ),
                   ),
