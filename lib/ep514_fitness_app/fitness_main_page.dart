@@ -23,20 +23,26 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Live Workouts",style: TextStyle(
-                            fontSize: 20,
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold
-                          ),),
+                          Text(
+                            "Live Workouts",
+                            style: TextStyle(fontSize: 20, color: Colors.white, fontWeight: FontWeight.bold),
+                          ),
                           IconButton(
-                            icon: Icon(Icons.account_circle, color: Colors.white,), onPressed: () {  },
+                            icon: Icon(
+                              Icons.account_circle,
+                              color: Colors.white,
+                            ),
+                            onPressed: () {},
                           )
                         ],
                       ),
                     ),
                   ),
                   Expanded(
-                    child: Placeholder(),
+                    child: Container(
+                      decoration: BoxDecoration(),
+                      child: TextField(),
+                    ),
                   )
                 ],
               ),
@@ -53,14 +59,13 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Expanded(
-                      flex:1,
+                      flex: 1,
                       child: Align(
                         alignment: Alignment.centerLeft,
-                        child: Text("Feature trainers",style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white
-                        ),),
+                        child: Text(
+                          "Feature trainers",
+                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+                        ),
                       ),
                     ),
                     Expanded(
@@ -75,16 +80,11 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               flex: 2,
               child: Container(
                 margin: EdgeInsets.all(24),
-                decoration: BoxDecoration(color: Colors.teal[500],
-                borderRadius: BorderRadius.circular(16)),
+                decoration: BoxDecoration(color: Colors.teal[500], borderRadius: BorderRadius.circular(16)),
                 child: Center(
                   child: Text(
                     "Create live workout",
-                    style: TextStyle(
-                      fontSize: 18,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold
-                    ),
+                    style: TextStyle(fontSize: 18, color: Colors.white, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
