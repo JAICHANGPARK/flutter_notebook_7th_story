@@ -32,17 +32,23 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
             ),
             Expanded(
               flex: 3,
-              child: Column(
-                children: [
-                  Expanded(
-                    flex:1,
-                    child: Placeholder(),
-                  ),
-                  Expanded(
-                    flex: 3,
-                    child: Placeholder(),
-                  )
-                ],
+              child: Padding(
+                padding: const EdgeInsets.only(left: 24),
+                child: Column(
+                  children: [
+                    Expanded(
+                      flex:1,
+                      child: Text("Feature trainers",style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold
+                      ),),
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: Placeholder(),
+                    )
+                  ],
+                ),
               ),
             ),
             Expanded(
