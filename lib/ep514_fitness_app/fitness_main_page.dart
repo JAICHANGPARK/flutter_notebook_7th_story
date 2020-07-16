@@ -25,7 +25,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         children: [
                           Text("Live Workouts",style: TextStyle(
                             fontSize: 20,
-                            color: Colors.white
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold
                           ),),
                           IconButton(
                             icon: Icon(Icons.account_circle, color: Colors.white,), onPressed: () {  },
