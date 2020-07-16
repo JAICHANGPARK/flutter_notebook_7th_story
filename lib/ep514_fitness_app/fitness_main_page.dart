@@ -23,7 +23,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         Text("Live Workouts",style: TextStyle(
                           fontSize: 20,
                           color: Colors.white
-                        ),)
+                        ),),
+                        IconButton(
+                          icon: Icon(Icons.account_circle, color: Colors.white,), onPressed: () {  },
+                        )
                       ],
                     ),
                   ),
