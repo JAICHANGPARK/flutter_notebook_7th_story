@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'ep511_project_management_app/project_management_app.dart';
+
+import 'ep514_fitness_app/firness_app.dart';
 
 void main() {
-  runApp(ProjectManagementApp());
+  runApp(FitnessApp());
 }
