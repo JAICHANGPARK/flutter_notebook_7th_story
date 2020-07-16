@@ -18,16 +18,20 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               child: Column(
                 children: [
                   Expanded(
-                    child: Row(
-                      children: [
-                        Text("Live Workouts",style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white
-                        ),),
-                        IconButton(
-                          icon: Icon(Icons.account_circle, color: Colors.white,), onPressed: () {  },
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(left: 32, right: 24),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Live Workouts",style: TextStyle(
+                            fontSize: 20,
+                            color: Colors.white
+                          ),),
+                          IconButton(
+                            icon: Icon(Icons.account_circle, color: Colors.white,), onPressed: () {  },
+                          )
+                        ],
+                      ),
                     ),
                   ),
                   Expanded(
