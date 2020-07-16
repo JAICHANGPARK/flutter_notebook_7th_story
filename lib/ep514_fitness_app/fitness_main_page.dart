@@ -35,12 +35,14 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               child: Padding(
                 padding: const EdgeInsets.only(left: 24),
                 child: Column(
+                  
                   children: [
                     Expanded(
                       flex:1,
                       child: Text("Feature trainers",style: TextStyle(
                         fontSize: 18,
-                        fontWeight: FontWeight.bold
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white
                       ),),
                     ),
                     Expanded(
