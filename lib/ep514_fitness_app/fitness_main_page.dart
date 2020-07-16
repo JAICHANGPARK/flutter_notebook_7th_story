@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FitnessMainPage extends StatefulWidget {
   @override
   _FitnessMainPageState createState() => _FitnessMainPageState();
@@ -46,7 +45,18 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
             ),
             Expanded(
               flex: 2,
-              child: Placeholder(),
+              child: Container(
+                child: Center(
+                  child: Text(
+                    ""
+                    "Create live workout",
+                    style: TextStyle(
+                      fontSize: 24,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+              ),
             )
           ],
         ),
@@ -54,23 +64,3 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
