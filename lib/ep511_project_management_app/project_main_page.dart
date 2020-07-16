@@ -102,9 +102,7 @@ class PMMainPage extends StatelessWidget {
                                 decoration: BoxDecoration(
                                   color: Colors.deepOrangeAccent,
                                 ),
-
                               ),
-
                             ),
                           ),
                           Positioned(
@@ -119,19 +117,15 @@ class PMMainPage extends StatelessWidget {
                                   color: Color(0xffffd34b),
                                 ),
                                 child: Center(
-                                  child: Text("Create Project",style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 18
-                                  ),),
+                                  child: Text(
+                                    "Create Project",
+                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                                  ),
                                 ),
-
                               ),
-
                             ),
                           ),
-
                         ],
-
                       ),
                     )
                   ],
