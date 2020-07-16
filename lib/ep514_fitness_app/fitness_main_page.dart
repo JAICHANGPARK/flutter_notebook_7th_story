@@ -35,9 +35,11 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               child: Column(
                 children: [
                   Expanded(
+                    flex:1,
                     child: Placeholder(),
                   ),
                   Expanded(
+                    flex: 3,
                     child: Placeholder(),
                   )
                 ],
