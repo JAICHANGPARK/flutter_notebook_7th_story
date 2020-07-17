@@ -53,7 +53,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                           border: InputBorder.none,
                           hintText: "Search workouts and trainers",
                           hintStyle: TextStyle(
-                            color: Colors.white
+                            color: Colors.white,
+                            fontWeight: FontWeight.bold
                           )
                         ),
                       ),
@@ -64,7 +65,13 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
             ),
             Expanded(
               flex: 7,
-              child: Placeholder(),
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index){
+                return Container(
+                  width: MediaQuery,
+                );
+              }),
             ),
             Expanded(
               flex: 3,
