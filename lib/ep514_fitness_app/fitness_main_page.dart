@@ -50,7 +50,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       
                       child: TextField(
                         decoration: InputDecoration(
-                          
+                          icon: Icon(Icons.search)
+                                          
                         ),
                       ),
                     ),
