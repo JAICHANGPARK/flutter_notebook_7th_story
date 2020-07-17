@@ -69,7 +69,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index){
                 return Container(
-                  width: MediaQuery,
+                  width: MediaQuery.of(context).size.width /4,
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                  ),
                 );
               }),
             ),
