@@ -41,7 +41,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   ),
                   Expanded(
                     child: Container(
-                      margin: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
+                      margin: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
                       decoration: BoxDecoration(color: Colors.white.withOpacity(0.3),
                       borderRadius: BorderRadius.circular(36)),
                       padding: EdgeInsets.symmetric(horizontal: 40),
