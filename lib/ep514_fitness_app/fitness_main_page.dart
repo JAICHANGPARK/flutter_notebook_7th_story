@@ -47,11 +47,12 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       decoration: BoxDecoration(color: Colors.white.withOpacity(0.3),
                       borderRadius: BorderRadius.circular(36)),
                       padding: EdgeInsets.symmetric(horizontal: 40),
-                      
                       child: TextField(
                         decoration: InputDecoration(
                           icon: Icon(Icons.search),
-                          border: InputBorder.none
+                          border: InputBorder.none,
+                          hintText: "Search workouts and trainers",
+                          hintStyle: TextStyle()
                         ),
                       ),
                     ),
