@@ -96,6 +96,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                             return Padding(
                               padding: const EdgeInsets.only(right: 24),
                               child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   CircleAvatar(),
@@ -104,13 +105,14 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                                   ),
                                   Text(
                                     "Dream",
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(color: Colors.white, fontSize: 12),
                                   ),
 
                                   Text(
                                     "crossfit",
                                     style: TextStyle(
-                                      color: Colors.white,
+                                      color: Colors.grey,
+                                      fontSize: 12
                                     ),
                                   )
                                 ],
