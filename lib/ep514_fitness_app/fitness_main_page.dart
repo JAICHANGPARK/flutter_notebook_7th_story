@@ -65,7 +65,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
                     return Container(
-                      width: MediaQuery.of(context).size.width / 4,
+                      width: MediaQuery.of(context).size.width / 2,
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
                       decoration: BoxDecoration(
                         color: Colors.red,
@@ -92,7 +92,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     ),
                     Expanded(
                       flex: 3,
-                      child: Placeholder(),
+                      child: ListView(),
                     )
                   ],
                 ),
