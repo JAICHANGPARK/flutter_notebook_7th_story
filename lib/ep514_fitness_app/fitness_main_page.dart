@@ -67,10 +67,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     return Container(
                       width: MediaQuery.of(context).size.width / 2,
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
-                      decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(16)
-                      ),
+                      decoration: BoxDecoration(color: Colors.red, borderRadius: BorderRadius.circular(16)),
                     );
                   }),
             ),
@@ -95,20 +92,31 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       flex: 3,
                       child: ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index){
-                        return Padding(
-                          padding: const EdgeInsets.only(right: 24),
-                          child: Column(
-                            children: [
-                              CircleAvatar(),
-                              Text("Dream", style: TextStyle(
-                                color: Colors.white
-                              ),),
-                              Text("crossfit")
-                            ],
-                          ),
-                        );
-                      }),
+                          itemBuilder: (context, index) {
+                            return Padding(
+                              padding: const EdgeInsets.only(right: 24),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  CircleAvatar(),
+                                  SizedBox(
+                                    height: 8,
+                                  ),
+                                  Text(
+                                    "Dream",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+
+                                  Text(
+                                    "crossfit",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                    ),
+                                  )
+                                ],
+                              ),
+                            );
+                          }),
                     )
                   ],
                 ),
