@@ -42,9 +42,15 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   Expanded(
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 24, vertical: 8),
-                      decoration: BoxDecoration(color: Colors.white.withOpacity(0.3)),
+                      decoration: BoxDecoration(color: Colors.white.withOpacity(0.3),
+                      borderRadius: BorderRadius.circular(36)),
                       padding: EdgeInsets.symmetric(horizontal: 40),
-                      child: TextField(),
+                      
+                      child: TextField(
+                        decoration: InputDecoration(
+                          
+                        ),
+                      ),
                     ),
                   )
                 ],
