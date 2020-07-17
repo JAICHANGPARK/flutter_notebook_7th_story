@@ -93,11 +93,20 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     ),
                     Expanded(
                       flex: 3,
-                      child: ListView.builder(itemBuilder: (context, index){
-                        return Column(
-                          children: [
-
-                          ],
+                      child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index){
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 24),
+                          child: Column(
+                            children: [
+                              CircleAvatar(),
+                              Text("Dream", style: TextStyle(
+                                color: Colors.white
+                              ),),
+                              Text("crossfit")
+                            ],
+                          ),
                         );
                       }),
                     )
