@@ -44,19 +44,15 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   Expanded(
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-                      decoration: BoxDecoration(color: Colors.white.withOpacity(0.3),
-                      borderRadius: BorderRadius.circular(36)),
+                      decoration:
+                          BoxDecoration(color: Colors.white.withOpacity(0.3), borderRadius: BorderRadius.circular(36)),
                       padding: EdgeInsets.symmetric(horizontal: 40),
                       child: TextField(
                         decoration: InputDecoration(
-                          icon: Icon(Icons.search),
-                          border: InputBorder.none,
-                          hintText: "Search workouts and trainers",
-                          hintStyle: TextStyle(
-                            color: Colors.white,
-                            fontWeight: FontWeight.bold
-                          )
-                        ),
+                            icon: Icon(Icons.search),
+                            border: InputBorder.none,
+                            hintText: "Search workouts and trainers",
+                            hintStyle: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
                       ),
                     ),
                   )
@@ -67,14 +63,15 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               flex: 7,
               child: ListView.builder(
                   scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index){
-                return Container(
-                  width: MediaQuery.of(context).size.width /4,
-                  decoration: BoxDecoration(
-                    color: Colors.red,
-                  ),
-                );
-              }),
+                  itemBuilder: (context, index) {
+                    return Container(
+                      width: MediaQuery.of(context).size.width / 4,
+                      margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                      ),
+                    );
+                  }),
             ),
             Expanded(
               flex: 3,
