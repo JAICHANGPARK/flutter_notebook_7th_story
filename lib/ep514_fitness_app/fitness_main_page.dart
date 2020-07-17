@@ -69,6 +69,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
                       decoration: BoxDecoration(
                         color: Colors.red,
+                        borderRadius: BorderRadius.circular(16)
                       ),
                     );
                   }),
@@ -92,7 +93,13 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     ),
                     Expanded(
                       flex: 3,
-                      child: ListView(),
+                      child: ListView.builder(itemBuilder: (context, index){
+                        return Column(
+                          children: [
+
+                          ],
+                        );
+                      }),
                     )
                   ],
                 ),
