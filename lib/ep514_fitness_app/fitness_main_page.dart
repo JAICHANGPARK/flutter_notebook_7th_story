@@ -52,7 +52,9 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                           icon: Icon(Icons.search),
                           border: InputBorder.none,
                           hintText: "Search workouts and trainers",
-                          hintStyle: TextStyle()
+                          hintStyle: TextStyle(
+                            color: Colors.white
+                          )
                         ),
                       ),
                     ),
