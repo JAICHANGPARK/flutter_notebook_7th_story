@@ -99,7 +99,9 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  CircleAvatar(),
+                                  CircleAvatar(
+                                    backgroundImage: NetworkImage("https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4"),
+                                  ),
                                   SizedBox(
                                     height: 8,
                                   ),
