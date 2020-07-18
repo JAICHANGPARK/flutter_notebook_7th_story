@@ -67,6 +67,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     return Column(
                       children: [
                         Expanded(
+                          flex: 10,
                           child: Container(
                             width: MediaQuery.of(context).size.width / 2,
                             margin: EdgeInsets.only(right: 8, top: 8, bottom: 8, left: 16),
@@ -100,6 +101,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                             ),
                           ),
                         ),
+                        Expanded(
+                          flex: 1,
+                          child: Text(""),
+                        )
                       ],
                     );
                   }),
