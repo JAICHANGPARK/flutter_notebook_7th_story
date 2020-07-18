@@ -87,7 +87,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                           fontSize: 24
-                        ),), Text("beginner")],
+                        ),), Text("beginner",
+                        style: TextStyle(
+                          color: Colors.white
+                        ),)],
                       ),
                     );
                   }),
