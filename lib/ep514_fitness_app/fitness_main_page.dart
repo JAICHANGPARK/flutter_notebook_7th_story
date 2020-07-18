@@ -72,7 +72,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         borderRadius: BorderRadius.circular(16),
                         image: DecorationImage(
                           image: NetworkImage(
-                            "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg",
+                           index == 0? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg":
+                            "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
                           ),
                           fit: BoxFit.cover,
                         ),
