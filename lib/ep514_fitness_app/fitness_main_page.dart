@@ -70,10 +70,12 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(16),
+                        border: index == 0 ? Border.all() : null,
                         image: DecorationImage(
                           image: NetworkImage(
-                           index == 0? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg":
-                            "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
+                            index == 0
+                                ? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg"
+                                : "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
                           ),
                           fit: BoxFit.cover,
                         ),
@@ -82,15 +84,16 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.end,
-                        children: [Text("Yoga",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                          fontSize: 24
-                        ),), Text("beginner",
-                        style: TextStyle(
-                          color: Colors.white
-                        ),)],
+                        children: [
+                          Text(
+                            "Yoga",
+                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+                          ),
+                          Text(
+                            "beginner",
+                            style: TextStyle(color: Colors.white),
+                          )
+                        ],
                       ),
                     );
                   }),
