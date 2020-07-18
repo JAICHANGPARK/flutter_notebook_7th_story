@@ -70,7 +70,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       decoration: BoxDecoration(color: Colors.red, borderRadius: BorderRadius.circular(16)),
                       child: Column(
                         children: [
-                          
+                          Text("Yoga"),
+                          Text("beginner")
                         ],
                       ),
 
