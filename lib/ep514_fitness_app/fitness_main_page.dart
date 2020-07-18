@@ -67,21 +67,22 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                     return Container(
                       width: MediaQuery.of(context).size.width / 2,
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
-                      decoration: BoxDecoration(color: Colors.red, borderRadius: BorderRadius.circular(16),
-                      image: DecorationImage(
-                        image: NetworkImage("https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg")
-                      )),
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(16),
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg",
+                          ),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                       padding: EdgeInsets.all(24),
-
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Text("Yoga"),
-                          Text("beginner")
-                        ],
+                        children: [Text("Yoga"), Text("beginner")],
                       ),
-
                     );
                   }),
             ),
