@@ -103,7 +103,9 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         ),
                         Expanded(
                           flex: 1,
-                          child: Text(index == 0?"Live Now": "start in 1hr 56m"),
+                          child: Text(index == 0?"Live Now": "start in 1hr 56m", style: TextStyle(
+                            color: Colors.grey
+                          ),),
                         )
                       ],
                     );
