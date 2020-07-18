@@ -64,37 +64,43 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
               child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
-                    return Container(
-                      width: MediaQuery.of(context).size.width / 2,
-                      margin: EdgeInsets.only(right: 8, top: 8, bottom: 8, left: 16),
-                      decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(16),
-                        border: index == 0 ? Border.all(color: Colors.teal, width: 4) : null,
-                        image: DecorationImage(
-                          image: NetworkImage(
-                            index == 0
-                                ? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg"
-                                : "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
+                    return Column(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            width: MediaQuery.of(context).size.width / 2,
+                            margin: EdgeInsets.only(right: 8, top: 8, bottom: 8, left: 16),
+                            decoration: BoxDecoration(
+                              color: Colors.red,
+                              borderRadius: BorderRadius.circular(16),
+                              border: index == 0 ? Border.all(color: Colors.teal, width: 4) : null,
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  index == 0
+                                      ? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg"
+                                      : "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
+                                ),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                            padding: EdgeInsets.all(24),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              children: [
+                                Text(
+                                  "Yoga",
+                                  style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+                                ),
+                                Text(
+                                  "beginner",
+                                  style: TextStyle(color: Colors.white),
+                                )
+                              ],
+                            ),
                           ),
-                          fit: BoxFit.cover,
                         ),
-                      ),
-                      padding: EdgeInsets.all(24),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Text(
-                            "Yoga",
-                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
-                          ),
-                          Text(
-                            "beginner",
-                            style: TextStyle(color: Colors.white),
-                          )
-                        ],
-                      ),
+                      ],
                     );
                   }),
             ),
@@ -111,7 +117,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         alignment: Alignment.centerLeft,
                         child: Text(
                           "Feature trainers",
-                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.white),
+                          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
                         ),
                       ),
                     ),
