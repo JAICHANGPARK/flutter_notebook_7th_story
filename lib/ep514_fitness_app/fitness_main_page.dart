@@ -72,6 +72,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
 
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           Text("Yoga"),
                           Text("beginner")
