@@ -61,42 +61,45 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
             ),
             Expanded(
               flex: 7,
-              child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) {
-                    return Container(
-                      width: MediaQuery.of(context).size.width / 2,
-                      margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
-                      decoration: BoxDecoration(
-                        color: Colors.red,
-                        borderRadius: BorderRadius.circular(16),
-                        border: index == 0 ? Border.all(color: Colors.teal, width: 4) : null,
-                        image: DecorationImage(
-                          image: NetworkImage(
-                            index == 0
-                                ? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg"
-                                : "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
+              child: Padding(
+                padding: const EdgeInsets.only(left: 24),
+                child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return Container(
+                        width: MediaQuery.of(context).size.width / 2,
+                        margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
+                        decoration: BoxDecoration(
+                          color: Colors.red,
+                          borderRadius: BorderRadius.circular(16),
+                          border: index == 0 ? Border.all(color: Colors.teal, width: 4) : null,
+                          image: DecorationImage(
+                            image: NetworkImage(
+                              index == 0
+                                  ? "https://cdn.pixabay.com/photo/2020/06/29/17/41/meditate-5353620_960_720.jpg"
+                                  : "https://cdn.pixabay.com/photo/2020/03/07/15/58/girl-4910154_960_720.jpg",
+                            ),
+                            fit: BoxFit.cover,
                           ),
-                          fit: BoxFit.cover,
                         ),
-                      ),
-                      padding: EdgeInsets.all(24),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        children: [
-                          Text(
-                            "Yoga",
-                            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
-                          ),
-                          Text(
-                            "beginner",
-                            style: TextStyle(color: Colors.white),
-                          )
-                        ],
-                      ),
-                    );
-                  }),
+                        padding: EdgeInsets.all(24),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Text(
+                              "Yoga",
+                              style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 24),
+                            ),
+                            Text(
+                              "beginner",
+                              style: TextStyle(color: Colors.white),
+                            )
+                          ],
+                        ),
+                      );
+                    }),
+              ),
             ),
             Expanded(
               flex: 3,
