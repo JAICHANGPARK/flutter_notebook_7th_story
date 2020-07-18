@@ -70,10 +70,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(16),
-                        border: index == 0 ? Border.all(
-                          color: Colors.teal,
-                          width: 4
-                        ) : null,
+                        border: index == 0 ? Border.all(color: Colors.teal, width: 4) : null,
                         image: DecorationImage(
                           image: NetworkImage(
                             index == 0
