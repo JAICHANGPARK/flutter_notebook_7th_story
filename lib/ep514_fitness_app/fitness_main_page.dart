@@ -68,6 +68,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       width: MediaQuery.of(context).size.width / 2,
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
                       decoration: BoxDecoration(color: Colors.red, borderRadius: BorderRadius.circular(16)),
+                      padding: EdgeInsets.all(24),
                       child: Column(
                         children: [
                           Text("Yoga"),
