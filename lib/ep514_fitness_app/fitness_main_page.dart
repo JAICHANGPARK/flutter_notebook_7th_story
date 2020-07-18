@@ -100,7 +100,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   CircleAvatar(
-                                    backgroundImage: NetworkImage("https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4"),
+                                    backgroundImage: NetworkImage(
+                                        "https://avatars0.githubusercontent.com/u/19484515?s=460&u=0ec7b31ff9129826cccc5cd971887a9dd0e0a538&v=4"),
                                   ),
                                   SizedBox(
                                     height: 8,
@@ -109,13 +110,9 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                                     "Dream",
                                     style: TextStyle(color: Colors.white, fontSize: 12),
                                   ),
-
                                   Text(
                                     "crossfit",
-                                    style: TextStyle(
-                                      color: Colors.grey,
-                                      fontSize: 12
-                                    ),
+                                    style: TextStyle(color: Colors.grey, fontSize: 12),
                                   )
                                 ],
                               ),
