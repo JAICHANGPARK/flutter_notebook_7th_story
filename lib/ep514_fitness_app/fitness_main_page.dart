@@ -85,7 +85,8 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                         children: [Text("Yoga",
                         style: TextStyle(
                           color: Colors.white,
-                          fontWeight: FontWeight.bold
+                          fontWeight: FontWeight.bold,
+                          fontSize: 24
                         ),), Text("beginner")],
                       ),
                     );
