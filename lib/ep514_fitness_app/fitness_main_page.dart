@@ -65,6 +65,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   scrollDirection: Axis.horizontal,
                   itemBuilder: (context, index) {
                     return Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Expanded(
                           flex: 10,
