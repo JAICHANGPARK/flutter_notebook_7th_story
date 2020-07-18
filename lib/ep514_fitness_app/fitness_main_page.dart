@@ -66,7 +66,7 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                   itemBuilder: (context, index) {
                     return Container(
                       width: MediaQuery.of(context).size.width / 2,
-                      margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
+                      margin: EdgeInsets.only(right: 8, top: 8, bottom: 8, left: 16),
                       decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(16),
