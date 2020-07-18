@@ -69,7 +69,9 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                       margin: EdgeInsets.only(right: 12, top: 8, bottom: 8),
                       decoration: BoxDecoration(color: Colors.red, borderRadius: BorderRadius.circular(16)),
                       padding: EdgeInsets.all(24),
+
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Yoga"),
                           Text("beginner")
