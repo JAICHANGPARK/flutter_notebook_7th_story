@@ -20,9 +20,11 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
         ),
         ),
         actions: [
-          Icon(Icons.add_shopping_cart),
+          Icon(Icons.add_shopping_cart, color: Colors.black,),
         ],
         leading: IconButton(
+          color: Colors.black,
+          onPressed: (){},
           icon: Icon(Icons.arrow_back_ios),
         ),
       ),
