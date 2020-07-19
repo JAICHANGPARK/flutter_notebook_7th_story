@@ -12,6 +12,8 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.grey[100],
         centerTitle: true,
         title: Text("Lichi", style: GoogleFonts.firaCode(),),
       ),
