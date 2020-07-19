@@ -9,6 +9,6 @@ class LichiAppHomePage extends StatefulWidget {
 class _LichiAppHomePageState extends State<LichiAppHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
