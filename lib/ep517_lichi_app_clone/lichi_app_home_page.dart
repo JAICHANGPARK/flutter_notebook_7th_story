@@ -41,32 +41,29 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
             bottom: 0,
             child: Container(
               decoration: BoxDecoration(
-
                 image: DecorationImage(
-                  fit: BoxFit.cover,
-                    colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference
-                    ),
+                    fit: BoxFit.cover,
+                    colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
                     image:
                         NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg")),
               ),
             ),
           ),
           Positioned(
-            left: 16,
-            right: 16,
-            bottom: 0,
-            child: SizedBox(
-              height: MediaQuery.of(context).size.height / 2.2,
-              width: MediaQuery.of(context).size.width,
-              child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index){
-                return Container(
-                  width: MediaQuery.of(context).size.width / 2,
-                );
-              }),
-            )
-          )
+              left: 16,
+              right: 16,
+              bottom: 0,
+              child: SizedBox(
+                height: MediaQuery.of(context).size.height / 2.2,
+                width: MediaQuery.of(context).size.width,
+                child: ListView.builder(
+                    scrollDirection: Axis.horizontal,
+                    itemBuilder: (context, index) {
+                      return Container(
+                        width: MediaQuery.of(context).size.width / 2,
+                      );
+                    }),
+              ))
         ],
       ),
     );
