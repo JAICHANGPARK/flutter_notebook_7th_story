@@ -84,11 +84,14 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Row(
                                   children: [
-                                    Text("White Dress"),
-                                    Text("\$3199", style: TextStyle(
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 21
-                                    ),)
+                                    Align(child: Text("White Dress"),
+                                    alignment: Alignment.topLeft,),
+                                    Center(
+                                      child: Text("\$3199", style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 21
+                                      ),),
+                                    )
                                   ],
                                 ),
                               ),
