@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-
-import 'ep514_fitness_app/firness_app.dart';
+import 'ep517_lichi_app_clone/lichi_app.dart';
 
 void main() {
-  runApp(FitnessApp());
+  runApp(LichiAppClone());
 }
