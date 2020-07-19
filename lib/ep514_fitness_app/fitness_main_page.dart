@@ -106,9 +106,10 @@ class _FitnessMainPageState extends State<FitnessMainPage> {
                           flex: 1,
                           child: Padding(
                             padding: const EdgeInsets.only(left: 24),
-                            child: Text(index == 0?"Live Now": "start in 1hr 56m", style: TextStyle(
-                              color: Colors.grey
-                            ),),
+                            child: Text(
+                              index == 0 ? "Live Now" : "start in 1hr 56m",
+                              style: TextStyle(color: Colors.grey),
+                            ),
                           ),
                         )
                       ],
