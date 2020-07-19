@@ -15,7 +15,16 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
         elevation: 0,
         backgroundColor: Colors.grey[100],
         centerTitle: true,
-        title: Text("Lichi", style: GoogleFonts.firaCode(),),
+        title: Text("Lichi", style: GoogleFonts.firaCode(
+          color: Colors.black,
+        ),
+        ),
+        actions: [
+          Icon(Icons.add_shopping_cart),
+        ],
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back_ios),
+        ),
       ),
     );
   }
