@@ -81,7 +81,7 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                             Expanded(
                               flex: 2,
                               child: Container(
-                                color: Colors.grey,
+                                color: Colors.grey[300],
                                 padding: EdgeInsets.all(8),
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
