@@ -50,8 +50,8 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
             ),
           ),
           Positioned(
-              left: 16,
-              right: 16,
+              left: 0,
+              right: 0,
               bottom: 0,
               child: SizedBox(
                 height: MediaQuery.of(context).size.height / 2.2,
@@ -60,7 +60,42 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
                       return Container(
-                        width: MediaQuery.of(context).size.width / 2,
+                        width: MediaQuery.of(context).size.width / 2.1,
+                        margin: EdgeInsets.only(left: 8,right: 8),
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                        ),
+                        child: Column(
+                          children: [
+                            Expanded(
+                              flex: 10,
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: NetworkImage("https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_960_720.jpg"),
+                                    fit: BoxFit.cover
+                                  )
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              flex: 2,
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Row(
+                                  children: [
+                                    Text("White Dress"),
+                                    Text("\$3199", style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 21
+                                    ),)
+                                  ],
+                                ),
+                              ),
+                            ),
+
+                          ],
+                        ),
                       );
                     }),
               ))
@@ -69,3 +104,18 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
