@@ -80,11 +80,16 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                             ),
                             Expanded(
                               flex: 2,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
+                              child: Container(
+                                color: Colors.grey,
+                                padding: EdgeInsets.all(8),
                                 child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Align(child: Text("White Dress"),
+                                    Align(child: Text("White Dress",style: TextStyle(
+                                      fontSize: 18,
+
+                                    ),),
                                     alignment: Alignment.topLeft,),
                                     Center(
                                       child: Text("\$3199", style: TextStyle(
