@@ -18,7 +18,11 @@ class DetailPage extends StatelessWidget {
             top: 0,
             bottom: 0,
             child: Container(
-              
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  image: NetworkImage(imgPath ?? "")
+                )
+              ),
             ),
           )
         ],
