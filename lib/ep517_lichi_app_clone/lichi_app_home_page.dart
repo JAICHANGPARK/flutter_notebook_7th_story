@@ -64,14 +64,17 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                       String title = "White Dress";
                       String price = "\$3199";
                       return GestureDetector(
-                        onTap: (){
+                        onTap: () {
                           Navigator.of(context).push(MaterialPageRoute(
-                            builder: (context)=> DetailPage()
-                          ));
+                              builder: (context) => DetailPage(
+                                    title: title,
+                                    imgPath: img,
+                                    price: price,
+                                  )));
                         },
                         child: Container(
                           width: MediaQuery.of(context).size.width / 2.1,
-                          margin: EdgeInsets.only(left: 8,right: 8),
+                          margin: EdgeInsets.only(left: 8, right: 8),
                           decoration: BoxDecoration(
                             color: Colors.white,
                           ),
@@ -81,11 +84,7 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                                 flex: 10,
                                 child: Container(
                                   decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      image: NetworkImage(img),
-                                      fit: BoxFit.cover
-                                    )
-                                  ),
+                                      image: DecorationImage(image: NetworkImage(img), fit: BoxFit.cover)),
                                 ),
                               ),
                               Expanded(
@@ -96,21 +95,25 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Align(child: Text(title,style: TextStyle(
-                                        fontSize: 18,
-                                      ),),
-                                      alignment: Alignment.topLeft,),
+                                      Align(
+                                        child: Text(
+                                          title,
+                                          style: TextStyle(
+                                            fontSize: 18,
+                                          ),
+                                        ),
+                                        alignment: Alignment.topLeft,
+                                      ),
                                       Center(
-                                        child: Text(price, style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 21
-                                        ),),
+                                        child: Text(
+                                          price,
+                                          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 21),
+                                        ),
                                       )
                                     ],
                                   ),
                                 ),
                               ),
-
                             ],
                           ),
                         ),
@@ -122,18 +125,3 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
