@@ -55,7 +55,20 @@ class DetailPage extends StatelessWidget {
             bottom: 0,
             child: Container(
               height: MediaQuery.of(context).size.height / 6,
+              decoration: BoxDecoration(
+                color: Colors.white.withOpacity(.6)
+              ),
+              child: Column(
+                children: [
+                  Text(title??"Unknown"),
+                  Row(
+                    children: [
+                      
+                    ],
+                  )
 
+                ],
+              ),
             ),
           )
         ],
