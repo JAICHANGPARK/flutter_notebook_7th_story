@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class DetailPage extends StatelessWidget {
   final String title;
@@ -10,6 +11,28 @@ class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.grey[100],
+        centerTitle: true,
+        title: Text(
+          "Lichi",
+          style: GoogleFonts.firaCode(
+            color: Colors.black,
+          ),
+        ),
+        actions: [
+          Icon(
+            Icons.add_shopping_cart,
+            color: Colors.black,
+          ),
+        ],
+        leading: IconButton(
+          color: Colors.black,
+          onPressed: () {},
+          icon: Icon(Icons.arrow_back_ios),
+        ),
+      ),
       body: Stack(
         children: [
           Positioned(
