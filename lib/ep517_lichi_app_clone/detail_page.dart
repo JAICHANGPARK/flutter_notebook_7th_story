@@ -59,11 +59,12 @@ class DetailPage extends StatelessWidget {
                 color: Colors.white.withOpacity(.6)
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(title??"Unknown"),
                   Row(
                     children: [
-                      
+
                     ],
                   )
 
