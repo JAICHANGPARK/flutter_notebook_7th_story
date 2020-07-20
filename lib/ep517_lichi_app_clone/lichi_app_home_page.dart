@@ -82,7 +82,7 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                                 child: Container(
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
-                                      image: NetworkImage("https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_960_720.jpg"),
+                                      image: NetworkImage(img),
                                       fit: BoxFit.cover
                                     )
                                   ),
@@ -96,12 +96,12 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                     children: [
-                                      Align(child: Text("White Dress",style: TextStyle(
+                                      Align(child: Text(title,style: TextStyle(
                                         fontSize: 18,
                                       ),),
                                       alignment: Alignment.topLeft,),
                                       Center(
-                                        child: Text("\$3199", style: TextStyle(
+                                        child: Text(price, style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 21
                                         ),),
