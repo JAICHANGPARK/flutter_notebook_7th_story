@@ -60,6 +60,9 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
+                      String img = "https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_960_720.jpg";
+                      String title = "White Dress";
+                      String price = "\$3199";
                       return GestureDetector(
                         onTap: (){
                           Navigator.of(context).push(MaterialPageRoute(
