@@ -61,6 +61,7 @@ class DetailPage extends StatelessWidget {
               padding: EdgeInsets.all(24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(title??"Unknown", style: TextStyle(
                     fontSize: 24,
@@ -71,6 +72,8 @@ class DetailPage extends StatelessWidget {
                     children: [
                       Icon(Icons.favorite_border),
                       Icon(Icons.share),
+                      Spacer(),
+                      Text(price ?? "\$??")
                     ],
                   )
 
