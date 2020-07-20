@@ -58,7 +58,7 @@ class DetailPage extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(.6)
               ),
-              padding: EdgeInsets.all(24),
+              padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -73,7 +73,9 @@ class DetailPage extends StatelessWidget {
                       Icon(Icons.favorite_border),
                       Icon(Icons.share),
                       Spacer(),
-                      Text(price ?? "\$??")
+                      Text(price ?? "\$??",style: TextStyle(
+                        fontSize: 28
+                      ),)
                     ],
                   )
 
