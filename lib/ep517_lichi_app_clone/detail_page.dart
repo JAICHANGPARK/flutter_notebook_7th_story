@@ -54,17 +54,23 @@ class DetailPage extends StatelessWidget {
             right: 0,
             bottom: 0,
             child: Container(
-              height: MediaQuery.of(context).size.height / 6,
+              height: MediaQuery.of(context).size.height / 7,
               decoration: BoxDecoration(
                 color: Colors.white.withOpacity(.6)
               ),
+              padding: EdgeInsets.all(24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(title??"Unknown"),
+                  Text(title??"Unknown", style: TextStyle(
+                    fontSize: 24,
+                    color: Colors.grey
+                  ),),
+
                   Row(
                     children: [
-
+                      Icon(Icons.favorite_border),
+                      Icon(Icons.share),
                     ],
                   )
 
