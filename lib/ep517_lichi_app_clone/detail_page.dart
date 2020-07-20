@@ -29,7 +29,9 @@ class DetailPage extends StatelessWidget {
         ],
         leading: IconButton(
           color: Colors.black,
-          onPressed: () {},
+          onPressed: () {
+            Navigator.of(context).pop();
+          },
           icon: Icon(Icons.arrow_back_ios),
         ),
       ),
@@ -41,12 +43,7 @@ class DetailPage extends StatelessWidget {
             top: 0,
             bottom: 0,
             child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                  image: NetworkImage(imgPath ?? ""),
-                  fit: BoxFit.cover
-                )
-              ),
+              decoration: BoxDecoration(image: DecorationImage(image: NetworkImage(imgPath ?? ""), fit: BoxFit.cover)),
             ),
           ),
           Positioned(
@@ -55,30 +52,27 @@ class DetailPage extends StatelessWidget {
             bottom: 0,
             child: Container(
               height: MediaQuery.of(context).size.height / 7,
-              decoration: BoxDecoration(
-                color: Colors.white.withOpacity(.6)
-              ),
+              decoration: BoxDecoration(color: Colors.white.withOpacity(.6)),
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(title??"Unknown", style: TextStyle(
-                    fontSize: 24,
-                    color: Colors.grey
-                  ),),
-
+                  Text(
+                    title ?? "Unknown",
+                    style: TextStyle(fontSize: 24, color: Colors.grey),
+                  ),
                   Row(
                     children: [
                       Icon(Icons.favorite_border),
                       Icon(Icons.share),
                       Spacer(),
-                      Text(price ?? "\$??",style: TextStyle(
-                        fontSize: 28
-                      ),)
+                      Text(
+                        price ?? "\$??",
+                        style: TextStyle(fontSize: 28),
+                      )
                     ],
                   )
-
                 ],
               ),
             ),
@@ -88,19 +82,3 @@ class DetailPage extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
