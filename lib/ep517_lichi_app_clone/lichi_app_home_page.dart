@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_7th_story/ep517_lichi_app_clone/detail_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class LichiAppHomePage extends StatefulWidget {
@@ -59,50 +60,56 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                 child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (context, index) {
-                      return Container(
-                        width: MediaQuery.of(context).size.width / 2.1,
-                        margin: EdgeInsets.only(left: 8,right: 8),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                        ),
-                        child: Column(
-                          children: [
-                            Expanded(
-                              flex: 10,
-                              child: Container(
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: NetworkImage("https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_960_720.jpg"),
-                                    fit: BoxFit.cover
-                                  )
-                                ),
-                              ),
-                            ),
-                            Expanded(
-                              flex: 2,
-                              child: Container(
-                                color: Colors.grey[300],
-                                padding: EdgeInsets.all(8),
-                                child: Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Align(child: Text("White Dress",style: TextStyle(
-                                      fontSize: 18,
-
-                                    ),),
-                                    alignment: Alignment.topLeft,),
-                                    Center(
-                                      child: Text("\$3199", style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 21
-                                      ),),
+                      return GestureDetector(
+                        onTap: (){
+                          Navigator.of(context).push(MaterialPageRoute(
+                            builder: (context)=> DetailPage()
+                          ));
+                        },
+                        child: Container(
+                          width: MediaQuery.of(context).size.width / 2.1,
+                          margin: EdgeInsets.only(left: 8,right: 8),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                          ),
+                          child: Column(
+                            children: [
+                              Expanded(
+                                flex: 10,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      image: NetworkImage("https://cdn.pixabay.com/photo/2016/03/23/04/01/beautiful-1274056_960_720.jpg"),
+                                      fit: BoxFit.cover
                                     )
-                                  ],
+                                  ),
                                 ),
                               ),
-                            ),
+                              Expanded(
+                                flex: 2,
+                                child: Container(
+                                  color: Colors.grey[300],
+                                  padding: EdgeInsets.all(8),
+                                  child: Row(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Align(child: Text("White Dress",style: TextStyle(
+                                        fontSize: 18,
+                                      ),),
+                                      alignment: Alignment.topLeft,),
+                                      Center(
+                                        child: Text("\$3199", style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          fontSize: 21
+                                        ),),
+                                      )
+                                    ],
+                                  ),
+                                ),
+                              ),
 
-                          ],
+                            ],
+                          ),
                         ),
                       );
                     }),
