@@ -33,7 +33,43 @@ class _LichiGridPageState extends State<LichiGridPage> {
           icon: Icon(Icons.arrow_back_ios),
         ),
       ),
+      body: GridView.count(crossAxisCount: 2,
+      children: [
+        Container(
+          decoration: BoxDecoration(
+            color: Colors.red
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+              color: Colors.blue
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+              color: Colors.blue
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+              color: Colors.red
+          ),
+        ),
+      ],),
 
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
