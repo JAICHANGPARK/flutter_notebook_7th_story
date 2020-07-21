@@ -42,6 +42,19 @@ class _LichiGridPageState extends State<LichiGridPage> {
           decoration: BoxDecoration(
             color: Colors.red
           ),
+          child: Column(
+            children: [
+              Expanded(
+                flex: 8,
+                child: Placeholder(),
+              ),
+              Expanded(
+                flex: 2,
+                child: Placeholder(),
+              ),
+
+            ],
+          ),
         ),
         Container(
           decoration: BoxDecoration(
