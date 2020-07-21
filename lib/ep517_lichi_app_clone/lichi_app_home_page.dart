@@ -59,6 +59,9 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                         image:
                             NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg")),
                   ),
+                  child: InkWell(
+                    onTap: (){},
+                  ),
                 ),
               ],
             ),
