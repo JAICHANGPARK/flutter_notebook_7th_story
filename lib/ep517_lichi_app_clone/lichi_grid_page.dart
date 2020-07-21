@@ -34,6 +34,7 @@ class _LichiGridPageState extends State<LichiGridPage> {
         ),
       ),
       body: GridView.count(crossAxisCount: 2,
+      childAspectRatio: 0.6,
       children: [
         Container(
           decoration: BoxDecoration(
