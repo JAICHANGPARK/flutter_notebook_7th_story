@@ -50,7 +50,24 @@ class _LichiGridPageState extends State<LichiGridPage> {
               ),
               Expanded(
                 flex: 2,
-                child: Placeholder(),
+                child: Container(
+                  height: MediaQuery.of(context).size.height / 7,
+                  decoration: BoxDecoration(color: Colors.white.withOpacity(.6)),
+                  padding: EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Unknown",
+                        style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
+                      Spacer(),
+                      Text(
+                        "\$9999",
+                        style: TextStyle(fontSize: 18),
+                      )
+                    ],
+                  ),
+                ),
               ),
 
             ],
