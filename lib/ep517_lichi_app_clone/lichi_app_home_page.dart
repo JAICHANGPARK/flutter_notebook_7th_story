@@ -40,17 +40,31 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
             right: 0,
             top: 0,
             bottom: 0,
-            child: PageView(),
-            child: Container(
-              decoration: BoxDecoration(
-                image: DecorationImage(
-                    fit: BoxFit.cover,
-                    colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
-                    image:
+            child: PageView(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                        fit: BoxFit.cover,
+                        colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
+                        image:
                         NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg")),
-              ),
+                  ),
 
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                        fit: BoxFit.cover,
+                        colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
+                        image:
+                        NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg")),
+                  ),
+
+                ),
+              ],
             ),
+
           ),
           Positioned(
               left: 0,
