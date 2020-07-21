@@ -47,10 +47,9 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                     image: DecorationImage(
                         fit: BoxFit.cover,
                         colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
-                        image:
-                        NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg")),
+                        image: NetworkImage(
+                            "https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg")),
                   ),
-
                 ),
                 Container(
                   decoration: BoxDecoration(
@@ -58,13 +57,11 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                         fit: BoxFit.cover,
                         colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.2), BlendMode.difference),
                         image:
-                        NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg")),
+                            NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg")),
                   ),
-
                 ),
               ],
             ),
-
           ),
           Positioned(
               left: 0,
