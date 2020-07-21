@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_notebook_7th_story/ep517_lichi_app_clone/detail_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+import 'lichi_grid_page.dart';
+
 class LichiAppHomePage extends StatefulWidget {
   @override
   _LichiAppHomePageState createState() => _LichiAppHomePageState();
@@ -60,7 +62,9 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                             NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg")),
                   ),
                   child: InkWell(
-                    onTap: (){},
+                    onTap: (){
+                      Navigator.of(context).push(MaterialPageRoute(builder: (context)=> LichiGridPage()));
+                    },
                   ),
                 ),
               ],
