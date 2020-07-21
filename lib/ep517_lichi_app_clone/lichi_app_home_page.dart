@@ -40,6 +40,7 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
             right: 0,
             top: 0,
             bottom: 0,
+            child: PageView(),
             child: Container(
               decoration: BoxDecoration(
                 image: DecorationImage(
@@ -48,6 +49,7 @@ class _LichiAppHomePageState extends State<LichiAppHomePage> {
                     image:
                         NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg")),
               ),
+
             ),
           ),
           Positioned(
