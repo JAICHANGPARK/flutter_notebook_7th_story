@@ -78,19 +78,125 @@ class _LichiGridPageState extends State<LichiGridPage> {
             ],
           ),
         ),
+//
         Container(
           decoration: BoxDecoration(
-              color: Colors.blue
+              color: Colors.red
           ),
-        ),
-        Container(
-          decoration: BoxDecoration(
-              color: Colors.blue
+          child: Column(
+            children: [
+              Expanded(
+                flex: 8,
+                child: Container(
+                  decoration: BoxDecoration(image: DecorationImage(
+                      image: NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg"),
+                      fit: BoxFit.cover
+                  )),
+                ),
+              ),
+              Expanded(
+                flex: 2,
+                child: Container(
+                  height: MediaQuery.of(context).size.height / 7,
+                  decoration: BoxDecoration(color: Colors.white.withOpacity(.6)),
+                  padding: EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Unknown",
+                        style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
+                      Spacer(),
+                      Text(
+                        "\$9999",
+                        style: TextStyle(fontSize: 18),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+
+            ],
           ),
         ),
         Container(
           decoration: BoxDecoration(
               color: Colors.red
+          ),
+          child: Column(
+            children: [
+              Expanded(
+                flex: 8,
+                child: Container(
+                  decoration: BoxDecoration(image: DecorationImage(
+                      image: NetworkImage("https://cdn.pixabay.com/photo/2020/07/14/22/10/woman-5405866_960_720.jpg"),
+                      fit: BoxFit.cover
+                  )),
+                ),
+              ),
+              Expanded(
+                flex: 2,
+                child: Container(
+                  height: MediaQuery.of(context).size.height / 7,
+                  decoration: BoxDecoration(color: Colors.white.withOpacity(.6)),
+                  padding: EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Unknown",
+                        style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
+                      Spacer(),
+                      Text(
+                        "\$9999",
+                        style: TextStyle(fontSize: 18),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+
+            ],
+          ),
+        ),
+        Container(
+          decoration: BoxDecoration(
+              color: Colors.red
+          ),
+          child: Column(
+            children: [
+              Expanded(
+                flex: 8,
+                child: Container(
+                  decoration: BoxDecoration(image: DecorationImage(
+                      image: NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg"),
+                      fit: BoxFit.cover
+                  )),
+                ),
+              ),
+              Expanded(
+                flex: 2,
+                child: Container(
+                  height: MediaQuery.of(context).size.height / 7,
+                  decoration: BoxDecoration(color: Colors.white.withOpacity(.6)),
+                  padding: EdgeInsets.all(16),
+                  child: Row(
+                    children: [
+                      Text(
+                        "Unknown",
+                        style: TextStyle(fontSize: 18, color: Colors.grey),
+                      ),
+                      Spacer(),
+                      Text(
+                        "\$9999",
+                        style: TextStyle(fontSize: 18),
+                      )
+                    ],
+                  ),
+                ),
+              ),
+
+            ],
           ),
         ),
       ],),
