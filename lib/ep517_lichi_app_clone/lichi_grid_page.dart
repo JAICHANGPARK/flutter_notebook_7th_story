@@ -46,7 +46,12 @@ class _LichiGridPageState extends State<LichiGridPage> {
             children: [
               Expanded(
                 flex: 8,
-                child: Placeholder(),
+                child: Container(
+                  decoration: BoxDecoration(image: DecorationImage(
+                    image: NetworkImage("https://cdn.pixabay.com/photo/2016/11/21/16/01/attractive-1846127_960_720.jpg"),
+                    fit: BoxFit.cover
+                  )),
+                ),
               ),
               Expanded(
                 flex: 2,
