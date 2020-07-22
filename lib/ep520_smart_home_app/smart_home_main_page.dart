@@ -40,8 +40,17 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
               children: [
                 IconButton(
                   icon: Icon(Icons.home), onPressed: () {  },
+                  iconSize: 32,
+                ),
+                IconButton(
+                  icon: Icon(Icons.local_florist), onPressed: () {  },
+                  iconSize: 32,
+                ),
+                IconButton(
+                  icon: Icon(Icons.home), onPressed: () {  },
+                  iconSize: 32,
+                ),
 
-                )
               ],
             ),
           )
