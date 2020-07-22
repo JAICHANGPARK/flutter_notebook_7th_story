@@ -9,7 +9,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[50],
+      backgroundColor: Colors.brown[300],
       body: Stack(
         children: [
           Positioned(
@@ -17,13 +17,36 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             right: 0,
             top: 0,
             bottom: 100,
-            child: Placeholder(),
+            child: Container(
+              
+              child: Column(
+                children: [
+
+                ],
+              ),
+            ),
           ),
-          Positioned(
-            
-          )
+
         ],
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
