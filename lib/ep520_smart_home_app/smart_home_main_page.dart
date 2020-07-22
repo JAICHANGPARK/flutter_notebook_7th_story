@@ -37,6 +37,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             right: 0,
             bottom: 0,
             child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 IconButton(
                   icon: Icon(Icons.home), onPressed: () {  },
@@ -47,7 +48,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   iconSize: 32,
                 ),
                 IconButton(
-                  icon: Icon(Icons.home), onPressed: () {  },
+                  icon: Icon(Icons.person), onPressed: () {  },
                   iconSize: 32,
                 ),
 
