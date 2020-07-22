@@ -32,6 +32,19 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
               ),
             ),
           ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Row(
+              children: [
+                IconButton(
+                  icon: Icon(Icons.home), onPressed: () {  },
+
+                )
+              ],
+            ),
+          )
 
         ],
       ),
