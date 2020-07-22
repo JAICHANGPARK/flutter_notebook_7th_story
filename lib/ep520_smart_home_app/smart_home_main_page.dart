@@ -10,6 +10,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.brown[50],
+      body: Stack(
+        children: [
+          
+        ],
+      ),
     );
   }
 }
