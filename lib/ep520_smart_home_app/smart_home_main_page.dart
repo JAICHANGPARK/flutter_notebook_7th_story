@@ -52,7 +52,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                 ),
                 IconButton(
                   icon: Icon(Icons.person), onPressed: () {  },
-                  iconSize: 32,
+                  iconSize: 32,  color: Colors.orangeAccent[100],
                 ),
 
               ],
