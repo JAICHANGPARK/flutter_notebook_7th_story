@@ -17,6 +17,10 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             right: 0,
             top: 0,
             bottom: 100,
+            child: Placeholder(),
+          ),
+          Positioned(
+            
           )
         ],
       ),
