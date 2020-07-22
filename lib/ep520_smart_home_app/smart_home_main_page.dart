@@ -27,16 +27,19 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
-                    child: Placeholder(),
-                  ),
-                  Expanded(
-                    child: Placeholder(),
-                  ),
-                  Expanded(
+                    flex: 2,
                     child: Placeholder(),
                   ),
                   Expanded(
                     flex: 3,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    flex: 2,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    flex: 5,
                     child: Placeholder(),
                   )
                 ],
