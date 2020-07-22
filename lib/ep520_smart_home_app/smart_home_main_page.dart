@@ -30,6 +30,15 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                 children: [
                   Expanded(
                     child: Placeholder(),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
+                  )
+                  ,Expanded(
+                    child: Placeholder(),
                   )
 
                 ],
