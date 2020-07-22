@@ -18,7 +18,9 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             top: 0,
             bottom: 100,
             child: Container(
-              
+              decoration: BoxDecoration(
+                color: Colors.brown[100]
+              ),
               child: Column(
                 children: [
 
