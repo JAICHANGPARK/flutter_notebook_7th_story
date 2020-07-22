@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class SmartHomeMainPage extends StatefulWidget {
@@ -18,6 +19,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             top: 0,
             bottom: 100,
             child: Container(
+              padding: EdgeInsets.all(16),
               decoration: BoxDecoration(
                   color: Colors.orange[50],
                   borderRadius: BorderRadius.only(bottomRight: Radius.circular(64), bottomLeft: Radius.circular(64))),
