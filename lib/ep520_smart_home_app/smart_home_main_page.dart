@@ -19,12 +19,8 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             bottom: 100,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.orange[50],
-                borderRadius: BorderRadius.only(
-                  bottomRight: Radius.circular(64),
-                  bottomLeft: Radius.circular(64)
-                )
-              ),
+                  color: Colors.orange[50],
+                  borderRadius: BorderRadius.only(bottomRight: Radius.circular(64), bottomLeft: Radius.circular(64))),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -36,11 +32,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   ),
                   Expanded(
                     child: Placeholder(),
-                  )
-                  ,Expanded(
+                  ),
+                  Expanded(
+                    flex: 3,
                     child: Placeholder(),
                   )
-
                 ],
               ),
             ),
@@ -53,45 +49,28 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 IconButton(
-                  icon: Icon(Icons.home), onPressed: () {  },
+                  icon: Icon(Icons.home),
+                  onPressed: () {},
                   iconSize: 32,
                   color: Colors.orangeAccent,
                 ),
                 IconButton(
-                  icon: Icon(Icons.local_florist), onPressed: () {
-                },
+                  icon: Icon(Icons.local_florist),
+                  onPressed: () {},
                   iconSize: 32,
                   color: Colors.orangeAccent[100],
                 ),
                 IconButton(
-                  icon: Icon(Icons.person), onPressed: () {  },
-                  iconSize: 32,  color: Colors.orangeAccent[100],
+                  icon: Icon(Icons.person),
+                  onPressed: () {},
+                  iconSize: 32,
+                  color: Colors.orangeAccent[100],
                 ),
-
               ],
             ),
           )
-
         ],
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
