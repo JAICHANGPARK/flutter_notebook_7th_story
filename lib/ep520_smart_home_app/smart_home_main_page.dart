@@ -9,7 +9,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.brown[300],
+      backgroundColor: Colors.orange[100],
       body: Stack(
         children: [
           Positioned(
@@ -19,7 +19,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             bottom: 100,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.brown[100],
+                color: Colors.orange[50],
                 borderRadius: BorderRadius.only(
                   bottomRight: Radius.circular(64),
                   bottomLeft: Radius.circular(64)
@@ -35,13 +35,14 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
           Positioned(
             left: 0,
             right: 0,
-            bottom: 0,
+            bottom: 24,
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 IconButton(
                   icon: Icon(Icons.home), onPressed: () {  },
                   iconSize: 32,
+                  color: Colors.orangeAccent,
                 ),
                 IconButton(
                   icon: Icon(Icons.local_florist), onPressed: () {  },
