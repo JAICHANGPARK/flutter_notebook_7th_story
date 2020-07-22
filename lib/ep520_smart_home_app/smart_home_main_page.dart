@@ -8,6 +8,6 @@ class SmartHomeMainPage extends StatefulWidget {
 class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
