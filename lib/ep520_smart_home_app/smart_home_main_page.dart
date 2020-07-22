@@ -19,7 +19,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
             bottom: 100,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.brown[100]
+                color: Colors.brown[100],
+                borderRadius: BorderRadius.only(
+                  bottomRight: Radius.circular(64),
+                  bottomLeft: Radius.circular(64)
+                )
               ),
               child: Column(
                 children: [
