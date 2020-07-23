@@ -28,7 +28,9 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                 children: [
                   Expanded(
                     flex: 2,
-                    child: Placeholder(),
+                    child: Center(
+                      child: Text("My Home"),
+                    ),
                   ),
                   Expanded(
                     flex: 3,
