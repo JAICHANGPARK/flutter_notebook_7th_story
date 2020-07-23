@@ -48,7 +48,13 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               child: Column(
                                 children: [
                                   CircleAvatar(radius: 52,
-                                  backgroundColor: Colors.white,)
+                                  child: Center(
+                                    child: Text("☀️"),
+                                  ),
+                                  backgroundColor: Colors.white,),
+                                  Text("Morning",style: TextStyle(
+                                    color: Colors.brown
+                                  ),)
                                 ],
                               ),
                             ),
@@ -64,7 +70,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               child: Column(
                                 children: [
                                   CircleAvatar(radius: 24,
-                                    backgroundColor: Colors.white,)
+                                    backgroundColor: Colors.white,),
                                 ],
                               ),
                             ),
@@ -72,7 +78,8 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               child: Column(
                                 children: [
                                   CircleAvatar(radius: 24,
-                                    backgroundColor: Colors.white,)
+                                    backgroundColor: Colors.white,),
+                                  Text("")
                                 ],
                               ),
                             ),
