@@ -131,12 +131,13 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   ),
                   Expanded(
                     flex: 2,
-                    child: Container(
-                      margin: EdgeInsets.symmetric(vertical: 16),
-
-                      width: 180,
-                      decoration: BoxDecoration(
-                        color: Colors.brown[100]
+                    child: Center(
+                      child: Container(
+                        margin: EdgeInsets.symmetric(vertical: 16),
+                        width: 210,
+                        decoration: BoxDecoration(
+                          color: Colors.brown[100]
+                        ),
                       ),
                     ),
                   ),
