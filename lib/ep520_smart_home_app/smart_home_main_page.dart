@@ -168,6 +168,17 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                     child: Stack(
                       children: [
                         Positioned(
+                          left: 32,
+                          right: 32,
+                          top: 24,
+                          child: Container(
+                            height: 180,
+                            decoration: BoxDecoration(
+                              color: Colors.green,
+                            ),
+                          ),
+                        ),
+                        Positioned(
                           left: 16,
                           right: 16,
                           top: 0,
