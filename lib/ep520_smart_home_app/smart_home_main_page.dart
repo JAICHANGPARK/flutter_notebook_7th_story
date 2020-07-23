@@ -29,11 +29,10 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   Expanded(
                     flex: 2,
                     child: Center(
-                      child: Text("My Home", style: TextStyle(
-                        fontSize: 28,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.brown
-                      ),),
+                      child: Text(
+                        "My Home",
+                        style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.brown),
+                      ),
                     ),
                   ),
                   Expanded(
@@ -41,11 +40,10 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Custom Scenes", style: TextStyle(
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.brown
-                        ),),
+                        Text(
+                          "Custom Scenes",
+                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: Colors.brown),
+                        ),
                         Row(
                           children: [
                             Expanded(
@@ -53,16 +51,20 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   children: [
-                                    CircleAvatar(radius: 48,
-                                    child: Center(
-                                      child: Text("☀️", style: TextStyle(
-                                        fontSize: 32
-                                      ),),
+                                    CircleAvatar(
+                                      radius: 48,
+                                      child: Center(
+                                        child: Text(
+                                          "☀️",
+                                          style: TextStyle(fontSize: 32),
+                                        ),
+                                      ),
+                                      backgroundColor: Colors.white,
                                     ),
-                                    backgroundColor: Colors.white,),
-                                    Text("Morning",style: TextStyle(
-                                      color: Colors.brown
-                                    ),)
+                                    Text(
+                                      "Morning",
+                                      style: TextStyle(color: Colors.brown),
+                                    )
                                   ],
                                 ),
                               ),
@@ -72,16 +74,20 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   children: [
-                                    CircleAvatar(radius: 48,
+                                    CircleAvatar(
+                                      radius: 48,
                                       child: Center(
-                                        child: Text("🌙", style: TextStyle(
-                                            fontSize: 32
-                                        ),),
+                                        child: Text(
+                                          "🌙",
+                                          style: TextStyle(fontSize: 32),
+                                        ),
                                       ),
-                                      backgroundColor: Colors.white,),
-                                    Text("Night",style: TextStyle(
-                                        color: Colors.brown
-                                    ),)
+                                      backgroundColor: Colors.white,
+                                    ),
+                                    Text(
+                                      "Night",
+                                      style: TextStyle(color: Colors.brown),
+                                    )
                                   ],
                                 ),
                               ),
@@ -91,16 +97,20 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   children: [
-                                    CircleAvatar(radius: 48,
+                                    CircleAvatar(
+                                      radius: 48,
                                       child: Center(
-                                        child: Text("🏡", style: TextStyle(
-                                            fontSize: 32
-                                        ),),
+                                        child: Text(
+                                          "🏡",
+                                          style: TextStyle(fontSize: 32),
+                                        ),
                                       ),
-                                      backgroundColor: Colors.white,),
-                                    Text("Going out",style: TextStyle(
-                                        color: Colors.brown
-                                    ),)
+                                      backgroundColor: Colors.white,
+                                    ),
+                                    Text(
+                                      "Going out",
+                                      style: TextStyle(color: Colors.brown),
+                                    )
                                   ],
                                 ),
                               ),
@@ -110,16 +120,20 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 padding: const EdgeInsets.all(8.0),
                                 child: Column(
                                   children: [
-                                    CircleAvatar(radius: 48,
+                                    CircleAvatar(
+                                      radius: 48,
                                       child: Center(
-                                        child: Text("🍿", style: TextStyle(
-                                            fontSize: 32
-                                        ),),
+                                        child: Text(
+                                          "🍿",
+                                          style: TextStyle(fontSize: 32),
+                                        ),
                                       ),
-                                      backgroundColor: Colors.white,),
-                                    Text("Movie time",style: TextStyle(
-                                        color: Colors.brown
-                                    ),)
+                                      backgroundColor: Colors.white,
+                                    ),
+                                    Text(
+                                      "Movie time",
+                                      style: TextStyle(color: Colors.brown),
+                                    )
                                   ],
                                 ),
                               ),
@@ -133,11 +147,19 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                     flex: 2,
                     child: Center(
                       child: Container(
-                        margin: EdgeInsets.symmetric(vertical: 16),
+                        margin: EdgeInsets.symmetric(vertical: 24),
                         width: 210,
                         decoration: BoxDecoration(
-                          color: Colors.brown[100]
-                        ),
+                            color: Colors.orange[100],
+                            borderRadius: BorderRadius.circular(32),
+                            boxShadow: [
+                              BoxShadow(color: Colors.black.withOpacity(0.5), offset: Offset(0, 2)),
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.5),
+                                spreadRadius: -5,
+                                blurRadius: 2,
+                              )
+                            ]),
                       ),
                     ),
                   ),
