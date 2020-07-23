@@ -39,10 +39,20 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   Expanded(
                     flex: 3,
                     child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text("Custom Scenes"),
                         Row(
                           children: [
+                            Expanded(
+                              child: Placeholder(),
+                            ),
+                            Expanded(
+                              child: Placeholder(),
+                            ),
+                            Expanded(
+                              child: Placeholder(),
+                            ),
                             Expanded(
                               child: Placeholder(),
                             )
