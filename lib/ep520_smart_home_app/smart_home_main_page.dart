@@ -47,20 +47,35 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                             Expanded(
                               child: Column(
                                 children: [
-                                  CircleAvatar(radius: 24,
+                                  CircleAvatar(radius: 52,
                                   backgroundColor: Colors.white,)
                                 ],
                               ),
                             ),
                             Expanded(
-                              child: Placeholder(),
+                              child: Column(
+                                children: [
+                                  CircleAvatar(radius: 24,
+                                    backgroundColor: Colors.white,)
+                                ],
+                              ),
                             ),
                             Expanded(
-                              child: Placeholder(),
+                              child: Column(
+                                children: [
+                                  CircleAvatar(radius: 24,
+                                    backgroundColor: Colors.white,)
+                                ],
+                              ),
                             ),
                             Expanded(
-                              child: Placeholder(),
-                            )
+                              child: Column(
+                                children: [
+                                  CircleAvatar(radius: 24,
+                                    backgroundColor: Colors.white,)
+                                ],
+                              ),
+                            ),
                           ],
                         )
                       ],
