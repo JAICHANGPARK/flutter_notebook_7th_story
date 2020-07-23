@@ -41,7 +41,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Custom Scenes"),
+                        Text("Custom Scenes", style: TextStyle(
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.brown
+                        ),),
                         Row(
                           children: [
                             Expanded(
