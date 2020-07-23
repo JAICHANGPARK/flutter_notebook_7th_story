@@ -64,19 +64,22 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               ),
                             ),
                             Expanded(
-                              child: Column(
-                                children: [
-                                  CircleAvatar(radius: 48,
-                                    child: Center(
-                                      child: Text("☀️", style: TextStyle(
-                                          fontSize: 32
-                                      ),),
-                                    ),
-                                    backgroundColor: Colors.white,),
-                                  Text("Morning",style: TextStyle(
-                                      color: Colors.brown
-                                  ),)
-                                ],
+                              child: Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Column(
+                                  children: [
+                                    CircleAvatar(radius: 48,
+                                      child: Center(
+                                        child: Text("☀️", style: TextStyle(
+                                            fontSize: 32
+                                        ),),
+                                      ),
+                                      backgroundColor: Colors.white,),
+                                    Text("Morning",style: TextStyle(
+                                        color: Colors.brown
+                                    ),)
+                                  ],
+                                ),
                               ),
                             ),
                             Expanded(
