@@ -45,7 +45,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                         Row(
                           children: [
                             Expanded(
-                              child: Placeholder(),
+                              child: Column(
+                                children: [
+                                  CircleAvatar(radius: 48,)
+                                ],
+                              ),
                             ),
                             Expanded(
                               child: Placeholder(),
