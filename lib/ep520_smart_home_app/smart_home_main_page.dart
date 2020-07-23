@@ -108,12 +108,12 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                   children: [
                                     CircleAvatar(radius: 48,
                                       child: Center(
-                                        child: Text("☀️", style: TextStyle(
+                                        child: Text("🍿", style: TextStyle(
                                             fontSize: 32
                                         ),),
                                       ),
                                       backgroundColor: Colors.white,),
-                                    Text("Morning",style: TextStyle(
+                                    Text("Movie time",style: TextStyle(
                                         color: Colors.brown
                                     ),)
                                   ],
