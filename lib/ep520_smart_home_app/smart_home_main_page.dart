@@ -94,7 +94,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                         ),),
                                       ),
                                       backgroundColor: Colors.white,),
-                                    Text("Morning",style: TextStyle(
+                                    Text("Going out",style: TextStyle(
                                         color: Colors.brown
                                     ),)
                                   ],
