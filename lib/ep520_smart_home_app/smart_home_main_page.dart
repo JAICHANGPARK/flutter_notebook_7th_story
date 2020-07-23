@@ -29,12 +29,27 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                   Expanded(
                     flex: 2,
                     child: Center(
-                      child: Text("My Home"),
+                      child: Text("My Home", style: TextStyle(
+                        fontSize: 28,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.brown
+                      ),),
                     ),
                   ),
                   Expanded(
                     flex: 3,
-                    child: Placeholder(),
+                    child: Column(
+                      children: [
+                        Text("Custom Scenes"),
+                        Row(
+                          children: [
+                            Expanded(
+                              child: Placeholder(),
+                            )
+                          ],
+                        )
+                      ],
+                    ),
                   ),
                   Expanded(
                     flex: 2,
