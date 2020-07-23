@@ -63,25 +63,48 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                             Expanded(
                               child: Column(
                                 children: [
-                                  CircleAvatar(radius: 24,
-                                    backgroundColor: Colors.white,)
+                                  CircleAvatar(radius: 48,
+                                    child: Center(
+                                      child: Text("☀️", style: TextStyle(
+                                          fontSize: 32
+                                      ),),
+                                    ),
+                                    backgroundColor: Colors.white,),
+                                  Text("Morning",style: TextStyle(
+                                      color: Colors.brown
+                                  ),)
                                 ],
                               ),
                             ),
                             Expanded(
                               child: Column(
                                 children: [
-                                  CircleAvatar(radius: 24,
+                                  CircleAvatar(radius: 48,
+                                    child: Center(
+                                      child: Text("☀️", style: TextStyle(
+                                          fontSize: 32
+                                      ),),
+                                    ),
                                     backgroundColor: Colors.white,),
+                                  Text("Morning",style: TextStyle(
+                                      color: Colors.brown
+                                  ),)
                                 ],
                               ),
                             ),
                             Expanded(
                               child: Column(
                                 children: [
-                                  CircleAvatar(radius: 24,
+                                  CircleAvatar(radius: 48,
+                                    child: Center(
+                                      child: Text("☀️", style: TextStyle(
+                                          fontSize: 32
+                                      ),),
+                                    ),
                                     backgroundColor: Colors.white,),
-                                  Text("")
+                                  Text("Morning",style: TextStyle(
+                                      color: Colors.brown
+                                  ),)
                                 ],
                               ),
                             ),
