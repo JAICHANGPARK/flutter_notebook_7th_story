@@ -242,6 +242,11 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                               borderRadius: BorderRadius.circular(16)
                                               
                                             ),
+                                            child: Center(
+                                              child: Icon(Icons.highlight,
+                                              color: Colors.white,
+                                              size: 32,),
+                                            ),
                                           ),
                                           SizedBox(height: 8,),
                                           Text("Lights", style: TextStyle(
