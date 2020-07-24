@@ -160,7 +160,8 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               decoration: BoxDecoration(
                                 gradient: LinearGradient(
                                   begin: FractionalOffset.topCenter,
-                                  
+                                  end: FractionalOffset.bottomCenter,
+
                                   colors: [
                                     Colors.orange,
                                   ]
