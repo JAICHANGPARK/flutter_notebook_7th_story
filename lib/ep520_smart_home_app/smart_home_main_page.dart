@@ -231,7 +231,6 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                     Container(
                                       height: 100,
                                       width: 80,
-
                                       child: Column(
                                         children: [
                                           Container(
