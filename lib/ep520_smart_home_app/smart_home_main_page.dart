@@ -149,20 +149,16 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                       child: Container(
                         margin: EdgeInsets.symmetric(vertical: 24),
                         width: 210,
-                        decoration: BoxDecoration(
-//                            color: Colors.orange[100],
-                        color: Colors.transparent,
-                            borderRadius: BorderRadius.circular(32),
-                            boxShadow: [
-                              BoxShadow(
-                                  color: Colors.black.withOpacity(1),
-                                  spreadRadius: -10,
-                                  blurRadius: 2
-
+                        child: Stack(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                              color: Colors.brown[100]
                               ),
+                            ),
 
-
-                            ]),
+                          ],
+                        ),
                       ),
                     ),
                   ),
