@@ -197,6 +197,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                             height: 180,
                             decoration: BoxDecoration(
                               color: Colors.blue,
+                              borderRadius: BorderRadius.circular(16)
                             ),
                           ),
                         )
