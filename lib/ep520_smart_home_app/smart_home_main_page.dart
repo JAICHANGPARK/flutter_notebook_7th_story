@@ -234,6 +234,15 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                       decoration: BoxDecoration(
                                         color: Colors.red
                                       ),
+                                      child: Column(
+                                        children: [
+                                          Container(),
+                                          Text("Lights", style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.white
+                                          ),)
+                                        ],
+                                      ),
                                     )
                                   ],
                                 )
