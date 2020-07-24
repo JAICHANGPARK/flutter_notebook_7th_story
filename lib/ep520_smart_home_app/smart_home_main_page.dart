@@ -231,18 +231,19 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                     Container(
                                       height: 100,
                                       width: 80,
-                                      
+
                                       child: Column(
                                         children: [
                                           Container(
-                                            height: 84,
-                                            width: 84,
+                                            height: 72,
+                                            width: 72,
                                             decoration: BoxDecoration(
                                               color: Colors.blue,
                                               borderRadius: BorderRadius.circular(16)
                                               
                                             ),
                                           ),
+                                          SizedBox(height: 8,),
                                           Text("Lights", style: TextStyle(
                                             fontWeight: FontWeight.bold,
                                             color: Colors.white
