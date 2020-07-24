@@ -202,7 +202,10 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 Colors.orange[50],
                                 Colors.blue[300],
                                 Colors.blue
-                              ])
+                              ],
+                              begin: Alignment.topLeft,
+                                end: Alignment.bottomRight
+                              )
                             ),
                           ),
                         )
