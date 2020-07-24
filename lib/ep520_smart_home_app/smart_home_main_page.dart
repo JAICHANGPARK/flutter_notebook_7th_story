@@ -150,16 +150,17 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                         margin: EdgeInsets.symmetric(vertical: 24),
                         width: 210,
                         decoration: BoxDecoration(
-                            color: Colors.orange[100],
+//                            color: Colors.orange[100],
+                        color: Colors.transparent,
                             borderRadius: BorderRadius.circular(32),
                             boxShadow: [
                               BoxShadow(
                                   color: Colors.black.withOpacity(1),
-                                  spreadRadius: -20,
-                                  blurRadius: 10
+                                  spreadRadius: -10,
+                                  blurRadius: 2
 
                               ),
-                              BoxShadow(color: Colors.black.withOpacity(0.5), offset: Offset(0, 0)),
+
 
                             ]),
                       ),
