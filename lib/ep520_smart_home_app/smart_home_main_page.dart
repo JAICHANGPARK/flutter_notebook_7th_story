@@ -241,6 +241,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                             width: 84,
                                             decoration: BoxDecoration(
                                               color: Colors.blue,
+                                              borderRadius: BorderRadius.circular(16)
                                               
                                             ),
                                           ),
