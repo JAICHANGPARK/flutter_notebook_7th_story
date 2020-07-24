@@ -216,8 +216,10 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                               children: [
                                 Text.rich(TextSpan(
                                   children: [
-                                    TextSpan(text: "Living Room", style: TextStyle()),
-                                    TextSpan(text: "(2 devices)")
+                                    TextSpan(text: "Living Room", style: TextStyle(
+                                      color: Colors.white,
+                                    )),
+                                    TextSpan(text: " (2 devices)")
                                   ]
                                 ))
                               ],
