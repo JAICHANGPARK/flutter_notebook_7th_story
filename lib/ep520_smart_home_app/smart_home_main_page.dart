@@ -224,7 +224,18 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                       color: Colors.white,
                                     ))
                                   ]
-                                ))
+                                )),
+                                Row(
+                                  children: [
+                                    Container(
+                                      height: 100,
+                                      width: 80,
+                                      decoration: BoxDecoration(
+                                        color: Colors.red
+                                      ),
+                                    )
+                                  ],
+                                )
                               ],
                             ),
 
