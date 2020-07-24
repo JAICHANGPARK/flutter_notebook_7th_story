@@ -210,6 +210,12 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 end: Alignment.bottomRight
                               )
                             ),
+                            child: Column(
+                              children: [
+                                
+                              ],
+                            ),
+
                           ),
                         )
                       ],
