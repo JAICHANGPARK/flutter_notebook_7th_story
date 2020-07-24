@@ -254,6 +254,34 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                           ),)
                                         ],
                                       ),
+                                    ),
+                                    SizedBox(width: 8,),
+                                    Container(
+                                      height: 100,
+                                      width: 80,
+                                      child: Column(
+                                        children: [
+                                          Container(
+                                            height: 72,
+                                            width: 72,
+                                            decoration: BoxDecoration(
+                                                color: Colors.blue,
+                                                borderRadius: BorderRadius.circular(16)
+
+                                            ),
+                                            child: Center(
+                                              child: Icon(Icons.camera,
+                                                color: Colors.white,
+                                                size: 32,),
+                                            ),
+                                          ),
+                                          SizedBox(height: 8,),
+                                          Text("Cameras", style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.white
+                                          ),)
+                                        ],
+                                      ),
                                     )
                                   ],
                                 )
