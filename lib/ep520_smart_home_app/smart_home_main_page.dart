@@ -153,9 +153,21 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                              color: Colors.brown[100]
+                              color: Colors.orange[100]
                               ),
                             ),
+                            Container(
+                              decoration: BoxDecoration(
+                                gradient: LinearGradient(
+                                  begin: FractionalOffset.topCenter,
+                                  
+                                  colors: [
+                                    Colors.orange,
+                                  ]
+                                )
+                              ),
+                            )
+
 
                           ],
                         ),
