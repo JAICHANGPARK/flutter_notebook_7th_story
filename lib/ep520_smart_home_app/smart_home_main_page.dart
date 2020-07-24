@@ -225,7 +225,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                     ))
                                   ]
                                 )),
-                                SizedBox(height: 24,),
+                                SizedBox(height: 8,),
                                 Row(
                                   children: [
                                     Container(
