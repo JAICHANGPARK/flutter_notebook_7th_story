@@ -172,6 +172,9 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                         color: Colors.brown,
                                         borderRadius: BorderRadius.circular(32)
                                       ),
+                                      child: Center(
+                                        child: Text("Group"),
+                                      ),
                                     ),
                                   ),
                                   Expanded(
