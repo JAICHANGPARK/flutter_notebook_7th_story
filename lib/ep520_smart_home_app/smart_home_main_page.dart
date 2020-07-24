@@ -153,21 +153,21 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                              color: Colors.orange[100]
+                              color: Colors.orange[100],
+                                borderRadius: BorderRadius.circular(32),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black,
+                                    spreadRadius: 0,
+                                    blurRadius: 2,
+                                  )
+                                ]
+                              ),
+                              child: Container(
+
                               ),
                             ),
-                            Container(
-                              decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: FractionalOffset.topCenter,
-                                  end: FractionalOffset.bottomCenter,
 
-                                  colors: [
-                                    Colors.orange,
-                                  ]
-                                )
-                              ),
-                            )
 
 
                           ],
