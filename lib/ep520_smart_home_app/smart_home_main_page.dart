@@ -210,6 +210,7 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 end: Alignment.bottomRight
                               )
                             ),
+                            padding: EdgeInsets.all(16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
