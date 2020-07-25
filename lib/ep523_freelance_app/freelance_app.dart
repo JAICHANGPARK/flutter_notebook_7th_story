@@ -20,6 +20,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
+        mini: true,
         onPressed: () {  },
         child: Icon(Icons.search),
       ),
