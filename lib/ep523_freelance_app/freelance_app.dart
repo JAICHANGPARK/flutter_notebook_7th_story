@@ -16,6 +16,7 @@ class FreelanceMainScreen extends StatefulWidget {
 }
 
 class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
+  int _pageIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,6 +28,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
       bottomNavigationBar: BottomNavigationBar(
+        onTap: (index){
+          setState(() {
+            _pageIndex= index;
+          });
+        },
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
