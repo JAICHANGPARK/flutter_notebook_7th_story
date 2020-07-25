@@ -27,7 +27,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
-          BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
+          BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
+          BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
+          BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
+
         ],
       ),
       
