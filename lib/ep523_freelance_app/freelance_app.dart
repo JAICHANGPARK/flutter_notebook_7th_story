@@ -18,6 +18,42 @@ class FreelanceMainScreen extends StatefulWidget {
 class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: null)
+        ],
+      ),
+      
+    );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
