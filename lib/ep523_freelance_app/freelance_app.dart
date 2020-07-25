@@ -28,6 +28,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
       bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _pageIndex,
         onTap: (index){
           setState(() {
             _pageIndex= index;
