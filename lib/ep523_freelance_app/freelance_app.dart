@@ -25,6 +25,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
           BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
