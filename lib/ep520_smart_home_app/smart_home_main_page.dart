@@ -153,41 +153,31 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                           children: [
                             Container(
                               decoration: BoxDecoration(
-                              color: Colors.orange[100],
-                                borderRadius: BorderRadius.circular(32),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black,
-                                    spreadRadius: 0,
-                                    blurRadius: 2,
-                                  )
-                                ]
-                              ),
+                                  color: Colors.orange[100],
+                                  borderRadius: BorderRadius.circular(32),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: Colors.black,
+                                      spreadRadius: 0,
+                                      blurRadius: 2,
+                                    )
+                                  ]),
                               child: Row(
                                 children: [
                                   Expanded(
                                     flex: 1,
                                     child: Container(
-                                      decoration: BoxDecoration(
-                                        color: Colors.brown,
-                                        borderRadius: BorderRadius.circular(32)
-                                      ),
+                                      decoration:
+                                          BoxDecoration(color: Colors.brown, borderRadius: BorderRadius.circular(32)),
                                       child: Center(
                                         child: Text("Group"),
                                       ),
                                     ),
                                   ),
-                                  Expanded(
-                                    flex: 1,
-                                    child: Center(child: Text("Device"))
-                                  ),
-
+                                  Expanded(flex: 1, child: Center(child: Text("Device"))),
                                 ],
                               ),
                             ),
-
-
-
                           ],
                         ),
                       ),
@@ -218,7 +208,6 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                             decoration: BoxDecoration(
                               color: Colors.purple.withOpacity(0.4),
                               borderRadius: BorderRadius.circular(16),
-
                             ),
                           ),
                         ),
@@ -229,33 +218,27 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                           child: Container(
                             height: 180,
                             decoration: BoxDecoration(
-                              color: Colors.blue,
-                              borderRadius: BorderRadius.circular(16),
-                              gradient: LinearGradient(colors: [
-                                Colors.orange[50],
-                                Colors.blue[300],
-                                Colors.blue
-                              ],
-                              begin: Alignment.topLeft,
-                                end: Alignment.bottomRight
-                              )
-                            ),
+                                color: Colors.blue,
+                                borderRadius: BorderRadius.circular(16),
+                                gradient: LinearGradient(
+                                    colors: [Colors.orange[50], Colors.blue[300], Colors.blue],
+                                    begin: Alignment.topLeft,
+                                    end: Alignment.bottomRight)),
                             padding: EdgeInsets.all(24),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text.rich(TextSpan(
-                                  children: [
-                                    TextSpan(text: "Living Room", style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 18
-                                    )),
-                                    TextSpan(text: " (2 devices)", style: TextStyle(
-                                      color: Colors.white,
-                                    ))
-                                  ]
-                                )),
-                                SizedBox(height: 8,),
+                                Text.rich(TextSpan(children: [
+                                  TextSpan(text: "Living Room", style: TextStyle(color: Colors.white, fontSize: 18)),
+                                  TextSpan(
+                                      text: " (2 devices)",
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                      ))
+                                ])),
+                                SizedBox(
+                                  height: 8,
+                                ),
                                 Row(
                                   children: [
                                     Container(
@@ -267,25 +250,28 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                             height: 72,
                                             width: 72,
                                             decoration: BoxDecoration(
-                                              color: Colors.blue,
-                                              borderRadius: BorderRadius.circular(16)
-                                              
-                                            ),
+                                                color: Colors.blue, borderRadius: BorderRadius.circular(16)),
                                             child: Center(
-                                              child: Icon(Icons.highlight,
-                                              color: Colors.white,
-                                              size: 32,),
+                                              child: Icon(
+                                                Icons.highlight,
+                                                color: Colors.white,
+                                                size: 32,
+                                              ),
                                             ),
                                           ),
-                                          SizedBox(height: 8,),
-                                          Text("Lights", style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.white
-                                          ),)
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Text(
+                                            "Lights",
+                                            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                                          )
                                         ],
                                       ),
                                     ),
-                                    SizedBox(width: 8,),
+                                    SizedBox(
+                                      width: 8,
+                                    ),
                                     Container(
                                       height: 100,
                                       width: 80,
@@ -295,21 +281,22 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                             height: 72,
                                             width: 72,
                                             decoration: BoxDecoration(
-                                                color: Colors.blue,
-                                                borderRadius: BorderRadius.circular(16)
-
-                                            ),
+                                                color: Colors.blue, borderRadius: BorderRadius.circular(16)),
                                             child: Center(
-                                              child: Icon(Icons.camera,
+                                              child: Icon(
+                                                Icons.camera,
                                                 color: Colors.white,
-                                                size: 32,),
+                                                size: 32,
+                                              ),
                                             ),
                                           ),
-                                          SizedBox(height: 8,),
-                                          Text("Cameras", style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              color: Colors.white
-                                          ),)
+                                          SizedBox(
+                                            height: 8,
+                                          ),
+                                          Text(
+                                            "Cameras",
+                                            style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white),
+                                          )
                                         ],
                                       ),
                                     )
@@ -317,7 +304,6 @@ class _SmartHomeMainPageState extends State<SmartHomeMainPage> {
                                 )
                               ],
                             ),
-
                           ),
                         )
                       ],
