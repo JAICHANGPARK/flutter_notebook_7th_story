@@ -29,7 +29,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
           BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
-          BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
+          BottomNavigationBarItem(icon: Icon(Icons.bar_chart,),title: Text("Statistic")),
           BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
 
         ],
