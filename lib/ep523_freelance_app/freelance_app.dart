@@ -21,6 +21,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         mini: true,
+        backgroundColor: Colors.black,
         onPressed: () {  },
         child: Icon(Icons.search),
       ),
