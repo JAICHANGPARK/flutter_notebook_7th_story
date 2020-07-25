@@ -18,6 +18,6 @@ class FreelanceMainScreen extends StatefulWidget {
 class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
