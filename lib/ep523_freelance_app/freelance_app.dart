@@ -23,7 +23,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
         onPressed: () {  },
         child: Icon(Icons.search),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         items: [
