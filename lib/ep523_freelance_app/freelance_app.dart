@@ -19,7 +19,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Icon(Icons.search),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
