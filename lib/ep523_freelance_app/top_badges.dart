@@ -25,16 +25,20 @@ class TopBadgesItem extends StatelessWidget {
                     color: Colors.blue,
                     shape: BoxShape.circle,
                   ),
+                  child: Center(
+                    child: Icon(Icons.circle_notifications),
+                  ),
                 ),
               ),
               Positioned(
                 right: 0,
                 top: 0,
                 child: Container(
-                  height: 8,
-                  width: 8,
+                  height: 12,
+                  width: 12,
                   decoration: BoxDecoration(
-                    color: Colors.red
+                    color: Colors.red,
+                    shape: BoxShape.circle
                   ),
                 ),
               )
