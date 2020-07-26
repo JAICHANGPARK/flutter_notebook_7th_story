@@ -26,7 +26,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
           children: [
             Expanded(
               flex: 1,
-              child:TopBadgesItem()
+              child:Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TopBadgesItem(),
+              )
             ),
             Expanded(
               flex: 4,
