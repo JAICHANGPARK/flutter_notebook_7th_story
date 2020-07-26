@@ -26,7 +26,7 @@ class TopBadgesItem extends StatelessWidget {
                     shape: BoxShape.circle,
                   ),
                   child: Center(
-                    child: Icon(Icons.circle_notifications),
+                    child: Icon(Icons.notification_important_outlined),
                   ),
                 ),
               ),
