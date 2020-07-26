@@ -23,6 +23,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
     return Scaffold(
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               flex: 1,
@@ -41,6 +42,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Good Morning,",style: TextStyle(
                             fontSize: 22
