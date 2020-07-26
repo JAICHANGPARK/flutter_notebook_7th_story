@@ -20,6 +20,18 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: SafeArea(
+        child: Column(
+          children: [
+            Expanded(
+              child: Placeholder(),
+            ),
+            Expanded(
+              child: Placeholder(),
+            ),
+          ],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         mini: true,
         backgroundColor: Colors.black,
