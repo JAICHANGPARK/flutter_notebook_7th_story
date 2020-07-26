@@ -47,7 +47,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                           Text("Good Morning,",style: TextStyle(
                             fontSize: 22
                           ),),
-                          Text("Dreamwalker")
+                          Text("Dreamwalker",style: TextStyle(
+                              fontSize: 22
+                          ),)
                         ],
                       ),
                     )
