@@ -48,8 +48,16 @@ class TopBadgesItem extends StatelessWidget {
           width: 48,
           height: 48,
           decoration: BoxDecoration(
-            color: Colors.red,
+            color: Colors.black,
             shape: BoxShape.circle,
+
+          ),
+          child: Padding(
+            padding: const EdgeInsets.all(12.0),
+            child: CircleAvatar(
+              backgroundColor: Colors.blue,
+              radius: 12,
+            ),
           ),
         )
       ],
