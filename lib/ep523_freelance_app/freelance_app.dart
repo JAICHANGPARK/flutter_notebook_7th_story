@@ -38,11 +38,16 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                 children: [
                   Expanded(
                     flex:2,
-                    child: Column(
-                      children: [
-                        Text("Good Morning,"),
-                        Text("Dreamwalker")
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Column(
+                        children: [
+                          Text("Good Morning,",style: TextStyle(
+                            fontSize: 22
+                          ),),
+                          Text("Dreamwalker")
+                        ],
+                      ),
                     )
                   ),
                   Expanded(
