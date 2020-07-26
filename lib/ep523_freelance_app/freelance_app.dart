@@ -24,17 +24,22 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
         child: Column(
           children: [
             Expanded(
+              flex: 1,
+              child: Row(
+                children: [
+                  
+                ],
+              ),
+            ),
+            Expanded(
+              flex: 4,
               child: Placeholder(),
             ),
             Expanded(
+              flex: 6,
               child: Placeholder(),
             ),
-            Expanded(
-              child: Placeholder(),
-            ),
-            Expanded(
-              child: Placeholder(),
-            ),
+
           ],
         ),
       ),
