@@ -48,7 +48,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             fontSize: 22
                           ),),
                           Text("Dreamwalker",style: TextStyle(
-                              fontSize: 22
+                              fontSize: 22,
+                            fontWeight: FontWeight.bold
                           ),)
                         ],
                       ),
@@ -56,7 +57,16 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                   ),
                   Expanded(
                     flex: 4,
-                    child: Placeholder(),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Placeholder(),
+                        ),
+                        Expanded(
+                          child: Placeholder(),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
