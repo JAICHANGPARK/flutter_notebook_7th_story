@@ -9,10 +9,7 @@ class TopBadgesItem extends StatelessWidget {
         Container(
           width: 48,
           height: 48,
-          decoration: BoxDecoration(
-            color: Colors.red,
-            shape: BoxShape.circle,
-          ),
+
           child: Stack(
             children: [
               Positioned(
@@ -22,7 +19,7 @@ class TopBadgesItem extends StatelessWidget {
                 bottom: 0,
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.blue,
+                    color: Colors.grey[300],
                     shape: BoxShape.circle,
                   ),
                   child: Center(
