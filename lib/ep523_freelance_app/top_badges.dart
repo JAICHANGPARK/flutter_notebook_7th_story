@@ -7,10 +7,11 @@ class TopBadgesItem extends StatelessWidget {
       children: [
         Spacer(),
         Container(
-          width: 38,
+          width: 48,
           height: 48,
           decoration: BoxDecoration(
-            color: Colors.red
+            color: Colors.red,
+            shape: BoxShape.circle,
           ),
         )
       ],
