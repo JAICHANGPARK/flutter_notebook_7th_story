@@ -36,7 +36,14 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  
+                  Expanded(
+                    flex:2,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    flex: 4,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
