@@ -56,7 +56,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                     )
                   ),
                   Expanded(
-                    flex: 4,
+                    flex: 6,
                     child: Row(
                       children: [
                         Expanded(
