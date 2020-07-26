@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_7th_story/ep523_freelance_app/top_badges.dart';
 
 class FreelanceApp extends StatelessWidget {
   @override
@@ -25,11 +26,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
           children: [
             Expanded(
               flex: 1,
-              child: Row(
-                children: [
-                  
-                ],
-              ),
+              child:TopBadgesItem()
             ),
             Expanded(
               flex: 4,
