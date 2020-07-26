@@ -13,6 +13,11 @@ class TopBadgesItem extends StatelessWidget {
             color: Colors.red,
             shape: BoxShape.circle,
           ),
+          child: Stack(
+            children: [
+              
+            ],
+          ),
         ),
         SizedBox(width: 8,),
         Container(
