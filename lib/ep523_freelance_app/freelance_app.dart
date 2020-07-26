@@ -33,7 +33,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
               )
             ),
             Expanded(
-              flex: 4,
+              flex: 5,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -72,7 +72,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
               ),
             ),
             Expanded(
-              flex: 6,
+              flex: 5,
               child: Placeholder(),
             ),
 
