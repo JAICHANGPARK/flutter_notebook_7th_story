@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class FreelanceApp extends StatelessWidget {
@@ -17,61 +16,48 @@ class FreelanceMainScreen extends StatefulWidget {
 
 class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
   int _pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         mini: true,
         backgroundColor: Colors.black,
-        onPressed: () {  },
+        onPressed: () {},
         child: Icon(Icons.search),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.miniCenterDocked,
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _pageIndex,
-        onTap: (index){
+        onTap: (index) {
           setState(() {
-            _pageIndex= index;
+            _pageIndex = index;
           });
         },
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.dashboard,),title: Text("Dashboard")),
-          BottomNavigationBarItem(icon: Icon(Icons.credit_card,),title: Text("Earning")),
-          BottomNavigationBarItem(icon: Icon(Icons.bar_chart,),title: Text("Statistic")),
-          BottomNavigationBarItem(icon: Icon(Icons.mail,),title: Text("Inbox")),
-
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.dashboard,
+              ),
+              title: Text("Dashboard")),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.credit_card,
+              ),
+              title: Text("Earning")),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.bar_chart,
+              ),
+              title: Text("Statistic")),
+          BottomNavigationBarItem(
+              icon: Icon(
+                Icons.mail,
+              ),
+              title: Text("Inbox")),
         ],
       ),
-      
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
