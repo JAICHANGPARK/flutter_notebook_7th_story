@@ -13,6 +13,15 @@ class TopBadgesItem extends StatelessWidget {
             color: Colors.red,
             shape: BoxShape.circle,
           ),
+        ),
+        SizedBox(width: 8,),
+        Container(
+          width: 48,
+          height: 48,
+          decoration: BoxDecoration(
+            color: Colors.red,
+            shape: BoxShape.circle,
+          ),
         )
       ],
     );
