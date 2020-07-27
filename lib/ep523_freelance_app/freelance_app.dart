@@ -153,7 +153,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                             crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
-                                              Text("Invoice"),
+                                              Text("Invoice", style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 16
+                                              ),),
                                               Text("Prepared")
                                             ],
                                           ),
