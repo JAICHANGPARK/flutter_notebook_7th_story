@@ -75,8 +75,20 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                           ),
                         ),
                         Expanded(
-                          child: Placeholder(),
-                        )
+                          child: Container(
+                            margin: EdgeInsets.all(8),
+                            decoration: BoxDecoration(
+                                color: Colors.grey[300],
+                                borderRadius: BorderRadius.circular(12)
+                            ),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+
+                              ],
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   )
