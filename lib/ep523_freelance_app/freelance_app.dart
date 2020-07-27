@@ -129,11 +129,22 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   child: Container(
                                       padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
-                                          color: Colors.grey[300]
+                                          color: Colors.grey[300],
+                                          borderRadius: BorderRadius.circular(12)
                                       ),
                                       child: Row(
                                         children: [
-                                          
+                                          Container(height: 48,
+                                          width: 48,
+                                          decoration: BoxDecoration(
+                                            color: Colors.white
+                                          ),),
+                                          Column(
+                                            children: [
+                                              
+                                            ],
+                                          )
+
                                         ],
                                       )),
                                 )
