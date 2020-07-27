@@ -140,8 +140,15 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                           Container(height: 48,
                                           width: 48,
                                           decoration: BoxDecoration(
-                                            color: Colors.white
-                                          ),),
+                                            color: Colors.white,
+                                            borderRadius: BorderRadius.circular(8)
+                                          ),
+                                          child: Center(
+                                            child: Text("9", style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),),
+                                          ),
+                                          ),
                                           Column(
                                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                             crossAxisAlignment: CrossAxisAlignment.start,
