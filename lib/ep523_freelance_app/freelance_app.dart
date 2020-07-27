@@ -112,9 +112,14 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                    ),
                                  ),
                                ),
+                                SizedBox(height: 8,),
                                 Expanded(
                                   flex: 1,
-                                  child: Placeholder(),
+                                  child: Container(
+                                      decoration: BoxDecoration(
+                                          color: Colors.grey[300]
+                                      ),
+                                      child: Placeholder()),
                                 )
 
                               ],
