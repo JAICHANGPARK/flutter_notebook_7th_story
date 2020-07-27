@@ -84,6 +84,12 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
+                                Row(
+                                  children: [
+                                    Text("Resume"),
+                                    Icon(Icons.keyboard_arrow_right)
+                                  ],
+                                )
 
                               ],
                             ),
