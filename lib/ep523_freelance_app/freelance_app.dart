@@ -133,6 +133,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                           borderRadius: BorderRadius.circular(12)
                                       ),
                                       child: Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+                                        crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
                                           Container(height: 48,
                                           width: 48,
@@ -140,6 +143,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             color: Colors.white
                                           ),),
                                           Column(
+                                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                            crossAxisAlignment: CrossAxisAlignment.start,
                                             children: [
                                               Text("Invoice"),
                                               Text("Prepared")
