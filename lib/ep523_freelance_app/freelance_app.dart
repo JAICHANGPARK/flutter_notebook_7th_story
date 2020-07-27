@@ -157,7 +157,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: 16
                                               ),),
-                                              Text("Prepared")
+                                              Text("Prepared", style: TextStyle(
+                                                fontSize: 12,
+                                                color: Colors.grey
+                                              ),)
                                             ],
                                           ),
                                           IconButton(
