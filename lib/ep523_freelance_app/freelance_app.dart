@@ -84,7 +84,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                Expanded(
-                                 flex: 3,
+                                 flex: 4,
                                  child: Container(
                                    padding: EdgeInsets.all(8),
                                    decoration: BoxDecoration(
@@ -115,7 +115,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                ),
                                 SizedBox(height: 8,),
                                 Expanded(
-                                  flex: 1,
+                                  flex: 2,
                                   child: Container(
                                       padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
