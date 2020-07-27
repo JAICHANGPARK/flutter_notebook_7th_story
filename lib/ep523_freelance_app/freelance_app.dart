@@ -131,11 +131,19 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                      color: Colors.blue,),
                                                    ),
                                                  ),
-                                                 Column(
-                                                   children: [
-                                                     Text("Freelancer R.."),
-                                                     Text("123.3MB")
-                                                   ],
+                                                 Padding(
+                                                   padding: const EdgeInsets.all(8.0),
+                                                   child: Column(
+                                                     crossAxisAlignment: CrossAxisAlignment.start,
+                                                     children: [
+                                                       Text("Freelancer R..", style: TextStyle(
+                                                         fontSize: 14
+                                                       ),),
+                                                       Text("123.3MB", style: TextStyle(
+                                                         fontSize: 12
+                                                       ),)
+                                                     ],
+                                                   ),
                                                  )
                                                ],
                                              ),
