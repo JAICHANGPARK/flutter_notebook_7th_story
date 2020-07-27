@@ -146,6 +146,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                           child: Center(
                                             child: Text("9", style: TextStyle(
                                               fontWeight: FontWeight.bold,
+                                              fontSize: 24
                                             ),),
                                           ),
                                           ),
