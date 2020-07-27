@@ -77,6 +77,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                         Expanded(
                           child: Container(
                             margin: EdgeInsets.all(8),
+                            padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(
                                 color: Colors.grey[300],
                                 borderRadius: BorderRadius.circular(12)
@@ -85,10 +86,21 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Text("Resume"),
+                                    Text("Resume", style: TextStyle(
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.bold
+                                    ),),
                                     Icon(Icons.keyboard_arrow_right)
                                   ],
+                                ),
+                                Container(
+                                  height: 48,
+                                  width: double.infinity,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
                                 )
 
                               ],
