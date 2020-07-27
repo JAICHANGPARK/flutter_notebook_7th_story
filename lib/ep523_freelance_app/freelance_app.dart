@@ -85,26 +85,29 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                               children: [
                                Expanded(
                                  flex: 3,
-                                 child: Column(
-                                   children: [
-                                     Row(
-                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                       children: [
-                                         Text("Resume", style: TextStyle(
-                                             fontSize: 18,
-                                             fontWeight: FontWeight.bold
-                                         ),),
-                                         Icon(Icons.keyboard_arrow_right)
-                                       ],
-                                     ),
-                                     Container(
-                                       height: 48,
-                                       width: double.infinity,
-                                       decoration: BoxDecoration(
-                                         color: Colors.white,
+                                 child: Container(
+                                   decoration: BoxDecoration(),
+                                   child: Column(
+                                     children: [
+                                       Row(
+                                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                         children: [
+                                           Text("Resume", style: TextStyle(
+                                               fontSize: 18,
+                                               fontWeight: FontWeight.bold
+                                           ),),
+                                           Icon(Icons.keyboard_arrow_right)
+                                         ],
                                        ),
-                                     )
-                                   ],
+                                       Container(
+                                         height: 48,
+                                         width: double.infinity,
+                                         decoration: BoxDecoration(
+                                           color: Colors.white,
+                                         ),
+                                       )
+                                     ],
+                                   ),
                                  ),
                                ),
                                 Expanded(
