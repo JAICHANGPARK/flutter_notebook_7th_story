@@ -149,19 +149,22 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             ),),
                                           ),
                                           ),
-                                          Column(
-                                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                            crossAxisAlignment: CrossAxisAlignment.start,
-                                            children: [
-                                              Text("Invoice", style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 16
-                                              ),),
-                                              Text("Prepared", style: TextStyle(
-                                                fontSize: 12,
-                                                color: Colors.grey
-                                              ),)
-                                            ],
+                                          Padding(
+                                            padding: const EdgeInsets.all(8.0),
+                                            child: Column(
+                                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              children: [
+                                                Text("Invoice", style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16
+                                                ),),
+                                                Text("Prepared", style: TextStyle(
+                                                  fontSize: 12,
+                                                  color: Colors.grey
+                                                ),)
+                                              ],
+                                            ),
                                           ),
                                           IconButton(
                                             icon: Icon(Icons.keyboard_arrow_right),
