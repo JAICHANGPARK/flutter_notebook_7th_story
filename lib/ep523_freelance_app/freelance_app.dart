@@ -130,6 +130,12 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                      child: Icon(Icons.description,
                                                      color: Colors.blue,),
                                                    ),
+                                                 ),
+                                                 Column(
+                                                   children: [
+                                                     Text("Freelancer R.."),
+                                                     Text("123.3MB")
+                                                   ],
                                                  )
                                                ],
                                              ),
