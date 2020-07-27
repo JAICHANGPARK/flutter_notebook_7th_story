@@ -116,6 +116,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                              decoration: BoxDecoration(
                                                color: Colors.white
                                              ),
+                                             padding: EdgeInsets.all(4),
                                              child: Row(
                                                children: [
                                                  Container(
