@@ -132,9 +132,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                    ),
                                                  ),
                                                  Padding(
-                                                   padding: const EdgeInsets.all(8.0),
+                                                   padding: const EdgeInsets.only(left: 8),
                                                    child: Column(
                                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                                      children: [
                                                        Text("Freelancer R..", style: TextStyle(
                                                          fontSize: 14
