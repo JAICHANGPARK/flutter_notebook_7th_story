@@ -109,11 +109,13 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                        Expanded(
                                          flex: 5,
                                          child: Container(
-
                                            width: double.infinity,
-                                           decoration: BoxDecoration(
-                                             color: Colors.white,
-                                           ),
+                                           child: ListView.builder(itemBuilder: (context,index){
+                                             return Container(height: 42,
+                                             decoration: BoxDecoration(
+                                               color: Colors.white
+                                             ),);
+                                           }),
                                          ),
                                        )
                                      ],
