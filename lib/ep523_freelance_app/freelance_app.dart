@@ -141,7 +141,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                           ),),
                                           Column(
                                             children: [
-                                              
+                                              Text("Invoice"),
+                                              Text("Prepared")
                                             ],
                                           )
 
