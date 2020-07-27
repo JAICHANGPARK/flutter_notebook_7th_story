@@ -132,7 +132,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                    ),
                                                  ),
                                                  Padding(
-                                                   padding: const EdgeInsets.only(left: 8),
+                                                   padding: const EdgeInsets.only(left: 8, top: 4, bottom: 4),
                                                    child: Column(
                                                      crossAxisAlignment: CrossAxisAlignment.start,
                                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
