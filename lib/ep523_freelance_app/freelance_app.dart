@@ -131,7 +131,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                       decoration: BoxDecoration(
                                           color: Colors.grey[300]
                                       ),
-                                      child: Placeholder()),
+                                      child: Row(
+                                        children: [
+                                          
+                                        ],
+                                      )),
                                 )
 
                               ],
