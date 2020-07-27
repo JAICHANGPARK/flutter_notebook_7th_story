@@ -79,28 +79,37 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             margin: EdgeInsets.all(8),
                             padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(
-                                color: Colors.grey[300],
-                                borderRadius: BorderRadius.circular(12)
                             ),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Text("Resume", style: TextStyle(
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.bold
-                                    ),),
-                                    Icon(Icons.keyboard_arrow_right)
-                                  ],
-                                ),
-                                Container(
-                                  height: 48,
-                                  width: double.infinity,
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                  ),
+                               Expanded(
+                                 flex: 3,
+                                 child: Column(
+                                   children: [
+                                     Row(
+                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                       children: [
+                                         Text("Resume", style: TextStyle(
+                                             fontSize: 18,
+                                             fontWeight: FontWeight.bold
+                                         ),),
+                                         Icon(Icons.keyboard_arrow_right)
+                                       ],
+                                     ),
+                                     Container(
+                                       height: 48,
+                                       width: double.infinity,
+                                       decoration: BoxDecoration(
+                                         color: Colors.white,
+                                       ),
+                                     )
+                                   ],
+                                 ),
+                               ),
+                                Expanded(
+                                  flex: 1,
+                                  child: Placeholder(),
                                 )
 
                               ],
