@@ -149,6 +149,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                               Text("Invoice"),
                                               Text("Prepared")
                                             ],
+                                          ),
+                                          IconButton(
+                                            icon: Icon(Icons.keyboard_arrow_right),
+                                            onPressed: (){},
                                           )
 
                                         ],
