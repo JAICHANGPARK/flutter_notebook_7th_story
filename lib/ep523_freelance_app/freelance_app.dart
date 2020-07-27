@@ -77,7 +77,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                         Expanded(
                           child: Container(
                             margin: EdgeInsets.all(8),
-                            padding: EdgeInsets.all(8),
+
                             decoration: BoxDecoration(
                             ),
                             child: Column(
@@ -86,6 +86,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                Expanded(
                                  flex: 3,
                                  child: Container(
+                                   padding: EdgeInsets.all(8),
                                    decoration: BoxDecoration(
                                      color: Colors.grey[300]
                                    ),
@@ -116,6 +117,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                 Expanded(
                                   flex: 1,
                                   child: Container(
+                                      padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
                                           color: Colors.grey[300]
                                       ),
