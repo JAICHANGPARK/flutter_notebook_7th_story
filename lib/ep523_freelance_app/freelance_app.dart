@@ -123,10 +123,12 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                                    height: 42,
                                                    width: 42,
                                                    decoration: BoxDecoration(
-                                                     color: Colors.blue[200]
+                                                     color: Colors.blue[200],
+                                                     borderRadius: BorderRadius.circular(8)
                                                    ),
                                                    child: Center(
-                                                     child: Icon(Icons.description),
+                                                     child: Icon(Icons.description,
+                                                     color: Colors.blue,),
                                                    ),
                                                  )
                                                ],
