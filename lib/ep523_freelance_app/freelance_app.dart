@@ -115,7 +115,19 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                              margin: EdgeInsets.only(bottom: 8),
                                              decoration: BoxDecoration(
                                                color: Colors.white
-                                             ),);
+                                             ),
+                                             child: Row(
+                                               children: [
+                                                 Container(
+                                                   height: 42,
+                                                   width: 42,
+                                                   decoration: BoxDecoration(
+                                                     color: Colors.blue[200]
+                                                   ),
+                                                 )
+                                               ],
+                                             ),
+                                             );
                                            }),
                                          ),
                                        )
