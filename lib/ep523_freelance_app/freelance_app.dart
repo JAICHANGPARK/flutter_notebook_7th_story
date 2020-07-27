@@ -86,7 +86,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                Expanded(
                                  flex: 3,
                                  child: Container(
-                                   decoration: BoxDecoration(),
+                                   decoration: BoxDecoration(
+                                     color: Colors.grey[300]
+                                   ),
                                    child: Column(
                                      children: [
                                        Row(
