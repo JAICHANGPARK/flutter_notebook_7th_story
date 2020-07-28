@@ -71,14 +71,16 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   children: [
                                     Text(
                                       "Earning",
-                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold,
+                                      color: Colors.white
+                                      ),
                                     ),
                                     Icon(Icons.keyboard_arrow_right)
                                   ],
                                 ),
                                 Text("Yesterday", style: TextStyle(
                                   fontSize: 12,
-                                  color: Color.grey
+                                  color: Colors.grey
                                 ),)
 
                               ],
