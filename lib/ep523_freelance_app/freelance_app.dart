@@ -80,14 +80,14 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   "Yesterday",
                                   style: TextStyle(fontSize: 12, color: Colors.grey),
                                 ),
-                                
+                                SizedBox(
+                                  height: 16,
+                                ),
                                 Row(
                                   children: [
                                     Text(
                                       "\$",
-                                      style: TextStyle(fontSize: 24,
-                                      color: Colors.grey),
-
+                                      style: TextStyle(fontSize: 24, color: Colors.grey),
                                     ),
                                     Text(
                                       "1,025",
