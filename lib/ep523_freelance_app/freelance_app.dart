@@ -62,7 +62,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                           child: Container(
                             margin: EdgeInsets.all(8),
                             decoration: BoxDecoration(color: Colors.blue, borderRadius: BorderRadius.circular(12)),
-                            padding: EdgeInsets.all(8),
+                            padding: EdgeInsets.all(16),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
