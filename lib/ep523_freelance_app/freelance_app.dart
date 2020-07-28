@@ -257,9 +257,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             fontSize: 18,
                             fontWeight: FontWeight.bold
                           ),),
-                          Icon(Icons.arrow_drop_down),
+                          Icon(Icons.arrow_drop_down, color: Colors.grey,),
                           Spacer(),
-                          Text("See All")
+                          Text("See All", style: TextStyle(),)
                         ],
                       ),
                     ),
