@@ -81,8 +81,12 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                 Text("Yesterday", style: TextStyle(
                                   fontSize: 12,
                                   color: Colors.grey
-                                ),)
-
+                                ),),
+                                Row(
+                                  children: [
+                                    Text("\$")
+                                  ],
+                                )
                               ],
                             ),
                           ),
