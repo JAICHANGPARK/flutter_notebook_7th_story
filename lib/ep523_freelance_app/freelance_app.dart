@@ -268,7 +268,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                   ),
                   Expanded(
                     flex: 10,
-                    child: Placeholder(),
+                    child: ListView.builder(itemBuilder: (context, index){
+                      return Container(
+                        height: 64,
+                      );
+                    }),
                   )
                 ],
               ),
