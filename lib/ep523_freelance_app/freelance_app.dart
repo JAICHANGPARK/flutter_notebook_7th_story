@@ -75,7 +75,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     ),
                                     Icon(Icons.keyboard_arrow_right)
                                   ],
-                                )
+                                ),
+                                Text("Yesterday", style: TextStyle(
+                                  fontSize: 12,
+                                  color: Color.grey
+                                ),)
 
                               ],
                             ),
