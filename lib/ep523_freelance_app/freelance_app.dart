@@ -64,7 +64,16 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             decoration: BoxDecoration(color: Colors.blue, borderRadius: BorderRadius.circular(12)),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [],
+                              children: [
+                                Row(
+                                  
+                                )
+                                Text(
+                                  "Earning",
+                                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                ),
+                                Icon(Icons.keyboard_arrow_right)
+                              ],
                             ),
                           ),
                         ),
