@@ -249,13 +249,18 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                 children: [
                   Expanded(
                     flex: 2,
-                    child: Row(
-                      children: [
-                        Text("Project"),
-                        Icon(Icons.arrow_drop_down),
-                        Spacer(),
-                        Text("See All")
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Text("Project", style: TextStyle(
+                            fontSize: 18
+                          ),),
+                          Icon(Icons.arrow_drop_down),
+                          Spacer(),
+                          Text("See All")
+                        ],
+                      ),
                     ),
                   ),
                   Expanded(
