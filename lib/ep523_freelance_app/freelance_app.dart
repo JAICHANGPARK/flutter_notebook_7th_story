@@ -254,6 +254,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                         Text("Project"),
                         Icon(Icons.arrow_drop_down),
                         Spacer(),
+                        Text("See All")
                       ],
                     ),
                   ),
