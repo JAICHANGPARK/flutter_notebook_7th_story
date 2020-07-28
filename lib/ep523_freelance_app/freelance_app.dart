@@ -248,9 +248,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
+                    flex: 2,
                     child: Placeholder(),
                   ),
                   Expanded(
+                    flex: 10,
                     child: Placeholder(),
                   )
                 ],
