@@ -66,13 +66,15 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Row(
-                                  
+                                  children: [
+                                    Text(
+                                      "Earning",
+                                      style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                    ),
+                                    Icon(Icons.keyboard_arrow_right)
+                                  ],
                                 )
-                                Text(
-                                  "Earning",
-                                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                                ),
-                                Icon(Icons.keyboard_arrow_right)
+
                               ],
                             ),
                           ),
