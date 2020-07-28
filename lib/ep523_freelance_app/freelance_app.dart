@@ -248,6 +248,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                 children: [
                   Expanded(
                     child: Placeholder(),
+                  ),
+                  Expanded(
+                    child: Placeholder(),
                   )
                 ],
               ),
