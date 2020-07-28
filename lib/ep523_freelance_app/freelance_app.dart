@@ -249,7 +249,13 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                 children: [
                   Expanded(
                     flex: 2,
-                    child: Placeholder(),
+                    child: Row(
+                      children: [
+                        Text("Project"),
+                        Icon(Icons.arrow_drop_down),
+                        Spacer(),
+                      ],
+                    ),
                   ),
                   Expanded(
                     flex: 10,
