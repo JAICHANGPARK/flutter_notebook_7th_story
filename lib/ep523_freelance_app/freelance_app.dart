@@ -270,7 +270,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                     flex: 10,
                     child: ListView.builder(itemBuilder: (context, index){
                       return Container(
-                        height: 64,
+                        height: 120,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(12)
+                        ),
                       );
                     }),
                   )
