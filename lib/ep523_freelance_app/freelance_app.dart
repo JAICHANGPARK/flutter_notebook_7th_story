@@ -26,35 +26,34 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              flex: 1,
-              child:Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: TopBadgesItem(),
-              )
-            ),
+                flex: 1,
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TopBadgesItem(),
+                )),
             Expanded(
               flex: 5,
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
-                    flex:2,
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text("Good Morning,",style: TextStyle(
-                            fontSize: 22
-                          ),),
-                          Text("Dreamwalker",style: TextStyle(
-                              fontSize: 22,
-                            fontWeight: FontWeight.bold
-                          ),)
-                        ],
-                      ),
-                    )
-                  ),
+                      flex: 2,
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              "Good Morning,",
+                              style: TextStyle(fontSize: 22),
+                            ),
+                            Text(
+                              "Dreamwalker",
+                              style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+                            )
+                          ],
+                        ),
+                      )),
                   Expanded(
                     flex: 6,
                     child: Row(
@@ -62,126 +61,117 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                         Expanded(
                           child: Container(
                             margin: EdgeInsets.all(8),
-                            decoration: BoxDecoration(
-                              color: Colors.blue,
-                              borderRadius: BorderRadius.circular(12)
-                            ),
+                            decoration: BoxDecoration(color: Colors.blue, borderRadius: BorderRadius.circular(12)),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-
-                              ],
+                              children: [],
                             ),
                           ),
                         ),
                         Expanded(
                           child: Container(
                             margin: EdgeInsets.all(8),
-
-                            decoration: BoxDecoration(
-                            ),
+                            decoration: BoxDecoration(),
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                               Expanded(
-                                 flex: 4,
-                                 child: Container(
-                                   padding: EdgeInsets.all(8),
-                                   decoration: BoxDecoration(
-                                     color: Colors.grey[300],
-                                     borderRadius: BorderRadius.circular(12)
-                                   ),
-                                   child: Column(
-                                     children: [
-                                       Expanded(
-                                         flex: 2,
-                                         child: Row(
-                                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                           children: [
-                                             Text("Resume", style: TextStyle(
-                                                 fontSize: 18,
-                                                 fontWeight: FontWeight.bold
-                                             ),),
-                                             Icon(Icons.keyboard_arrow_right)
-                                           ],
-                                         ),
-                                       ),
-                                       Expanded(
-                                         flex: 5,
-                                         child: Container(
-                                           width: double.infinity,
-                                           child: ListView.builder(itemBuilder: (context,index){
-                                             return Container(height: 48,
-                                             margin: EdgeInsets.only(bottom: 8),
-                                             decoration: BoxDecoration(
-                                               color: Colors.white
-                                             ),
-                                             padding: EdgeInsets.all(4),
-                                             child: Row(
-                                               children: [
-                                                 Container(
-                                                   height: 42,
-                                                   width: 42,
-                                                   decoration: BoxDecoration(
-                                                     color: Colors.blue[50],
-                                                     borderRadius: BorderRadius.circular(8)
-                                                   ),
-                                                   child: Center(
-                                                     child: Icon(Icons.description,
-                                                     color: Colors.blue,),
-                                                   ),
-                                                 ),
-                                                 Padding(
-                                                   padding: const EdgeInsets.only(left: 8, top: 4, bottom: 4),
-                                                   child: Column(
-                                                     crossAxisAlignment: CrossAxisAlignment.start,
-                                                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                                     children: [
-                                                       Text("Freelancer R..", style: TextStyle(
-                                                         fontSize: 14
-                                                       ),),
-                                                       Text("123.3MB", style: TextStyle(
-                                                         fontSize: 12
-                                                       ),)
-                                                     ],
-                                                   ),
-                                                 )
-                                               ],
-                                             ),
-                                             );
-                                           }),
-                                         ),
-                                       )
-                                     ],
-                                   ),
-                                 ),
-                               ),
-                                SizedBox(height: 8,),
+                                Expanded(
+                                  flex: 4,
+                                  child: Container(
+                                    padding: EdgeInsets.all(8),
+                                    decoration:
+                                        BoxDecoration(color: Colors.grey[300], borderRadius: BorderRadius.circular(12)),
+                                    child: Column(
+                                      children: [
+                                        Expanded(
+                                          flex: 2,
+                                          child: Row(
+                                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Text(
+                                                "Resume",
+                                                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                              ),
+                                              Icon(Icons.keyboard_arrow_right)
+                                            ],
+                                          ),
+                                        ),
+                                        Expanded(
+                                          flex: 5,
+                                          child: Container(
+                                            width: double.infinity,
+                                            child: ListView.builder(itemBuilder: (context, index) {
+                                              return Container(
+                                                height: 48,
+                                                margin: EdgeInsets.only(bottom: 8),
+                                                decoration: BoxDecoration(color: Colors.white),
+                                                padding: EdgeInsets.all(4),
+                                                child: Row(
+                                                  children: [
+                                                    Container(
+                                                      height: 42,
+                                                      width: 42,
+                                                      decoration: BoxDecoration(
+                                                          color: Colors.blue[50],
+                                                          borderRadius: BorderRadius.circular(8)),
+                                                      child: Center(
+                                                        child: Icon(
+                                                          Icons.description,
+                                                          color: Colors.blue,
+                                                        ),
+                                                      ),
+                                                    ),
+                                                    Padding(
+                                                      padding: const EdgeInsets.only(left: 8, top: 4, bottom: 4),
+                                                      child: Column(
+                                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                                        children: [
+                                                          Text(
+                                                            "Freelancer R..",
+                                                            style: TextStyle(fontSize: 14),
+                                                          ),
+                                                          Text(
+                                                            "123.3MB",
+                                                            style: TextStyle(fontSize: 12),
+                                                          )
+                                                        ],
+                                                      ),
+                                                    )
+                                                  ],
+                                                ),
+                                              );
+                                            }),
+                                          ),
+                                        )
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                SizedBox(
+                                  height: 8,
+                                ),
                                 Expanded(
                                   flex: 2,
                                   child: Container(
                                       padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
-                                          color: Colors.grey[300],
-                                          borderRadius: BorderRadius.circular(12)
-                                      ),
+                                          color: Colors.grey[300], borderRadius: BorderRadius.circular(12)),
                                       child: Row(
                                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-
                                         crossAxisAlignment: CrossAxisAlignment.center,
                                         children: [
-                                          Container(height: 48,
-                                          width: 48,
-                                          decoration: BoxDecoration(
-                                            color: Colors.white,
-                                            borderRadius: BorderRadius.circular(8)
-                                          ),
-                                          child: Center(
-                                            child: Text("9", style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              fontSize: 24
-                                            ),),
-                                          ),
+                                          Container(
+                                            height: 48,
+                                            width: 48,
+                                            decoration: BoxDecoration(
+                                                color: Colors.white, borderRadius: BorderRadius.circular(8)),
+                                            child: Center(
+                                              child: Text(
+                                                "9",
+                                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                                              ),
+                                            ),
                                           ),
                                           Padding(
                                             padding: const EdgeInsets.all(8.0),
@@ -189,26 +179,24 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                               crossAxisAlignment: CrossAxisAlignment.start,
                                               children: [
-                                                Text("Invoice", style: TextStyle(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontSize: 16
-                                                ),),
-                                                Text("Prepared", style: TextStyle(
-                                                  fontSize: 12,
-                                                  color: Colors.grey
-                                                ),)
+                                                Text(
+                                                  "Invoice",
+                                                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                                                ),
+                                                Text(
+                                                  "Prepared",
+                                                  style: TextStyle(fontSize: 12, color: Colors.grey),
+                                                )
                                               ],
                                             ),
                                           ),
                                           IconButton(
                                             icon: Icon(Icons.keyboard_arrow_right),
-                                            onPressed: (){},
+                                            onPressed: () {},
                                           )
-
                                         ],
                                       )),
                                 )
-
                               ],
                             ),
                           ),
@@ -223,7 +211,6 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
               flex: 5,
               child: Placeholder(),
             ),
-
           ],
         ),
       ),
