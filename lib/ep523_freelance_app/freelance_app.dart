@@ -259,7 +259,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                           ),),
                           Icon(Icons.arrow_drop_down, color: Colors.grey,),
                           Spacer(),
-                          Text("See All", style: TextStyle(),)
+                          Text("See All", style: TextStyle(
+                            color: Colors.grey
+                          ),)
                         ],
                       ),
                     ),
