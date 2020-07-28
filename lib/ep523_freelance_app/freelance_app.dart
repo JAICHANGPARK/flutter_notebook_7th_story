@@ -254,7 +254,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                       child: Row(
                         children: [
                           Text("Project", style: TextStyle(
-                            fontSize: 18
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold
                           ),),
                           Icon(Icons.arrow_drop_down),
                           Spacer(),
