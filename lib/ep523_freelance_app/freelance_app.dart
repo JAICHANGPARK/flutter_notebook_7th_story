@@ -277,6 +277,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(12)
                         ),
+                        child: Column(),
                       );
                     }),
                   )
