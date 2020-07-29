@@ -308,6 +308,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                       ],
                                     ),
                                   ),
+                                  SizedBox(width: 8,),
                                   Column(
                                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                     crossAxisAlignment: CrossAxisAlignment.start,
