@@ -310,6 +310,16 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                         ),
                                       ],
                                     ),
+                                  ),
+                                  Column(
+                                    children: [
+                                      Text("Calendar Application Design"),
+                                      Row(
+                                        children: [
+                                          
+                                        ],
+                                      )
+                                    ],
                                   )
 
                                 ],
