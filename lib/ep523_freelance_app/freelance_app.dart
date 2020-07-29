@@ -316,7 +316,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                       Text("Calendar Application Design"),
                                       Row(
                                         children: [
-
+                                          Text("Dream Walker"),
+                                          SizedBox(width: 8,),
+                                          Container()
                                         ],
                                       )
                                     ],
