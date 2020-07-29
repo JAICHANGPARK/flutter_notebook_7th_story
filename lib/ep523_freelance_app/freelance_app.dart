@@ -298,7 +298,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                         Text("23",style: TextStyle(
                                           fontWeight: FontWeight.bold
                                         ),),
-                                        Text("Days")
+                                        Text("Days", style: TextStyle(
+                                          fontSize: 12,
+                                          color: Colors.grey,
+                                        ),)
                                       ],
                                     ),
                                   ),
