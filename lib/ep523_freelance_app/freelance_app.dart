@@ -310,6 +310,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   ),
                                   Column(
                                     children: [
+                                      Text("Next Schedule"),
+                                      Row(
+                                        children: [],
+                                      )
 
                                     ],
                                   )
