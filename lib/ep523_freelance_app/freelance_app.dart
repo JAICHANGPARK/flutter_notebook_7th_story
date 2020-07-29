@@ -290,7 +290,15 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     height: 48,
                                     width: 48,
                                     decoration: BoxDecoration(
-                                      
+                                      color: Colors.grey[200],
+                                    ),
+                                    child: Column(
+                                      children: [
+                                        Text("23",style: TextStyle(
+                                          fontWeight: FontWeight.bold
+                                        ),),
+                                        Text("Days")
+                                      ],
                                     ),
                                   ),
                                   Column(
