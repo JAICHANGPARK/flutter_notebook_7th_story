@@ -302,7 +302,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             height: 16,
                                             width: 16,
                                             decoration: BoxDecoration(
-                                              color: Colors.white
+                                              color: Colors.white,
+                                              shape: BoxShape.circle,
+                                              border: Border.all(color: Colors.white)
                                             ),
                                           ),
                                         ),
