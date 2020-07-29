@@ -281,7 +281,36 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                         child: Column(
                           children: [
                             Expanded(
-                              child: Placeholder(),
+                              child: Row(
+                                children: [
+                                  Container(
+                                    height: 54,
+                                    width: 54,
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 0,
+                                          right: 0,
+                                          bottom: 0,
+                                          top: 0,
+                                          child: CircleAvatar(),
+                                        ),
+                                        Positioned(
+                                          left: 0,
+                                          right: 0,
+                                          bottom: 0,
+                                          top: 0,
+                                          child: Container(
+                                            height: 16,
+                                            width: 16,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  )
+
+                                ],
+                              ),
                             ),
                             Divider(),
                             Expanded(
