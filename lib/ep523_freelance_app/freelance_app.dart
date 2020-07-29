@@ -343,6 +343,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                         ],
                                       )
                                     ],
+                                  ),
+                                  Spacer(),
+                                  IconButton(
+                                    icon: Icon(Icons.keyboard_arrow_right), onPressed: () {  },
                                   )
 
                                 ],
