@@ -299,8 +299,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                           left: 0,
                                           top: 0,
                                           child: Container(
-                                            height: 16,
-                                            width: 16,
+                                            height: 24,
+                                            width: 24,
                                             decoration: BoxDecoration(
                                               color: Colors.white,
                                               shape: BoxShape.circle,
