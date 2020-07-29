@@ -312,7 +312,12 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     children: [
                                       Text("Next Schedule"),
                                       Row(
-                                        children: [],
+                                        children: [
+                                          CircleAvatar(
+                                            radius: 5,
+                                            backgroundColor: Colors.purple,
+                                          )
+                                        ],
                                       )
 
                                     ],
