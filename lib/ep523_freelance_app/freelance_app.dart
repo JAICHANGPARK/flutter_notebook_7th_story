@@ -297,12 +297,13 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                         ),
                                         Positioned(
                                           left: 0,
-                                          right: 0,
-                                          bottom: 0,
                                           top: 0,
                                           child: Container(
                                             height: 16,
                                             width: 16,
+                                            decoration: BoxDecoration(
+                                              color: Colors.white
+                                            ),
                                           ),
                                         ),
                                       ],
