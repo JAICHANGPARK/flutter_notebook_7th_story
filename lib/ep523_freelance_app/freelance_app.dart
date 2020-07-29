@@ -330,7 +330,8 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             height: 16,
                                             width: 48,
                                             decoration: BoxDecoration(
-                                              color: Colors.purple[200]
+                                              color: Colors.purple[50],
+                                              borderRadius: BorderRadius.circular(4)
                                             ),
                                             child: Center(
                                               child: Text("Mobile", style: TextStyle(
