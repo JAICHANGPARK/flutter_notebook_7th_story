@@ -285,6 +285,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             Divider(),
                             Expanded(
                               child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
                                   Container(
                                     height: 48,
