@@ -293,6 +293,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     width: 48,
                                     decoration: BoxDecoration(
                                       color: Colors.grey[200],
+                                      borderRadius: BorderRadius.circular(8)
                                     ),
                                     child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
