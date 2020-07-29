@@ -335,7 +335,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   Column(
                                     children: [
                                       Spacer(),
-                                      Text("July 25")
+                                      Padding(
+                                        padding: const EdgeInsets.all(8.0),
+                                        child: Text("July 25"),
+                                      )
                                     ],
                                   )
                                 ],
