@@ -314,13 +314,14 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
 
                                     children: [
-                                      Text("Next Schedule"),
+                                      Text("Next Schedule",),
                                       Row(
                                         children: [
                                           CircleAvatar(
                                             radius: 4,
                                             backgroundColor: Colors.purple,
                                           ),
+                                          SizedBox(width: 8,),
                                           Text("Upload Prototype")
                                         ],
                                       )
