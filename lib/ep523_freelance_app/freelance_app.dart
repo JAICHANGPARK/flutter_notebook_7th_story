@@ -286,7 +286,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             Expanded(
                               child: Row(
                                 children: [
-                                  
+                                  Column(
+                                    children: [
+                                      
+                                    ],
+                                  )
                                 ],
                               ),
                             )
