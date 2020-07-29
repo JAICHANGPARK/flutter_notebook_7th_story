@@ -293,6 +293,7 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                       color: Colors.grey[200],
                                     ),
                                     child: Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
                                         Text("23",style: TextStyle(
                                           fontWeight: FontWeight.bold
