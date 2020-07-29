@@ -284,7 +284,11 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                             ),
                             Divider(),
                             Expanded(
-                              child: Placeholder(),
+                              child: Row(
+                                children: [
+                                  
+                                ],
+                              ),
                             )
                           ],
                         ),
