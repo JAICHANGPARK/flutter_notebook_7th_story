@@ -309,6 +309,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     ),
                                   ),
                                   Column(
+                                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+
                                     children: [
                                       Text("Next Schedule"),
                                       Row(
