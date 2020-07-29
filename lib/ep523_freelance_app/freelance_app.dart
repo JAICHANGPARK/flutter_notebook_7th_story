@@ -314,9 +314,10 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                       Row(
                                         children: [
                                           CircleAvatar(
-                                            radius: 5,
+                                            radius: 4,
                                             backgroundColor: Colors.purple,
-                                          )
+                                          ),
+                                          Text("Upload Prototype")
                                         ],
                                       )
 
