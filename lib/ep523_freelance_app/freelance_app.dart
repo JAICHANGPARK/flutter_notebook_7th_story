@@ -312,13 +312,20 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     ),
                                   ),
                                   Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text("Calendar Application Design"),
                                       Row(
                                         children: [
                                           Text("Dream Walker"),
                                           SizedBox(width: 8,),
-                                          Container()
+                                          Container(
+                                            height: 16,
+                                            width: 48,
+                                            decoration: BoxDecoration(
+                                              color: Colors.purple[200]
+                                            ),
+                                          )
                                         ],
                                       )
                                     ],
