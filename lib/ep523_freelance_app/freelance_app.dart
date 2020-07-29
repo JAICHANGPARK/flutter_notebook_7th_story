@@ -325,10 +325,17 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             backgroundColor: Colors.purple,
                                           ),
                                           SizedBox(width: 8,),
-                                          Text("Upload Prototype")
+                                          Text("Upload Prototype"),
                                         ],
                                       )
 
+                                    ],
+                                  ),
+                                  Spacer(),
+                                  Column(
+                                    children: [
+                                      Spacer(),
+                                      Text("July 25")
                                     ],
                                   )
                                 ],
