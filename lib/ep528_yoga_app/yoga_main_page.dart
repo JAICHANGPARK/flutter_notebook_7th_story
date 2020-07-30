@@ -8,6 +8,14 @@ class YogaMainPage extends StatefulWidget {
 class _YogaMainPageState extends State<YogaMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.white,
+        
+      ),
+      body: SingleChildScrollView(
+        child: Column(),
+      ),
+    );
   }
 }
