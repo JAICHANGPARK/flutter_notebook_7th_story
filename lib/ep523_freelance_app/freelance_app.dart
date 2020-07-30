@@ -254,29 +254,30 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                       padding: const EdgeInsets.all(8.0),
                       child: Row(
                         children: [
-                          Text("Project", style: TextStyle(
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold
-                          ),),
-                          Icon(Icons.arrow_drop_down, color: Colors.grey,),
+                          Text(
+                            "Project",
+                            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                          ),
+                          Icon(
+                            Icons.arrow_drop_down,
+                            color: Colors.grey,
+                          ),
                           Spacer(),
-                          Text("See All", style: TextStyle(
-                            color: Colors.grey
-                          ),)
+                          Text(
+                            "See All",
+                            style: TextStyle(color: Colors.grey),
+                          )
                         ],
                       ),
                     ),
                   ),
                   Expanded(
                     flex: 10,
-                    child: ListView.builder(itemBuilder: (context, index){
+                    child: ListView.builder(itemBuilder: (context, index) {
                       return Container(
                         height: 120,
                         margin: EdgeInsets.all(8),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(12)
-                        ),
+                        decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                         padding: EdgeInsets.all(8),
                         child: Column(
                           children: [
@@ -302,10 +303,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                             height: 24,
                                             width: 24,
                                             decoration: BoxDecoration(
-                                              color: Colors.black,
-                                              shape: BoxShape.circle,
-                                              border: Border.all(color: Colors.white)
-                                            ),
+                                                color: Colors.black,
+                                                shape: BoxShape.circle,
+                                                border: Border.all(color: Colors.white)),
                                           ),
                                         ),
                                       ],
@@ -315,29 +315,32 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                                     children: [
-                                      Text("Calendar Application Design", style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),),
+                                      Text(
+                                        "Calendar Application Design",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
                                       Row(
                                         children: [
-                                          Text("Dream Walker",style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            color: Colors.grey,
-                                            fontSize: 13
-                                          ),),
-                                          SizedBox(width: 8,),
+                                          Text(
+                                            "Dream Walker",
+                                            style: TextStyle(
+                                                fontWeight: FontWeight.bold, color: Colors.grey, fontSize: 13),
+                                          ),
+                                          SizedBox(
+                                            width: 8,
+                                          ),
                                           Container(
                                             height: 16,
                                             width: 48,
                                             decoration: BoxDecoration(
-                                              color: Colors.purple[50],
-                                              borderRadius: BorderRadius.circular(4)
-                                            ),
+                                                color: Colors.purple[50], borderRadius: BorderRadius.circular(4)),
                                             child: Center(
-                                              child: Text("Mobile", style: TextStyle(
-                                                color: Colors.purple,
-                                                fontSize: 10
-                                              ),),
+                                              child: Text(
+                                                "Mobile",
+                                                style: TextStyle(color: Colors.purple, fontSize: 10),
+                                              ),
                                             ),
                                           )
                                         ],
@@ -346,9 +349,9 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   ),
                                   Spacer(),
                                   IconButton(
-                                    icon: Icon(Icons.keyboard_arrow_right), onPressed: () {  },
+                                    icon: Icon(Icons.keyboard_arrow_right),
+                                    onPressed: () {},
                                   )
-
                                 ],
                               ),
                             ),
@@ -360,46 +363,53 @@ class _FreelanceMainScreenState extends State<FreelanceMainScreen> {
                                   Container(
                                     height: 48,
                                     width: 48,
-                                    decoration: BoxDecoration(
-                                      color: Colors.grey[200],
-                                      borderRadius: BorderRadius.circular(8)
-                                    ),
+                                    decoration:
+                                        BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(8)),
                                     child: Column(
                                       mainAxisAlignment: MainAxisAlignment.center,
                                       children: [
-                                        Text("23",style: TextStyle(
-                                          fontWeight: FontWeight.bold
-                                        ),),
-                                        Text("Days", style: TextStyle(
-                                          fontSize: 12,
-                                          color: Colors.grey,
-                                        ),)
+                                        Text(
+                                          "23",
+                                          style: TextStyle(fontWeight: FontWeight.bold),
+                                        ),
+                                        Text(
+                                          "Days",
+                                          style: TextStyle(
+                                            fontSize: 12,
+                                            color: Colors.grey,
+                                          ),
+                                        )
                                       ],
                                     ),
                                   ),
-                                  SizedBox(width: 8,),
+                                  SizedBox(
+                                    width: 8,
+                                  ),
                                   Column(
                                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                     crossAxisAlignment: CrossAxisAlignment.start,
-
                                     children: [
-                                      Text("Next Schedule",style: TextStyle(
-                                        color: Colors.grey,
-                                        fontWeight: FontWeight.bold
-                                      ),),
+                                      Text(
+                                        "Next Schedule",
+                                        style: TextStyle(color: Colors.grey, fontWeight: FontWeight.bold),
+                                      ),
                                       Row(
                                         children: [
                                           CircleAvatar(
                                             radius: 4,
                                             backgroundColor: Colors.purple,
                                           ),
-                                          SizedBox(width: 8,),
-                                          Text("Upload Prototype", style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                          ),),
+                                          SizedBox(
+                                            width: 8,
+                                          ),
+                                          Text(
+                                            "Upload Prototype",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                          ),
                                         ],
                                       )
-
                                     ],
                                   ),
                                   Spacer(),
