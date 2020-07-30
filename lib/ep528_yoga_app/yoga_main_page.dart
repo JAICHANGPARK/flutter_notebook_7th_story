@@ -30,6 +30,28 @@ class _YogaMainPageState extends State<YogaMainPage> {
                       fit: BoxFit.cover
                     )
                   ),
+                  child: Stack(
+                    children: [
+                      Positioned(
+                        top: 16,
+                        right: 16,
+                        child: CircleAvatar(
+                          radius: 64,
+                          backgroundColor: Colors.deepOrangeAccent[100],
+                        ),
+                      ),
+                      Positioned(
+                        left: 16,
+                        top: 120,
+                        child: Column(
+                          children: [
+                            Text("Welcome"),
+                            Text("to your yoga")
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
                 ),
               ),
 
