@@ -28,6 +28,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
         showUnselectedLabels: false,
         selectedItemColor: Colors.grey,
         unselectedItemColor: Colors.grey,
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.calendar_today),
