@@ -19,7 +19,15 @@ class _YogaMainPageState extends State<YogaMainPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  height: MediaQuery.of(context).size.height / 2,
+                  decoration: BoxDecoration(
+                    color: Colors.grey,
+                  ),
+                ),
+              )
           ],
         ),
       ),
