@@ -11,8 +11,9 @@ class _YogaMainPageState extends State<YogaMainPage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.white,
-        
+        elevation: 0,
       ),
+      drawer: Drawer(),
       body: SingleChildScrollView(
         child: Column(),
       ),
