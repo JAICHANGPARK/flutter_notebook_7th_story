@@ -28,7 +28,16 @@ class _YogaMainPageState extends State<YogaMainPage> {
                   ),
                 ),
               ),
-            
+
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: MediaQuery.of(context).size.height / 3,
+                decoration: BoxDecoration(
+                  color: Colors.grey,
+                ),
+              ),
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
