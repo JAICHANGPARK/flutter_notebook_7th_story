@@ -42,10 +42,14 @@ class _YogaMainPageState extends State<YogaMainPage> {
                       ),
                       Positioned(
                         left: 16,
-                        top: 120,
+                        top: 84,
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Welcome"),
+                            Text("Welcome",style: TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold
+                            ),),
                             Text("to your yoga")
                           ],
                         ),
