@@ -32,7 +32,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
             title: Text("")
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.calendar_today),
+              icon: Icon(Icons.person_outline),
               title: Text("")
           ),
           BottomNavigationBarItem(
