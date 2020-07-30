@@ -25,6 +25,10 @@ class _YogaMainPageState extends State<YogaMainPage> {
                   height: MediaQuery.of(context).size.height / 3,
                   decoration: BoxDecoration(
                     color: Colors.grey,
+                    image: DecorationImage(
+                      image: NetworkImage("https://cdn.pixabay.com/photo/2020/07/06/07/19/meditate-5375835_960_720.jpg"),
+                      fit: BoxFit.cover
+                    )
                   ),
                 ),
               ),
