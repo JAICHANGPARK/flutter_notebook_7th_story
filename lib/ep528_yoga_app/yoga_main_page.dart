@@ -19,9 +19,27 @@ class _YogaMainPageState extends State<YogaMainPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            
+
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        items: [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.calendar_today),
+            title: Text("")
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.calendar_today),
+              title: Text("")
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.calendar_today),
+              title: Text("")
+          )
+        ],
       ),
     );
   }
