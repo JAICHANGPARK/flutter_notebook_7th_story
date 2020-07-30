@@ -17,8 +17,34 @@ class _YogaMainPageState extends State<YogaMainPage> {
       ),
       drawer: Drawer(),
       body: SingleChildScrollView(
-        child: Column(),
+        child: Column(
+          children: [
+            
+          ],
+        ),
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
