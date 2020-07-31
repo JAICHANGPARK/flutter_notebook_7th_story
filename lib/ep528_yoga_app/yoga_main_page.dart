@@ -123,7 +123,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                           fontSize: 12,
 
                                         ),
-                                          overflow: TextOverflow.ellipsis,
+                                          overflow: TextOverflow.fade,
                                         ),
                                       ],
                                     ),
