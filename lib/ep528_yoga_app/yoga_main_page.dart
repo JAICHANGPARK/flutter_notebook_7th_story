@@ -83,8 +83,12 @@ class _YogaMainPageState extends State<YogaMainPage> {
                     Container(
                       height: 160,
                       child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index){
                         return Container(
+                          decoration: BoxDecoration(
+                            color: Colors.blue
+                          ),
                           width: MediaQuery.of(context).size.width / 2,
                         );
                       }),
