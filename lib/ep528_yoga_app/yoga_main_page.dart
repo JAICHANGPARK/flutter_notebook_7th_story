@@ -86,10 +86,12 @@ class _YogaMainPageState extends State<YogaMainPage> {
                         scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index){
                         return Container(
+                          margin: EdgeInsets.only(right: 16),
                           decoration: BoxDecoration(
                             color: Colors.blue
                           ),
                           width: MediaQuery.of(context).size.width / 2,
+
                         );
                       }),
                     )
