@@ -80,7 +80,15 @@ class _YogaMainPageState extends State<YogaMainPage> {
                         )
                       ],
                     ),
-                    ListView.builder(itemBuilder: (context, index))
+                    Container(
+                      height: 160,
+                      child: ListView.builder(
+                          itemBuilder: (context, index){
+                        return Container(
+                          width: MediaQuery.of(context).size.width / 2,
+                        );
+                      }),
+                    )
 
                   ],
                 ),
