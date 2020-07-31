@@ -103,6 +103,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                   )),
                                   Expanded(
                                     child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           "Upward-Facing Dog",
