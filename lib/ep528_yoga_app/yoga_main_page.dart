@@ -64,69 +64,70 @@ class _YogaMainPageState extends State<YogaMainPage> {
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 height: MediaQuery.of(context).size.height / 2.5,
-              
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
                       children: [
-                        Text("Daily Exercise", style: TextStyle(
-                          fontSize: 18,
-                        ),),
+                        Text(
+                          "Daily Exercise",
+                          style: TextStyle(
+                            fontSize: 18,
+                          ),
+                        ),
                         Spacer(),
                         Text("View All"),
                         IconButton(
-                          icon: Icon(Icons.arrow_forward_ios), onPressed: () {  },
+                          icon: Icon(Icons.arrow_forward_ios),
+                          onPressed: () {},
                         )
                       ],
                     ),
                     Container(
                       height: 240,
                       child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index){
-                        return Container(
-                          margin: EdgeInsets.only(right: 16),
-                          decoration: BoxDecoration(
-                            color: Colors.blue
-                          ),
-                          child: Column(
-                            children: [
-                              Expanded(
-                                child: Container(
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      image: NetworkImage("https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
-                                      fit: BoxFit.cover
-                                    )
-                                  ),
-                                )
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              margin: EdgeInsets.only(right: 16),
+                              decoration: BoxDecoration(color: Colors.blue),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                      child: Container(
+                                    decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                            image: NetworkImage(
+                                                "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
+                                            fit: BoxFit.cover)),
+                                  )),
+                                  Expanded(
+                                    child: Column(
+                                      children: [
+                                        Text(
+                                          "Upward-Facing Dog",
+                                          style: TextStyle(fontWeight: FontWeight.bold),
+                                        ),
+                                        Row(
+                                          children: List.generate(
+                                              5,
+                                              (index) => Icon(
+                                                    Icons.star,
+                                                    size: 15,
+                                                    color: Colors.orange,
+                                                  )).toList(),
+                                        )
+                                      ],
+                                    ),
+                                  )
+                                ],
                               ),
-                              Expanded(
-                                child: Column(
-                                  children: [
-                                    Text("Upward-Facing Dog", style: TextStyle(
-                                      
-                                    ),),
-                                    Row(
-                                      children: List.generate(5, (index) => Icon(Icons.star,
-                                      size: 15,
-                                      color: Colors.orange,)).toList(),
-                                    )
-                                  ],
-                                ),
-                              )
-                            ],
-                          ),
-
-                          width: MediaQuery.of(context).size.width / 2,
-                        );
-                      }),
+                              width: MediaQuery.of(context).size.width / 2,
+                            );
+                          }),
                     )
-
                   ],
                 ),
-
               ),
             ),
             Padding(
