@@ -78,7 +78,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                         Spacer(),
                         Text("View All"),
                         IconButton(
-                          icon: Icon(Icons.arrow),
+                          icon: Icon(Icons.arrow_forward_ios),
                         )
                       ],
                     )
