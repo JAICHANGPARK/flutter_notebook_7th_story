@@ -90,6 +90,17 @@ class _YogaMainPageState extends State<YogaMainPage> {
                           decoration: BoxDecoration(
                             color: Colors.blue
                           ),
+                          child: Column(
+                            children: [
+                              Expanded(
+                                child: Placeholder(),
+                              ),
+                              Expanded(
+                                child: Placeholder(),
+                              )
+                            ],
+                          ),
+
                           width: MediaQuery.of(context).size.width / 2,
                         );
                       }),
