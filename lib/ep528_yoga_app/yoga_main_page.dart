@@ -64,9 +64,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 height: MediaQuery.of(context).size.height / 3,
-                decoration: BoxDecoration(
-                  color: Colors.grey,
-                ),
+              
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -78,7 +76,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                         Spacer(),
                         Text("View All"),
                         IconButton(
-                          icon: Icon(Icons.arrow_forward_ios),
+                          icon: Icon(Icons.arrow_forward_ios), onPressed: () {  },
                         )
                       ],
                     )
