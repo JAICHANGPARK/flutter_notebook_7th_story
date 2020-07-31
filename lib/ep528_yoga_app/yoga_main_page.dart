@@ -117,7 +117,12 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                                     size: 15,
                                                     color: Colors.orange,
                                                   )).toList(),
-                                        )
+                                        ),
+                                        Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                        ),
+                                        ),
                                       ],
                                     ),
                                   )
