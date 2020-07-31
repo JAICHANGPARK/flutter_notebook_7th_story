@@ -103,7 +103,13 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                 )
                               ),
                               Expanded(
-                                child: Placeholder(),
+                                child: Column(
+                                  children: [
+                                    Row(
+                                      children: List.generate(5, (index) => Icon(Icons.star)).toList(),
+                                    )
+                                  ],
+                                ),
                               )
                             ],
                           ),
