@@ -90,7 +90,6 @@ class _YogaMainPageState extends State<YogaMainPage> {
                           itemBuilder: (context, index) {
                             return Container(
                               margin: EdgeInsets.only(right: 16),
-                              decoration: BoxDecoration(color: Colors.blue),
                               child: Column(
                                 children: [
                                   Expanded(
