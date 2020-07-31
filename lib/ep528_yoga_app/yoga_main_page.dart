@@ -68,8 +68,15 @@ class _YogaMainPageState extends State<YogaMainPage> {
                   color: Colors.grey,
                 ),
                 child: Column(
-                  
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    Row(
+                      children: [
+                        Text("Daily Exercise", style: TextStyle(
+                          fontSize: 18,
+                        ),)
+                      ],
+                    )
 
                   ],
                 ),
