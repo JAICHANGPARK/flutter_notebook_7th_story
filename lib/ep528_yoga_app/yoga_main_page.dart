@@ -74,7 +74,12 @@ class _YogaMainPageState extends State<YogaMainPage> {
                       children: [
                         Text("Daily Exercise", style: TextStyle(
                           fontSize: 18,
-                        ),)
+                        ),),
+                        Spacer(),
+                        Text("View All"),
+                        IconButton(
+                          icon: Icon(Icons.arrow),
+                        )
                       ],
                     )
 
