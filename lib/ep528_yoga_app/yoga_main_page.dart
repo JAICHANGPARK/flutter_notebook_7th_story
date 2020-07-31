@@ -63,7 +63,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: MediaQuery.of(context).size.height / 2.5,
+                height: MediaQuery.of(context).size.height / 2.55,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -142,9 +142,79 @@ class _YogaMainPageState extends State<YogaMainPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: MediaQuery.of(context).size.height / 3,
-                decoration: BoxDecoration(
-                  color: Colors.grey,
+                height: MediaQuery.of(context).size.height / 2.5,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Text(
+                          "Goals",
+                          style: TextStyle(
+                            fontSize: 18,
+                          ),
+                        ),
+                        Spacer(),
+                        Text("View All"),
+                        IconButton(
+                          icon: Icon(Icons.arrow_forward_ios),
+                          onPressed: () {},
+                        )
+                      ],
+                    ),
+                    Container(
+                      height: 240,
+                      child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              margin: EdgeInsets.only(right: 16),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                      child: Container(
+                                        decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                                image: NetworkImage(
+                                                    "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
+                                                fit: BoxFit.cover)),
+                                      )),
+                                  Expanded(
+                                    child: Column(
+
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "Upward-Facing Dog",
+                                          style: TextStyle(fontWeight: FontWeight.bold),
+                                        ),
+                                        Row(
+                                          children: List.generate(
+                                              5,
+                                                  (index) => Icon(
+                                                Icons.star,
+                                                size: 15,
+                                                color: Colors.orange,
+                                              )).toList(),
+                                        ),
+                                        Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+                                          style: TextStyle(
+                                            fontSize: 12,
+
+                                          ),
+                                          overflow: TextOverflow.fade,
+                                        ),
+                                      ],
+                                    ),
+                                  )
+                                ],
+                              ),
+                              width: MediaQuery.of(context).size.width / 2,
+                            );
+                          }),
+                    )
+                  ],
                 ),
               ),
             ),
