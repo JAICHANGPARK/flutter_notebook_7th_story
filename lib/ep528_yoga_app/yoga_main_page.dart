@@ -106,7 +106,9 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                 child: Column(
                                   children: [
                                     Row(
-                                      children: List.generate(5, (index) => Icon(Icons.star)).toList(),
+                                      children: List.generate(5, (index) => Icon(Icons.star,
+                                      size: 15,
+                                      color: Colors.orange,)).toList(),
                                     )
                                   ],
                                 ),
