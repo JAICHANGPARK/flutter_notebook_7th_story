@@ -93,11 +93,16 @@ class _YogaMainPageState extends State<YogaMainPage> {
                           child: Column(
                             children: [
                               Expanded(
-                                flex: 3,
-                                child: Placeholder(),
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      image: NetworkImage("https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
+                                      fit: BoxFit.cover
+                                    )
+                                  ),
+                                )
                               ),
                               Expanded(
-                                flex: 2,
                                 child: Placeholder(),
                               )
                             ],
