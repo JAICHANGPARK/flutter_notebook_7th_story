@@ -103,6 +103,8 @@ class _YogaMainPageState extends State<YogaMainPage> {
                                   )),
                                   Expanded(
                                     child: Column(
+
+                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text(
