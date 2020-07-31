@@ -79,7 +79,8 @@ class _YogaMainPageState extends State<YogaMainPage> {
                           icon: Icon(Icons.arrow_forward_ios), onPressed: () {  },
                         )
                       ],
-                    )
+                    ),
+                    ListView.builder(itemBuilder: (context, index))
 
                   ],
                 ),
