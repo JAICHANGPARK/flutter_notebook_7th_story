@@ -67,6 +67,13 @@ class _YogaMainPageState extends State<YogaMainPage> {
                 decoration: BoxDecoration(
                   color: Colors.grey,
                 ),
+                child: Column(
+                  
+                  children: [
+
+                  ],
+                ),
+
               ),
             ),
             Padding(
