@@ -105,6 +105,9 @@ class _YogaMainPageState extends State<YogaMainPage> {
                               Expanded(
                                 child: Column(
                                   children: [
+                                    Text("Upward-Facing Dog", style: TextStyle(
+                                      
+                                    ),),
                                     Row(
                                       children: List.generate(5, (index) => Icon(Icons.star,
                                       size: 15,
