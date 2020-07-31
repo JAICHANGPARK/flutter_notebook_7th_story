@@ -19,49 +19,47 @@ class _YogaMainPageState extends State<YogaMainPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: MediaQuery.of(context).size.height / 3,
-                  decoration: BoxDecoration(
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: MediaQuery.of(context).size.height / 3,
+                decoration: BoxDecoration(
                     color: Colors.grey,
                     image: DecorationImage(
-                      image: NetworkImage("https://cdn.pixabay.com/photo/2020/07/06/07/19/meditate-5375835_960_720.jpg"),
-                      fit: BoxFit.cover
-                    )
-                  ),
-                  child: Stack(
-                    children: [
-                      Positioned(
-                        top: 16,
-                        right: 16,
-                        child: CircleAvatar(
-                          radius: 64,
-                          backgroundColor: Colors.deepOrangeAccent[100],
-                        ),
+                        image:
+                            NetworkImage("https://cdn.pixabay.com/photo/2020/07/06/07/19/meditate-5375835_960_720.jpg"),
+                        fit: BoxFit.cover)),
+                child: Stack(
+                  children: [
+                    Positioned(
+                      top: 16,
+                      right: 16,
+                      child: CircleAvatar(
+                        radius: 64,
+                        backgroundColor: Colors.deepOrangeAccent[100],
                       ),
-                      Positioned(
-                        left: 16,
-                        top: 0,
-                        bottom: 0,
-                        right: 0,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Text("Welcome",style: TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.bold
-                            ),),
-                            Text("to your yoga")
-                          ],
-                        ),
-                      )
-                    ],
-                  ),
+                    ),
+                    Positioned(
+                      left: 16,
+                      top: 0,
+                      bottom: 0,
+                      right: 0,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Text(
+                            "Welcome",
+                            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                          ),
+                          Text("to your yoga")
+                        ],
+                      ),
+                    )
+                  ],
                 ),
               ),
-
+            ),
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
@@ -90,42 +88,11 @@ class _YogaMainPageState extends State<YogaMainPage> {
         unselectedItemColor: Colors.grey,
         type: BottomNavigationBarType.fixed,
         items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.calendar_today),
-            title: Text("")
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.person_outline),
-              title: Text("")
-          ),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              title: Text("")
-          )
+          BottomNavigationBarItem(icon: Icon(Icons.calendar_today), title: Text("")),
+          BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text("")),
+          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text(""))
         ],
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
