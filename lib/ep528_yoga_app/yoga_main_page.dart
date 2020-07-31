@@ -81,7 +81,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                       ],
                     ),
                     Container(
-                      height: 200,
+                      height: 197,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index){
