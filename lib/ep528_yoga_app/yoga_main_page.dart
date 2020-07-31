@@ -63,7 +63,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Container(
-                height: MediaQuery.of(context).size.height / 3,
+                height: MediaQuery.of(context).size.height / 2.5,
               
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,7 +81,7 @@ class _YogaMainPageState extends State<YogaMainPage> {
                       ],
                     ),
                     Container(
-                      height: 197,
+                      height: 240,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index){
@@ -93,9 +93,11 @@ class _YogaMainPageState extends State<YogaMainPage> {
                           child: Column(
                             children: [
                               Expanded(
+                                flex: 3,
                                 child: Placeholder(),
                               ),
                               Expanded(
+                                flex: 2,
                                 child: Placeholder(),
                               )
                             ],
