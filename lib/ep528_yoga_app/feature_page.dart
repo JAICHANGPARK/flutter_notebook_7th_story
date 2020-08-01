@@ -16,10 +16,15 @@ class _FeaturePageState extends State<FeaturePage> {
       ),
       body: Column(
         children: [
+
           Expanded(
+            flex: 2,
             child: Placeholder(),
           ),
-
+          Expanded(
+            flex: 10,
+            child: Placeholder(),
+          ),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
