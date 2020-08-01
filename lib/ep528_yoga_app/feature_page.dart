@@ -30,8 +30,10 @@ class _FeaturePageState extends State<FeaturePage> {
                 child: TextField(
                   decoration: InputDecoration(
                     hintText: "Search",
-                    border: InputBorder.none
+                    border: InputBorder.none,
+                    suffixIcon: Icon(Icons.search)
                   ),
+
                 ),
               ),
             ),
