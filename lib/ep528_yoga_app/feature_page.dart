@@ -17,10 +17,15 @@ class _FeaturePageState extends State<FeaturePage> {
       ),
       body: Column(
         children: [
-
           Expanded(
             flex: 2,
-            child: Placeholder(),
+            child: Container(
+              margin: EdgeInsets.fromLTRB(16, 8, 16, 8),
+              decoration: BoxDecoration(
+                color: Colors.grey[300],
+                borderRadius: BorderRadius.circular(12)
+              ),
+            ),
           ),
           Expanded(
             flex: 14,
