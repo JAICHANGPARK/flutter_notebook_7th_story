@@ -14,6 +14,12 @@ class _FeaturePageState extends State<FeaturePage> {
         backgroundColor: Colors.white,
           elevation: 0,
       ),
+      body: Column(
+        children: [
+          
+        ],
+      ),
+
     );
   }
 }
