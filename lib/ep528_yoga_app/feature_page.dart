@@ -8,6 +8,6 @@ class FeaturePage extends StatefulWidget {
 class _FeaturePageState extends State<FeaturePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
