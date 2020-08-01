@@ -64,7 +64,12 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                 ),
                 Expanded(
                   flex: 15,
-                  child: Placeholder(),
+                  child: TabBarView(
+                    controller: _tabController,
+                    children: [
+
+                    ],
+                  ),
                 ),
               ],
             ),
