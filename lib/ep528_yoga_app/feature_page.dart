@@ -25,10 +25,13 @@ class _FeaturePageState extends State<FeaturePage> {
                 color: Colors.grey[300],
                 borderRadius: BorderRadius.circular(12)
               ),
-              child: TextField(
-                decoration: InputDecoration(
-                  hintText: "Search",
-                  border: InputBorder.none
+              padding: EdgeInsets.all(8),
+              child: Center(
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: "Search",
+                    border: InputBorder.none
+                  ),
                 ),
               ),
             ),
