@@ -54,6 +54,9 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                     unselectedLabelColor: Colors.grey[200],
                     indicatorColor: Colors.orange,
                     indicatorSize: TabBarIndicatorSize.label,
+                    labelStyle: TextStyle(
+                      fontWeight: FontWeight.bold
+                    ),
                     tabs: [
                       Tab(
                         text: "Feature",
@@ -68,7 +71,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                   ),
                 ),
                 Expanded(
-                  flex: 15,
+                  flex: 18,
                   child: TabBarView(
                     controller: _tabController,
                     children: [
