@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'feature_page.dart';
+
 class YogaMainPage extends StatefulWidget {
   @override
   _YogaMainPageState createState() => _YogaMainPageState();
