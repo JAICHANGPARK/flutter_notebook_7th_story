@@ -9,6 +9,7 @@ class _FeaturePageState extends State<FeaturePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.grey),
         backgroundColor: Colors.white,
