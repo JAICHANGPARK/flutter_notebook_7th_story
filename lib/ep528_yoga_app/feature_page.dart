@@ -16,6 +16,9 @@ class _FeaturePageState extends State<FeaturePage> {
       ),
       body: Column(
         children: [
+          Expanded(
+            child: Placeholder(),
+          ),
 
         ],
       ),
