@@ -79,7 +79,11 @@ class _YogaMainPageState extends State<YogaMainPage> {
                         Text("View All"),
                         IconButton(
                           icon: Icon(Icons.arrow_forward_ios),
-                          onPressed: () {},
+                          onPressed: () {
+                            Navigator.of(context).push(MaterialPageRoute(
+                              builder: (context)=>FeaturePage()
+                            ));
+                          },
                         )
                       ],
                     ),
