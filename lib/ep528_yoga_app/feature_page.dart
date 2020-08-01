@@ -42,7 +42,18 @@ class _FeaturePageState extends State<FeaturePage> {
           ),
           Expanded(
             flex: 14,
-            child: Placeholder(),
+            child: Column(
+              children: [
+                Expanded(
+                  flex: 2,
+                  child: Placeholder(),
+                ),
+                Expanded(
+                  flex: 15,
+                  child: Placeholder(),
+                ),
+              ],
+            ),
           ),
         ],
       ),
