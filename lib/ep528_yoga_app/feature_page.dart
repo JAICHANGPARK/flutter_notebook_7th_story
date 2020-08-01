@@ -24,7 +24,7 @@ class _FeaturePageState extends State<FeaturePage> {
             child: Container(
               margin: EdgeInsets.fromLTRB(16, 8, 16, 8),
               decoration: BoxDecoration(
-                color: Colors.grey[300],
+                color: Colors.grey[200],
                 borderRadius: BorderRadius.circular(12)
               ),
               padding: EdgeInsets.all(8),
