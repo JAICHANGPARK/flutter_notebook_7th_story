@@ -16,10 +16,21 @@ class _FeaturePageState extends State<FeaturePage> {
       ),
       body: Column(
         children: [
-          
+
         ],
       ),
-
+      bottomNavigationBar: BottomNavigationBar(
+        showSelectedLabels: false,
+        showUnselectedLabels: false,
+        selectedItemColor: Colors.grey,
+        unselectedItemColor: Colors.grey,
+        type: BottomNavigationBarType.fixed,
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.calendar_today), title: Text("")),
+          BottomNavigationBarItem(icon: Icon(Icons.person_outline), title: Text("")),
+          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text(""))
+        ],
+      ),
     );
   }
 }
