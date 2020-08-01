@@ -11,6 +11,8 @@ class _FeaturePageState extends State<FeaturePage> {
     return Scaffold(
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.grey),
+        backgroundColor: Colors.white,
+          elevation: 0,
       ),
     );
   }
