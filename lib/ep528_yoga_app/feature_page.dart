@@ -5,14 +5,16 @@ class FeaturePage extends StatefulWidget {
   _FeaturePageState createState() => _FeaturePageState();
 }
 
-class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStateMixin{
-  TabController _tabController ;
+class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStateMixin {
+  TabController _tabController;
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     _tabController = TabController(vsync: this, length: 3);
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,7 +24,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
       appBar: AppBar(
         iconTheme: IconThemeData(color: Colors.grey),
         backgroundColor: Colors.white,
-          elevation: 0,
+        elevation: 0,
       ),
       body: Column(
         children: [
@@ -30,19 +32,12 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
             flex: 2,
             child: Container(
               margin: EdgeInsets.fromLTRB(16, 8, 16, 8),
-              decoration: BoxDecoration(
-                color: Colors.grey[200],
-                borderRadius: BorderRadius.circular(12)
-              ),
+              decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(12)),
               padding: EdgeInsets.all(8),
               child: Center(
                 child: TextField(
-                  decoration: InputDecoration(
-                    hintText: "Search",
-                    border: InputBorder.none,
-                    suffixIcon: Icon(Icons.search)
-                  ),
-
+                  decoration:
+                      InputDecoration(hintText: "Search", border: InputBorder.none, suffixIcon: Icon(Icons.search)),
                 ),
               ),
             ),
@@ -56,9 +51,15 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                   child: TabBar(
                     controller: _tabController,
                     tabs: [
-                      Tab(text: "Feature",),
-                      Tab(text: "Popular",),
-                      Tab(text: "By Type",),
+                      Tab(
+                        text: "Feature",
+                      ),
+                      Tab(
+                        text: "Popular",
+                      ),
+                      Tab(
+                        text: "By Type",
+                      ),
                     ],
                   ),
                 ),
@@ -67,7 +68,9 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                   child: TabBarView(
                     controller: _tabController,
                     children: [
-
+                      Container(),
+                      Container(),
+                      Container(),
                     ],
                   ),
                 ),
@@ -91,15 +94,3 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
