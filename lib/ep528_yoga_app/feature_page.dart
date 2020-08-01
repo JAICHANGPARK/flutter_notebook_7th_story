@@ -6,7 +6,13 @@ class FeaturePage extends StatefulWidget {
 }
 
 class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStateMixin{
-  TabController _tabController = TabController(vsync: this, length: 3);
+  TabController _tabController ;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    _tabController = TabController(vsync: this, length: 3);
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,6 +54,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                 Expanded(
                   flex: 2,
                   child: TabBar(
+                    controller: _tabController,
                     tabs: [
                       Tab(text: "Feature",),
                       Tab(text: "Popular",),
