@@ -22,7 +22,7 @@ class _FeaturePageState extends State<FeaturePage> {
             child: Placeholder(),
           ),
           Expanded(
-            flex: 10,
+            flex: 14,
             child: Placeholder(),
           ),
         ],
@@ -42,3 +42,15 @@ class _FeaturePageState extends State<FeaturePage> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
