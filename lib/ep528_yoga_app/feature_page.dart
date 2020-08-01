@@ -25,6 +25,12 @@ class _FeaturePageState extends State<FeaturePage> {
                 color: Colors.grey[300],
                 borderRadius: BorderRadius.circular(12)
               ),
+              child: TextField(
+                decoration: InputDecoration(
+                  hintText: "Search",
+                  border: InputBorder.none
+                ),
+              ),
             ),
           ),
           Expanded(
