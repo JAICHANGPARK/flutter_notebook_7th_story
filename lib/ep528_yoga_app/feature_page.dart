@@ -79,8 +79,8 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                             shrinkWrap: true,
                         crossAxisCount: 2,
                           childAspectRatio: 0.8,
-                          mainAxisSpacing: 8,
-                          crossAxisSpacing: 8,
+                          mainAxisSpacing: 16,
+                          crossAxisSpacing: 16,
                           children: [
                             Container(
                               child: Column(
@@ -212,7 +212,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                               ),
                             ),
                             Container(
-                            
+
                               child: Column(
                                 children: [
                                   Expanded(
