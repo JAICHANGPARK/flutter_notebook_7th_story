@@ -73,15 +73,28 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                   child: TabBarView(
                     controller: _tabController,
                     children: [
-                      GridView.count(
-                          shrinkWrap: true,
-                      crossAxisCount: 2,
-                        childAspectRatio: 1.2,
-                        children: [
-                          Container(
-                            decoration: BoxDecoration(color: Colors.red),
-                          )
-                        ],
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: GridView.count(
+                            shrinkWrap: true,
+                        crossAxisCount: 2,
+                          childAspectRatio: 0.8,
+                          mainAxisSpacing: 8,
+                          crossAxisSpacing: 8,
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(color: Colors.red),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(color: Colors.red),
+                            ),
+                            Container(
+                              decoration: BoxDecoration(color: Colors.red),
+                            ), Container(
+                              decoration: BoxDecoration(color: Colors.red),
+                            )
+                          ],
+                        ),
                       ),
                       Container(),
                       Container(),
