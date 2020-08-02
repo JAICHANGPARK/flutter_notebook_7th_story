@@ -74,12 +74,25 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                     controller: _tabController,
                     children: [
                       Container(
-                        child: GridView.builder(gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                        child: GridView.builder(
+                            gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                           maxCrossAxisExtent: 2,
-                          childAspectRatio: 1,
+                          childAspectRatio: 0.5,
                           crossAxisSpacing: 8,
                           mainAxisSpacing: 8
-                        ), itemBuilder: (context, index)),
+                        ), itemBuilder: (context, index){
+                          return Container(
+
+                            decoration: BoxDecoration(
+                              color: Colors.blue
+                            ),
+                            child: Column(
+                              children: [
+
+                              ],
+                            ),
+                          );
+                        }),
                       ),
                       Container(),
                       Container(),
