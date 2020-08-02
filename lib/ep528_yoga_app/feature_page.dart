@@ -223,7 +223,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                                         decoration: BoxDecoration(
                                             image: DecorationImage(
                                                 image: NetworkImage(
-                                                    "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
+                                                    "https://cdn.pixabay.com/photo/2017/11/18/05/02/yoga-2959226_960_720.jpg"),
                                                 fit: BoxFit.cover)),
                                       )),
                                   Expanded(
