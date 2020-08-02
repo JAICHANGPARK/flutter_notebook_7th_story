@@ -169,7 +169,6 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                               ),
                             ),
                             Container(
-                              decoration: BoxDecoration(color: Colors.red),
                               child: Column(
                                 children: [
                                   Expanded(
@@ -213,7 +212,7 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                               ),
                             ),
                             Container(
-                              decoration: BoxDecoration(color: Colors.red),
+                            
                               child: Column(
                                 children: [
                                   Expanded(
