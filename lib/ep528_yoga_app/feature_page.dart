@@ -73,7 +73,14 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                   child: TabBarView(
                     controller: _tabController,
                     children: [
-                      Container(),
+                      Container(
+                        child: GridView.builder(gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                          maxCrossAxisExtent: 2,
+                          childAspectRatio: 1,
+                          crossAxisSpacing: 8,
+                          mainAxisSpacing: 8
+                        ), itemBuilder: (context, index)),
+                      ),
                       Container(),
                       Container(),
                     ],
