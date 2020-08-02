@@ -84,6 +84,13 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                           children: [
                             Container(
                               decoration: BoxDecoration(color: Colors.red),
+                              child: Column(
+                                children: [
+                                  Expanded(
+                                    child: Image.network("src"),
+                                  )
+                                ],
+                              ),
                             ),
                             Container(
                               decoration: BoxDecoration(color: Colors.red),
