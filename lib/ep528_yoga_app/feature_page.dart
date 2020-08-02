@@ -75,22 +75,22 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                     children: [
                       Container(
                         child: GridView.builder(
+
                             gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
                           maxCrossAxisExtent: 2,
-                          childAspectRatio: 0.5,
+                          childAspectRatio: 1,
                           crossAxisSpacing: 8,
                           mainAxisSpacing: 8
-                        ), itemBuilder: (context, index){
-                          return Container(
+                        ),
+                            shrinkWrap: true,
+                            itemCount: 10,
 
-                            decoration: BoxDecoration(
-                              color: Colors.blue
-                            ),
-                            child: Column(
-                              children: [
-
-                              ],
-                            ),
+                            itemBuilder: (context, index){
+                          return Column(
+                            children: [
+                              Image.network("https://cdn.pixabay.com/photo/2017/08/02/20/24/people-2573216_960_720.jpg"),
+                              Text("")
+                            ],
                           );
                         }),
                       ),
