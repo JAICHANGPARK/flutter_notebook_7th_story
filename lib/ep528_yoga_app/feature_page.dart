@@ -83,45 +83,48 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                           crossAxisSpacing: 16,
                           children: [
                             Container(
-                              child: Column(
-                                children: [
-                                  Expanded(
-                                      child: Container(
-                                    decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                            image: NetworkImage(
-                                                "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
-                                            fit: BoxFit.cover)),
-                                  )),
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text(
-                                          "Upward-Facing Dog",
-                                          style: TextStyle(fontWeight: FontWeight.bold),
-                                        ),
-                                        Row(
-                                          children: List.generate(
-                                              5,
-                                              (index) => Icon(
-                                                    Icons.star,
-                                                    size: 15,
-                                                    color: Colors.orange,
-                                                  )).toList(),
-                                        ),
-                                        Text(
-                                          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
-                                          style: TextStyle(
-                                            fontSize: 12,
+                              child: GestureDetector(
+                                
+                                child: Column(
+                                  children: [
+                                    Expanded(
+                                        child: Container(
+                                      decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                              image: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2019/12/31/16/06/yoga-4732209__340.jpg"),
+                                              fit: BoxFit.cover)),
+                                    )),
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            "Upward-Facing Dog",
+                                            style: TextStyle(fontWeight: FontWeight.bold),
                                           ),
-                                          overflow: TextOverflow.fade,
-                                        ),
-                                      ],
-                                    ),
-                                  )
-                                ],
+                                          Row(
+                                            children: List.generate(
+                                                5,
+                                                (index) => Icon(
+                                                      Icons.star,
+                                                      size: 15,
+                                                      color: Colors.orange,
+                                                    )).toList(),
+                                          ),
+                                          Text(
+                                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+                                            style: TextStyle(
+                                              fontSize: 12,
+                                            ),
+                                            overflow: TextOverflow.fade,
+                                          ),
+                                        ],
+                                      ),
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                             Container(
