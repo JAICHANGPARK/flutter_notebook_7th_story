@@ -55,18 +55,21 @@ class _DetailPageState extends State<DetailPage> {
                 ]),
               ),
             ),
-            Row(
-              children: [
-                Text("Crane Pose", style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold
-                ),),
-                Spacer(),
-                Icon(Icons.chat_bubble_outline),
-                Text("2,102"),
-                Icon(Icons.favorite_border),
-                Text("2,102")
-              ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Row(
+                children: [
+                  Text("Crane Pose", style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold
+                  ),),
+                  Spacer(),
+                  Icon(Icons.chat_bubble_outline),
+                  Text("2,102"),
+                  Icon(Icons.favorite_border),
+                  Text("2,102")
+                ],
+              ),
             )
           ],
         ),
