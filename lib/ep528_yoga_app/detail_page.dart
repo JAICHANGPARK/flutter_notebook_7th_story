@@ -135,7 +135,11 @@ class _DetailPageState extends State<DetailPage> {
                             "ris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor "
                             "in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla p"
                             "ariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offi"
-                            "cia deserunt mollit anim id est laborum."),
+                            "cia deserunt mollit anim id est laborum.",
+                    style: TextStyle(
+                      color: Colors.grey[400],
+                      fontSize: 12
+                    ),),
                   )
                 ],
               ),
