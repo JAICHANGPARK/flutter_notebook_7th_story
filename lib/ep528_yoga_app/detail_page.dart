@@ -90,7 +90,13 @@ class _DetailPageState extends State<DetailPage> {
                   ),
                   Expanded(
                     flex: 10,
-                    child: Placeholder(),
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Placeholder(),
+                        )
+                      ],
+                    ),
                   )
                 ],
               ),
