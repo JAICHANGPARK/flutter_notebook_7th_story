@@ -54,6 +54,14 @@ class _DetailPageState extends State<DetailPage> {
                   ),
                 ]),
               ),
+            ),
+            Row(
+              children: [
+                Text("Crane Pose", style: TextStyle(
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold
+                ),)
+              ],
             )
           ],
         ),
