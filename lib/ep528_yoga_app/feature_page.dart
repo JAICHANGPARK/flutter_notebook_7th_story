@@ -84,7 +84,9 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                           children: [
                             Container(
                               child: GestureDetector(
-                                
+                                onTap: (){
+                                  
+                                },
                                 child: Column(
                                   children: [
                                     Expanded(
