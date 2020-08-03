@@ -15,8 +15,10 @@ class _DetailPageState extends State<DetailPage> {
     super.initState();
     _videoPlayerController = VideoPlayerController.network(
         "https://player.vimeo.com/external/142621447.mobile.mp4?s=029702dbab1598537678ebfc7a6f500bc160608a&profile_id=116")
-      ..initialize().then((value) {
+      ..initialize().then((value) async{
+        await _videoPlayerController.play();
         setState(() {});
+
       });
   }
 
