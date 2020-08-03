@@ -71,6 +71,12 @@ class _DetailPageState extends State<DetailPage> {
                   Text("2,102")
                 ],
               ),
+            ),
+            Container(
+              height: MediaQuery.of(context).size.height / 4,
+              decoration: BoxDecoration(
+                color: Colors.red
+              ),
             )
           ],
         ),
