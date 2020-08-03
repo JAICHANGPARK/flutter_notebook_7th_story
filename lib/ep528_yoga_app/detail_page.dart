@@ -43,7 +43,9 @@ class _DetailPageState extends State<DetailPage> {
                 child: Stack(children: [
                   VideoPlayer(_videoPlayerController),
                   Center(
-                    child: CircleAvatar(radius: 48,),
+                    child: CircleAvatar(radius: 48, backgroundColor: Colors.white.withOpacity(0.4),
+                    child: Icon(Icons.play_arrow),),
+
                   ),
                 ]),
               ),
