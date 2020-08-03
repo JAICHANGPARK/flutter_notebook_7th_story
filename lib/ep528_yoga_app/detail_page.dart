@@ -78,11 +78,15 @@ class _DetailPageState extends State<DetailPage> {
               decoration: BoxDecoration(
                 color: Colors.red
               ),
+              padding: EdgeInsets.all(9),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Expanded(
                     flex: 2,
-                    child: Text("Great For"),
+                    child: Text("Great For", style: TextStyle(
+                      fontSize: 18
+                    ),),
                   ),
                   Expanded(
                     flex: 10,
