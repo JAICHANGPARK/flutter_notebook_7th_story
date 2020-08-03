@@ -16,7 +16,7 @@ class _DetailPageState extends State<DetailPage> {
     _videoPlayerController = VideoPlayerController.network(
         "https://player.vimeo.com/external/142621447.mobile.mp4?s=029702dbab1598537678ebfc7a6f500bc160608a&profile_id=116")
       ..initialize().then((value) async {
-        await _videoPlayerController.play();
+
         setState(() {});
       });
   }
@@ -42,10 +42,15 @@ class _DetailPageState extends State<DetailPage> {
                 decoration: BoxDecoration(color: Colors.blue),
                 child: Stack(children: [
                   VideoPlayer(_videoPlayerController),
-                  Center(
-                    child: CircleAvatar(radius: 48, backgroundColor: Colors.white.withOpacity(0.4),
-                    child: Icon(Icons.play_arrow, color: Colors.black,),),
+                  InkWell(
+                    onTap: (){
+                      _videoPlayerController.play();
+                    },
+                    child: Center(
+                      child: CircleAvatar(radius: 48, backgroundColor: Colors.white.withOpacity(0.4),
+                      child: Icon(Icons.play_arrow, color: Colors.black,),),
 
+                    ),
                   ),
                 ]),
               ),
