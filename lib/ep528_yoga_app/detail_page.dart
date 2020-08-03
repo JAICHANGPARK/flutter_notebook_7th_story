@@ -82,7 +82,7 @@ class _DetailPageState extends State<DetailPage> {
                 children: [
                   Expanded(
                     flex: 2,
-                    child: Placeholder(),
+                    child: Text("Great For"),
                   ),
                   Expanded(
                     flex: 10,
