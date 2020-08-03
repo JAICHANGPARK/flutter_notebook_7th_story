@@ -75,7 +75,7 @@ class _DetailPageState extends State<DetailPage> {
             SizedBox(height: 24,),
             Container(
               height: MediaQuery.of(context).size.height / 4,
-             
+
               padding: EdgeInsets.all(9),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -99,6 +99,30 @@ class _DetailPageState extends State<DetailPage> {
                         Expanded(
                           child: Placeholder(),
                         )
+                      ],
+                    ),
+                  )
+                ],
+              ),
+            ),
+            Container(
+              height: MediaQuery.of(context).size.height / 4,
+
+              padding: EdgeInsets.all(9),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Expanded(
+                    flex: 2,
+                    child: Text("About this pose", style: TextStyle(
+                        fontSize: 18
+                    ),),
+                  ),
+                  Expanded(
+                    flex: 10,
+                    child: Row(
+                      children: [
+
                       ],
                     ),
                   )
