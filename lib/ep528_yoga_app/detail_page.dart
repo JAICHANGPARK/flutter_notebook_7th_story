@@ -15,10 +15,9 @@ class _DetailPageState extends State<DetailPage> {
     super.initState();
     _videoPlayerController = VideoPlayerController.network(
         "https://player.vimeo.com/external/142621447.mobile.mp4?s=029702dbab1598537678ebfc7a6f500bc160608a&profile_id=116")
-      ..initialize().then((value) async{
+      ..initialize().then((value) async {
         await _videoPlayerController.play();
         setState(() {});
-
       });
   }
 
@@ -40,10 +39,13 @@ class _DetailPageState extends State<DetailPage> {
               padding: const EdgeInsets.all(8.0),
               child: Container(
                 height: MediaQuery.of(context).size.height / 3,
-                decoration: BoxDecoration(
-                  color: Colors.blue
-                ),
-                child: VideoPlayer(_videoPlayerController),
+                decoration: BoxDecoration(color: Colors.blue),
+                child: Stack(children: [
+                  VideoPlayer(_videoPlayerController),
+                  Center(
+                    child: CircleAvatar(radius: 48,),
+                  ),
+                ]),
               ),
             )
           ],
@@ -52,8 +54,6 @@ class _DetailPageState extends State<DetailPage> {
     );
   }
 }
-
-
 
 
 
