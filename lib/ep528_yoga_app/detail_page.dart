@@ -66,6 +66,7 @@ class _DetailPageState extends State<DetailPage> {
                   Spacer(),
                   Icon(Icons.chat_bubble_outline),
                   Text("2,102"),
+                  SizedBox(width: 4,),
                   Icon(Icons.favorite_border),
                   Text("2,102")
                 ],
