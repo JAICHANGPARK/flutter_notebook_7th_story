@@ -75,9 +75,7 @@ class _DetailPageState extends State<DetailPage> {
             SizedBox(height: 24,),
             Container(
               height: MediaQuery.of(context).size.height / 4,
-              decoration: BoxDecoration(
-                color: Colors.red
-              ),
+             
               padding: EdgeInsets.all(9),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
