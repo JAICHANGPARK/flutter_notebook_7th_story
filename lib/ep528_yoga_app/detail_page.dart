@@ -81,7 +81,11 @@ class _DetailPageState extends State<DetailPage> {
               child: Column(
                 children: [
                   Expanded(
-                    flex: 1,
+                    flex: 2,
+                    child: Placeholder(),
+                  ),
+                  Expanded(
+                    flex: 10,
                     child: Placeholder(),
                   )
                 ],
