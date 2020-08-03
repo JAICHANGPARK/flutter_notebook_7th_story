@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'detail_page.dart';
+
 class FeaturePage extends StatefulWidget {
   @override
   _FeaturePageState createState() => _FeaturePageState();
@@ -85,7 +87,9 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                             Container(
                               child: GestureDetector(
                                 onTap: (){
-                                  
+                                  Navigator.of(context).push(MaterialPageRoute(
+                                    builder: (context) => DetailPage()
+                                  ));
                                 },
                                 child: Column(
                                   children: [
