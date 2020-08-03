@@ -86,10 +86,8 @@ class _FeaturePageState extends State<FeaturePage> with SingleTickerProviderStat
                           children: [
                             Container(
                               child: GestureDetector(
-                                onTap: (){
-                                  Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => DetailPage()
-                                  ));
+                                onTap: () {
+                                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => DetailPage()));
                                 },
                                 child: Column(
                                   children: [
