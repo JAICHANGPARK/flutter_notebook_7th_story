@@ -34,10 +34,14 @@ class _DetailPageState extends State<DetailPage> {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Container(
-              height: MediaQuery.of(context).size.height / 3,
-              decoration: BoxDecoration(
-                color: Colors.blue
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                height: MediaQuery.of(context).size.height / 3,
+                decoration: BoxDecoration(
+                  color: Colors.blue
+                ),
+                child: VideoPlayer(_videoPlayerController),
               ),
             )
           ],
