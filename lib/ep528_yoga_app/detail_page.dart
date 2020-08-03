@@ -94,6 +94,12 @@ class _DetailPageState extends State<DetailPage> {
                       children: [
                         Expanded(
                           child: Placeholder(),
+                        ),
+                        Expanded(
+                          child: Placeholder(),
+                        ),
+                        Expanded(
+                          child: Placeholder(),
                         )
                       ],
                     ),
