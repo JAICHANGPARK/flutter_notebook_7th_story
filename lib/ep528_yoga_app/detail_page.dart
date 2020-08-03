@@ -78,6 +78,14 @@ class _DetailPageState extends State<DetailPage> {
               decoration: BoxDecoration(
                 color: Colors.red
               ),
+              child: Column(
+                children: [
+                  Expanded(
+                    flex: 1,
+                    child: Placeholder(),
+                  )
+                ],
+              ),
             )
           ],
         ),
