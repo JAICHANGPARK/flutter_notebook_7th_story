@@ -48,10 +48,11 @@ class _DetailPageState extends State<DetailPage> {
                     child: Center(
                       child: CircleAvatar(
                         radius: 48,
-                        backgroundColor: Colors.white.withOpacity(0.4),
+                        backgroundColor: Colors.black.withOpacity(0.4),
                         child: Icon(
                           Icons.play_arrow,
-                          color: Colors.black,
+                          color: Colors.white.withOpacity(0.8),
+                          size: 64,
                         ),
                       ),
                     ),
