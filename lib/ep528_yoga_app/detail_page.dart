@@ -60,7 +60,12 @@ class _DetailPageState extends State<DetailPage> {
                 Text("Crane Pose", style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold
-                ),)
+                ),),
+                Spacer(),
+                Icon(Icons.chat_bubble_outline),
+                Text("2,102"),
+                Icon(Icons.favorite_border),
+                Text("2,102")
               ],
             )
           ],
