@@ -27,13 +27,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               ),
               child: BottomAppBar(
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home),
+                        Icon(Icons.home, color: Colors.deepPurpleAccent,),
                         Text("Home"),
                       ],
                     ),
@@ -41,7 +42,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home),
+                        Icon(Icons.home, color: Colors.deepPurpleAccent,),
                         Text("Home"),
                       ],
                     ),
