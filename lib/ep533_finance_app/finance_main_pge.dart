@@ -35,7 +35,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.home, color: Colors.deepPurpleAccent,),
-                        Text("Home"),
+                        Text("Home",
+                          style: TextStyle(
+                          fontSize: 12
+                        ),
+                        ),
                       ],
                     ),
                     Column(
@@ -43,7 +47,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.bookmark, color: Colors.deepPurpleAccent,),
-                        Text("Beneficiary"),
+                        Text("Beneficiary",  style: TextStyle(
+                            fontSize: 12
+                        ),),
                       ],
                     ),
                     Column(
@@ -51,7 +57,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.timer, color: Colors.deepPurpleAccent,),
-                        Text("History"),
+                        Text("History",  style: TextStyle(
+                            fontSize: 12
+                        ),),
                       ],
                     )
                     ,
@@ -60,7 +68,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.notifications,color: Colors.deepPurpleAccent,),
-                        Text("Home"),
+                        Text("notifications",  style: TextStyle(
+                            fontSize: 12
+                        ),),
                       ],
                     ),
                     Column(
