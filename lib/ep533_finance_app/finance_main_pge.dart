@@ -25,7 +25,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           child: Container(
               height: 72,
             
-              child: Row()),
+              child: ClipRRect(
+                  borderRadius: BorderRadius.circular(24),
+                  child: Row())),
         ),
       ),
     );
