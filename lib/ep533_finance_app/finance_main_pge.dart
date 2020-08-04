@@ -18,18 +18,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomAppBar(
-
-        child: ClipRRect(
-          borderRadius: BorderRadius.circular(24),
-          child: Container(
-              height: 72,
-            
-              child: ClipRRect(
-                  borderRadius: BorderRadius.circular(24),
-                  child: Row())),
-        ),
-      ),
+      bottomNavigationBar: Container(
+          height: 72,
+          child: ClipRRect(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(24),
+                topRight: Radius.circular(24),
+              ),
+              child: BottomAppBar())),
     );
   }
 }
