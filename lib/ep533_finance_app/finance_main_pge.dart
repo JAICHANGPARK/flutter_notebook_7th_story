@@ -18,6 +18,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           ],
         ),
       ),
+      bottomNavigationBar: BottomAppBar(
+
+        child: Container(
+            height: 72,
+            child: Row()),
+      ),
     );
   }
 }
