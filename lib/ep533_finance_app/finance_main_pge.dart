@@ -25,7 +25,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                 topLeft: Radius.circular(24),
                 topRight: Radius.circular(24),
               ),
-              child: BottomAppBar())),
+              child: BottomAppBar(
+                child: Row(
+                  children: [
+                    
+                  ],
+                ),
+              ))),
     );
   }
 }
