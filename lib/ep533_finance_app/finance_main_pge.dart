@@ -9,6 +9,6 @@ class FinanceMainPage extends StatefulWidget {
 class _FinanceMainPageState extends State<FinanceMainPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
