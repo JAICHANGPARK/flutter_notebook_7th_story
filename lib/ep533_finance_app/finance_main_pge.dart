@@ -78,7 +78,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(Icons.person, color: Colors.deepPurpleAccent,),
-                        Text("Profile"),
+                        Text("Profile",style: TextStyle(
+                            fontSize: 12
+                        ),),
                       ],
                     )
                   ],
