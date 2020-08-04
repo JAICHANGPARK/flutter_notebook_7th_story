@@ -11,10 +11,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[50],
-      body: Column(
-        children: [
-          
-        ],
+      body: SafeArea(
+        child: Column(
+          children: [
+            
+          ],
+        ),
       ),
     );
   }
