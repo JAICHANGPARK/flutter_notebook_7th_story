@@ -42,16 +42,16 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home, color: Colors.deepPurpleAccent,),
-                        Text("Home"),
+                        Icon(Icons.bookmark, color: Colors.deepPurpleAccent,),
+                        Text("Beneficiary"),
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home),
-                        Text("Home"),
+                        Icon(Icons.timer, color: Colors.deepPurpleAccent,),
+                        Text("History"),
                       ],
                     )
                     ,
@@ -59,7 +59,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home),
+                        Icon(Icons.notifications,color: Colors.deepPurpleAccent,),
                         Text("Home"),
                       ],
                     ),
