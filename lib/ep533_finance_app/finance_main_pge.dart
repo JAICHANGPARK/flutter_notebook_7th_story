@@ -17,11 +17,17 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           children: [
             Expanded(
               flex: 1,
-              child: Text("Convert", style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Align(
+                  alignment: Alignment.centerLeft,
+                  child: Text("Convert", style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
 
-              ),),
+                  ),),
+                ),
+              ),
             ),
             Expanded(
               flex: 8,
@@ -29,7 +35,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                 children: [
                   Expanded(
                     flex: 3,
-                    child: Placeholder(),
+                    child: Stack(
+                      children: [
+                        
+                      ],
+                    ),
                   ),
                   SizedBox(height: 8,),
                   Expanded(
