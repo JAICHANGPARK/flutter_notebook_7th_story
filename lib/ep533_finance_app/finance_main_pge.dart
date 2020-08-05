@@ -23,10 +23,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               child: Column(
                 children: [
                   Expanded(
-                    flex: 1,
+                    flex: 3,
                     child: Placeholder(),
                   ),
-                  
+                  Expanded(
+                    flex: 2,
+                    child: Placeholder(),
+                  ),
                 ],
               ),
             ),
