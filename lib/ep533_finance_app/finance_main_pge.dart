@@ -13,6 +13,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
       backgroundColor: Colors.blueGrey[50],
       body: SafeArea(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
               flex: 1,
