@@ -22,7 +22,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                 child: Align(
                   alignment: Alignment.centerLeft,
                   child: Text("Convert", style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 32,
                     fontWeight: FontWeight.bold,
 
                   ),),
@@ -34,7 +34,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               child: Column(
                 children: [
                   Expanded(
-                    flex: 3,
+                    flex: 5,
                     child: Stack(
                       children: [
                         Column(
@@ -71,7 +71,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   SizedBox(height: 8,),
                   Expanded(
-                    flex: 2,
+                    flex: 3,
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       decoration: BoxDecoration(
