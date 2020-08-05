@@ -71,6 +71,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   SizedBox(height: 8,),
                   Expanded(
+                    flex: 2,
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       decoration: BoxDecoration(
