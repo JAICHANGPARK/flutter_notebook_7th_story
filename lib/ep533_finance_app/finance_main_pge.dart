@@ -14,6 +14,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
       body: SafeArea(
         child: Column(
           children: [
+            Expanded(
+              child: Placeholder(),
+            )
             
           ],
         ),
