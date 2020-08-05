@@ -20,7 +20,15 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             ),
             Expanded(
               flex: 8,
-              child: Placeholder(),
+              child: Column(
+                children: [
+                  Expanded(
+                    flex: 1,
+                    child: Placeholder(),
+                  ),
+                  
+                ],
+              ),
             ),
             Expanded(
               child: Container(
