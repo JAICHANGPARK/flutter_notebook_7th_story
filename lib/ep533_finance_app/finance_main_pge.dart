@@ -37,7 +37,22 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     flex: 3,
                     child: Stack(
                       children: [
-                        
+                        Column(
+                          children: [
+                            Expanded(
+                              child: Placeholder(),
+                            ),
+                            Expanded(
+                              child: Placeholder(),
+                            ),
+                          ],
+                        ),
+                        Center(
+                          child: FloatingActionButton(
+                            onPressed: (){},
+                            child: Icon(Icons.refresh),
+                          ),
+                        )
                       ],
                     ),
                   ),
