@@ -16,7 +16,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           children: [
             Expanded(
               flex: 1,
-              child: Placeholder(),
+              child: Text("Convert", style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+
+              ),),
             ),
             Expanded(
               flex: 8,
