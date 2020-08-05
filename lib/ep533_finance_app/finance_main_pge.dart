@@ -32,7 +32,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               ),
             ),
             Expanded(
-              child: Placeholder(),
+              child: Container(),
             )
             
           ],
