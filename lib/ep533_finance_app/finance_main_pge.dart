@@ -71,8 +71,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                   ),
                   SizedBox(height: 8,),
                   Expanded(
-                    flex: 2,
-                    child: Placeholder(),
+                    child: Container(
+                      margin: EdgeInsets.symmetric(horizontal: 16),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(12)
+                      ),
+                    ),
                   ),
                 ],
               ),
