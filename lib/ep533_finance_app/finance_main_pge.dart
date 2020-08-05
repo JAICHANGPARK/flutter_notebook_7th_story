@@ -16,6 +16,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           children: [
             Expanded(
               child: Placeholder(),
+            ),
+            Expanded(
+              child: Placeholder(),
+            ),
+            Expanded(
+              child: Placeholder(),
             )
             
           ],
