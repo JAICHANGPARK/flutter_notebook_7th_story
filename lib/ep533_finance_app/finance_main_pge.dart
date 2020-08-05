@@ -16,7 +16,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Expanded(
-              flex: 1,
+              flex: 2,
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Align(
@@ -30,7 +30,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               ),
             ),
             Expanded(
-              flex: 8,
+              flex: 10,
               child: Column(
                 children: [
                   Expanded(
@@ -84,9 +84,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               ),
             ),
             Expanded(
+              flex: 3,
               child: Container(),
             ),
             Expanded(
+              flex: 2,
               child: Container(
                 margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                 decoration: BoxDecoration(
