@@ -26,6 +26,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                     flex: 3,
                     child: Placeholder(),
                   ),
+                  SizedBox(height: 8,),
                   Expanded(
                     flex: 2,
                     child: Placeholder(),
