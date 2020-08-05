@@ -15,14 +15,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
         child: Column(
           children: [
             Expanded(
+              flex: 1,
               child: Placeholder(),
             ),
             Expanded(
               child: Placeholder(),
             ),
-            Spacer(),
             Expanded(
-              
               child: Placeholder(),
             )
             
