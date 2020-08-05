@@ -40,7 +40,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                         Column(
                           children: [
                             Expanded(
-                              child: Placeholder(),
+                              child: Container(
+                                
+                              ),
                             ),
                             Expanded(
                               child: Placeholder(),
