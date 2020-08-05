@@ -64,6 +64,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           child: FloatingActionButton(
                             onPressed: (){},
                             child: Icon(Icons.refresh),
+                            backgroundColor: Colors.deepPurpleAccent,
                           ),
                         )
                       ],
