@@ -19,6 +19,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               child: Placeholder(),
             ),
             Expanded(
+              flex: 9,
               child: Placeholder(),
             ),
             Expanded(
