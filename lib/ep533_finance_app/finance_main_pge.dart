@@ -25,7 +25,8 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.deepPurpleAccent
+                  color: Colors.deepPurpleAccent,
+                  borderRadius: BorderRadius.circular(16)
                 ),
               ),
             ),
