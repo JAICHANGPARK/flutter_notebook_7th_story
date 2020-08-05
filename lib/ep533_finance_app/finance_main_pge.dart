@@ -41,10 +41,16 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             ),
             Expanded(
               child: Container(
-                margin: EdgeInsets.symmetric(horizontal: 16),
+                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 4),
                 decoration: BoxDecoration(
                   color: Colors.deepPurpleAccent,
                   borderRadius: BorderRadius.circular(12)
+                ),
+                child: Center(
+                  child: Text("Send money", style: TextStyle(
+                    color: Colors.white,
+
+                  ),),
                 ),
               ),
             ),
