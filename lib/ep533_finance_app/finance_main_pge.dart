@@ -90,7 +90,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             Expanded(
               flex: 2,
               child: Container(
-                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
                 decoration: BoxDecoration(
                   color: Colors.deepPurpleAccent,
                   borderRadius: BorderRadius.circular(12)
