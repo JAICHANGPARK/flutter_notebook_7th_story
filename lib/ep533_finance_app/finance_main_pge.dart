@@ -24,7 +24,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
             ),
             Expanded(
               child: Container(
-                decoration: BoxDecoration(),
+                decoration: BoxDecoration(
+                  color: Colors.deepPurpleAccent
+                ),
               ),
             ),
             Expanded(
