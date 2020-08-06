@@ -145,19 +145,21 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       child: Column(
                         children: [
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Exchange rate"),
                               Text("1 GRP = 1.3 USD"),
                             ],
                           ),
                           Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Text("Fee"),
                               Text("125.50 GRP(10%)"),
                             ],
                           ),
                           Divider(),
-                          
+
 
                         ],
                       ),
