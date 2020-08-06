@@ -150,7 +150,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               Text("1 GRP = 1.3 USD"),
                             ],
                           ),
-                          Row()
+                          Row(
+                            children: [
+                              Text("Fee"),
+                              Text("125.50 GRP(10%)"),
+                            ],
+                          )
 
                         ],
                       ),
