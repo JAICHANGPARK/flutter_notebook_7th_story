@@ -8,6 +8,7 @@ class FinanceMainPage extends StatefulWidget {
 
 class _FinanceMainPageState extends State<FinanceMainPage> {
   TextEditingController _textEditingController = TextEditingController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -62,17 +63,17 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                     Row(
                                       children: [
                                         CircleAvatar(),
-                                        SizedBox(width: 8,),
+                                        SizedBox(
+                                          width: 8,
+                                        ),
                                         Text("GRP"),
-                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){}),
+                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: () {}),
                                         Spacer(),
-                                        Expanded(child: TextField(
+                                        Expanded(
+                                            child: TextField(
                                           controller: _textEditingController,
                                           textAlign: TextAlign.end,
-                                          style: TextStyle(
-                                            fontSize: 24
-                                          ),
-
+                                          style: TextStyle(fontSize: 24),
                                         )),
                                       ],
                                     )
