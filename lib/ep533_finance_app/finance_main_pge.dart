@@ -88,6 +88,36 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               child: Container(
                                 margin: EdgeInsets.symmetric(horizontal: 16),
                                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
+                                padding: EdgeInsets.all(8),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                  children: [
+                                    Row(
+                                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text("From"),
+                                        Text("Enter amount"),
+                                      ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        CircleAvatar(),
+                                        SizedBox(
+                                          width: 8,
+                                        ),
+                                        Text("GRP"),
+                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: () {}),
+                                        Spacer(),
+                                        Expanded(
+                                            child: TextField(
+                                              controller: _textEditingController,
+                                              textAlign: TextAlign.end,
+                                              style: TextStyle(fontSize: 24),
+                                            )),
+                                      ],
+                                    )
+                                  ],
+                                ),
                               ),
                             ),
                           ],
