@@ -7,6 +7,7 @@ class FinanceMainPage extends StatefulWidget {
 }
 
 class _FinanceMainPageState extends State<FinanceMainPage> {
+  TextEditingController _textEditingController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -65,7 +66,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Text("GRP"),
                                         IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){}),
                                         Spacer(),
-                                        Expanded(child: TextField()),
+                                        Expanded(child: TextField(
+                                          controller: _textEditingController,
+                                          
+                                        )),
                                       ],
                                     )
                                   ],
