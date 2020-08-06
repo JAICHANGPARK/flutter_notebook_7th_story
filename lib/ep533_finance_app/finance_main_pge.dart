@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FinanceMainPage extends StatefulWidget {
   @override
   _FinanceMainPageState createState() => _FinanceMainPageState();
@@ -21,11 +20,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                 padding: const EdgeInsets.all(16.0),
                 child: Align(
                   alignment: Alignment.centerLeft,
-                  child: Text("Convert", style: TextStyle(
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold,
-
-                  ),),
+                  child: Text(
+                    "Convert",
+                    style: TextStyle(
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
               ),
             ),
@@ -42,27 +43,23 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                             Expanded(
                               child: Container(
                                 margin: EdgeInsets.symmetric(horizontal: 16),
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(12)
-                                ),
+                                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                               ),
                             ),
-                            SizedBox(height: 8,),
+                            SizedBox(
+                              height: 8,
+                            ),
                             Expanded(
                               child: Container(
                                 margin: EdgeInsets.symmetric(horizontal: 16),
-                                decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(12)
-                                ),
+                                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                               ),
                             ),
                           ],
                         ),
                         Center(
                           child: FloatingActionButton(
-                            onPressed: (){},
+                            onPressed: () {},
                             child: Icon(Icons.refresh),
                             backgroundColor: Colors.deepPurpleAccent,
                           ),
@@ -70,15 +67,14 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 8,),
+                  SizedBox(
+                    height: 8,
+                  ),
                   Expanded(
                     flex: 3,
                     child: Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
-                      decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(12)
-                      ),
+                      decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                     ),
                   ),
                 ],
@@ -92,22 +88,20 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
               flex: 2,
               child: Container(
                 margin: EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-                decoration: BoxDecoration(
-                  color: Colors.deepPurpleAccent,
-                  borderRadius: BorderRadius.circular(12)
-                ),
+                decoration: BoxDecoration(color: Colors.deepPurpleAccent, borderRadius: BorderRadius.circular(12)),
                 child: Center(
-                  child: Text("Send money", style: TextStyle(
-                    color: Colors.white,
-
-                  ),),
+                  child: Text(
+                    "Send money",
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
                 ),
               ),
             ),
             Expanded(
               child: Container(),
             )
-            
           ],
         ),
       ),
@@ -127,11 +121,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.home, color: Colors.deepPurpleAccent,),
-                        Text("Home",
-                          style: TextStyle(
-                          fontSize: 12
+                        Icon(
+                          Icons.home,
+                          color: Colors.deepPurpleAccent,
                         ),
+                        Text(
+                          "Home",
+                          style: TextStyle(fontSize: 12),
                         ),
                       ],
                     ),
@@ -139,41 +135,56 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.bookmark, color: Colors.deepPurpleAccent,),
-                        Text("Beneficiary",  style: TextStyle(
-                            fontSize: 12
-                        ),),
+                        Icon(
+                          Icons.bookmark,
+                          color: Colors.deepPurpleAccent,
+                        ),
+                        Text(
+                          "Beneficiary",
+                          style: TextStyle(fontSize: 12),
+                        ),
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.timer, color: Colors.deepPurpleAccent,),
-                        Text("History",  style: TextStyle(
-                            fontSize: 12
-                        ),),
-                      ],
-                    )
-                    ,
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        Icon(Icons.notifications,color: Colors.deepPurpleAccent,),
-                        Text("notifications",  style: TextStyle(
-                            fontSize: 12
-                        ),),
+                        Icon(
+                          Icons.timer,
+                          color: Colors.deepPurpleAccent,
+                        ),
+                        Text(
+                          "History",
+                          style: TextStyle(fontSize: 12),
+                        ),
                       ],
                     ),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.person, color: Colors.deepPurpleAccent,),
-                        Text("Profile",style: TextStyle(
-                            fontSize: 12
-                        ),),
+                        Icon(
+                          Icons.notifications,
+                          color: Colors.deepPurpleAccent,
+                        ),
+                        Text(
+                          "notifications",
+                          style: TextStyle(fontSize: 12),
+                        ),
+                      ],
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.person,
+                          color: Colors.deepPurpleAccent,
+                        ),
+                        Text(
+                          "Profile",
+                          style: TextStyle(fontSize: 12),
+                        ),
                       ],
                     )
                   ],
@@ -182,26 +193,3 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
