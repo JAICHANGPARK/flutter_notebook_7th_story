@@ -8,6 +8,7 @@ class FinanceMainPage extends StatefulWidget {
 
 class _FinanceMainPageState extends State<FinanceMainPage> {
   TextEditingController _textEditingController = TextEditingController();
+  TextEditingController _textEditingController2 = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
