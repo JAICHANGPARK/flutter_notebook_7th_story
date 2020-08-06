@@ -10,6 +10,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.blueGrey[50],
       body: SafeArea(
         child: Column(
