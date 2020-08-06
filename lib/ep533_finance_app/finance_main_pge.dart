@@ -111,10 +111,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Spacer(),
                                         Expanded(
                                             child: TextField(
-                                              controller: _textEditingController2,
-                                              textAlign: TextAlign.end,
-                                              style: TextStyle(fontSize: 24),
-                                            )),
+                                          controller: _textEditingController2,
+                                          textAlign: TextAlign.end,
+                                          style: TextStyle(fontSize: 24),
+                                        )),
                                       ],
                                     )
                                   ],
@@ -163,17 +163,16 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Total to pay", style: TextStyle(
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18
-                              ),),
-                              Text("1,375.00 GRP", style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 18
-                              ),),
+                              Text(
+                                "Total to pay",
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                              ),
+                              Text(
+                                "1,375.00 GRP",
+                                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                              ),
                             ],
                           ),
-
                         ],
                       ),
                     ),
