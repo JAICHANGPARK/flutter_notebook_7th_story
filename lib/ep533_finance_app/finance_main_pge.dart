@@ -69,6 +69,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Expanded(child: TextField(
                                           controller: _textEditingController,
                                           textAlign: TextAlign.end,
+                                          style: TextStyle(
+                                            fontSize: 24
+                                          ),
 
                                         )),
                                       ],
