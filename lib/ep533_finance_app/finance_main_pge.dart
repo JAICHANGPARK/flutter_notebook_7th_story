@@ -47,6 +47,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                                 padding: EdgeInsets.all(8),
                                 child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                   children: [
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -58,8 +59,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                     Row(
                                       children: [
                                         CircleAvatar(),
+                                        SizedBox(width: 8,),
                                         Text("GRP"),
-                                        IconButton(icon: Icon(Icons.arrow), onPressed: null)
+                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){})
                                       ],
                                     )
                                   ],
