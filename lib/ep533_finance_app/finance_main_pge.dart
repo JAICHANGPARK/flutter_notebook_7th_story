@@ -111,7 +111,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Spacer(),
                                         Expanded(
                                             child: TextField(
-                                              controller: _textEditingController,
+                                              controller: _textEditingController2,
                                               textAlign: TextAlign.end,
                                               style: TextStyle(fontSize: 24),
                                             )),
