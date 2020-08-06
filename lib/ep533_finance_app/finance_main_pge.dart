@@ -159,7 +159,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                             ],
                           ),
                           Divider(),
-
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Total to pay"),
+                              Text("1,375.00 GRP"),
+                            ],
+                          ),
 
                         ],
                       ),
