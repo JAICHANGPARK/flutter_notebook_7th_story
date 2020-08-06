@@ -143,6 +143,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                       padding: EdgeInsets.all(8),
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
