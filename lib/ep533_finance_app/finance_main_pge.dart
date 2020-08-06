@@ -155,7 +155,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               Text("Fee"),
                               Text("125.50 GRP(10%)"),
                             ],
-                          )
+                          ),
+                          Divider(),
+                          
 
                         ],
                       ),
