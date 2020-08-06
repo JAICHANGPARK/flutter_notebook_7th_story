@@ -61,7 +61,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         CircleAvatar(),
                                         SizedBox(width: 8,),
                                         Text("GRP"),
-                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){})
+                                        IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){}),
+                                        Spacer(),
+                                        Expanded(child: TextField()),
                                       ],
                                     )
                                   ],
