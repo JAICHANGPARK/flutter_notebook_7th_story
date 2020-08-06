@@ -11,6 +11,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       backgroundColor: Colors.blueGrey[50],
       body: SafeArea(
         child: Column(
