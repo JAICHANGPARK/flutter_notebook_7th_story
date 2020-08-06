@@ -44,6 +44,11 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                               child: Container(
                                 margin: EdgeInsets.symmetric(horizontal: 16),
                                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
+                                child: Column(
+                                  children: [
+                                    
+                                  ],
+                                ),
                               ),
                             ),
                             SizedBox(
