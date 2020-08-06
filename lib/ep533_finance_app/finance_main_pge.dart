@@ -46,7 +46,12 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                 decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(12)),
                                 child: Column(
                                   children: [
-                                    
+                                    Row(
+                                      children: [
+                                        Text("From"),
+                                        Text("Enter amount"),
+                                      ],
+                                    )
                                   ],
                                 ),
                               ),
