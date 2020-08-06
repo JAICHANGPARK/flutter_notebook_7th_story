@@ -163,7 +163,9 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Total to pay"),
+                              Text("Total to pay", style: TextStyle(
+                                fontWeight: FontWeight.bold
+                              ),),
                               Text("1,375.00 GRP"),
                             ],
                           ),
