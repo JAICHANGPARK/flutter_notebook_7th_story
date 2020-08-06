@@ -106,7 +106,7 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         SizedBox(
                                           width: 8,
                                         ),
-                                        Text("GRP"),
+                                        Text("USD"),
                                         IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: () {}),
                                         Spacer(),
                                         Expanded(
