@@ -145,7 +145,10 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                       child: Column(
                         children: [
                           Row(
-
+                            children: [
+                              Text("Exchange rate"),
+                              Text("1 GRP = 1.3 USD"),
+                            ],
                           ),
                           Row()
 
