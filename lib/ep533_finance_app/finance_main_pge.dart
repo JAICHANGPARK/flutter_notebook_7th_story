@@ -54,6 +54,13 @@ class _FinanceMainPageState extends State<FinanceMainPage> {
                                         Text("From"),
                                         Text("Enter amount"),
                                       ],
+                                    ),
+                                    Row(
+                                      children: [
+                                        CircleAvatar(),
+                                        Text("GRP"),
+                                        IconButton(icon: Icon(Icons.arrow), onPressed: null)
+                                      ],
                                     )
                                   ],
                                 ),
