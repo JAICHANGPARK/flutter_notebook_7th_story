@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class HomePickMainPage extends StatefulWidget {
+class HomePickHomePage extends StatefulWidget {
   @override
-  _HomePickMainPageState createState() => _HomePickMainPageState();
+  _HomePickHomePageState createState() => _HomePickHomePageState();
 }
 
-class _HomePickMainPageState extends State<HomePickMainPage> {
+class _HomePickHomePageState extends State<HomePickHomePage> {
   @override
   Widget build(BuildContext context) {
     return Container();
