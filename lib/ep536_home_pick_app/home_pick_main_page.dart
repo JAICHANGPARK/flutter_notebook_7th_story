@@ -1,3 +1,4 @@
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
 
 class HomePickHomePage extends StatefulWidget {
@@ -12,9 +13,16 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-                
+
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavyBar(items: [
+        
+      ], onItemSelected: (int value) {
+
+      },
+
       ),
 
     );
