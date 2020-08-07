@@ -27,9 +27,15 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             activeColor: Colors.green,
             inactiveColor: Colors.grey
           ),
-          BottomNavyBarItem(icon: Icon(Icons.favorite_border), title: Text("Favorite")),
-          BottomNavyBarItem(icon: Icon(Icons.notifications_none), title: Text("Notification")),
-          BottomNavyBarItem(icon: Icon(Icons.settings), title: Text("Setting"))
+          BottomNavyBarItem(icon: Icon(Icons.favorite_border), title: Text("Favorite"),
+              activeColor: Colors.green,
+              inactiveColor: Colors.grey),
+          BottomNavyBarItem(icon: Icon(Icons.notifications_none), title: Text("Notification"),
+              activeColor: Colors.green,
+              inactiveColor: Colors.grey),
+          BottomNavyBarItem(icon: Icon(Icons.settings), title: Text("Setting"),
+              activeColor: Colors.green,
+              inactiveColor: Colors.grey)
         ],
         onItemSelected: (int value) {
           setState(() {
