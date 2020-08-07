@@ -8,6 +8,8 @@ class HomePickHomePage extends StatefulWidget {
 class _HomePickHomePageState extends State<HomePickHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+
+    );
   }
 }
