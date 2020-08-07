@@ -18,7 +18,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavyBar(items: [
-        
+        BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home"))
       ], onItemSelected: (int value) {
 
       },
