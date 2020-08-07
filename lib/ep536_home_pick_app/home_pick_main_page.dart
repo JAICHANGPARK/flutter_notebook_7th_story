@@ -25,6 +25,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             icon: Icon(Icons.home),
             title: Text("Home"),
             activeColor: Colors.green,
+            inactiveColor: Colors.grey
           ),
           BottomNavyBarItem(icon: Icon(Icons.favorite_border), title: Text("Favorite")),
           BottomNavyBarItem(icon: Icon(Icons.notifications_none), title: Text("Notification")),
