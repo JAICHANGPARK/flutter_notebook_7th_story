@@ -7,20 +7,28 @@ class HomePickHomePage extends StatefulWidget {
 }
 
 class _HomePickHomePageState extends State<HomePickHomePage> {
+  int _pageIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
         child: Column(
           children: [
-
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavyBar(items: [
-        BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home"))
-      ], onItemSelected: (int value) {
-
+      bottomNavigationBar: BottomNavyBar(
+        selectedIndex: _pageIndex,
+        items: [
+          BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home"))
+        ], onItemSelected: (int value) {
+        setState(() {
+          _pageIndex = value;
+        });
       },
 
       ),
