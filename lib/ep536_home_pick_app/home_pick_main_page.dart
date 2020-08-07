@@ -14,26 +14,28 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [
-          ],
+          children: [],
         ),
       ),
       bottomNavigationBar: BottomNavyBar(
         itemCornerRadius: 8,
         selectedIndex: _pageIndex,
         items: [
-          BottomNavyBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          BottomNavyBarItem(
+            icon: Icon(Icons.home),
+            title: Text("Home"),
+            activeColor: Colors.green,
+          ),
           BottomNavyBarItem(icon: Icon(Icons.favorite_border), title: Text("Favorite")),
           BottomNavyBarItem(icon: Icon(Icons.notifications_none), title: Text("Notification")),
           BottomNavyBarItem(icon: Icon(Icons.settings), title: Text("Setting"))
-        ], onItemSelected: (int value) {
-        setState(() {
-          _pageIndex = value;
-        });
-      },
-
+        ],
+        onItemSelected: (int value) {
+          setState(() {
+            _pageIndex = value;
+          });
+        },
       ),
-
     );
   }
 }
