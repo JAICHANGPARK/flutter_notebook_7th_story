@@ -114,21 +114,24 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     ),
                     Container(
                       decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey)
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(8)
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("Flat")),
                     ),
                     Container(
                       decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey)
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(8)
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("Room")),
                     )
                     ,Container(
                       decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey)
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(8)
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("House")),
