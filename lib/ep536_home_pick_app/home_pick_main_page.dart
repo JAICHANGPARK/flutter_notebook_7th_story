@@ -91,7 +91,16 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             SizedBox(height: 8,),
             Expanded(
               flex: 2,
-              child: Placeholder(),
+              child: Row(
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.grey)
+                    ),
+                    child: Center(child: Text("All")),
+                  )
+                ],
+              ),
             ),
             //TODO: Build Page or List Widget
             Expanded(
