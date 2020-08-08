@@ -24,15 +24,8 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     height: 48,
                     width: 48,
                     decoration: BoxDecoration(
-                      color: Colors.white,
-                        boxShadow: [
-                          BoxShadow(
-                            color: Colors.black.withOpacity(0.2),
-                            blurRadius: 5,
-                            spreadRadius: 4
-                          )
-                        ]
-                    ),
+                        color: Colors.white,
+                        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 5, spreadRadius: 4)]),
                   )
                 ],
               ),
@@ -60,20 +53,19 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
         selectedIndex: _pageIndex,
         items: [
           BottomNavyBarItem(
-            icon: Icon(Icons.home),
-            title: Text("Home"),
-            activeColor: Colors.green,
-            inactiveColor: Colors.grey
-          ),
-          BottomNavyBarItem(icon: Icon(Icons.favorite_border), title: Text("Favorite"),
+              icon: Icon(Icons.home), title: Text("Home"), activeColor: Colors.green, inactiveColor: Colors.grey),
+          BottomNavyBarItem(
+              icon: Icon(Icons.favorite_border),
+              title: Text("Favorite"),
               activeColor: Colors.green,
               inactiveColor: Colors.grey),
-          BottomNavyBarItem(icon: Icon(Icons.notifications_none), title: Text("Notification"),
+          BottomNavyBarItem(
+              icon: Icon(Icons.notifications_none),
+              title: Text("Notification"),
               activeColor: Colors.green,
               inactiveColor: Colors.grey),
-          BottomNavyBarItem(icon: Icon(Icons.settings), title: Text("Setting"),
-              activeColor: Colors.green,
-              inactiveColor: Colors.grey)
+          BottomNavyBarItem(
+              icon: Icon(Icons.settings), title: Text("Setting"), activeColor: Colors.green, inactiveColor: Colors.grey)
         ],
         onItemSelected: (int value) {
           setState(() {
