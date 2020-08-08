@@ -32,7 +32,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             ),
             //TODO: Build Page or List Widget
             Expanded(
-              flex: 10,
+              flex: 14,
               child: Placeholder(),
             )
           ],
