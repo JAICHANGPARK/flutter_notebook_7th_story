@@ -34,7 +34,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     ),
                   ),
                   Text("Search", style: TextStyle(
-                    fontSize: 18,
+                    fontSize: 20,
                     fontWeight: FontWeight.bold
                   ),),
                   Container(
@@ -46,7 +46,6 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       borderRadius: BorderRadius.circular(8)
                     ),
                     child: Center(
-
                     ),
                   ),
                 ],
@@ -55,7 +54,11 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             //TODO: Build Search Bar Widget
             Expanded(
               flex: 2,
-              child: Placeholder(),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: Colors.grey[100]
+                ),
+              ),
             ),
             //TODO: Build Tab Bar Widget
             Expanded(
