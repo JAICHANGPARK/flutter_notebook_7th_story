@@ -15,13 +15,19 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            //TODO: Build Appbar Widget 
+            //TODO: Build Appbar Widget
             Expanded(
               child: Placeholder(),
             ),
+            //TODO: Build Search Bar Widget
             Expanded(
               child: Placeholder(),
             ),
+            //TODO: Build Tab Bar Widget
+            Expanded(
+              child: Placeholder(),
+            ),
+            //TODO: Build Tab Bar Widget
             Expanded(
               child: Placeholder(),
             )
