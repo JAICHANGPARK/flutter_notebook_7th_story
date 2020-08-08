@@ -25,6 +25,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     width: 48,
                     decoration: BoxDecoration(
                         color: Colors.white,
+                        borderRadius: BorderRadius.circular(8),
                         boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 5, spreadRadius: 4)]),
                   )
                 ],
