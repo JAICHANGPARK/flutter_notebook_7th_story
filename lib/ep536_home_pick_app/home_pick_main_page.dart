@@ -28,6 +28,9 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(8),
                         boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 5, spreadRadius: 8)]),
+                    child: Center(
+                      child: Icon(Icons.keyboard_arrow_left),
+                    ),
                   )
                 ],
               ),
