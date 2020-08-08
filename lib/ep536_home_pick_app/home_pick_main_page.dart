@@ -65,6 +65,13 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                   borderRadius: BorderRadius.circular(8),
                   border: Border.all(color: Colors.grey)
                 ),
+                child: TextField(
+                  decoration: InputDecoration(
+                    icon: Icon(Icons.search),
+                    hintText: "Search nearest room, house...",
+                    border: InputBorder.none
+                  ),
+                ),
               ),
             ),
             //TODO: Build Tab Bar Widget
