@@ -128,7 +128,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                           border: Border.all(color: Colors.grey)
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 16),
-                      child: Center(child: Text("All")),
+                      child: Center(child: Text("House")),
                     )
                   ],
                 ),
