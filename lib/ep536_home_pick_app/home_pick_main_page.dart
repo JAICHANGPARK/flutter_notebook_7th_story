@@ -18,43 +18,47 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             //TODO: Build Appbar Widget
             Expanded(
               flex: 2,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Container(
-                    height: 40,
-                    width: 40,
-                    margin: EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(8),
-                        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 5, spreadRadius: 8)]),
-                    child: Center(
-                      child: Icon(Icons.keyboard_arrow_left),
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Container(
+                      height: 40,
+                      width: 40,
+                      margin: EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(8),
+                          boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 5, spreadRadius: 8)]),
+                      child: Center(
+                        child: Icon(Icons.keyboard_arrow_left),
+                      ),
                     ),
-                  ),
-                  Text("Search", style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold
-                  ),),
-                  Container(
-                    height: 40,
-                    width: 40,
-                    margin: EdgeInsets.all(8),
-                    decoration: BoxDecoration(
-                      color: Colors.green,
-                      borderRadius: BorderRadius.circular(8)
+                    Text("Search", style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold
+                    ),),
+                    Container(
+                      height: 40,
+                      width: 40,
+                      margin: EdgeInsets.all(8),
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(8)
+                      ),
+                      child: Center(
+                      ),
                     ),
-                    child: Center(
-                    ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             //TODO: Build Search Bar Widget
             Expanded(
               flex: 2,
               child: Container(
+                margin: EdgeInsets.symmetric(horizontal: 16),
                 decoration: BoxDecoration(
                   color: Colors.grey[200],
                   borderRadius: BorderRadius.circular(8),
