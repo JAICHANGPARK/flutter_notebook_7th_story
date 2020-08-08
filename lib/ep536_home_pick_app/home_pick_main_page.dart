@@ -54,6 +54,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                 ),
               ),
             ),
+            SizedBox(height: 8,),
             //TODO: Build Search Bar Widget
             Expanded(
               flex: 2,
@@ -67,6 +68,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
               ),
             ),
             //TODO: Build Tab Bar Widget
+            SizedBox(height: 8,),
             Expanded(
               flex: 2,
               child: Placeholder(),
