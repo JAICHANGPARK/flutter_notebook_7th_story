@@ -19,6 +19,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             Expanded(
               flex: 2,
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     height: 40,
