@@ -14,7 +14,11 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
     return Scaffold(
       body: SafeArea(
         child: Column(
-          children: [],
+          children: [
+            Expanded(
+              child: Placeholder(),
+            )
+          ],
         ),
       ),
       bottomNavigationBar: BottomNavyBar(
