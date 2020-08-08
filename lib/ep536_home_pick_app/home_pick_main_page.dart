@@ -56,7 +56,9 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
               flex: 2,
               child: Container(
                 decoration: BoxDecoration(
-                  color: Colors.grey[100]
+                  color: Colors.grey[200],
+                  borderRadius: BorderRadius.circular(8),
+                  border: Border.all(color: Colors.grey)
                 ),
               ),
             ),
