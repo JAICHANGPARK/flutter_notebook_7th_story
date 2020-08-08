@@ -21,12 +21,13 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
               child: Row(
                 children: [
                   Container(
-                    height: 48,
-                    width: 48,
+                    height: 40,
+                    width: 40,
+                    margin: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(8),
-                        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.2), blurRadius: 5, spreadRadius: 4)]),
+                        boxShadow: [BoxShadow(color: Colors.black.withOpacity(0.1), blurRadius: 5, spreadRadius: 8)]),
                   )
                 ],
               ),
