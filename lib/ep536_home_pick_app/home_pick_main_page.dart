@@ -71,7 +71,8 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     decoration: InputDecoration(
                       icon: Icon(Icons.search),
                       hintText: "Search nearest room, house...",
-                      border: InputBorder.none
+                      border: InputBorder.none,
+                    suffixIcon: CircleAvatar(radius: 16,)
                     ),
                   ),
                 ),
