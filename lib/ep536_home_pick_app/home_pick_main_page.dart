@@ -8,7 +8,7 @@ class HomePickHomePage extends StatefulWidget {
 
 class _HomePickHomePageState extends State<HomePickHomePage> {
   int _pageIndex = 0;
-
+  int _itemIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,58 +37,61 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         child: Icon(Icons.keyboard_arrow_left),
                       ),
                     ),
-                    Text("Search", style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold
-                    ),),
+                    Text(
+                      "Search",
+                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
                     Container(
                       height: 40,
                       width: 40,
                       margin: EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: Colors.green,
-                        borderRadius: BorderRadius.circular(8)
-                      ),
-                      child: Center(
-                      ),
+                      decoration: BoxDecoration(color: Colors.green, borderRadius: BorderRadius.circular(8)),
+                      child: Center(),
                     ),
                   ],
                 ),
               ),
             ),
-            SizedBox(height: 8,),
+            SizedBox(
+              height: 8,
+            ),
             //TODO: Build Search Bar Widget
             Expanded(
               flex: 2,
               child: Container(
                 margin: EdgeInsets.symmetric(horizontal: 16),
                 decoration: BoxDecoration(
-                  color: Colors.grey[200],
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(color: Colors.grey)
-                ),
+                    color: Colors.grey[200],
+                    borderRadius: BorderRadius.circular(8),
+                    border: Border.all(color: Colors.grey)),
                 padding: EdgeInsets.symmetric(horizontal: 16),
                 child: Center(
                   child: TextField(
                     decoration: InputDecoration(
-                      icon: Icon(Icons.search),
-                      hintText: "Search nearest room, house...",
-                      border: InputBorder.none,
-                    suffixIcon: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: CircleAvatar(radius: 16,
-                      backgroundColor: Colors.white,
-                      child: Center(
-                        child: Icon(Icons.clear, color: Colors.black,),
-                      ),),
-                    )
-                    ),
+                        icon: Icon(Icons.search),
+                        hintText: "Search nearest room, house...",
+                        border: InputBorder.none,
+                        suffixIcon: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: CircleAvatar(
+                            radius: 16,
+                            backgroundColor: Colors.white,
+                            child: Center(
+                              child: Icon(
+                                Icons.clear,
+                                color: Colors.black,
+                              ),
+                            ),
+                          ),
+                        )),
                   ),
                 ),
               ),
             ),
             //TODO: Build Tab Bar Widget
-            SizedBox(height: 8,),
+            SizedBox(
+              height: 8,
+            ),
             Expanded(
               flex: 2,
               child: Padding(
@@ -97,42 +100,32 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Container(
-                      decoration: BoxDecoration(
-                        border: Border.all(color: Colors.grey),
-                        borderRadius: BorderRadius.circular(8)
-                      ),
+                      decoration:
+                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("All")),
                     ),
                     Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(8)
-                      ),
+                      decoration:
+                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("Rent")),
                     ),
                     Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(8)
-                      ),
+                      decoration:
+                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("Flat")),
                     ),
                     Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(8)
-                      ),
+                      decoration:
+                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("Room")),
-                    )
-                    ,Container(
-                      decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(8)
-                      ),
+                    ),
+                    Container(
+                      decoration:
+                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                       padding: EdgeInsets.symmetric(horizontal: 16),
                       child: Center(child: Text("House")),
                     )
@@ -143,7 +136,16 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             //TODO: Build Page or List Widget
             Expanded(
               flex: 14,
-              child: Placeholder(),
+              child: IndexedStack(
+                index: _itemIndex,
+                children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Colors.red
+                        ),
+                      )
+                ],
+              ),
             )
           ],
         ),
