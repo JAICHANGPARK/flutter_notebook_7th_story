@@ -31,7 +31,11 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     child: Center(
                       child: Icon(Icons.keyboard_arrow_left),
                     ),
-                  )
+                  ),
+                  Text("Search", style: TextStyle(
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold
+                  ),)
                 ],
               ),
             ),
