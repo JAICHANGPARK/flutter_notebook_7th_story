@@ -79,7 +79,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       child: CircleAvatar(radius: 16,
                       backgroundColor: Colors.white,
                       child: Center(
-                        child: Icon(Icons.clear),
+                        child: Icon(Icons.clear, color: Colors.black,),
                       ),),
                     )
                     ),
