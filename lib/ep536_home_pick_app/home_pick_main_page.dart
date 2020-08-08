@@ -35,7 +35,18 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                   Text("Search", style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold
-                  ),)
+                  ),),
+                  Container(
+                    height: 40,
+                    width: 40,
+                    margin: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      color: Colors.green
+                    ),
+                    child: Center(
+
+                    ),
+                  ),
                 ],
               ),
             ),
