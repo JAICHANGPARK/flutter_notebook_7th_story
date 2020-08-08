@@ -18,7 +18,17 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             //TODO: Build Appbar Widget
             Expanded(
               flex: 2,
-              child: Placeholder(),
+              child: Row(
+                children: [
+                  Container(
+                    height: 48,
+                    width: 48,
+                    decoration: BoxDecoration(
+
+                    ),
+                  )
+                ],
+              ),
             ),
             //TODO: Build Search Bar Widget
             Expanded(
