@@ -27,7 +27,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
             Expanded(
               child: Placeholder(),
             ),
-            //TODO: Build Tab Bar Widget
+            //TODO: Build Page or List Widget
             Expanded(
               child: Placeholder(),
             )
