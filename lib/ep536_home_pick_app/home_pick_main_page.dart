@@ -150,11 +150,18 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         child: Center(child: Text("Flat")),
                       ),
                     ),
-                    Container(
-                      decoration:
-                          BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
-                      padding: EdgeInsets.symmetric(horizontal: 16),
-                      child: Center(child: Text("Room")),
+                    GestureDetector(
+                      onTap: (){
+                        setState(() {
+                          _itemIndex = 3;
+                        });
+                      },
+                      child: Container(
+                        decoration:
+                            BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        child: Center(child: Text("Room")),
+                      ),
                     ),
                     Container(
                       decoration:
