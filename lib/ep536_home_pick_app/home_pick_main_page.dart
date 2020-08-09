@@ -165,6 +165,18 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                 children: [
                   Container(
                     decoration: BoxDecoration(color: Colors.red),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(color: Colors.green),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(color: Colors.),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(color: Colors.red),
+                  ),
+                  Container(
+                    decoration: BoxDecoration(color: Colors.red),
                   )
                 ],
               ),
