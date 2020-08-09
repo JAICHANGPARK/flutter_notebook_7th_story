@@ -157,8 +157,10 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         });
                       },
                       child: Container(
-                        decoration:
-                            BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
+                        decoration:BoxDecoration(
+                        color: _itemIndex == 2 ? Colors.green[200] : Colors.white,
+                          border: _itemIndex == 2 ? null : Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
                         child: Center(child: Text("Room")),
                       ),
