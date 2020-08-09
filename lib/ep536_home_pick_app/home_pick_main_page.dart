@@ -195,7 +195,12 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                 index: _itemIndex,
                 children: [
                   Container(
-                    decoration: BoxDecoration(color: Colors.red),
+                    child: ListView.builder(itemBuilder: (context, index){
+                      return Container(height: MediaQuery.of(context).size.height / 3,
+                      decoration: BoxDecoration(
+                        color: Colors.grey,
+                      ),);
+                    }),
                   ),
                   Container(
                     decoration: BoxDecoration(color: Colors.green),
