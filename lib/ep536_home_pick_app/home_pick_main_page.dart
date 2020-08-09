@@ -101,33 +101,33 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         setState(() {
                           _itemIndex = 0;
                         });
                       },
                       child: Container(
-                        decoration:
-                            BoxDecoration(
-                                color: _itemIndex == 0 ? Colors.green[200] : Colors.white,
-                                border:
-                            _itemIndex == 0 ? null :
-                            Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
+                        decoration: BoxDecoration(
+                            color: _itemIndex == 0 ? Colors.green[200] : Colors.white,
+                            border: _itemIndex == 0 ? null : Border.all(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("All", style: TextStyle(
-                          color: _itemIndex == 0 ? Colors.white : Colors.black
-                        ),)),
+                        child: Center(
+                            child: Text(
+                          "All",
+                          style: TextStyle(color: _itemIndex == 0 ? Colors.white : Colors.black),
+                        )),
                       ),
                     ),
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         setState(() {
                           _itemIndex = 1;
                         });
                       },
                       child: Container(
-                        decoration:
-                            BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
+                        decoration: BoxDecoration(
+                            border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
                         child: Center(child: Text("Rent")),
                       ),
