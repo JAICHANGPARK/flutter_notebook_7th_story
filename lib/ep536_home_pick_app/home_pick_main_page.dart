@@ -9,6 +9,7 @@ class HomePickHomePage extends StatefulWidget {
 class _HomePickHomePageState extends State<HomePickHomePage> {
   int _pageIndex = 0;
   int _itemIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -139,11 +140,9 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
               child: IndexedStack(
                 index: _itemIndex,
                 children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          color: Colors.red
-                        ),
-                      )
+                  Container(
+                    decoration: BoxDecoration(color: Colors.red),
+                  )
                 ],
               ),
             )
