@@ -169,11 +169,13 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                     ),
                     GestureDetector(
                       onTap: (){
-                        
+                        _itemIndex = 4;
                       },
                       child: Container(
-                        decoration:
-                            BoxDecoration(border: Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
+                        decoration:BoxDecoration(
+                            color: _itemIndex == 4 ? Colors.green[200] : Colors.white,
+                            border: _itemIndex == 4 ? null : Border.all(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
                         child: Center(child: Text("House")),
                       ),
