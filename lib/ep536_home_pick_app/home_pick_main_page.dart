@@ -127,10 +127,12 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       },
                       child: Container(
                         decoration: BoxDecoration(
-                            border: Border.all(color: Colors.grey),
+                          color: _itemIndex == 1 ? Colors.green[200] : Colors.white,
+                          border: _itemIndex == 1 ? null : Border.all(color: Colors.grey),
                             borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Rent")),
+                        child: Center(child: Text("Rent",
+                          style: TextStyle(color: _itemIndex == 1 ? Colors.white : Colors.black),)),
                       ),
                     ),
                     Container(
