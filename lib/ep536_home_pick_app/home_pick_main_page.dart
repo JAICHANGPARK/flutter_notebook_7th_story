@@ -114,7 +114,9 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                             _itemIndex == 0 ? null :
                             Border.all(color: Colors.grey), borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("All")),
+                        child: Center(child: Text("All", style: TextStyle(
+                          color: _itemIndex == 0 ? Colors.white : Colors.black
+                        ),)),
                       ),
                     ),
                     GestureDetector(
