@@ -202,6 +202,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         height: MediaQuery.of(context).size.height / 7,
                       decoration: BoxDecoration(
                         color: Colors.grey[400],
+                        borderRadius: BorderRadius.circular(8)
                       ),);
                     }),
                   ),
