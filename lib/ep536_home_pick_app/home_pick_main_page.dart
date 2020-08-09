@@ -147,7 +147,8 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                             border: _itemIndex == 2 ? null : Border.all(color: Colors.grey),
                             borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Flat")),
+                        child: Center(child: Text("Flat",
+                            style: TextStyle(color: _itemIndex == 2 ? Colors.white : Colors.black))),
                       ),
                     ),
                     GestureDetector(
@@ -158,11 +159,12 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       },
                       child: Container(
                         decoration:BoxDecoration(
-                        color: _itemIndex == 2 ? Colors.green[200] : Colors.white,
-                          border: _itemIndex == 2 ? null : Border.all(color: Colors.grey),
+                        color: _itemIndex == 3 ? Colors.green[200] : Colors.white,
+                          border: _itemIndex == 3 ? null : Border.all(color: Colors.grey),
                           borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Room")),
+                        child: Center(child: Text("Room",
+                            style: TextStyle(color: _itemIndex == 3 ? Colors.white : Colors.black))),
                       ),
                     ),
                     Container(
