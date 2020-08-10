@@ -221,7 +221,11 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 )
                               ),
                             )),
-                            Expanded(flex: 2, child: Placeholder()),
+                            Expanded(flex: 2, child: Column(
+                              children: [
+                                Text("New Apartment")
+                              ],
+                            )),
                             Expanded(child: Placeholder())
                           ],
                         ),
