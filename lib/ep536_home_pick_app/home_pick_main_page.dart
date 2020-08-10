@@ -208,7 +208,9 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         decoration: BoxDecoration(color: Colors.grey[400], borderRadius: BorderRadius.circular(8)),
                         child: Row(
                           children: [
-                            
+                            Expanded(child: Placeholder()),
+                            Expanded(child: Placeholder()),
+                            Expanded(child: Placeholder())
                           ],
                         ),
                       );
