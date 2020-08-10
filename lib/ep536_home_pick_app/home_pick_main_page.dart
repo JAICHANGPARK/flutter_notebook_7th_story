@@ -209,39 +209,44 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         padding: EdgeInsets.all(8),
                         child: Row(
                           children: [
-                            Expanded(flex: 3, child: Container(
-                              margin: EdgeInsets.only(right: 8),
-                              decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white,
-                                width: 2),
-                                borderRadius: BorderRadius.circular(8),
-                                image: DecorationImage(
-                                  image: NetworkImage("https://cdn.pixabay.com/photo/2020/08/02/11/37/house-5457422__340.jpg"),
-                                  fit: BoxFit.cover
-                                )
-                              ),
-                            )),
-                            Expanded(flex: 4, child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children: [
-                                Text("New Apartment"),
-                                Row(
+                            Expanded(
+                                flex: 3,
+                                child: Container(
+                                  margin: EdgeInsets.only(right: 8),
+                                  decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.white, width: 2),
+                                      borderRadius: BorderRadius.circular(8),
+                                      image: DecorationImage(
+                                          image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2020/08/02/11/37/house-5457422__340.jpg"),
+                                          fit: BoxFit.cover)),
+                                )),
+                            Expanded(
+                                flex: 4,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                   children: [
-                                    Icon(Icons.star, size: 12, color: Colors.green,),
-                                    Text("4.9 (450 Reviews)", style: TextStyle(
-                                      color: Colors.grey,
-                                      fontSize: 12
-                                    ),),
-
+                                    Text("New Apartment"),
+                                    Row(
+                                      children: [
+                                        Icon(
+                                          Icons.star,
+                                          size: 12,
+                                          color: Colors.green,
+                                        ),
+                                        Text(
+                                          "4.9 (450 Reviews)",
+                                          style: TextStyle(color: Colors.grey, fontSize: 12),
+                                        ),
+                                      ],
+                                    ),
+                                    Text(
+                                      "Banasree, Dhaka",
+                                      style: TextStyle(color: Colors.grey, fontSize: 12),
+                                    )
                                   ],
-                                ),
-                                Text("Banasree, Dhaka" ,style: TextStyle(
-                                    color: Colors.grey,
-                                    fontSize: 12
-                                ),)
-                              ],
-                            )),
+                                )),
                             Expanded(child: Icon(Icons.more_vert))
                           ],
                         ),
