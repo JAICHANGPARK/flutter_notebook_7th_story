@@ -221,7 +221,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 )
                               ),
                             )),
-                            Expanded(flex: 3, child: Column(
+                            Expanded(flex: 4, child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -242,7 +242,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 ),)
                               ],
                             )),
-                            Expanded(child: Placeholder())
+                            Expanded(child: Icon(Icons.more_vert))
                           ],
                         ),
                       );
