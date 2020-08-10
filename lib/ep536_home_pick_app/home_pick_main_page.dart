@@ -222,8 +222,15 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                               ),
                             )),
                             Expanded(flex: 2, child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("New Apartment")
+                                Text("New Apartment"),
+                                Row(
+                                  children: [
+                                    Icon(Icons.star, size: 12, color: Colors.green,),
+                                    Text("4.9 (450 Reviews)", style: TextStyle(),)
+                                  ],
+                                )
                               ],
                             )),
                             Expanded(child: Placeholder())
