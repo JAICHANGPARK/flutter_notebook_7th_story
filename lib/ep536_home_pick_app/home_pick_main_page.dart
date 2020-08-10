@@ -228,7 +228,10 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 Row(
                                   children: [
                                     Icon(Icons.star, size: 12, color: Colors.green,),
-                                    Text("4.9 (450 Reviews)", style: TextStyle(),)
+                                    Text("4.9 (450 Reviews)", style: TextStyle(
+                                      color: Colors.grey,
+                                      
+                                    ),)
                                   ],
                                 )
                               ],
