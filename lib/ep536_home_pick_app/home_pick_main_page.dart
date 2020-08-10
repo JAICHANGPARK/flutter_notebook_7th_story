@@ -230,7 +230,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                     Icon(Icons.star, size: 12, color: Colors.green,),
                                     Text("4.9 (450 Reviews)", style: TextStyle(
                                       color: Colors.grey,
-                                      
+                                      fontSize: 12
                                     ),)
                                   ],
                                 )
