@@ -209,7 +209,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         padding: EdgeInsets.all(8),
                         child: Row(
                           children: [
-                            Expanded(flex: 2, child: Container(
+                            Expanded(flex: 3, child: Container(
                               margin: EdgeInsets.only(right: 8),
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.white,
@@ -221,7 +221,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 )
                               ),
                             )),
-                            Expanded(flex: 2, child: Column(
+                            Expanded(flex: 3, child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
@@ -242,7 +242,6 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 ),)
                               ],
                             )),
-                            SizedBox(width: 48,),
                             Expanded(child: Placeholder())
                           ],
                         ),
