@@ -242,6 +242,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                 ),)
                               ],
                             )),
+                            SizedBox(width: 48,),
                             Expanded(child: Placeholder())
                           ],
                         ),
