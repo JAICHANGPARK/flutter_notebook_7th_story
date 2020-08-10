@@ -209,10 +209,8 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         padding: EdgeInsets.all(8),
                         child: Row(
                           children: [
-                            Expanded(
-                              flex: 2,
-                                child: Placeholder()),
-                            Expanded(flex: 2,child: Placeholder()),
+                            Expanded(flex: 2, child: Placeholder()),
+                            Expanded(flex: 2, child: Placeholder()),
                             Expanded(child: Placeholder())
                           ],
                         ),
