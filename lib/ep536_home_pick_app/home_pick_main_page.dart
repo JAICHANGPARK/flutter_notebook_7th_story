@@ -212,7 +212,8 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                             Expanded(flex: 2, child: Container(
                               margin: EdgeInsets.only(right: 8),
                               decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white,),
+                                border: Border.all(color: Colors.white,
+                                width: 2),
                                 borderRadius: BorderRadius.circular(8),
                                 image: DecorationImage(
                                   image: NetworkImage("https://cdn.pixabay.com/photo/2020/08/02/11/37/house-5457422__340.jpg"),
