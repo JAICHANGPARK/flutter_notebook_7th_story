@@ -205,7 +205,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       return Container(
                         margin: EdgeInsets.only(bottom: 16),
                         height: MediaQuery.of(context).size.height / 7,
-                        decoration: BoxDecoration(color: Colors.grey[400], borderRadius: BorderRadius.circular(8)),
+                        decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.all(8),
                         child: Row(
                           children: [
