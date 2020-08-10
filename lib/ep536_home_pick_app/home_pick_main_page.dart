@@ -127,16 +127,19 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                       },
                       child: Container(
                         decoration: BoxDecoration(
-                          color: _itemIndex == 1 ? Colors.green[200] : Colors.white,
-                          border: _itemIndex == 1 ? null : Border.all(color: Colors.grey),
+                            color: _itemIndex == 1 ? Colors.green[200] : Colors.white,
+                            border: _itemIndex == 1 ? null : Border.all(color: Colors.grey),
                             borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Rent",
-                          style: TextStyle(color: _itemIndex == 1 ? Colors.white : Colors.black),)),
+                        child: Center(
+                            child: Text(
+                          "Rent",
+                          style: TextStyle(color: _itemIndex == 1 ? Colors.white : Colors.black),
+                        )),
                       ),
                     ),
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         setState(() {
                           _itemIndex = 2;
                         });
@@ -147,41 +150,43 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                             border: _itemIndex == 2 ? null : Border.all(color: Colors.grey),
                             borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Flat",
-                            style: TextStyle(color: _itemIndex == 2 ? Colors.white : Colors.black))),
+                        child: Center(
+                            child:
+                                Text("Flat", style: TextStyle(color: _itemIndex == 2 ? Colors.white : Colors.black))),
                       ),
                     ),
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         setState(() {
                           _itemIndex = 3;
                         });
                       },
                       child: Container(
-                        decoration:BoxDecoration(
-                        color: _itemIndex == 3 ? Colors.green[200] : Colors.white,
-                          border: _itemIndex == 3 ? null : Border.all(color: Colors.grey),
-                          borderRadius: BorderRadius.circular(8)),
+                        decoration: BoxDecoration(
+                            color: _itemIndex == 3 ? Colors.green[200] : Colors.white,
+                            border: _itemIndex == 3 ? null : Border.all(color: Colors.grey),
+                            borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("Room",
-                            style: TextStyle(color: _itemIndex == 3 ? Colors.white : Colors.black))),
+                        child: Center(
+                            child:
+                                Text("Room", style: TextStyle(color: _itemIndex == 3 ? Colors.white : Colors.black))),
                       ),
                     ),
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         setState(() {
                           _itemIndex = 4;
                         });
-
                       },
                       child: Container(
-                        decoration:BoxDecoration(
+                        decoration: BoxDecoration(
                             color: _itemIndex == 4 ? Colors.green[200] : Colors.white,
                             border: _itemIndex == 4 ? null : Border.all(color: Colors.grey),
                             borderRadius: BorderRadius.circular(8)),
                         padding: EdgeInsets.symmetric(horizontal: 16),
-                        child: Center(child: Text("House",
-                            style: TextStyle(color: _itemIndex == 4 ? Colors.white : Colors.black))),
+                        child: Center(
+                            child:
+                                Text("House", style: TextStyle(color: _itemIndex == 4 ? Colors.white : Colors.black))),
                       ),
                     )
                   ],
@@ -196,14 +201,12 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                 children: [
                   Container(
                     padding: EdgeInsets.all(16),
-                    child: ListView.builder(itemBuilder: (context, index){
+                    child: ListView.builder(itemBuilder: (context, index) {
                       return Container(
                         margin: EdgeInsets.only(bottom: 16),
                         height: MediaQuery.of(context).size.height / 7,
-                      decoration: BoxDecoration(
-                        color: Colors.grey[400],
-                        borderRadius: BorderRadius.circular(8)
-                      ),);
+                        decoration: BoxDecoration(color: Colors.grey[400], borderRadius: BorderRadius.circular(8)),
+                      );
                     }),
                   ),
                   Container(
