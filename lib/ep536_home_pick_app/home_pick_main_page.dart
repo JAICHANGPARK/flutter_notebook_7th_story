@@ -210,7 +210,10 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                         child: Row(
                           children: [
                             Expanded(flex: 2, child: Container(
-                              decoration: BoxDecoration(),
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.white,),
+                                borderRadius: BorderRadius.circular(8),
+                              ),
                             )),
                             Expanded(flex: 2, child: Placeholder()),
                             Expanded(child: Placeholder())
