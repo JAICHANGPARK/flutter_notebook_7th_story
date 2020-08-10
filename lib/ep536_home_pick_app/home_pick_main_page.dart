@@ -231,9 +231,14 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                                     Text("4.9 (450 Reviews)", style: TextStyle(
                                       color: Colors.grey,
                                       fontSize: 12
-                                    ),)
+                                    ),),
+
                                   ],
-                                )
+                                ),
+                                Text("Banasree, Dhaka" ,style: TextStyle(
+                                    color: Colors.grey,
+                                    fontSize: 12
+                                ),)
                               ],
                             )),
                             Expanded(child: Placeholder())
