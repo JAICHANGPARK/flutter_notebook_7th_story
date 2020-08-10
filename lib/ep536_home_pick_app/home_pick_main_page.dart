@@ -223,6 +223,7 @@ class _HomePickHomePageState extends State<HomePickHomePage> {
                             )),
                             Expanded(flex: 2, child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 Text("New Apartment"),
                                 Row(
