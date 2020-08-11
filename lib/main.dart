@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'ep536_home_pick_app/home_pick_app.dart';
-
+import 'ep540_user_matching_app/user_matching_app.dart';
 
 void main() {
-  runApp(HomePickApp());
+  runApp(UserMatchingApp());
 }
