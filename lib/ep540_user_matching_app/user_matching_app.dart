@@ -61,6 +61,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       Expanded(child: Row(
                         children: [
                           Icon(Icons.tune),
+                          Spacer(),
                           Text("Best match"),
                           IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){})
                         ],
