@@ -40,6 +40,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           bottomLeft: Radius.circular(64)
                       )
                   ),
+                  padding: EdgeInsets.symmetric(horizontal: 24),
                   child: Column(
                     children: [
                       Expanded(child: Placeholder()),
