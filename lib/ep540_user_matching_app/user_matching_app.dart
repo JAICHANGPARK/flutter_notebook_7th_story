@@ -58,7 +58,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           borderRadius: BorderRadius.circular(32)
                         ),
                       )),
-                      Expanded(child: Placeholder()),
+                      Expanded(child: Row(
+                        children: [
+                          Icon(Icons.tune),
+                          Text("Best match"),
+                          IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: (){})
+                        ],
+                      )),
                     ],
                   ),
                 )
