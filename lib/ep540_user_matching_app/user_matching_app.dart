@@ -34,7 +34,15 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     )
                   ),
                 )),
-            
+            Positioned(
+
+                left: 24,
+                right: 24,
+                top: MediaQuery.of(context).size.height /3.5,
+                child: Placeholder(
+
+            ))
+
           ],
         ),
       ),
