@@ -17,7 +17,14 @@ class UserMatchingHomePage extends StatefulWidget {
 class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: SafeArea(
+        child: Stack(
+          children: [
+            
+          ],
+        ),
+      ),
+    );
   }
 }
-
