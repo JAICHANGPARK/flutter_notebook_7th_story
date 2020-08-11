@@ -21,7 +21,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
       body: SafeArea(
         child: Stack(
           children: [
-            
+            Positioned(child: Placeholder())
           ],
         ),
       ),
