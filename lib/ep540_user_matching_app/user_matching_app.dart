@@ -21,6 +21,15 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
       body: SafeArea(
         child: Stack(
           children: [
+
+            Positioned(
+                left: 24,
+                right: 24,
+                top: MediaQuery.of(context).size.height /3.6,
+                bottom: 0,
+                child: Placeholder(
+
+            )),
             Positioned(
                 top: 0,
                 left: 0,
@@ -28,20 +37,12 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 child: Container(
                   height: MediaQuery.of(context).size.height /3.5,
                   decoration: BoxDecoration(
-                    color: Colors.blue[100],
-                    borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(64)
-                    )
+                      color: Colors.blue[100],
+                      borderRadius: BorderRadius.only(
+                          bottomLeft: Radius.circular(64)
+                      )
                   ),
                 )),
-            Positioned(
-                left: 24,
-                right: 24,
-                top: MediaQuery.of(context).size.height /3.5,
-                bottom: 0,
-                child: Placeholder(
-
-            ))
 
           ],
         ),
