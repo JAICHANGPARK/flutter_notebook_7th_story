@@ -21,29 +21,21 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
       body: SafeArea(
         child: Stack(
           children: [
-
             Positioned(
-                left: 24,
-                right: 24,
-                top: MediaQuery.of(context).size.height /3.6,
-                bottom: 0,
-                child: Placeholder()),
+                left: 24, right: 24, top: MediaQuery.of(context).size.height / 3.6, bottom: 0, child: Placeholder()),
             Positioned(
                 top: 0,
                 left: 0,
                 right: 0,
                 child: Container(
-                  height: MediaQuery.of(context).size.height /3.5,
+                  height: MediaQuery.of(context).size.height / 3.5,
                   decoration: BoxDecoration(
-                      color: Colors.blue[100],
-                      borderRadius: BorderRadius.only(
-                          bottomLeft: Radius.circular(64)
-                      )
-                  ),
+                      color: Colors.blue[100], borderRadius: BorderRadius.only(bottomLeft: Radius.circular(64))),
                   padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
                   child: Column(
                     children: [
-                      Expanded(child: Row(
+                      Expanded(
+                          child: Row(
                         children: [
                           Expanded(child: Placeholder()),
                           Expanded(child: Placeholder()),
@@ -51,42 +43,26 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           Expanded(child: Placeholder()),
                         ],
                       )),
-                      Expanded(child: Container(
+                      Expanded(
+                          child: Container(
                         margin: EdgeInsets.symmetric(vertical: 8),
-                        decoration: BoxDecoration(
-                          color: Colors.blue[200],
-                          borderRadius: BorderRadius.circular(32)
-                        ),
+                        decoration: BoxDecoration(color: Colors.blue[200], borderRadius: BorderRadius.circular(32)),
                       )),
-                      Expanded(child: Row(
+                      Expanded(
+                          child: Row(
                         children: [
                           Icon(Icons.tune),
                           Spacer(),
                           Text("Best match"),
-                          IconButton(icon: Icon(Icons.keyboard_arrow_down),
-                              onPressed: (){})
+                          IconButton(icon: Icon(Icons.keyboard_arrow_down), onPressed: () {})
                         ],
                       )),
                     ],
                   ),
-                )
-
-            ),
-
+                )),
           ],
         ),
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
