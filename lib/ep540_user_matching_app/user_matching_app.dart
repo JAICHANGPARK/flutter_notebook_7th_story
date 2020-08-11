@@ -51,7 +51,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           Expanded(child: Placeholder()),
                         ],
                       )),
-                      Expanded(child: Placeholder()),
+                      Expanded(child: Container(
+                        margin: EdgeInsets.symmetric(vertical: 8),
+                        decoration: BoxDecoration(
+                          color: Colors.blue[200],
+                          borderRadius: BorderRadius.circular(32)
+                        ),
+                      )),
                       Expanded(child: Placeholder()),
                     ],
                   ),
