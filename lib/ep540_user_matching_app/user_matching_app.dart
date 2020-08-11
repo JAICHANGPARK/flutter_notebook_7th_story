@@ -26,14 +26,15 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 left: 0,
                 right: 0,
                 child: Container(
-                  height: MediaQuery.of(context).size.height /4,
+                  height: MediaQuery.of(context).size.height /3.5,
                   decoration: BoxDecoration(
                     color: Colors.blue[100],
                     borderRadius: BorderRadius.only(
                       bottomLeft: Radius.circular(64)
                     )
                   ),
-                ))
+                )),
+            
           ],
         ),
       ),
