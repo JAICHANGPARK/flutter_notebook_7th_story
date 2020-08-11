@@ -27,9 +27,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 right: 24,
                 top: MediaQuery.of(context).size.height /3.6,
                 bottom: 0,
-                child: Placeholder(
-
-            )),
+                child: Placeholder()),
             Positioned(
                 top: 0,
                 left: 0,
@@ -42,7 +40,16 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           bottomLeft: Radius.circular(64)
                       )
                   ),
-                )),
+                  child: Column(
+                    children: [
+                      Expanded(child: Placeholder()),
+                      Expanded(child: Placeholder()),
+                      Expanded(child: Placeholder()),
+                    ],
+                  ),
+                )
+
+            ),
 
           ],
         ),
