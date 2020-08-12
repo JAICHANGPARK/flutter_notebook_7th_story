@@ -29,7 +29,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
               decoration: BoxDecoration(
                 color: Colors.indigo[300],
                 borderRadius: BorderRadius.only(
-                  bottomLeft: Radius.circular(64)
+                  bottomLeft: Radius.circular(84)
                 )
               ),
             )
