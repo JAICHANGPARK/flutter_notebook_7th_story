@@ -15,6 +15,7 @@ class UserMatchingHomePage extends StatefulWidget {
 }
 
 class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
+  final GlobalKey<ScaffoldState> _globalKey = GlobalKey<>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
