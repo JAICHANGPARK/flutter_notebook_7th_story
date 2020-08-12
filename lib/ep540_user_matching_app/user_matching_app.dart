@@ -164,11 +164,14 @@ class CustomDrawer extends StatelessWidget {
       namesRoute: true,
       explicitChildNodes: true,
       label: label,
-      child: ConstrainedBox(constraints: const BoxConstraints.expand(width: 340),
-      child: Material(
-        elevation: elevation,
-        child: child,
-      ),
-    ));
+      child: Padding(
+        padding: const EdgeInsets.only(top: 48),
+        child: ConstrainedBox(constraints: BoxConstraints.expand(width: MediaQuery.of(context).size.width - 24),
+        child: Material(
+          elevation: elevation,
+          child: child,
+        ),
+    ),
+      ));
   }
 }
