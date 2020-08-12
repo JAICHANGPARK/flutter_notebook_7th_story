@@ -19,6 +19,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _globalKey,
       body: SafeArea(
         child: Stack(
           children: [
