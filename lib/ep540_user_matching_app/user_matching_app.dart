@@ -26,6 +26,12 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
           height: MediaQuery.of(context).size.height - 20,
           child: Stack(
             children: [
+              Container(
+                height: 320,
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                ),
+              ),
               Positioned(
                 child: Container(
                   height: 160,
@@ -38,12 +44,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                   ),
                 ),
               ),
-              Container(
-                height: 320,
-                decoration: BoxDecoration(
-                  color: Colors.red,
-                ),
-              )
+
             ],
           ),
         ),
