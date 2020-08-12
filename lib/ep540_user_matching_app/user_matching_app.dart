@@ -22,25 +22,30 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
     return Scaffold(
       key: _globalKey,
       drawer: CustomDrawer(
-        child: Column(
-          children: [
-            Container(
-              height: 160,
-              decoration: BoxDecoration(
-                color: Colors.indigo[300],
-                borderRadius: BorderRadius.only(
-                  topRight:  Radius.circular(64),
-                  bottomLeft: Radius.circular(84)
-                )
+        child: Container(
+          height: MediaQuery.of(context).size.height - 20,
+          child: Stack(
+            children: [
+              Positioned(
+                child: Container(
+                  height: 160,
+                  decoration: BoxDecoration(
+                    color: Colors.indigo[300],
+                    borderRadius: BorderRadius.only(
+                      topRight:  Radius.circular(64),
+                      bottomLeft: Radius.circular(84)
+                    )
+                  ),
+                ),
               ),
-            ),
-            Container(
-              height: 320,
-              decoration: BoxDecoration(
-                color: Colors.red,
-              ),
-            )
-          ],
+              Container(
+                height: 320,
+                decoration: BoxDecoration(
+                  color: Colors.red,
+                ),
+              )
+            ],
+          ),
         ),
       ),
       body: SafeArea(
