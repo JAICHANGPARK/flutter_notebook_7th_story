@@ -68,7 +68,10 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               icon: Icon(Icons.menu),
                               iconSize: 38,
                               color: Colors.blue[200],
-                              onPressed: () {  },
+                              onPressed: () {
+                                _globalKey.currentState.openDrawer();
+
+                              },
                             ),
                           )),
                         ],
