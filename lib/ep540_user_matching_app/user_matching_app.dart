@@ -27,9 +27,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
           child: Stack(
             children: [
               Container(
-                height: 320,
+                height: 480,
                 decoration: BoxDecoration(
                   color: Colors.red,
+                    borderRadius: BorderRadius.only(
+                        topRight:  Radius.circular(64),
+                        bottomLeft: Radius.circular(84)
+                    )
                 ),
               ),
               Positioned(
