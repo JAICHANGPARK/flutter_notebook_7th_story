@@ -20,6 +20,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: _globalKey,
+      drawer: Drawer(),
       body: SafeArea(
         child: Stack(
           children: [
