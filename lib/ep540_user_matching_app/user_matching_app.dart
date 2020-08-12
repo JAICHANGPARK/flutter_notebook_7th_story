@@ -42,6 +42,9 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           Expanded(child: Center(
                             child: IconButton(
                               icon: Icon(Icons.chat_bubble_outline),
+
+                              iconSize: 38,
+                              onPressed: () {  },
                             ),
                           )),
                           Expanded(child: Placeholder()),
