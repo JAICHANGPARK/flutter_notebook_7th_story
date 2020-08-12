@@ -39,7 +39,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       Expanded(
                           child: Row(
                         children: [
-                          Expanded(child: Placeholder()),
+                          Expanded(child: Center(
+                            child: IconButton(
+                              icon: Icon(),
+                            ),
+                          )),
                           Expanded(child: Placeholder()),
                           Expanded(child: Placeholder()),
                           Expanded(child: Placeholder()),
