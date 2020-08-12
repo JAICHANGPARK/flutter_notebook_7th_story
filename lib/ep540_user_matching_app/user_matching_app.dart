@@ -33,6 +33,12 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                   bottomLeft: Radius.circular(84)
                 )
               ),
+            ),
+            Container(
+              height: 320,
+              decoration: BoxDecoration(
+                color: Colors.red,
+              ),
             )
           ],
         ),
@@ -183,6 +189,7 @@ class CustomDrawer extends StatelessWidget {
         padding: const EdgeInsets.only(top: 48),
         child: ConstrainedBox(constraints: BoxConstraints.expand(width: MediaQuery.of(context).size.width - 24),
         child: Material(
+          color: Colors.green[200],
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
               topRight: Radius.circular(64)
