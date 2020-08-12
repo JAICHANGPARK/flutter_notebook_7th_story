@@ -47,7 +47,14 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               onPressed: () {  },
                             ),
                           )),
-                          Expanded(child: Placeholder()),
+                          Expanded(child: Center(
+                            child: IconButton(
+                              icon: Icon(Icons.search),
+                              iconSize: 38,
+                              color: Colors.blue[200],
+                              onPressed: () {  },
+                            ),
+                          )),
                           Expanded(child: Placeholder()),
                           Expanded(child: Placeholder()),
                         ],
