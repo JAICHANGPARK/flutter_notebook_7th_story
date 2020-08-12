@@ -57,13 +57,20 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           )),
                           Expanded(child: Center(
                             child: IconButton(
-                              icon: Icon(Icons.search),
+                              icon: Icon(Icons.favorite_border),
                               iconSize: 38,
                               color: Colors.blue[200],
                               onPressed: () {  },
                             ),
                           )),
-                          Expanded(child: Placeholder()),
+                          Expanded(child: Center(
+                            child: IconButton(
+                              icon: Icon(Icons.menu),
+                              iconSize: 38,
+                              color: Colors.blue[200],
+                              onPressed: () {  },
+                            ),
+                          )),
                         ],
                       )),
                       Expanded(
