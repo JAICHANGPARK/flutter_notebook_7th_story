@@ -168,6 +168,11 @@ class CustomDrawer extends StatelessWidget {
         padding: const EdgeInsets.only(top: 48),
         child: ConstrainedBox(constraints: BoxConstraints.expand(width: MediaQuery.of(context).size.width - 24),
         child: Material(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(
+              topRight: Radius.circular(64)
+            )
+          ),
           elevation: elevation,
           child: child,
         ),
