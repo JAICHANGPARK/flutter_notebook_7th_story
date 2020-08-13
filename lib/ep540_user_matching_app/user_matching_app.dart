@@ -33,12 +33,22 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 child: Container(
                   height: 480,
                   decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: Colors.white,
                       borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
                   child: Column(
                     children: [
                       SizedBox(
                         height: 160,
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(24.0),
+                        child: Row(
+                          children: [
+                            Icon(Icons.camera),
+                            SizedBox(width: 8,),
+                            Text("Edit Pictures"),
+                          ],
+                        ),
                       )
                     ],
                   ),
