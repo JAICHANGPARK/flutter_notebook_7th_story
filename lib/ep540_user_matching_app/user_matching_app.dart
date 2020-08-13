@@ -38,6 +38,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                   decoration: BoxDecoration(
                       color: Colors.indigo[300],
                       borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
+                  child: Stack(
+                    children: [
+                      Positioned(child: IconButton())
+                    ],
+                  ),
                 ),
               ),
             ],
