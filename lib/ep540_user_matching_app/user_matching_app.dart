@@ -32,6 +32,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 right: 0,
                 child: Container(
                   height: 480,
+                  padding: EdgeInsets.only(left: 16),
                   decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
