@@ -40,8 +40,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
                   child: Stack(
                     children: [
-                      Positioned(child: IconButton(
-                        icon: Icon(Icons.clear), onPressed: () {  },
+                      Positioned(
+                        right: 16,
+                        top: 16,
+                        child: IconButton(
+                        icon: Icon(Icons.clear), onPressed: () {
+
+                      },
                       ),)
                     ],
                   ),
