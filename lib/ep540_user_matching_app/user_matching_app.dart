@@ -57,9 +57,16 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           child: Row(
                         children: [
                           CircleAvatar(
-                            radius: 64,
+                            radius: 54,
+                          ),
+                          Column(children: [
 
-                          )
+                            Text("Dreamwalker", style: TextStyle(
+                              fontSize: 24,
+                              color: Colors.white,
+                            ),),
+                            Text("Flutter Live Coding")
+                          ],)
                         ],
                       ))
                     ],
