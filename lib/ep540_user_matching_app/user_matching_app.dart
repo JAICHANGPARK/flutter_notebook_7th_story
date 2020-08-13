@@ -116,8 +116,10 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                                   children: [
-                                    Icon(Icons.mail),
-                                    Text("Invite a friend")
+                                    Icon(Icons.mail, color: Colors.blue[400]),
+                                    Text("Invite a friend", style: TextStyle(
+                                        color: Colors.blue[400]
+                                    ),)
                                   ],
                                 ),
                               ),
