@@ -51,6 +51,42 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                 Text("Edit Pictures"),
                               ],
                             ),
+                            SizedBox(
+                              height: 16,
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.camera),
+                                SizedBox(width: 8,),
+                                Text("Edit info"),
+                              ],
+                            ),
+                            SizedBox(
+                              height: 16,
+                            ),
+                            Row(
+                              children: [
+                                Icon(Icons.camera),
+                                SizedBox(width: 8,),
+                                Text("Settings"),
+                              ],
+                            ),
+
+                            Row(
+                              children: [
+                                Icon(Icons.camera),
+                                SizedBox(width: 8,),
+                                Text("Connect contacts"),
+                              ],
+                            ),
+
+                            Row(
+                              children: [
+                                Icon(Icons.camera),
+                                SizedBox(width: 8,),
+                                Text("Log Out"),
+                              ],
+                            ),
                           ],
                         ),
                       )
