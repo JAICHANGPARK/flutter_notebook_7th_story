@@ -26,19 +26,22 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
           height: MediaQuery.of(context).size.height - 20,
           child: Stack(
             children: [
-              Container(
-                height: 480,
-                decoration: BoxDecoration(
-                    color: Colors.red,
-                    borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 160,
-                    )
-                  ],
-                )
-                ,
+              Positioned(
+                left: 0,
+                top: 0,
+                child: Container(
+                  height: 480,
+                  decoration: BoxDecoration(
+                      color: Colors.red,
+                      borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
+                  child: Column(
+                    children: [
+                      SizedBox(
+                        height: 160,
+                      )
+                    ],
+                  ),
+                ),
               ),
               Positioned(
                 child: Container(
@@ -67,7 +70,9 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               CircleAvatar(
                                 radius: 48,
                               ),
-                              SizedBox(width: 24,),
+                              SizedBox(
+                                width: 24,
+                              ),
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -78,11 +83,16 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                       color: Colors.white,
                                     ),
                                   ),
-                                  SizedBox(height: 8,),
-                                  Text("Flutter Live Coding",style: TextStyle(
-                                    fontSize: 14,
-                                    color: Colors.white,
-                                  ),)
+                                  SizedBox(
+                                    height: 8,
+                                  ),
+                                  Text(
+                                    "Flutter Live Coding",
+                                    style: TextStyle(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
+                                  )
                                 ],
                               )
                             ],
