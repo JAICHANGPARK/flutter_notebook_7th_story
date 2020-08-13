@@ -71,9 +71,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             ),
                             Row(
                               children: [
-                                Icon(Icons.camera),
+                                Icon(Icons.settings,  color: Colors.blue[400]),
                                 SizedBox(width: 8,),
-                                Text("Settings"),
+                                Text("Settings", style: TextStyle(
+                                    color: Colors.blue[400]
+                                ),),
                               ],
                             ),
                             SizedBox(
@@ -81,7 +83,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             ),
                             Row(
                               children: [
-                                Icon(Icons.camera),
+                                Icon(Icons.account_circle_rounded,  color: Colors.blue[400]),
                                 SizedBox(width: 8,),
                                 Text("Connect contacts"),
                               ],
