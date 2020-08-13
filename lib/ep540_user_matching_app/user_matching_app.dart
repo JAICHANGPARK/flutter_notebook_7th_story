@@ -52,8 +52,8 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         ),
                       ),
                       Positioned(
-                          top: 32,
-                          left: 24,
+                          top: 24,
+                          left: 16,
                           child: Row(
                         children: [
                           CircleAvatar(
