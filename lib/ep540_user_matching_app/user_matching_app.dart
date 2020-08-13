@@ -61,7 +61,9 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               children: [
                                 Icon(Icons.edit, color: Colors.blue[400]),
                                 SizedBox(width: 8,),
-                                Text("Edit info"),
+                                Text("Edit info", style: TextStyle(
+                                    color: Colors.blue[400]
+                                ),),
                               ],
                             ),
                             SizedBox(
