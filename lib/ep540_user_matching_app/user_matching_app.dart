@@ -85,7 +85,9 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               children: [
                                 Icon(Icons.account_circle_rounded,  color: Colors.blue[400]),
                                 SizedBox(width: 8,),
-                                Text("Connect contacts"),
+                                Text("Connect contacts", style: TextStyle(
+                                    color: Colors.blue[400]
+                                ),),
                               ],
                             ),SizedBox(
                               height: 16,
