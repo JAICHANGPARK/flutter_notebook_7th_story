@@ -31,6 +31,14 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 decoration: BoxDecoration(
                     color: Colors.red,
                     borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
+                child: Column(
+                  children: [
+                    SizedBox(
+                      height: 160,
+                    )
+                  ],
+                )
+                ,
               ),
               Positioned(
                 child: Container(
