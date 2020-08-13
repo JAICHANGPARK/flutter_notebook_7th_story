@@ -70,6 +70,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                       color: Colors.white,
                                     ),
                                   ),
+                                  SizedBox(height: 8,),
                                   Text("Flutter Live Coding",style: TextStyle(
                                     fontSize: 14,
                                     color: Colors.white,
