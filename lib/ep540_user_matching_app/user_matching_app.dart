@@ -109,8 +109,17 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               height: 38,
                               width: 140,
                               decoration: BoxDecoration(
-                                border: Border.all(color: Colors.indigo[300]),
+                                border: Border.all( color: Colors.blue[400]),
                                 borderRadius: BorderRadius.circular(32)
+                              ),
+                              child: Center(
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                  children: [
+                                    Icon(Icons.mail),
+                                    Text("Invite a friend")
+                                  ],
+                                ),
                               ),
                             )
 
