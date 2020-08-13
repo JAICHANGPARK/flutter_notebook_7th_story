@@ -49,10 +49,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             Row(
                               children: [
                                 Icon(Icons.camera, color: Colors.blue[400]),
-                                SizedBox(width: 8,),
-                                Text("Edit Pictures", style: TextStyle(
-                                  color: Colors.blue[400]
-                                ),),
+                                SizedBox(
+                                  width: 8,
+                                ),
+                                Text(
+                                  "Edit Pictures",
+                                  style: TextStyle(color: Colors.blue[400]),
+                                ),
                               ],
                             ),
                             SizedBox(
@@ -61,10 +64,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             Row(
                               children: [
                                 Icon(Icons.edit, color: Colors.blue[400]),
-                                SizedBox(width: 8,),
-                                Text("Edit info", style: TextStyle(
-                                    color: Colors.blue[400]
-                                ),),
+                                SizedBox(
+                                  width: 8,
+                                ),
+                                Text(
+                                  "Edit info",
+                                  style: TextStyle(color: Colors.blue[400]),
+                                ),
                               ],
                             ),
                             SizedBox(
@@ -72,11 +78,14 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             ),
                             Row(
                               children: [
-                                Icon(Icons.settings,  color: Colors.blue[400]),
-                                SizedBox(width: 8,),
-                                Text("Settings", style: TextStyle(
-                                    color: Colors.blue[400]
-                                ),),
+                                Icon(Icons.settings, color: Colors.blue[400]),
+                                SizedBox(
+                                  width: 8,
+                                ),
+                                Text(
+                                  "Settings",
+                                  style: TextStyle(color: Colors.blue[400]),
+                                ),
                               ],
                             ),
                             SizedBox(
@@ -84,47 +93,52 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             ),
                             Row(
                               children: [
-                                Icon(Icons.account_circle_rounded,  color: Colors.blue[400]),
-                                SizedBox(width: 8,),
-                                Text("Connect contacts", style: TextStyle(
-                                    color: Colors.blue[400]
-                                ),),
+                                Icon(Icons.account_circle_rounded, color: Colors.blue[400]),
+                                SizedBox(
+                                  width: 8,
+                                ),
+                                Text(
+                                  "Connect contacts",
+                                  style: TextStyle(color: Colors.blue[400]),
+                                ),
                               ],
-                            ),SizedBox(
+                            ),
+                            SizedBox(
                               height: 16,
                             ),
-
                             Row(
                               children: [
-                                Icon(Icons.exit_to_app,  color: Colors.blue[400]),
-                                SizedBox(width: 8,),
-                                Text("Log Out", style: TextStyle(
-                                    color: Colors.blue[400]
-                                ),),
+                                Icon(Icons.exit_to_app, color: Colors.blue[400]),
+                                SizedBox(
+                                  width: 8,
+                                ),
+                                Text(
+                                  "Log Out",
+                                  style: TextStyle(color: Colors.blue[400]),
+                                ),
                               ],
-                            ),  SizedBox(
+                            ),
+                            SizedBox(
                               height: 16,
                             ),
                             Container(
                               height: 38,
                               width: 140,
                               decoration: BoxDecoration(
-                                border: Border.all( color: Colors.blue[400]),
-                                borderRadius: BorderRadius.circular(32)
-                              ),
+                                  border: Border.all(color: Colors.blue[400]), borderRadius: BorderRadius.circular(32)),
                               child: Center(
                                 child: Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                                   children: [
                                     Icon(Icons.mail, color: Colors.blue[400]),
-                                    Text("Invite a friend", style: TextStyle(
-                                        color: Colors.blue[400]
-                                    ),)
+                                    Text(
+                                      "Invite a friend",
+                                      style: TextStyle(color: Colors.blue[400]),
+                                    )
                                   ],
                                 ),
                               ),
                             )
-
                           ],
                         ),
                       )
