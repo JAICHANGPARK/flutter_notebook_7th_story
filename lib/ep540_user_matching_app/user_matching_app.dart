@@ -71,13 +71,17 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                 Text("Settings"),
                               ],
                             ),
-
+                            SizedBox(
+                              height: 16,
+                            ),
                             Row(
                               children: [
                                 Icon(Icons.camera),
                                 SizedBox(width: 8,),
                                 Text("Connect contacts"),
                               ],
+                            ),SizedBox(
+                              height: 16,
                             ),
 
                             Row(
