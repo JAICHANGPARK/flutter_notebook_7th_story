@@ -95,11 +95,21 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
 
                             Row(
                               children: [
-                                Icon(Icons.camera),
+                                Icon(Icons.exit_to_app,  color: Colors.blue[400]),
                                 SizedBox(width: 8,),
-                                Text("Log Out"),
+                                Text("Log Out", style: TextStyle(
+                                    color: Colors.blue[400]
+                                ),),
                               ],
                             ),
+                            Container(
+                              height: 48,
+                              width: 140,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.indigo[300])
+                              ),
+                            )
+
                           ],
                         ),
                       )
