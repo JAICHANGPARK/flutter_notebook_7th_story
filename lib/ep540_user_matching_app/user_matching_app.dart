@@ -44,6 +44,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         right: 16,
                         top: 16,
                         child: IconButton(
+                          color: Colors.white,
                         icon: Icon(Icons.clear), onPressed: () {
 
                       },
