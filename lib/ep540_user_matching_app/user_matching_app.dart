@@ -45,10 +45,23 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         top: 16,
                         child: IconButton(
                           color: Colors.white,
-                        icon: Icon(Icons.clear), onPressed: () {
+                          icon: Icon(Icons.clear),
+                          onPressed: () {
+                            _globalKey.currentState.openEndDrawer();
+                          },
+                        ),
+                      ),
+                      Positioned(
+                          top: 32,
+                          left: 24,
+                          child: Row(
+                        children: [
+                          CircleAvatar(
+                            radius: 64,
 
-                      },
-                      ),)
+                          )
+                        ],
+                      ))
                     ],
                   ),
                 ),
