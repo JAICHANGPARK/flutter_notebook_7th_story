@@ -44,6 +44,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       Padding(
                         padding: const EdgeInsets.all(24.0),
                         child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Row(
                               children: [
@@ -101,9 +102,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                     color: Colors.blue[400]
                                 ),),
                               ],
+                            ),  SizedBox(
+                              height: 16,
                             ),
                             Container(
-                              height: 48,
+                              height: 32,
                               width: 140,
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.indigo[300])
