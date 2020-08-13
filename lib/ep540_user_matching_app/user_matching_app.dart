@@ -29,26 +29,17 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
               Container(
                 height: 480,
                 decoration: BoxDecoration(
-                  color: Colors.red,
-                    borderRadius: BorderRadius.only(
-                        topRight:  Radius.circular(64),
-                        bottomLeft: Radius.circular(84)
-                    )
-                ),
+                    color: Colors.red,
+                    borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
               ),
               Positioned(
                 child: Container(
                   height: 160,
                   decoration: BoxDecoration(
-                    color: Colors.indigo[300],
-                    borderRadius: BorderRadius.only(
-                      topRight:  Radius.circular(64),
-                      bottomLeft: Radius.circular(84)
-                    )
-                  ),
+                      color: Colors.indigo[300],
+                      borderRadius: BorderRadius.only(topRight: Radius.circular(64), bottomLeft: Radius.circular(84))),
                 ),
               ),
-
             ],
           ),
         ),
@@ -191,24 +182,21 @@ class CustomDrawer extends StatelessWidget {
         label = semanticLabel ?? MaterialLocalizations.of(context)?.drawerLabel;
     }
     return Semantics(
-      scopesRoute: true,
-      namesRoute: true,
-      explicitChildNodes: true,
-      label: label,
-      child: Padding(
-        padding: const EdgeInsets.only(top: 48),
-        child: ConstrainedBox(constraints: BoxConstraints.expand(width: MediaQuery.of(context).size.width - 24),
-        child: Material(
-          color: Colors.green[200],
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(
-              topRight: Radius.circular(64)
-            )
+        scopesRoute: true,
+        namesRoute: true,
+        explicitChildNodes: true,
+        label: label,
+        child: Padding(
+          padding: const EdgeInsets.only(top: 48),
+          child: ConstrainedBox(
+            constraints: BoxConstraints.expand(width: MediaQuery.of(context).size.width - 24),
+            child: Material(
+              color: Colors.green[200],
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(64))),
+              elevation: elevation,
+              child: child,
+            ),
           ),
-          elevation: elevation,
-          child: child,
-        ),
-    ),
-      ));
+        ));
   }
 }
