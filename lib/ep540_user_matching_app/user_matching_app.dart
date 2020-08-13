@@ -42,11 +42,15 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       ),
                       Padding(
                         padding: const EdgeInsets.all(24.0),
-                        child: Row(
+                        child: Column(
                           children: [
-                            Icon(Icons.camera),
-                            SizedBox(width: 8,),
-                            Text("Edit Pictures"),
+                            Row(
+                              children: [
+                                Icon(Icons.camera),
+                                SizedBox(width: 8,),
+                                Text("Edit Pictures"),
+                              ],
+                            ),
                           ],
                         ),
                       )
