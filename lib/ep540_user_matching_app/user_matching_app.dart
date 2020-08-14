@@ -222,7 +222,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
 
                           ],
                         ),
-                      ),
+                      ),SizedBox(height: 8,),
                       Container(
                         height: 12,
                         child: SmoothPageIndicator(
@@ -230,6 +230,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           effect: WormEffect(dotHeight: 8, dotWidth: 8),
                         ),
                       ),
+                      SizedBox(height: 8,),
                       Container(
                         height: 48,
                         width: 120,
