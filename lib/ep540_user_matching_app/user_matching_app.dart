@@ -325,20 +325,50 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         )),
                   ),
                   Container(
-                    color: Colors.blue,
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
                   ),
                   Container(
-                    color: Colors.blue,
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
                   ),
                   Container(
-                    color: Colors.blue,
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
                   ),
                   Container(
-                    color: Colors.blue,
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
                   ),
                   Container(
-                    color: Colors.blue,
-                  )
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
                 ],
               ),
             ),
