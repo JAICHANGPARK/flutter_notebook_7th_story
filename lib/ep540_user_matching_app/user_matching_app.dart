@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class UserMatchingApp extends StatelessWidget {
   @override
@@ -16,6 +17,7 @@ class UserMatchingHomePage extends StatefulWidget {
 
 class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
   final GlobalKey<ScaffoldState> _globalKey = GlobalKey<ScaffoldState>();
+  PageController _pageController = PageController();
 
   @override
   Widget build(BuildContext context) {
@@ -205,12 +207,23 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                 ),
               ),
               Positioned(
-                left: 16,
+                  left: 16,
                   right: 16,
                   bottom: 16,
                   child: Column(
                     children: [
-                      
+                      Container(
+                        height: 100,
+                        decoration: BoxDecoration(
+                          color: Colors.red
+                        ),
+                      ),
+                      Container(
+                        height: 24,
+                        child: SmoothPageIndicator(
+                          controller: _pageController, count: 3,
+                        ),
+                      )
                     ],
                   )),
             ],
