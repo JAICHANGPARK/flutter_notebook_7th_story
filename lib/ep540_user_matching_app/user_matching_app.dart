@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -218,6 +219,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         ),
                         child: PageView(
                           controller: _pageController,
+                          scrollDirection: Axis.horizontal,
                           children: [
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
@@ -231,7 +233,20 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                   fontSize: 16,
                                   color: Colors.green
                               ),),
-                            ],)
+                            ],),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text("Full subscription", style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.green
+                                ),),
+                                SizedBox(height: 12,),
+                                Text("Review all the characteristics", style: TextStyle(
+                                    fontSize: 16,
+                                    color: Colors.green
+                                ),),
+                              ],)
 
                           ],
                         ),
