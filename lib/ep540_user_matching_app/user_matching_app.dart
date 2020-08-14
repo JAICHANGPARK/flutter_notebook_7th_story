@@ -219,11 +219,20 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         ),
                       ),
                       Container(
-                        height: 24,
+                        height: 12,
                         child: SmoothPageIndicator(
                           controller: _pageController, count: 3,
+                          effect: WormEffect(dotHeight: 8, dotWidth: 8),
                         ),
-                      )
+                      ),
+                      Container(
+                        height: 48,
+                        width: 120,
+                        child: Center(
+                          child: Text("Begin"),
+                        )
+                      ),
+
                     ],
                   )),
             ],
