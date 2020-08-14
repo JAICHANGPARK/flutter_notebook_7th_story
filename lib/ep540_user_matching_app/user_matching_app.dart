@@ -323,6 +323,22 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
                         )),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 8,
+                          right: 8,
+                          bottom: 8,
+                          child: Row(
+                            children: [
+                              Column(
+                                
+                              )
+                            ],
+                          ),
+                        )
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8),
