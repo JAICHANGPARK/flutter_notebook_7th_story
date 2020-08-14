@@ -316,6 +316,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     crossAxisCount: 2, mainAxisSpacing: 8, crossAxisSpacing: 8),
                 children: [
                   Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         borderRadius: BorderRadius.only(
