@@ -328,8 +328,9 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         Positioned(
                           left: 8,
                           right: 8,
-                          bottom: 8,
+                          bottom: 24,
                           child: Row(
+                            
                             children: [
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -343,6 +344,10 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
 
                                   ),)
                                 ],
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.lightGreenAccent,
+                                radius: 16,
                               )
                             ],
                           ),
