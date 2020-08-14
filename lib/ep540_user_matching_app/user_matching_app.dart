@@ -229,7 +229,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         height: 48,
                         width: 120,
                         child: Center(
-                          child: Text("Begin"),
+                          child: Text("Begin now", style: TextStyle(
+                            fontSize: 18,
+                            color: Colors.white,
+                            
+                          ),),
                         )
                       ),
 
