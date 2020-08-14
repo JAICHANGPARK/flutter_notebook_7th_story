@@ -220,8 +220,14 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           controller: _pageController,
                           children: [
                             Column(children: [
-                              Text("Full subscription"),
-                              Text("Review all the characteristics"),
+                              Text("Full subscription", style: TextStyle(
+                                fontSize: 16,
+                                color: Colors.green
+                              ),),
+                              Text("Review all the characteristics", style: TextStyle(
+                                  fontSize: 16,
+                                  color: Colors.green
+                              ),),
                             ],)
 
                           ],
