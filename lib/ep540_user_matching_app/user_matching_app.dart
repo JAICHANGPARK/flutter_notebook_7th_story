@@ -330,7 +330,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           right: 8,
                           bottom: 24,
                           child: Row(
-                            
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
