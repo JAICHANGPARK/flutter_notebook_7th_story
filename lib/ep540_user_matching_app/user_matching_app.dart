@@ -215,7 +215,12 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       Container(
                         height: 100,
                         decoration: BoxDecoration(
-                          color: Colors.red
+                        ),
+                        child: PageView(
+                          controller: _pageController,
+                          children: [
+
+                          ],
                         ),
                       ),
                       Container(
@@ -228,11 +233,15 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                       Container(
                         height: 48,
                         width: 120,
+                        decoration: BoxDecoration(
+                          color: Colors.green,
+                          borderRadius: BorderRadius.circular(32)
+                        ),
                         child: Center(
                           child: Text("Begin now", style: TextStyle(
                             fontSize: 18,
                             color: Colors.white,
-                            
+
                           ),),
                         )
                       ),
