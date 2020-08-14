@@ -311,7 +311,30 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
               right: 24,
               top: MediaQuery.of(context).size.height / 3.6,
               bottom: 0,
-              child: Placeholder(),
+              child: GridView(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,
+                mainAxisSpacing: 8,crossAxisSpacing: 8),
+                children: [
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.blue,
+                  ),
+                  Container(
+                    color: Colors.blue,
+                  )
+                ],
+              ),
             ),
             Positioned(
                 top: 0,
