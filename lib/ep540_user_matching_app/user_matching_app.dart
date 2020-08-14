@@ -320,38 +320,33 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     decoration: BoxDecoration(
                         color: Colors.blue,
                         image: DecorationImage(
-                          image: NetworkImage(
-                            "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
-
-                          ),
-                          fit: BoxFit.cover
-                        ),
+                            image: NetworkImage(
+                              "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+                            ),
+                            fit: BoxFit.cover),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
                         )),
                     child: Stack(
                       children: [
-
                         Positioned(
                           left: 0,
                           right: 0,
                           bottom: 0,
                           top: 0,
-                         child: Container(
-                           decoration: BoxDecoration(
-                             borderRadius: BorderRadius.only(
-                               topRight: Radius.circular(24),
-                               bottomLeft: Radius.circular(24),
-                             ),
-                             gradient: LinearGradient(
-                               colors: [Colors.indigo,
-                               Colors.transparent],
-                               begin: Alignment.bottomCenter,
-                               end: Alignment.topCenter,
-                             )
-                           ),
-                         ),
+                          child: Container(
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(24),
+                                  bottomLeft: Radius.circular(24),
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [Colors.indigo, Colors.transparent],
+                                  begin: Alignment.bottomCenter,
+                                  end: Alignment.topCenter,
+                                )),
+                          ),
                         ),
                         Positioned(
                           left: 8,
@@ -363,19 +358,23 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("John, 25",style: TextStyle(
-                                      color: Colors.white
-                                  ),),
-                                  Text("tai aviv University",style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 12
-
-                                  ),)
+                                  Text(
+                                    "John, 25",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text(
+                                    "tai aviv University",
+                                    style: TextStyle(color: Colors.white, fontSize: 12),
+                                  )
                                 ],
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.lightGreenAccent,
                                 radius: 16,
+                                child: Icon(
+                                  Icons.favorite_border,
+                                  color: Colors.white,
+                                ),
                               )
                             ],
                           ),
@@ -387,28 +386,202 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.blue,
+                        image: DecorationImage(
+                            image: NetworkImage(
+                              "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+                            ),
+                            fit: BoxFit.cover),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
                         )),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 0,
+                          right: 0,
+                          bottom: 0,
+                          top: 0,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(24),
+                                  bottomLeft: Radius.circular(24),
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [Colors.indigo, Colors.transparent],
+                                  begin: Alignment.bottomCenter,
+                                  end: Alignment.topCenter,
+                                )),
+                          ),
+                        ),
+                        Positioned(
+                          left: 8,
+                          right: 8,
+                          bottom: 24,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "John, 25",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text(
+                                    "tai aviv University",
+                                    style: TextStyle(color: Colors.white, fontSize: 12),
+                                  )
+                                ],
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.lightGreenAccent,
+                                radius: 16,
+                                child: Icon(
+                                  Icons.favorite_border,
+                                  color: Colors.white,
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.blue,
+                        image: DecorationImage(
+                            image: NetworkImage(
+                              "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+                            ),
+                            fit: BoxFit.cover),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
                         )),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 0,
+                          right: 0,
+                          bottom: 0,
+                          top: 0,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(24),
+                                  bottomLeft: Radius.circular(24),
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [Colors.indigo, Colors.transparent],
+                                  begin: Alignment.bottomCenter,
+                                  end: Alignment.topCenter,
+                                )),
+                          ),
+                        ),
+                        Positioned(
+                          left: 8,
+                          right: 8,
+                          bottom: 24,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "John, 25",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text(
+                                    "tai aviv University",
+                                    style: TextStyle(color: Colors.white, fontSize: 12),
+                                  )
+                                ],
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.lightGreenAccent,
+                                radius: 16,
+                                child: Icon(
+                                  Icons.favorite_border,
+                                  color: Colors.white,
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.blue,
+                        image: DecorationImage(
+                            image: NetworkImage(
+                              "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+                            ),
+                            fit: BoxFit.cover),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
                         )),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          left: 0,
+                          right: 0,
+                          bottom: 0,
+                          top: 0,
+                          child: Container(
+                            decoration: BoxDecoration(
+                                borderRadius: BorderRadius.only(
+                                  topRight: Radius.circular(24),
+                                  bottomLeft: Radius.circular(24),
+                                ),
+                                gradient: LinearGradient(
+                                  colors: [Colors.indigo, Colors.transparent],
+                                  begin: Alignment.bottomCenter,
+                                  end: Alignment.topCenter,
+                                )),
+                          ),
+                        ),
+                        Positioned(
+                          left: 8,
+                          right: 8,
+                          bottom: 24,
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    "John, 25",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                  Text(
+                                    "tai aviv University",
+                                    style: TextStyle(color: Colors.white, fontSize: 12),
+                                  )
+                                ],
+                              ),
+                              CircleAvatar(
+                                backgroundColor: Colors.lightGreenAccent,
+                                radius: 16,
+                                child: Icon(
+                                  Icons.favorite_border,
+                                  color: Colors.white,
+                                ),
+                              )
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8),
