@@ -204,6 +204,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                   ),
                 ),
               ),
+              Positioned(child: Column()),
             ],
           ),
         ),
