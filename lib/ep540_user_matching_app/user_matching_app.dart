@@ -325,6 +325,23 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         )),
                     child: Stack(
                       children: [
+
+                        Positioned(
+                          left: 0,
+                          right: 0,
+                          bottom: 0,
+                          top: 0,
+                         child: Container(
+                           decoration: BoxDecoration(
+                             gradient: LinearGradient(
+                               colors: [Colors.indigo,
+                               Colors.transparent],
+                               begin: Alignment.bottomCenter,
+                               end: Alignment.topCenter,
+                             )
+                           ),
+                         ),
+                        ),
                         Positioned(
                           left: 8,
                           right: 8,
@@ -336,11 +353,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text("John, 25",style: TextStyle(
-                                    color: Colors.white
+                                      color: Colors.white
                                   ),),
                                   Text("tai aviv University",style: TextStyle(
                                       color: Colors.white,
-                                    fontSize: 12
+                                      fontSize: 12
 
                                   ),)
                                 ],
@@ -352,13 +369,6 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             ],
                           ),
                         ),
-                        Positioned(
-                          left: 0,
-                          right: 0,
-                          bottom: 0,
-                          top: 0,
-                         child: Container(),
-                        )
                       ],
                     ),
                   ),
