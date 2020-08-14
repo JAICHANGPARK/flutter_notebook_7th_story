@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -215,8 +214,7 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     children: [
                       Container(
                         height: 100,
-                        decoration: BoxDecoration(
-                        ),
+                        decoration: BoxDecoration(),
                         child: PageView(
                           controller: _pageController,
                           scrollDirection: Axis.horizontal,
@@ -224,57 +222,81 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                              Text("Full subscription", style: TextStyle(
-                                fontSize: 16,
-                                color: Colors.green
-                              ),),
-                              SizedBox(height: 12,),
-                              Text("Review all the characteristics", style: TextStyle(
-                                  fontSize: 16,
-                                  color: Colors.green
-                              ),),
-                            ],),
+                                Text(
+                                  "Full subscription",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                                SizedBox(
+                                  height: 12,
+                                ),
+                                Text(
+                                  "Review all the characteristics",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                              ],
+                            ),
                             Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text("Full subscription", style: TextStyle(
-                                    fontSize: 16,
-                                    color: Colors.green
-                                ),),
-                                SizedBox(height: 12,),
-                                Text("Review all the characteristics", style: TextStyle(
-                                    fontSize: 16,
-                                    color: Colors.green
-                                ),),
-                              ],)
-
+                                Text(
+                                  "Full subscription",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                                SizedBox(
+                                  height: 12,
+                                ),
+                                Text(
+                                  "Review all the characteristics",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                              ],
+                            ),
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  "Full subscription",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                                SizedBox(
+                                  height: 12,
+                                ),
+                                Text(
+                                  "Review all the characteristics",
+                                  style: TextStyle(fontSize: 16, color: Colors.green),
+                                ),
+                              ],
+                            )
                           ],
                         ),
-                      ),SizedBox(height: 8,),
+                      ),
+                      SizedBox(
+                        height: 8,
+                      ),
                       Container(
                         height: 12,
                         child: SmoothPageIndicator(
-                          controller: _pageController, count: 3,
+                          controller: _pageController,
+                          count: 3,
                           effect: WormEffect(dotHeight: 8, dotWidth: 8),
                         ),
                       ),
-                      SizedBox(height: 8,),
-                      Container(
-                        height: 48,
-                        width: 120,
-                        decoration: BoxDecoration(
-                          color: Colors.green,
-                          borderRadius: BorderRadius.circular(32)
-                        ),
-                        child: Center(
-                          child: Text("Begin now", style: TextStyle(
-                            fontSize: 18,
-                            color: Colors.white,
-
-                          ),),
-                        )
+                      SizedBox(
+                        height: 8,
                       ),
-
+                      Container(
+                          height: 48,
+                          width: 120,
+                          decoration: BoxDecoration(color: Colors.green, borderRadius: BorderRadius.circular(32)),
+                          child: Center(
+                            child: Text(
+                              "Begin now",
+                              style: TextStyle(
+                                fontSize: 18,
+                                color: Colors.white,
+                              ),
+                            ),
+                          )),
                     ],
                   )),
             ],
@@ -285,7 +307,12 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
         child: Stack(
           children: [
             Positioned(
-                left: 24, right: 24, top: MediaQuery.of(context).size.height / 3.6, bottom: 0, child: Placeholder()),
+              left: 24,
+              right: 24,
+              top: MediaQuery.of(context).size.height / 3.6,
+              bottom: 0,
+              child: Placeholder(),
+            ),
             Positioned(
                 top: 0,
                 left: 0,
