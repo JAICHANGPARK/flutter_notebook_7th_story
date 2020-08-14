@@ -313,8 +313,62 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
               bottom: 0,
               child: GridView(
                 gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2, mainAxisSpacing: 8, crossAxisSpacing: 8),
+                    crossAxisCount: 2, mainAxisSpacing: 24, crossAxisSpacing: 8),
                 children: [
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
+                  Container(
+                    margin: EdgeInsets.symmetric(horizontal: 8),
+                    decoration: BoxDecoration(
+                        color: Colors.blue,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(24),
+                          bottomLeft: Radius.circular(24),
+                        )),
+                  ),
                   Container(
                     margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
