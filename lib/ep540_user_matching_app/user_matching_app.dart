@@ -219,6 +219,10 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                         child: PageView(
                           controller: _pageController,
                           children: [
+                            Column(children: [
+                              Text("Full subscription"),
+                              Text("Review all the characteristics"),
+                            ],)
 
                           ],
                         ),
