@@ -319,6 +319,13 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                     margin: EdgeInsets.symmetric(horizontal: 8),
                     decoration: BoxDecoration(
                         color: Colors.blue,
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            "https://cdn.pixabay.com/photo/2015/01/08/18/29/entrepreneur-593358_960_720.jpg",
+
+                          ),
+                          fit: BoxFit.cover
+                        ),
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(24),
                           bottomLeft: Radius.circular(24),
@@ -333,6 +340,10 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           top: 0,
                          child: Container(
                            decoration: BoxDecoration(
+                             borderRadius: BorderRadius.only(
+                               topRight: Radius.circular(24),
+                               bottomLeft: Radius.circular(24),
+                             ),
                              gradient: LinearGradient(
                                colors: [Colors.indigo,
                                Colors.transparent],
