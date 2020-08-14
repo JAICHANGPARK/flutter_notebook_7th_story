@@ -332,7 +332,11 @@ class _UserMatchingHomePageState extends State<UserMatchingHomePage> {
                           child: Row(
                             children: [
                               Column(
-                                
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("John, 25"),
+                                  Text("tai aviv University")
+                                ],
                               )
                             ],
                           ),
