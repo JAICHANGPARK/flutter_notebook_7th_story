@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'ep540_user_matching_app/user_matching_app.dart';
+import 'package:flutter_notebook_7th_story/ep544_weather_app/weather_app.dart';
 
 void main() {
-  runApp(UserMatchingApp());
+  runApp(WeatherApp());
 }
