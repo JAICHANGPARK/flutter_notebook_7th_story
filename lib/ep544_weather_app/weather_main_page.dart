@@ -48,6 +48,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                   children: [
                     Row(
                       children: [
+                        Icon(Icons.access_time),
                         Text("07:32 AM", style: TextStyle(
                           color:  _textColor
                         ),)
