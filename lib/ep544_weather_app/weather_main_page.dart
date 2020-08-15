@@ -46,13 +46,16 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
               child: SafeArea(
                 child: Column(
                   children: [
-                    Row(
-                      children: [
-                        Icon(Icons.access_time),
-                        Text("07:32 AM", style: TextStyle(
-                          color:  _textColor
-                        ),)
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 24),
+                      child: Row(
+                        children: [
+                          Icon(Icons.access_time, color: _textColor,size: 12,),
+                          Text("07:32 AM", style: TextStyle(
+                            color:  _textColor
+                          ),)
+                        ],
+                      ),
                     )
 
                   ],
