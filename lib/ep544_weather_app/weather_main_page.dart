@@ -22,21 +22,68 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
               decoration: BoxDecoration(
                   image: DecorationImage(
                       image:
-                          NetworkImage("https://cdn.pixabay.com/photo/2018/05/30/00/24/thunderstorm-3440450_960_720.jpg"),
+                          NetworkImage("https://cdn.pixabay.com/photo/2019/05/28/03/23/thunderstorm-4234254_960_720.jpg"),
                       fit: BoxFit.cover)),
               child: BackdropFilter(
                 filter: ImageFilter.blur(
-                  sigmaX: 5.0,
-                  sigmaY: 5.0,
+                  sigmaX: 3.0,
+                  sigmaY: 3.0,
+
                 ),
                 child: Container(
                   color: Colors.black.withOpacity(0.2),
                 ),
               ),
             ),
-          )
+          ),
+          Positioned(
+              left: 0,
+              right: 0,
+              bottom: 0,
+              top: 0,
+              child: SafeArea(
+                child: Column(
+                  children: [
+                    Row(
+                      children: [
+                        Text("07:32 AM")
+                      ],
+                    )
+
+                  ],
+                ),
+              ) )
         ],
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
