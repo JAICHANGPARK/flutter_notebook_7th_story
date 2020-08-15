@@ -53,6 +53,11 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                           Icon(Icons.access_time, color: _textColor,size: 12,),
                           Text("07:32 AM", style: TextStyle(
                             color:  _textColor
+                          ),),
+                          Spacer(),
+                          Icon(Icons.access_time, color: _textColor,size: 12,),
+                          Text("07:32 AM", style: TextStyle(
+                              color:  _textColor
                           ),)
                         ],
                       ),
