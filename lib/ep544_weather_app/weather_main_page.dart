@@ -2,12 +2,14 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+const Color _textColor = Colors.white;
 class WeatherMainPage extends StatefulWidget {
   @override
   _WeatherMainPageState createState() => _WeatherMainPageState();
 }
 
 class _WeatherMainPageState extends State<WeatherMainPage> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,7 +48,9 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                   children: [
                     Row(
                       children: [
-                        Text("07:32 AM")
+                        Text("07:32 AM", style: TextStyle(
+                          color:  _textColor
+                        ),)
                       ],
                     )
 
