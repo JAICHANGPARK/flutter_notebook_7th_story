@@ -29,6 +29,9 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                   sigmaX: 5.0,
                   sigmaY: 5.0,
                 ),
+                child: Container(
+                  color: Colors.black.withOpacity(0.2),
+                ),
               ),
             ),
           )
