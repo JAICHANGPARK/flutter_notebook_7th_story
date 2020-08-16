@@ -71,13 +71,42 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                           Text("New york", style: GoogleFonts.montserrat(color: _textColor))
                         ],
                       ),
+                    ),
+                    Container(
+                      height: MediaQuery.of(context).size.height / 3,
+                      decoration: BoxDecoration(
+                        color: Colors.white
+                      ),
+                      child: Column(),
                     )
                   ],
                 ),
               )),
-          
+
         ],
       ),
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
