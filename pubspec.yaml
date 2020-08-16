@@ -19,6 +19,7 @@ dependencies:
   video_player: ^0.10.11+2
   bottom_navy_bar: ^5.5.0
   smooth_page_indicator: ^0.2.0
+  weather_icons: any
 
 dev_dependencies:
   flutter_test:
