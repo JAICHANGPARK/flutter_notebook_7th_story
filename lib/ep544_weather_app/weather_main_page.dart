@@ -81,7 +81,17 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                           color: Colors.white.withOpacity(.3),
                           borderRadius: BorderRadius.circular(24)
                         ),
-                        child: Column(),
+                        child: Column(
+                          children: [
+                            Container(
+                              height: 24,
+                              width: 120,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.white)
+                              ),
+                            )
+                          ],
+                        ),
                       ),
                     )
                   ],
