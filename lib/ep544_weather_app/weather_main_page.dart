@@ -78,10 +78,8 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                       child: Container(
                         height: MediaQuery.of(context).size.height / 2.5,
                         width: double.infinity,
-                        decoration: BoxDecoration(
-                          color: Colors.white.withOpacity(.3),
-                          borderRadius: BorderRadius.circular(24)
-                        ),
+                        decoration:
+                            BoxDecoration(color: Colors.white.withOpacity(.3), borderRadius: BorderRadius.circular(24)),
                         child: Column(
                           children: [
                             Container(
@@ -92,46 +90,52 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 borderRadius: BorderRadius.circular(8),
                               ),
                               child: Center(
-                                child: Text("STORMY", style: GoogleFonts.montserrat(
-                                  color: Colors.white
-                                ),),
+                                child: Text(
+                                  "STORMY",
+                                  style: GoogleFonts.montserrat(color: Colors.white),
+                                ),
                               ),
                             ),
                             Container(
                               height: 120,
-                              decoration: BoxDecoration(
-                                color: Colors.blue
-                              ),
+                              decoration: BoxDecoration(color: Colors.blue),
                               child: Row(
                                 children: [
-                                  Column(children: [
-                                    Row(
-                                      crossAxisAlignment: CrossAxisAlignment.start,
-                                      children: [
-                                        Text("18", style: GoogleFonts.montserrat(
-                                          fontSize: 84,
+                                  Column(
+                                    children: [
+                                      Row(
+                                        crossAxisAlignment: CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            "18",
+                                            style: GoogleFonts.montserrat(
+                                                fontSize: 84, color: Colors.white, fontWeight: FontWeight.bold),
+                                          ),
+                                          Text(
+                                            "℃",
+                                            style: GoogleFonts.montserrat(
+                                                fontSize: 24, color: Colors.white, fontWeight: FontWeight.bold),
+                                          ),
+                                        ],
+                                      ),
+                                      Text(
+                                        "Feels like 24",
+                                        style: GoogleFonts.montserrat(
+                                          fontSize: 14,
                                           color: Colors.white,
-                                          fontWeight: FontWeight.bold
-                                        ),),
-                                        Text("℃", style: GoogleFonts.montserrat(
-                                            fontSize: 24,
-                                            color: Colors.white,
-                                            fontWeight: FontWeight.bold
-                                        ),),
-
-                                      ],
-                                    ),
-                                    Text("Feels like 24",  style: GoogleFonts.montserrat(
-                                        fontSize: 14,
-                                        color: Colors.white,
-                                    ),)
-                                  ],),
+                                        ),
+                                      )
+                                    ],
+                                  ),
                                   VerticalDivider(
                                     color: Colors.white,
                                   ),
                                   Column(
                                     children: [
-                                      Icon(WeatherIcons.day_cloudy)
+                                      Icon(Icons.cloud, color: Colors.white,
+                                      size: 84,),
+                                      
+
                                     ],
                                   )
                                 ],
@@ -144,31 +148,8 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                   ],
                 ),
               )),
-
         ],
       ),
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
