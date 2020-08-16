@@ -101,6 +101,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               height: 120,
                               decoration: BoxDecoration(color: Colors.blue),
                               child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                 children: [
                                   Column(
                                     children: [
@@ -149,8 +150,10 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             ),
                             Row(
                               children: [
-                                Expanded(child: Center(child: Text("Sunrise 6 AM"))),
-                                Expanded(child: Center(child: Text("Sunrise 6 AM")))
+                                Expanded(child: Center(child: Text("Sunrise 6 AM",
+                                  style: GoogleFonts.montserrat(color: Colors.white),))),
+                                Expanded(child: Center(child: Text("Moonreise 9 PM",
+                                  style: GoogleFonts.montserrat(color: Colors.white),)))
                               ],
                             )
                           ],
