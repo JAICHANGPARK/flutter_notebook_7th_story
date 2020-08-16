@@ -75,10 +75,11 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                     Padding(
                       padding: const EdgeInsets.all(16.0),
                       child: Container(
-                        height: MediaQuery.of(context).size.height / 3,
+                        height: MediaQuery.of(context).size.height / 2.5,
                         width: double.infinity,
                         decoration: BoxDecoration(
-                          color: Colors.white
+                          color: Colors.white.withOpacity(.3),
+                          borderRadius: BorderRadius.circular(24)
                         ),
                         child: Column(),
                       ),
