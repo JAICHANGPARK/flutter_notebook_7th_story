@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:weather_icons/weather_icons.dart';
 
 const Color _textColor = Colors.white;
 
@@ -130,7 +131,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   ),
                                   Column(
                                     children: [
-                                      
+                                      Icon(WeatherIcons.day_cloudy)
                                     ],
                                   )
                                 ],
