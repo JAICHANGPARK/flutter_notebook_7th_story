@@ -72,12 +72,16 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                         ],
                       ),
                     ),
-                    Container(
-                      height: MediaQuery.of(context).size.height / 3,
-                      decoration: BoxDecoration(
-                        color: Colors.white
+                    Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Container(
+                        height: MediaQuery.of(context).size.height / 3,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          color: Colors.white
+                        ),
+                        child: Column(),
                       ),
-                      child: Column(),
                     )
                   ],
                 ),
