@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:weather_icons/weather_icons.dart';
 
 const Color _textColor = Colors.white;
@@ -139,7 +140,6 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                       Text("18 - 40", style: GoogleFonts.montserrat(
                                         color: Colors.white
                                       ),)
-
                                     ],
                                   )
                                 ],
@@ -155,7 +155,8 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 Expanded(child: Center(child: Text("Moonreise 9 PM",
                                   style: GoogleFonts.montserrat(color: Colors.white),)))
                               ],
-                            )
+                            ),
+                            SmoothPageIndicator(controller: , count: null)
                           ],
                         ),
                       ),
