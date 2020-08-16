@@ -81,6 +81,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                         decoration:
                             BoxDecoration(color: Colors.white.withOpacity(.3), borderRadius: BorderRadius.circular(24)),
                         child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             Container(
                               height: 24,
@@ -148,8 +149,8 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             ),
                             Row(
                               children: [
-                                Expanded(child: Text("Sunrise 6 AM")),
-                                Expanded(child: Text("Sunrise 6 AM"))
+                                Expanded(child: Center(child: Text("Sunrise 6 AM"))),
+                                Expanded(child: Center(child: Text("Sunrise 6 AM")))
                               ],
                             )
                           ],
