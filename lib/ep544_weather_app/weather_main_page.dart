@@ -101,6 +101,22 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               decoration: BoxDecoration(
                                 color: Colors.blue
                               ),
+                              child: Row(
+                                children: [
+                                  Column(children: [
+                                    Row(
+                                      children: [
+                                        Text("18", style: GoogleFonts.montserrat(
+                                          fontSize: 64,
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.bold
+                                        ),)
+                                      ],
+                                    )
+
+                                  ],)
+                                ],
+                              ),
                             )
                           ],
                         ),
