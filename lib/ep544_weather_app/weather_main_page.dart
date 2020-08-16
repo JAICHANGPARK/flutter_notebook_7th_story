@@ -87,12 +87,19 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               height: 24,
                               width: 100,
                               decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white)
+                                border: Border.all(color: Colors.white),
+                                borderRadius: BorderRadius.circular(8),
                               ),
                               child: Center(
                                 child: Text("STORMY", style: GoogleFonts.montserrat(
                                   color: Colors.white
                                 ),),
+                              ),
+                            ),
+                            Container(
+                              height: 120,
+                              decoration: BoxDecoration(
+                                color: Colors.blue
                               ),
                             )
                           ],
