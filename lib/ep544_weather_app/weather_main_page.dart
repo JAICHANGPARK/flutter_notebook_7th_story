@@ -13,6 +13,7 @@ class WeatherMainPage extends StatefulWidget {
 }
 
 class _WeatherMainPageState extends State<WeatherMainPage> {
+  PageController _pageController = PageController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -156,7 +157,14 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   style: GoogleFonts.montserrat(color: Colors.white),)))
                               ],
                             ),
-                            SmoothPageIndicator(controller: , count: null)
+                            SmoothPageIndicator(controller: _pageController, count: 3,
+                            effect: WormEffect(
+                              radius: 8,
+                              dotWidth: 8,
+                              dotHeight: 8,
+                              dotColor: Colors.white.withOpacity(.5),
+                              activeDotColor: Colors.white
+                            ),)
                           ],
                         ),
                       ),
