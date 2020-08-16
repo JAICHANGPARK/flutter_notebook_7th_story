@@ -99,7 +99,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             ),
                             Container(
                               height: 120,
-                              decoration: BoxDecoration(color: Colors.blue),
+//                              decoration: BoxDecoration(color: Colors.blue),
                               child: Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                 children: [
