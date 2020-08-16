@@ -146,6 +146,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             Divider(
                               color: Colors.white,
                             ),
+                            Row(
+                              children: [
+                                Expanded(child: Text("Sunrise 6 AM")),
+                                Expanded(child: Text("Sunrise 6 AM"))
+                              ],
+                            )
                           ],
                         ),
                       ),
