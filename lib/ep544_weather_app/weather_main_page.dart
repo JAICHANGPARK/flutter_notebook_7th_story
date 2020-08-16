@@ -134,7 +134,10 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                     children: [
                                       Icon(Icons.cloud, color: Colors.white,
                                       size: 84,),
-                                      
+                                      Text("18 - 40", style: GoogleFonts.montserrat(
+                                        color: Colors.white
+                                      ),)
+
 
                                     ],
                                   )
