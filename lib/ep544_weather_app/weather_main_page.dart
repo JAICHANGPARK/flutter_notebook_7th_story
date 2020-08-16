@@ -125,7 +125,14 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                         color: Colors.white,
                                     ),)
                                   ],),
-                                  VerticalDivider()
+                                  VerticalDivider(
+                                    color: Colors.white,
+                                  ),
+                                  Column(
+                                    children: [
+                                      
+                                    ],
+                                  )
                                 ],
                               ),
                             )
