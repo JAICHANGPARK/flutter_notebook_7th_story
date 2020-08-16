@@ -81,7 +81,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                         height: MediaQuery.of(context).size.height / 2.5,
                         width: double.infinity,
                         decoration:
-                            BoxDecoration(color: Colors.white.withOpacity(.3), borderRadius: BorderRadius.circular(24)),
+                            BoxDecoration(color: Colors.white.withOpacity(.2), borderRadius: BorderRadius.circular(24)),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
