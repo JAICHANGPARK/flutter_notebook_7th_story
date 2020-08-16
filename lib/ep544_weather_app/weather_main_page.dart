@@ -105,16 +105,27 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 children: [
                                   Column(children: [
                                     Row(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Text("18", style: GoogleFonts.montserrat(
-                                          fontSize: 64,
+                                          fontSize: 84,
                                           color: Colors.white,
                                           fontWeight: FontWeight.bold
-                                        ),)
-                                      ],
-                                    )
+                                        ),),
+                                        Text("℃", style: GoogleFonts.montserrat(
+                                            fontSize: 24,
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.bold
+                                        ),),
 
-                                  ],)
+                                      ],
+                                    ),
+                                    Text("Feels like 24",  style: GoogleFonts.montserrat(
+                                        fontSize: 14,
+                                        color: Colors.white,
+                                    ),)
+                                  ],),
+                                  VerticalDivider()
                                 ],
                               ),
                             )
