@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 const Color _textColor = Colors.white;
 class WeatherMainPage extends StatefulWidget {
@@ -51,14 +52,16 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                       child: Row(
                         children: [
                           Icon(Icons.access_time, color: _textColor,size: 12,),
-                          Text("07:32 AM", style: TextStyle(
-                            color:  _textColor
-                          ),),
+                          SizedBox(width: 8,),
+                          Text("07:32 AM",  style: GoogleFonts.montserrat(
+                              color: _textColor
+                          )),
                           Spacer(),
-                          Icon(Icons.access_time, color: _textColor,size: 12,),
-                          Text("07:32 AM", style: TextStyle(
-                              color:  _textColor
-                          ),)
+                          Icon(Icons.edit_location, color: _textColor,size: 12,),
+                          SizedBox(width: 8,),
+                          Text("New york", style: GoogleFonts.montserrat(
+                            color: _textColor
+                          ))
                         ],
                       ),
                     )
