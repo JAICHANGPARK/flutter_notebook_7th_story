@@ -138,12 +138,14 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                         color: Colors.white
                                       ),)
 
-
                                     ],
                                   )
                                 ],
                               ),
-                            )
+                            ),
+                            Divider(
+                              color: Colors.white,
+                            ),
                           ],
                         ),
                       ),
