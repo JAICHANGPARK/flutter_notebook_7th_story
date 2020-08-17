@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_weather_icons/flutter_weather_icons.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -137,7 +138,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   Column(
                                     children: [
                                       Icon(
-                                        Icons.cloud,
+                                        WeatherIcons.wiDayCloudy,
                                         color: Colors.white,
                                         size: 84,
                                       ),
