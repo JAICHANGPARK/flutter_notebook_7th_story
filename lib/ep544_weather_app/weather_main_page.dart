@@ -542,6 +542,234 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               ],
                             ),
                           ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("SAT",
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                ),
+                                SizedBox(height: 4,),
+                                Icon(
+                                  WeatherIcons.wiDaySunny,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                SizedBox(height: 12,),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "23°-39°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("AUG 7",
+                                      style: TextStyle(
+
+                                        fontSize: 13,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("SUN",
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                ),
+                                SizedBox(height: 4,),
+                                Icon(
+                                  WeatherIcons.wiDaySunny,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                SizedBox(height: 12,),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "19°-40°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("AUG 8",
+                                      style: TextStyle(
+
+                                        fontSize: 13,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("FRI",
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                ),
+                                SizedBox(height: 4,),
+                                Icon(
+                                  WeatherIcons.wiDaySunny,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                SizedBox(height: 12,),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "23°-40°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("AUG 6",
+                                      style: TextStyle(
+
+                                        fontSize: 13,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("FRI",
+                                      style: TextStyle(
+                                        fontSize: 14,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                ),
+                                SizedBox(height: 4,),
+                                Icon(
+                                  WeatherIcons.wiDaySunny,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                SizedBox(height: 12,),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "23°-40°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 14,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+
+                                      borderRadius: BorderRadius.circular(4)
+                                  ),
+                                  child: Center(
+                                    child: Text("AUG 6",
+                                      style: TextStyle(
+
+                                        fontSize: 13,
+                                        color: Colors.white,
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
