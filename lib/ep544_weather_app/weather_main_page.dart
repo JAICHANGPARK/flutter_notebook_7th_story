@@ -3,7 +3,6 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:weather_icons/weather_icons.dart';
 
 const Color _textColor = Colors.white;
 
@@ -184,7 +183,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                         ),
                       ),
                     ),
-                    Container(),
+                    Container(
+                      height: MediaQuery.of(context).size.height / 4,
+                      decoration: BoxDecoration(
+                        color: Colors.red
+                      ),
+                    ),
 
                   ],
                 ),
@@ -194,3 +198,18 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
