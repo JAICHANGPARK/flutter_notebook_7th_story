@@ -462,7 +462,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 child: Text(
                                   "23°-40°",
                                   style: GoogleFonts.montserrat(
-                                    fontSize: 18,
+                                    fontSize: 14,
                                     color: Colors.white,
                                   ),
                                 ),
@@ -476,8 +476,9 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 child: Center(
                                   child: Text("AUG 5",
                                     style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 13
+                                        
+                                        fontSize: 13,
+                                      color: Colors.white,
                                     ),),
 
                                 ),
