@@ -142,9 +142,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                         color: Colors.white,
                                         size: 84,
                                       ),
-                                      Text(
-                                        "18 - 40",
-                                        style: GoogleFonts.montserrat(color: Colors.white),
+                                      Padding(
+                                        padding: const EdgeInsets.only(top: 16),
+                                        child: Text(
+                                          "18 - 40",
+                                          style: GoogleFonts.montserrat(color: Colors.white),
+                                        ),
                                       )
                                     ],
                                   )
