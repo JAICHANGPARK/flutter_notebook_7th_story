@@ -188,37 +188,40 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                     ),
                     Container(
                       height: MediaQuery.of(context).size.height / 6,
-                      decoration: BoxDecoration(
-                        color: Colors.red
-                      ),
+                      decoration: BoxDecoration(color: Colors.red),
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: [
                           Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Icon(
-                                WeatherIcons.wiDayCloudy
-                                    ,
+                                WeatherIcons.wiDayCloudy,
                                 color: Colors.white,
+                                size: 38,
                               ),
-                              Text(
-                                "24°",
-                                
-
+                              Padding(
+                                padding: const EdgeInsets.all(8.0),
+                                child: Text(
+                                  "24°",
+                                  style: GoogleFonts.montserrat(
+                                    fontSize: 18,
+                                    color: Colors.white,
+                                  ),
+                                ),
                               )
                             ],
                           )
                         ],
                       ),
                     ),
-                    Divider(color: Colors.white,),
+                    Divider(
+                      color: Colors.white,
+                    ),
                     Container(
                       height: MediaQuery.of(context).size.height / 6,
-                      decoration: BoxDecoration(
-                          color: Colors.red
-                      ),
+                      decoration: BoxDecoration(color: Colors.red),
                     ),
-
                   ],
                 ),
               )),
@@ -227,18 +230,3 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
