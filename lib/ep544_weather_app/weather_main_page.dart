@@ -144,7 +144,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                       Padding(
                                         padding: const EdgeInsets.only(top: 16),
                                         child: Text(
-                                          "18 - 40",
+                                          "18° - 40°",
                                           style: GoogleFonts.montserrat(color: Colors.white),
                                         ),
                                       )
@@ -198,6 +198,13 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             children: [
                               Icon(
                                 WeatherIcons.wiDayCloudy
+                                    ,
+                                color: Colors.white,
+                              ),
+                              Text(
+                                "24°",
+                                
+
                               )
                             ],
                           )
