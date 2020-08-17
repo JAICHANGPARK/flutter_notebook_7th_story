@@ -184,9 +184,17 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                       ),
                     ),
                     Container(
-                      height: MediaQuery.of(context).size.height / 4,
+                      height: MediaQuery.of(context).size.height / 6,
                       decoration: BoxDecoration(
                         color: Colors.red
+                      ),
+                      child: ListView(),
+                    ),
+                    Divider(color: Colors.white,),
+                    Container(
+                      height: MediaQuery.of(context).size.height / 6,
+                      decoration: BoxDecoration(
+                          color: Colors.red
                       ),
                     ),
 
