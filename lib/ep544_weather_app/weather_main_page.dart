@@ -140,7 +140,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                       Icon(
                                         WeatherIcons.wiDayCloudy,
                                         color: Colors.white,
-                                        size: 84,
+                                        size: 64,
                                       ),
                                       Padding(
                                         padding: const EdgeInsets.only(top: 16),
