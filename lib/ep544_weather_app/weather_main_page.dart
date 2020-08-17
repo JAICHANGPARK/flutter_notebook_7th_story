@@ -442,20 +442,21 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                     borderRadius: BorderRadius.circular(4)
                                 ),
                                 child: Center(
-                                  child: Text("NOW",
+                                  child: Text("TODAY",
                                     style: TextStyle(
-                                        fontWeight: FontWeight.bold,
+
                                         fontSize: 14
                                     ),),
 
                                 ),
                               ),
+                              SizedBox(height: 4,),
                               Icon(
                                 WeatherIcons.wiDayCloudy,
                                 color: Colors.white,
                                 size: 38,
                               ),
-                              Spacer(),
+                              SizedBox(height: 4,),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
