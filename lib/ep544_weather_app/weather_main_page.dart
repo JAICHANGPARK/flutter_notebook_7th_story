@@ -456,7 +456,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 color: Colors.white,
                                 size: 38,
                               ),
-                              SizedBox(height: 4,),
+                              SizedBox(height: 12,),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
@@ -500,18 +500,19 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   child: Center(
                                     child: Text("FRI",
                                       style: TextStyle(
-                                          fontSize: 14
+                                          fontSize: 14,
+                                        color: Colors.white,
                                       ),),
 
                                   ),
                                 ),
                                 SizedBox(height: 4,),
                                 Icon(
-                                  WeatherIcons.wiDayCloudy,
+                                  WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(height: 12,),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -529,7 +530,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                       borderRadius: BorderRadius.circular(4)
                                   ),
                                   child: Center(
-                                    child: Text("AUG 5",
+                                    child: Text("AUG 6",
                                       style: TextStyle(
 
                                         fontSize: 13,
