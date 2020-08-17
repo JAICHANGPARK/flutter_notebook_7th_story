@@ -192,7 +192,17 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                       decoration: BoxDecoration(
                         color: Colors.red
                       ),
-                      child: ListView(),
+                      child: ListView(
+                        children: [
+                          Column(
+                            children: [
+                              Icon(
+                                WeatherIcons.wiDayCloudy
+                              )
+                            ],
+                          )
+                        ],
+                      ),
                     ),
                     Divider(color: Colors.white,),
                     Container(
