@@ -188,7 +188,6 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                     ),
                     Container(
                       height: MediaQuery.of(context).size.height / 6,
-                      decoration: BoxDecoration(color: Colors.red),
                       padding: EdgeInsets.only(top: 8, bottom: 12, left: 16),
                       child: ListView(
                         scrollDirection: Axis.horizontal,
@@ -245,7 +244,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
-                                    "24°",
+                                    "28°",
                                     style: GoogleFonts.montserrat(
                                       fontSize: 18,
                                       color: Colors.white,
@@ -259,8 +258,8 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   child: Center(
                                     child: Text("10 AM",
                                       style: TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                          fontSize: 14
+                                          fontSize: 14,
+                                        color: Colors.white
                                       ),),
 
                                   ),
