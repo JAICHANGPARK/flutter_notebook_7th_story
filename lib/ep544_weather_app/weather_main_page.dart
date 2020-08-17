@@ -214,17 +214,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               ),
                               Container(
                                 padding: EdgeInsets.symmetric(horizontal: 8),
-                                decoration: BoxDecoration(
-                                  color: Colors.white,
-                                  borderRadius: BorderRadius.circular(4)
-                                ),
+                                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(4)),
                                 child: Center(
-                                  child: Text("NOW",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 14
-                                  ),),
-                                  
+                                  child: Text(
+                                    "NOW",
+                                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+                                  ),
                                 ),
                               )
                             ],
@@ -253,15 +248,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Center(
-                                    child: Text("10 AM",
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                        color: Colors.white
-                                      ),),
-
+                                    child: Text(
+                                      "10 AM",
+                                      style: TextStyle(fontSize: 14, color: Colors.white),
+                                    ),
                                   ),
                                 )
                               ],
@@ -291,15 +283,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Center(
-                                    child: Text("10 AM",
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          color: Colors.white
-                                      ),),
-
+                                    child: Text(
+                                      "10 AM",
+                                      style: TextStyle(fontSize: 14, color: Colors.white),
+                                    ),
                                   ),
                                 )
                               ],
@@ -329,15 +318,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Center(
-                                    child: Text("10 AM",
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          color: Colors.white
-                                      ),),
-
+                                    child: Text(
+                                      "10 AM",
+                                      style: TextStyle(fontSize: 14, color: Colors.white),
+                                    ),
                                   ),
                                 )
                               ],
@@ -367,15 +353,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Center(
-                                    child: Text("10 AM",
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          color: Colors.white
-                                      ),),
-
+                                    child: Text(
+                                      "10 AM",
+                                      style: TextStyle(fontSize: 14, color: Colors.white),
+                                    ),
                                   ),
                                 )
                               ],
@@ -405,15 +388,12 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-                                  ),
+                                  decoration: BoxDecoration(),
                                   child: Center(
-                                    child: Text("10 AM",
-                                      style: TextStyle(
-                                          fontSize: 14,
-                                          color: Colors.white
-                                      ),),
-
+                                    child: Text(
+                                      "10 AM",
+                                      style: TextStyle(fontSize: 14, color: Colors.white),
+                                    ),
                                   ),
                                 )
                               ],
@@ -437,26 +417,25 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             children: [
                               Container(
                                 padding: EdgeInsets.symmetric(horizontal: 8),
-                                decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(4)
-                                ),
+                                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(4)),
                                 child: Center(
-                                  child: Text("TODAY",
-                                    style: TextStyle(
-
-                                        fontSize: 14
-                                    ),),
-
+                                  child: Text(
+                                    "TODAY",
+                                    style: TextStyle(fontSize: 14),
+                                  ),
                                 ),
                               ),
-                              SizedBox(height: 4,),
+                              SizedBox(
+                                height: 4,
+                              ),
                               Icon(
                                 WeatherIcons.wiDayCloudy,
                                 color: Colors.white,
                                 size: 38,
                               ),
-                              SizedBox(height: 12,),
+                              SizedBox(
+                                height: 12,
+                              ),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Text(
@@ -469,18 +448,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               ),
                               Container(
                                 padding: EdgeInsets.symmetric(horizontal: 8),
-                                decoration: BoxDecoration(
-
-                                    borderRadius: BorderRadius.circular(4)
-                                ),
+                                decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                 child: Center(
-                                  child: Text("AUG 5",
+                                  child: Text(
+                                    "AUG 5",
                                     style: TextStyle(
-
-                                        fontSize: 13,
+                                      fontSize: 13,
                                       color: Colors.white,
-                                    ),),
-
+                                    ),
+                                  ),
                                 ),
                               )
                             ],
@@ -493,26 +469,28 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               children: [
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("FRI",
+                                    child: Text(
+                                      "FRI",
                                       style: TextStyle(
-                                          fontSize: 14,
+                                        fontSize: 14,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Icon(
                                   WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 12,),
+                                SizedBox(
+                                  height: 12,
+                                ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -525,18 +503,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("AUG 6",
+                                    child: Text(
+                                      "AUG 6",
                                       style: TextStyle(
-
                                         fontSize: 13,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
@@ -550,26 +525,28 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               children: [
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("SAT",
+                                    child: Text(
+                                      "SAT",
                                       style: TextStyle(
                                         fontSize: 14,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Icon(
                                   WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 12,),
+                                SizedBox(
+                                  height: 12,
+                                ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -582,18 +559,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("AUG 7",
+                                    child: Text(
+                                      "AUG 7",
                                       style: TextStyle(
-
                                         fontSize: 13,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
@@ -607,26 +581,28 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               children: [
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("SUN",
+                                    child: Text(
+                                      "SUN",
                                       style: TextStyle(
                                         fontSize: 14,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Icon(
                                   WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 12,),
+                                SizedBox(
+                                  height: 12,
+                                ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -639,18 +615,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("AUG 8",
+                                    child: Text(
+                                      "AUG 8",
                                       style: TextStyle(
-
                                         fontSize: 13,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
@@ -664,26 +637,28 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               children: [
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("FRI",
+                                    child: Text(
+                                      "FRI",
                                       style: TextStyle(
                                         fontSize: 14,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Icon(
                                   WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 12,),
+                                SizedBox(
+                                  height: 12,
+                                ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -696,18 +671,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("AUG 6",
+                                    child: Text(
+                                      "AUG 6",
                                       style: TextStyle(
-
                                         fontSize: 13,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
@@ -721,26 +693,28 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               children: [
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("FRI",
+                                    child: Text(
+                                      "FRI",
                                       style: TextStyle(
                                         fontSize: 14,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 ),
-                                SizedBox(height: 4,),
+                                SizedBox(
+                                  height: 4,
+                                ),
                                 Icon(
                                   WeatherIcons.wiDaySunny,
                                   color: Colors.white,
                                   size: 38,
                                 ),
-                                SizedBox(height: 12,),
+                                SizedBox(
+                                  height: 12,
+                                ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Text(
@@ -753,18 +727,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(horizontal: 8),
-                                  decoration: BoxDecoration(
-
-                                      borderRadius: BorderRadius.circular(4)
-                                  ),
+                                  decoration: BoxDecoration(borderRadius: BorderRadius.circular(4)),
                                   child: Center(
-                                    child: Text("AUG 6",
+                                    child: Text(
+                                      "AUG 6",
                                       style: TextStyle(
-
                                         fontSize: 13,
                                         color: Colors.white,
-                                      ),),
-
+                                      ),
+                                    ),
                                   ),
                                 )
                               ],
@@ -781,22 +752,3 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
     );
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
