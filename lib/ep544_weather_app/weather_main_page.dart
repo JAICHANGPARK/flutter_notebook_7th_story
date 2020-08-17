@@ -14,6 +14,7 @@ class WeatherMainPage extends StatefulWidget {
 
 class _WeatherMainPageState extends State<WeatherMainPage> {
   PageController _pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -136,11 +137,15 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                   ),
                                   Column(
                                     children: [
-                                      Icon(Icons.cloud, color: Colors.white,
-                                      size: 84,),
-                                      Text("18 - 40", style: GoogleFonts.montserrat(
-                                        color: Colors.white
-                                      ),)
+                                      Icon(
+                                        Icons.cloud,
+                                        color: Colors.white,
+                                        size: 84,
+                                      ),
+                                      Text(
+                                        "18 - 40",
+                                        style: GoogleFonts.montserrat(color: Colors.white),
+                                      )
                                     ],
                                   )
                                 ],
@@ -151,20 +156,30 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                             ),
                             Row(
                               children: [
-                                Expanded(child: Center(child: Text("Sunrise 6 AM",
-                                  style: GoogleFonts.montserrat(color: Colors.white),))),
-                                Expanded(child: Center(child: Text("Moonreise 9 PM",
-                                  style: GoogleFonts.montserrat(color: Colors.white),)))
+                                Expanded(
+                                    child: Center(
+                                        child: Text(
+                                  "Sunrise 6 AM",
+                                  style: GoogleFonts.montserrat(color: Colors.white),
+                                ))),
+                                Expanded(
+                                    child: Center(
+                                        child: Text(
+                                  "Moonreise 9 PM",
+                                  style: GoogleFonts.montserrat(color: Colors.white),
+                                )))
                               ],
                             ),
-                            SmoothPageIndicator(controller: _pageController, count: 3,
-                            effect: WormEffect(
-                              radius: 8,
-                              dotWidth: 8,
-                              dotHeight: 8,
-                              dotColor: Colors.white.withOpacity(.5),
-                              activeDotColor: Colors.white
-                            ),)
+                            SmoothPageIndicator(
+                              controller: _pageController,
+                              count: 3,
+                              effect: WormEffect(
+                                  radius: 8,
+                                  dotWidth: 8,
+                                  dotHeight: 8,
+                                  dotColor: Colors.white.withOpacity(.5),
+                                  activeDotColor: Colors.white),
+                            )
                           ],
                         ),
                       ),
