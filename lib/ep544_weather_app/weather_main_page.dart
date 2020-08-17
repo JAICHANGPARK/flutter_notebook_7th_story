@@ -189,7 +189,7 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                     Container(
                       height: MediaQuery.of(context).size.height / 6,
                       decoration: BoxDecoration(color: Colors.red),
-                      padding: EdgeInsets.only(top: 8, bottom: 8, left: 16),
+                      padding: EdgeInsets.only(top: 8, bottom: 12, left: 16),
                       child: ListView(
                         scrollDirection: Axis.horizontal,
                         children: [
