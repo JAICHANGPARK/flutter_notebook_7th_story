@@ -213,10 +213,16 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                               Container(
                                 padding: EdgeInsets.symmetric(horizontal: 8),
                                 decoration: BoxDecoration(
-                                  color: Colors.white
+                                  color: Colors.white,
+                                  borderRadius: BorderRadius.circular(4)
                                 ),
                                 child: Center(
-                                  child: Text("NOW", ),
+                                  child: Text("NOW",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 14
+                                  ),),
+                                  
                                 ),
                               )
                             ],
