@@ -266,6 +266,158 @@ class _WeatherMainPageState extends State<WeatherMainPage> {
                                 )
                               ],
                             ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  WeatherIcons.wiDayCloudy,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                Spacer(),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "28°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 18,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+                                  ),
+                                  child: Center(
+                                    child: Text("10 AM",
+                                      style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.white
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  WeatherIcons.wiDayCloudy,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                Spacer(),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "28°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 18,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+                                  ),
+                                  child: Center(
+                                    child: Text("10 AM",
+                                      style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.white
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  WeatherIcons.wiDayCloudy,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                Spacer(),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "28°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 18,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+                                  ),
+                                  child: Center(
+                                    child: Text("10 AM",
+                                      style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.white
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(left: 24),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: [
+                                Icon(
+                                  WeatherIcons.wiDayCloudy,
+                                  color: Colors.white,
+                                  size: 38,
+                                ),
+                                Spacer(),
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "28°",
+                                    style: GoogleFonts.montserrat(
+                                      fontSize: 18,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  padding: EdgeInsets.symmetric(horizontal: 8),
+                                  decoration: BoxDecoration(
+                                  ),
+                                  child: Center(
+                                    child: Text("10 AM",
+                                      style: TextStyle(
+                                          fontSize: 14,
+                                          color: Colors.white
+                                      ),),
+
+                                  ),
+                                )
+                              ],
+                            ),
                           )
                         ],
                       ),
