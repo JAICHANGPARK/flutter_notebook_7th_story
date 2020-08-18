@@ -23,6 +23,8 @@ class _HomeListPageState extends State<HomeListPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+    resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         backgroundColor: Colors.white,
         centerTitle: true,
