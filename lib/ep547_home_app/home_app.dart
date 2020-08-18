@@ -18,7 +18,35 @@ class HomeListPage extends StatefulWidget {
 class _HomeListPageState extends State<HomeListPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Feed"),
+      ),
+      body: SafeArea(child: Stack(),),
+    );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
