@@ -40,14 +40,17 @@ class _HomeListPageState extends State<HomeListPage> {
                 right: 0,
                 top: 0,
                 child: SingleChildScrollView(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text("Near you",style:  GoogleFonts.montserrat(
-                        fontSize: 24,
-                        fontWeight: FontWeight.bold
-                      ),)
-                    ],
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text("Near you",style:  GoogleFonts.montserrat(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold
+                        ),)
+                      ],
+                    ),
                   ),
             )),
             Positioned(
