@@ -20,7 +20,11 @@ class _HomeListPageState extends State<HomeListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Feed"),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        title: Text("Feed", style: TextStyle(
+          color: Colors.black
+        ),),
       ),
       body: SafeArea(child: Stack(),),
     );
