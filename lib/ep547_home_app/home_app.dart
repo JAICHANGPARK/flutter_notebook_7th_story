@@ -41,8 +41,8 @@ class _HomeListPageState extends State<HomeListPage> {
                 top: 0,
                 child: SingleChildScrollView(
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-
                       Text("Near you",style:  GoogleFonts.montserrat(
                         fontSize: 24,
                         fontWeight: FontWeight.bold
