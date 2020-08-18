@@ -32,6 +32,8 @@ class _HomeListPageState extends State<HomeListPage> {
       ),
       body: SafeArea(child: Stack(
         children: [
+          Positioned(child:
+          Placeholder()),
           Positioned(
               left: 16,
               right: 16,
