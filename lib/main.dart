@@ -5,7 +5,8 @@ import 'ep547_home_app/home_app.dart';
 void main() {
 
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarColor: Colors.white
+    statusBarColor: Colors.white,
+    systemNavigationBarColor: Colors.white,
   ));
 
   runApp(HomeApp());
