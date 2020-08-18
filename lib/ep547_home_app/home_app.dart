@@ -30,7 +30,29 @@ class _HomeListPageState extends State<HomeListPage> {
           color: Colors.black
         ),),
       ),
-      body: SafeArea(child: Stack(),),
+      body: SafeArea(child: Stack(
+        children: [
+          Positioned(
+              left: 16,
+              right: 16,
+              bottom: 24,
+              child: Container(
+                height: 58,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(32),
+                  boxShadow: [
+                    BoxShadow(
+                      offset: Offset(0, 4),
+                      color: Colors.black.withOpacity(.2),
+                      blurRadius: 3,
+                      spreadRadius:2,
+                    )
+                  ]
+                ),
+              ))
+        ],
+      ),),
     );
   }
 }
