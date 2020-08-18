@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomeApp extends StatelessWidget {
   @override
@@ -33,7 +34,22 @@ class _HomeListPageState extends State<HomeListPage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Positioned(child: Placeholder()),
+            Positioned(
+                left: 0,
+                bottom: 0,
+                right: 0,
+                top: 0,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: [
+
+                      Text("Near you",style:  GoogleFonts.montserrat(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold
+                      ),)
+                    ],
+                  ),
+            )),
             Positioned(
                 left: 16,
                 right: 16,
