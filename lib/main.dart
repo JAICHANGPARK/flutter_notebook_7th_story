@@ -9,5 +9,7 @@ void main() {
     systemNavigationBarColor: Colors.white,
   ));
 
+  SystemChrome.setEnabledSystemUIOverlays([SystemUiOverlay.top]);
+
   runApp(HomeApp());
 }
