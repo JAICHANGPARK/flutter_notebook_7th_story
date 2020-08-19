@@ -53,15 +53,15 @@ class _HomeListPageState extends State<HomeListPage> {
                         Padding(
                           padding: const EdgeInsets.only(top: 16),
                           child: Container(
-                            height: 240,
+                            height: 320,
                             width: double.infinity,
                             color: Colors.red,
                             child: Card(
 
                               child: Column(
                                 children: [
-                                  Expanded(child: Placeholder()),
-                                  Expanded(child: Placeholder())
+                                  Expanded(flex: 4,child: Placeholder()),
+                                  Expanded(flex : 2,child: Placeholder())
 
                                 ],
                               ),
