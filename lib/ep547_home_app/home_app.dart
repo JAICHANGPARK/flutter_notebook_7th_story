@@ -68,8 +68,22 @@ class _HomeListPageState extends State<HomeListPage> {
                     )
                   ]),
                   child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       IconButton(
+                        onPressed: (){},
+                        icon: Icon(Icons.home),
+                      ),
+                      IconButton(
+                        onPressed: (){},
+                        icon: Icon(Icons.home),
+                      ),
+                      IconButton(
+                        onPressed: (){},
+                        icon: Icon(Icons.home),
+                      ),
+                      IconButton(
+                        onPressed: (){},
                         icon: Icon(Icons.home),
                       ),
 
