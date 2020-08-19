@@ -55,7 +55,7 @@ class _HomeListPageState extends State<HomeListPage> {
                           child: Container(
                             height: 320,
                             width: double.infinity,
-                            color: Colors.red,
+                           
                             child: Card(
 
                               child: Column(
@@ -82,7 +82,7 @@ class _HomeListPageState extends State<HomeListPage> {
                                             fit: BoxFit.cover,),
                                             Image.network("https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
                                               fit: BoxFit.cover,),
-                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                            Image.network("https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg",
                                               fit: BoxFit.cover,),
                                             Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
                                               fit: BoxFit.cover,),
