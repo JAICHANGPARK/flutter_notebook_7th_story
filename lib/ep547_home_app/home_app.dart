@@ -61,6 +61,22 @@ class _HomeListPageState extends State<HomeListPage> {
                               ],
                             ),
                           ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            height: 200,
+                            width: double.infinity,
+                            color: Colors.red,
+                            child: Card(
+
+                              child: Column(
+                                children: [
+
+                                ],
+                              ),
+                            ),
+                          ),
                         )
                       ],
                     ),
