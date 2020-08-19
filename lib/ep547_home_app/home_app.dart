@@ -60,7 +60,16 @@ class _HomeListPageState extends State<HomeListPage> {
 
                               child: Column(
                                 children: [
-                                  Expanded(flex: 4,child: Placeholder()),
+                                  Expanded(flex: 4,child: Container(
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                            right: 12,
+                                            top: 12,
+                                            child: CircleAvatar())
+                                      ],
+                                    ),
+                                  )),
                                   Expanded(flex : 2,child: Placeholder())
 
                                 ],
