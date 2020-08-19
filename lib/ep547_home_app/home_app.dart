@@ -45,14 +45,14 @@ class _HomeListPageState extends State<HomeListPage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Near you",style:  GoogleFonts.montserrat(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold
-                        ),)
+                        Text(
+                          "Near you",
+                          style: GoogleFonts.montserrat(fontSize: 24, fontWeight: FontWeight.bold),
+                        )
                       ],
                     ),
                   ),
-            )),
+                )),
             Positioned(
                 left: 16,
                 right: 16,
@@ -67,7 +67,17 @@ class _HomeListPageState extends State<HomeListPage> {
                       spreadRadius: 2,
                     )
                   ]),
-                ))
+                  child: Row(
+                    children: [
+                      IconButton(
+                        icon: Icon(Icons.home),
+                      ),
+
+                    ],
+                  ),
+                ),
+
+            )
           ],
         ),
       ),
