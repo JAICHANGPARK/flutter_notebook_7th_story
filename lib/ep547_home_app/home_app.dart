@@ -52,7 +52,7 @@ class _HomeListPageState extends State<HomeListPage> {
                         Padding(
                           padding: const EdgeInsets.only(top: 16),
                           child: Container(
-                            height: 200,
+                            height: 240,
                             width: double.infinity,
                             color: Colors.red,
                             child: Card(
@@ -68,7 +68,23 @@ class _HomeListPageState extends State<HomeListPage> {
                         Padding(
                           padding: const EdgeInsets.only(top: 16),
                           child: Container(
-                            height: 200,
+                            height: 240,
+                            width: double.infinity,
+                            color: Colors.red,
+                            child: Card(
+
+                              child: Column(
+                                children: [
+
+                                ],
+                              ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.only(top: 16),
+                          child: Container(
+                            height: 240,
                             width: double.infinity,
                             color: Colors.red,
                             child: Card(
