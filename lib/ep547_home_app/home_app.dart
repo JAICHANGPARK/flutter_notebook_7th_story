@@ -77,15 +77,15 @@ class _HomeListPageState extends State<HomeListPage> {
                       ),
                       IconButton(
                         onPressed: (){},
-                        icon: Icon(Icons.home),
+                        icon: Icon(Icons.favorite),
                       ),
                       IconButton(
                         onPressed: (){},
-                        icon: Icon(Icons.home),
+                        icon: Icon(Icons.search),
                       ),
                       IconButton(
                         onPressed: (){},
-                        icon: Icon(Icons.home),
+                        icon: Icon(Icons.people),
                       ),
 
                     ],
