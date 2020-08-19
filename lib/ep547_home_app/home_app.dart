@@ -60,6 +60,8 @@ class _HomeListPageState extends State<HomeListPage> {
 
                               child: Column(
                                 children: [
+                                  Expanded(child: Placeholder()),
+                                  Expanded(child: Placeholder())
 
                                 ],
                               ),
