@@ -66,7 +66,21 @@ class _HomeListPageState extends State<HomeListPage> {
                                         Positioned(
                                             right: 12,
                                             top: 12,
-                                            child: CircleAvatar())
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.favorite_border),
+                                            )),
+                                        Positioned(
+                                            left: 0,
+                                            top: 0,
+                                            right: 0,
+                                            bottom: 0,
+                                            child: PageView(
+                                          controller: _pageController,
+                                          children: [
+
+                                          ],
+                                        ))
                                       ],
                                     ),
                                   )),
