@@ -80,6 +80,14 @@ class _HomeListPageState extends State<HomeListPage> {
                                           children: [
                                             Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
                                             fit: BoxFit.cover,),
+                                            Image.network("https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
+                                              fit: BoxFit.cover,),
+                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                              fit: BoxFit.cover,),
+                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                              fit: BoxFit.cover,),
+
+
 
                                           ],
                                         ))
