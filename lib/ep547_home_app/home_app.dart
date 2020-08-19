@@ -55,7 +55,7 @@ class _HomeListPageState extends State<HomeListPage> {
                           child: Container(
                             height: 320,
                             width: double.infinity,
-                           
+
                             child: Card(
 
                               child: Column(
@@ -63,13 +63,7 @@ class _HomeListPageState extends State<HomeListPage> {
                                   Expanded(flex: 4,child: Container(
                                     child: Stack(
                                       children: [
-                                        Positioned(
-                                            right: 12,
-                                            top: 12,
-                                            child: CircleAvatar(
-                                              backgroundColor: Colors.white,
-                                              child: Icon(Icons.favorite_border),
-                                            )),
+
                                         Positioned(
                                             left: 0,
                                             top: 0,
@@ -90,7 +84,14 @@ class _HomeListPageState extends State<HomeListPage> {
 
 
                                           ],
-                                        ))
+                                        )),
+                                        Positioned(
+                                            right: 12,
+                                            top: 12,
+                                            child: CircleAvatar(
+                                              backgroundColor: Colors.white,
+                                              child: Icon(Icons.favorite_border, color: Colors.black,),
+                                            )),
                                       ],
                                     ),
                                   )),
