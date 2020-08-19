@@ -78,6 +78,8 @@ class _HomeListPageState extends State<HomeListPage> {
                                             child: PageView(
                                           controller: _pageController,
                                           children: [
+                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                            fit: BoxFit.cover,),
 
                                           ],
                                         ))
