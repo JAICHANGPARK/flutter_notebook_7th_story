@@ -18,6 +18,7 @@ class HomeListPage extends StatefulWidget {
 }
 
 class _HomeListPageState extends State<HomeListPage> {
+  PageController _pageController = PageController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
