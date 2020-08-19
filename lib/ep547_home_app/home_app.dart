@@ -72,6 +72,7 @@ class _HomeListPageState extends State<HomeListPage> {
                     children: [
                       IconButton(
                         onPressed: (){},
+                        color: Colors.purple,
                         icon: Icon(Icons.home),
                       ),
                       IconButton(
