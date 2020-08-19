@@ -48,6 +48,19 @@ class _HomeListPageState extends State<HomeListPage> {
                         Text(
                           "Near you",
                           style: GoogleFonts.montserrat(fontSize: 24, fontWeight: FontWeight.bold),
+                        ),
+                        Container(
+                          height: 200,
+                          width: double.infinity,
+                          color: Colors.red,
+                          child: Card(
+
+                            child: Column(
+                              children: [
+
+                              ],
+                            ),
+                          ),
                         )
                       ],
                     ),
