@@ -19,6 +19,7 @@ class HomeListPage extends StatefulWidget {
 
 class _HomeListPageState extends State<HomeListPage> {
   PageController _pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,48 +56,54 @@ class _HomeListPageState extends State<HomeListPage> {
                           child: Container(
                             height: 320,
                             width: double.infinity,
-
                             child: Card(
-
                               child: Column(
                                 children: [
-                                  Expanded(flex: 4,child: Container(
-                                    child: Stack(
-                                      children: [
-
-                                        Positioned(
-                                            left: 0,
-                                            top: 0,
-                                            right: 0,
-                                            bottom: 0,
-                                            child: PageView(
-                                          controller: _pageController,
+                                  Expanded(
+                                      flex: 4,
+                                      child: Container(
+                                        child: Stack(
                                           children: [
-                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
-                                            fit: BoxFit.cover,),
-                                            Image.network("https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
-                                              fit: BoxFit.cover,),
-                                            Image.network("https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg",
-                                              fit: BoxFit.cover,),
-                                            Image.network("https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
-                                              fit: BoxFit.cover,),
-
-
-
+                                            Positioned(
+                                                left: 0,
+                                                top: 0,
+                                                right: 0,
+                                                bottom: 0,
+                                                child: PageView(
+                                                  controller: _pageController,
+                                                  children: [
+                                                    Image.network(
+                                                      "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                                      fit: BoxFit.cover,
+                                                    ),
+                                                    Image.network(
+                                                      "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
+                                                      fit: BoxFit.cover,
+                                                    ),
+                                                    Image.network(
+                                                      "https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg",
+                                                      fit: BoxFit.cover,
+                                                    ),
+                                                    Image.network(
+                                                      "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                                      fit: BoxFit.cover,
+                                                    ),
+                                                  ],
+                                                )),
+                                            Positioned(
+                                                right: 12,
+                                                top: 12,
+                                                child: CircleAvatar(
+                                                  backgroundColor: Colors.white,
+                                                  child: Icon(
+                                                    Icons.favorite_border,
+                                                    color: Colors.black,
+                                                  ),
+                                                )),
                                           ],
-                                        )),
-                                        Positioned(
-                                            right: 12,
-                                            top: 12,
-                                            child: CircleAvatar(
-                                              backgroundColor: Colors.white,
-                                              child: Icon(Icons.favorite_border, color: Colors.black,),
-                                            )),
-                                      ],
-                                    ),
-                                  )),
-                                  Expanded(flex : 2,child: Placeholder())
-
+                                        ),
+                                      )),
+                                  Expanded(flex: 2, child: Placeholder())
                                 ],
                               ),
                             ),
@@ -109,11 +116,8 @@ class _HomeListPageState extends State<HomeListPage> {
                             width: double.infinity,
                             color: Colors.red,
                             child: Card(
-
                               child: Column(
-                                children: [
-
-                                ],
+                                children: [],
                               ),
                             ),
                           ),
@@ -125,11 +129,8 @@ class _HomeListPageState extends State<HomeListPage> {
                             width: double.infinity,
                             color: Colors.red,
                             child: Card(
-
                               child: Column(
-                                children: [
-
-                                ],
+                                children: [],
                               ),
                             ),
                           ),
@@ -139,47 +140,45 @@ class _HomeListPageState extends State<HomeListPage> {
                   ),
                 )),
             Positioned(
-                left: 16,
-                right: 16,
-                bottom: 24,
-                child: Container(
-                  height: 58,
-                  decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(32), boxShadow: [
-                    BoxShadow(
-                      offset: Offset(0, 4),
-                      color: Colors.black.withOpacity(.2),
-                      blurRadius: 3,
-                      spreadRadius: 2,
-                    )
-                  ]),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      IconButton(
-                        onPressed: (){},
-                        color: Colors.purple,
-                        icon: Icon(Icons.home),
-                      ),
-                      IconButton(
-                        onPressed: (){},
-                        color: Colors.grey,
-                        icon: Icon(Icons.favorite),
-                      ),
-                      IconButton(
-                        onPressed: (){},
-                        color: Colors.grey,
-                        icon: Icon(Icons.search),
-                      ),
-                      IconButton(
-                        onPressed: (){},
-                        color: Colors.grey,
-                        icon: Icon(Icons.face),
-                      ),
-
-                    ],
-                  ),
+              left: 16,
+              right: 16,
+              bottom: 24,
+              child: Container(
+                height: 58,
+                decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(32), boxShadow: [
+                  BoxShadow(
+                    offset: Offset(0, 4),
+                    color: Colors.black.withOpacity(.2),
+                    blurRadius: 3,
+                    spreadRadius: 2,
+                  )
+                ]),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: [
+                    IconButton(
+                      onPressed: () {},
+                      color: Colors.purple,
+                      icon: Icon(Icons.home),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      color: Colors.grey,
+                      icon: Icon(Icons.favorite),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      color: Colors.grey,
+                      icon: Icon(Icons.search),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      color: Colors.grey,
+                      icon: Icon(Icons.face),
+                    ),
+                  ],
                 ),
-
+              ),
             )
           ],
         ),
