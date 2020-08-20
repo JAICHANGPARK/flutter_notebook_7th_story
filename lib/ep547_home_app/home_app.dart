@@ -147,7 +147,9 @@ class _HomeListPageState extends State<HomeListPage> {
                                                 Text("4.5 Room",
                                                     style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
                                               ],
-                                            )
+                                            ),
+                                            Text("Steinsche Gasse 32b, 47059 Duisburg, Sta",
+                                            overflow: TextOverflow.clip,)
                                           ],
                                         ),
                                       ))
