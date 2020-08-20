@@ -149,7 +149,13 @@ class _HomeListPageState extends State<HomeListPage> {
                                               ],
                                             ),
                                             Text("Steinsche Gasse 32b, 47059 Duisburg, Sta",
-                                            overflow: TextOverflow.clip,)
+                                            overflow: TextOverflow.clip,
+                                            style: TextStyle(
+                                              color: Colors.grey,
+                                              fontWeight: FontWeight.bold,
+                                            ),
+                                            ),
+
                                           ],
                                         ),
                                       ))
