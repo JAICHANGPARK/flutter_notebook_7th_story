@@ -119,34 +119,39 @@ class _HomeListPageState extends State<HomeListPage> {
                                           ],
                                         ),
                                       )),
-                                  Expanded(flex: 2, child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Chip(
-                                        label: Text("NEW", style: TextStyle(
-                                          color: Colors.purple,
-                                          fontWeight: FontWeight.bold
-                                        ),),
-                                        backgroundColor: Colors.purple[100],
-                                      ),
-                                      Row(
-                                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                        children: [
-                                          Text("3,400\$",style: TextStyle(
-                                            fontSize: 24,
+                                  Expanded(flex: 2, child: Padding(
+                                    padding: const EdgeInsets.symmetric(
+                                      horizontal: 8,
+                                    ),
+                                    child: Column(
+                                      crossAxisAlignment: CrossAxisAlignment.start,
+                                      children: [
+                                        Chip(
+                                          label: Text("NEW", style: TextStyle(
+                                            color: Colors.purple,
                                             fontWeight: FontWeight.bold
                                           ),),
-                                          Text("154m^2",style: TextStyle(
+                                          backgroundColor: Colors.purple[100],
+                                        ),
+                                        Row(
+                                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                          children: [
+                                            Text("3,400\$",style: TextStyle(
                                               fontSize: 24,
                                               fontWeight: FontWeight.bold
-                                          )),
-                                          Text("4.5 Room",style: TextStyle(
-                                              fontSize: 24,
-                                              fontWeight: FontWeight.bold
-                                          )),
-                                        ],
-                                      )
-                                    ],
+                                            ),),
+                                            Text("154m^2",style: TextStyle(
+                                                fontSize: 24,
+                                                fontWeight: FontWeight.bold
+                                            )),
+                                            Text("4.5 Room",style: TextStyle(
+                                                fontSize: 24,
+                                                fontWeight: FontWeight.bold
+                                            )),
+                                          ],
+                                        )
+                                      ],
+                                    ),
                                   ))
                                 ],
                               ),
