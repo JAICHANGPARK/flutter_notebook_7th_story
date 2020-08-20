@@ -102,10 +102,13 @@ class _HomeListPageState extends State<HomeListPage> {
                                                   ),
                                                 )),
                                             Positioned(
-                                                
+                                                bottom: 0,
+                                                left: 0,
+                                                right: 0,
                                                 child: SmoothPageIndicator(
                                               controller: _pageController,
                                               count: 5,
+
                                             ))
                                           ],
                                         ),
