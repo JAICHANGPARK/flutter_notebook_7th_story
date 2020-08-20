@@ -55,32 +55,8 @@ class _HomeListPageState extends State<HomeListPage> {
                           style: GoogleFonts.montserrat(fontSize: 24, fontWeight: FontWeight.bold),
                         ),
                         HomeItem(),
-                        Padding(
-                          padding: const EdgeInsets.only(top: 16),
-                          child: Container(
-                            height: 240,
-                            width: double.infinity,
-                            color: Colors.red,
-                            child: Card(
-                              child: Column(
-                                children: [],
-                              ),
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.only(top: 16),
-                          child: Container(
-                            height: 240,
-                            width: double.infinity,
-                            color: Colors.red,
-                            child: Card(
-                              child: Column(
-                                children: [],
-                              ),
-                            ),
-                          ),
-                        )
+                        HomeItem(),
+                        HomeItem(),
                       ],
                     ),
                   ),
