@@ -102,14 +102,21 @@ class _HomeListPageState extends State<HomeListPage> {
                                                   ),
                                                 )),
                                             Positioned(
-                                                bottom: 0,
+                                                bottom: 8,
                                                 left: 0,
                                                 right: 0,
-                                                child: SmoothPageIndicator(
+                                                child: Center(
+                                                  child: SmoothPageIndicator(
                                               controller: _pageController,
                                               count: 5,
+                                                    effect: WormEffect(
+                                                      dotHeight: 8,
+                                                      dotWidth: 8
+                                                        
+                                                    ),
 
-                                            ))
+                                            ),
+                                                ))
                                           ],
                                         ),
                                       )),
