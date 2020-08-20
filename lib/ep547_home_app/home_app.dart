@@ -55,7 +55,7 @@ class _HomeListPageState extends State<HomeListPage> {
                         Padding(
                           padding: const EdgeInsets.only(top: 16),
                           child: Container(
-                            height: 320,
+                            height: 340,
                             width: double.infinity,
                             child: Card(
                               child: Column(
@@ -124,16 +124,18 @@ class _HomeListPageState extends State<HomeListPage> {
                                       child: Padding(
                                         padding: const EdgeInsets.symmetric(
                                           horizontal: 8,
+                                          vertical: 4
                                         ),
                                         child: Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
+                                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                                           children: [
                                             Chip(
                                               label: Text(
                                                 "NEW",
                                                 style: TextStyle(color: Colors.purple, fontWeight: FontWeight.bold),
                                               ),
-                                              backgroundColor: Colors.purple[100],
+                                              backgroundColor: Colors.purple[50],
                                             ),
                                             Row(
                                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
