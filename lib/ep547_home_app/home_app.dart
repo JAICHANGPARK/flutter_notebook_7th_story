@@ -122,8 +122,11 @@ class _HomeListPageState extends State<HomeListPage> {
                                   Expanded(flex: 2, child: Column(
                                     children: [
                                       Chip(
-                                        label: Text("NEW"),
-                                        backgroundColor: Colors.purple[300],
+                                        label: Text("NEW", style: TextStyle(
+                                          color: Colors.purple,
+                                          fontWeight: FontWeight.bold
+                                        ),),
+                                        backgroundColor: Colors.purple[100],
                                       )
                                     ],
                                   ))
