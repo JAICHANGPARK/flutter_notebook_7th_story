@@ -120,6 +120,7 @@ class _HomeListPageState extends State<HomeListPage> {
                                         ),
                                       )),
                                   Expanded(flex: 2, child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Chip(
                                         label: Text("NEW", style: TextStyle(
@@ -127,6 +128,14 @@ class _HomeListPageState extends State<HomeListPage> {
                                           fontWeight: FontWeight.bold
                                         ),),
                                         backgroundColor: Colors.purple[100],
+                                      ),
+                                      Row(
+                                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                        children: [
+                                          Text("3,400\$"),
+                                          Text("154m^2"),
+                                          Text("4.5 Room"),
+                                        ],
                                       )
                                     ],
                                   ))
