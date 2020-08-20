@@ -107,17 +107,14 @@ class _HomeListPageState extends State<HomeListPage> {
                                                 right: 0,
                                                 child: Center(
                                                   child: SmoothPageIndicator(
-                                              controller: _pageController,
-                                              count: 5,
+                                                    controller: _pageController,
+                                                    count: 5,
                                                     effect: WormEffect(
-                                                      dotHeight: 8,
-                                                      dotWidth: 8,
-                                                      activeDotColor: Colors.white,
-                                                      dotColor: Colors.white.withOpacity(0.5)
-
-                                                    ),
-
-                                            ),
+                                                        dotHeight: 8,
+                                                        dotWidth: 8,
+                                                        activeDotColor: Colors.white,
+                                                        dotColor: Colors.white.withOpacity(0.5)),
+                                                  ),
                                                 ))
                                           ],
                                         ),
