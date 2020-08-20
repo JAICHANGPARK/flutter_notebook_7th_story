@@ -111,8 +111,10 @@ class _HomeListPageState extends State<HomeListPage> {
                                               count: 5,
                                                     effect: WormEffect(
                                                       dotHeight: 8,
-                                                      dotWidth: 8
-                                                        
+                                                      dotWidth: 8,
+                                                      activeDotColor: Colors.white,
+                                                      dotColor: Colors.white.withOpacity(0.5)
+
                                                     ),
 
                                             ),
