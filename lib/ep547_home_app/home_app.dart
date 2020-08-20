@@ -132,7 +132,9 @@ class _HomeListPageState extends State<HomeListPage> {
                                       Row(
                                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                                         children: [
-                                          Text("3,400\$"),
+                                          Text("3,400\$",style: TextStyle(
+                                            fontSize: 24
+                                          ),),
                                           Text("154m^2"),
                                           Text("4.5 Room"),
                                         ],
