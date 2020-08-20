@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class HomeApp extends StatelessWidget {
   @override
@@ -100,6 +101,12 @@ class _HomeListPageState extends State<HomeListPage> {
                                                     color: Colors.black,
                                                   ),
                                                 )),
+                                            Positioned(
+                                                
+                                                child: SmoothPageIndicator(
+                                              controller: _pageController,
+                                              count: 5,
+                                            ))
                                           ],
                                         ),
                                       )),
