@@ -119,7 +119,11 @@ class _HomeListPageState extends State<HomeListPage> {
                                           ],
                                         ),
                                       )),
-                                  Expanded(flex: 2, child: Placeholder())
+                                  Expanded(flex: 2, child: Column(
+                                    children: [
+                                      
+                                    ],
+                                  ))
                                 ],
                               ),
                             ),
