@@ -136,7 +136,7 @@ class _HomeListPageState extends State<HomeListPage> {
                                               backgroundColor: Colors.purple[100],
                                             ),
                                             Row(
-                                              mainAxisAlignment: MainAxisAlignment.spaceAround,
+                                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                               children: [
                                                 Text(
                                                   "3,400\$",
