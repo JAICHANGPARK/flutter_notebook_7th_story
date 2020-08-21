@@ -7,7 +7,11 @@ class HomeItem extends StatefulWidget {
 }
 
 class _HomeItemState extends State<HomeItem> {
-  PageController _pageController = PageController();
+  PageController _pageController = PageController()
+  var imgItems = [
+    "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +37,7 @@ class _HomeItemState extends State<HomeItem> {
                               controller: _pageController,
                               children: [
                                 Image.network(
-                                  "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
+                                 imgItems[0],
                                   fit: BoxFit.cover,
                                 ),
                                 Image.network(
