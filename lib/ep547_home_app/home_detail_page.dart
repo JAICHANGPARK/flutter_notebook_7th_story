@@ -43,11 +43,14 @@ class _HomeDetailPageState extends State<HomeDetailPage> {
                   ],
                 ),
               ),
-              Text(
-                "Luxurious, quiet and modern 4.5 room apartment",
-                style: TextStyle(
-                  fontSize: 24,
-                  fontWeight: FontWeight.bold,
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  "Luxurious, quiet and modern 4.5 room apartment",
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
               ListTile(
