@@ -18,7 +18,17 @@ class _HomeDetailPageState extends State<HomeDetailPage> {
         child: SafeArea(
           child: Column(
             children: [
-              
+                Container(
+                  height: MediaQuery.of(context).size.height / 3,
+                  decoration: BoxDecoration(
+                    color: Colors.red,
+                  ),
+                ),
+              Text("Luxurious, quiet and modern 4.5 room apartment", style: TextStyle(
+                fontSize: 24,
+                fontWeight: FontWeight.bold,
+
+              ),)
             ],
           ),
         ),
