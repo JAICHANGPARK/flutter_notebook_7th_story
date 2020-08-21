@@ -76,7 +76,9 @@ class _HomeDetailPageState extends State<HomeDetailPage> {
               ),
               ListTile(
                 title: Text("Total rent:"),
-                trailing: Chip(label: Text("4,260\$"),),
+                trailing: Chip(
+                  label: Text("4,260\$"),
+                ),
               ),
               Divider(
                 color: Colors.grey,
