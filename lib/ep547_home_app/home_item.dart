@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-
 class HomeItem extends StatefulWidget {
   @override
   _HomeItemState createState() => _HomeItemState();
 }
 
 class _HomeItemState extends State<HomeItem> {
-PageController _pageController = PageController();
+  PageController _pageController = PageController();
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -81,10 +81,7 @@ PageController _pageController = PageController();
               Expanded(
                   flex: 2,
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 8,
-                        vertical: 4
-                    ),
+                    padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -103,20 +100,18 @@ PageController _pageController = PageController();
                               "3,400\$",
                               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                             ),
-                            Text("154m^2",
-                                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-                            Text("4.5 Room",
-                                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                            Text("154m^2", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+                            Text("4.5 Room", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
                           ],
                         ),
-                        Text("Steinsche Gasse 32b, 47059 Duisburg, Sta",
+                        Text(
+                          "Steinsche Gasse 32b, 47059 Duisburg, Sta",
                           overflow: TextOverflow.clip,
                           style: TextStyle(
                             color: Colors.grey,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-
                       ],
                     ),
                   ))
