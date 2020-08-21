@@ -27,8 +27,27 @@ class _HomeDetailPageState extends State<HomeDetailPage> {
               Text("Luxurious, quiet and modern 4.5 room apartment", style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
-
-              ),)
+              ),),
+              ListTile(
+                title: Text("Cold rent"),
+                trailing: Text("3,400 \$"),
+              ),
+              Divider(color: Colors.grey,),
+              ListTile(
+                title: Text("Cold rent"),
+                trailing: Text("3,400 \$"),
+              ),
+              Divider(color: Colors.grey,),
+              ListTile(
+                title: Text("Cold rent"),
+                trailing: Text("3,400 \$"),
+              ),
+              Divider(color: Colors.grey,),
+              ListTile(
+                title: Text("Cold rent"),
+                trailing: Text("3,400 \$"),
+              ),
+              Divider(color: Colors.grey,),
             ],
           ),
         ),
