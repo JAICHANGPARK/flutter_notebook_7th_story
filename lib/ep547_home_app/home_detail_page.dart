@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 
 class HomeDetailPage extends StatefulWidget {
 
+  final List<String> imgItems;
+
+  HomeDetailPage(this.imgItems);
+
   @override
   _HomeDetailPageState createState() => _HomeDetailPageState();
 }
@@ -9,6 +13,6 @@ class HomeDetailPage extends StatefulWidget {
 class _HomeDetailPageState extends State<HomeDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
