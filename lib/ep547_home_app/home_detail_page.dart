@@ -13,6 +13,18 @@ class HomeDetailPage extends StatefulWidget {
 class _HomeDetailPageState extends State<HomeDetailPage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: SafeArea(
+          child: Column(
+            children: [
+              
+            ],
+          ),
+        ),
+      ),
+
+
+    );
   }
 }
