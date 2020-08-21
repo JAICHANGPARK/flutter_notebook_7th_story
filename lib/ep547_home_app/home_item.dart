@@ -7,10 +7,12 @@ class HomeItem extends StatefulWidget {
 }
 
 class _HomeItemState extends State<HomeItem> {
-  PageController _pageController = PageController()
+  PageController _pageController = PageController();
   var imgItems = [
     "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
-
+    "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
+    "https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg",
+    "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
   ];
 
   @override
@@ -36,22 +38,14 @@ class _HomeItemState extends State<HomeItem> {
                             child: PageView(
                               controller: _pageController,
                               children: [
-                                Image.network(
-                                 imgItems[0],
-                                  fit: BoxFit.cover,
-                                ),
-                                Image.network(
-                                  "https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__340.jpg",
-                                  fit: BoxFit.cover,
-                                ),
-                                Image.network(
-                                  "https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376__340.jpg",
-                                  fit: BoxFit.cover,
-                                ),
-                                Image.network(
-                                  "https://cdn.pixabay.com/photo/2017/09/09/18/25/living-room-2732939__340.jpg",
-                                  fit: BoxFit.cover,
-                                ),
+                                ...imgItems.map((e) =>
+                                    Image.network(
+                                      e,
+                                      fit: BoxFit.cover,
+                                    ),
+                                ).toList()
+
+                             
                               ],
                             )),
                         Positioned(
